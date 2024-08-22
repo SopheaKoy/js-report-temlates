@@ -1,0 +1,135 @@
+2024-08-22T05:13:45.769Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-08-22T05:13:45.772Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-08-22T05:13:45.775Z - info: Extensions location cache not found, crawling directories
+2024-08-22T05:13:46.479Z - info: Found 35 extension(s)
+2024-08-22T05:13:46.536Z - info: Using extension authentication@4.2.1
+2024-08-22T05:13:46.666Z - info: Using extension base@4.0.0
+2024-08-22T05:13:46.669Z - info: Using extension child-templates@4.1.0
+2024-08-22T05:13:46.671Z - info: Using extension cli@4.0.4
+2024-08-22T05:13:46.672Z - info: Using extension components@4.0.2
+2024-08-22T05:13:46.674Z - info: Using extension data@4.1.0
+2024-08-22T05:13:46.675Z - info: Using extension express@4.1.2
+2024-08-22T05:13:46.889Z - info: Using extension freeze@4.0.0
+2024-08-22T05:13:46.891Z - info: Using extension fs-store@4.0.4
+2024-08-22T05:13:46.983Z - info: Using extension handlebars@4.0.1
+2024-08-22T05:13:46.985Z - info: Using extension import-export@4.0.4
+2024-08-22T05:13:46.994Z - info: Using extension jsrender@4.0.0
+2024-08-22T05:13:46.995Z - info: Using extension licensing@4.0.2
+2024-08-22T05:13:46.998Z - info: Using extension localization@4.0.1
+2024-08-22T05:13:46.998Z - info: Using extension npm@4.0.0
+2024-08-22T05:13:47.003Z - info: Using extension pdf-utils@4.2.1
+2024-08-22T05:13:47.005Z - info: Using extension reports@4.1.2
+2024-08-22T05:13:47.010Z - info: Using extension tags@4.0.1
+2024-08-22T05:13:47.012Z - info: Using extension text@4.0.2
+2024-08-22T05:13:47.017Z - info: Using extension version-control@4.0.0
+2024-08-22T05:13:47.023Z - info: Using extension assets@4.1.1
+2024-08-22T05:13:47.031Z - info: Using extension authorization@4.0.0
+2024-08-22T05:13:47.035Z - info: Using extension browser-client@4.1.0
+2024-08-22T05:13:47.037Z - info: Using extension chrome-pdf@4.1.0
+2024-08-22T05:13:47.040Z - info: Using extension docx@4.5.0
+2024-08-22T05:13:47.041Z - info: Using extension html-to-xlsx@4.1.2
+2024-08-22T05:13:47.417Z - info: html-to-xlsx detected chrome as available html engine
+2024-08-22T05:13:47.417Z - info: Using extension pptx@4.3.1
+2024-08-22T05:13:47.420Z - info: Using extension scheduling@4.0.0
+2024-08-22T05:13:47.444Z - info: Using extension scripts@4.1.0
+2024-08-22T05:13:47.445Z - info: Using extension static-pdf@4.1.0
+2024-08-22T05:13:47.446Z - info: Using extension studio@4.1.1
+2024-08-22T05:13:47.497Z - info: Using extension xlsx@4.2.0
+2024-08-22T05:13:47.499Z - info: Using extension public-templates@4.0.0
+2024-08-22T05:13:47.500Z - info: Using extension sample-template@4.0.0
+2024-08-22T05:13:47.501Z - info: Using extension studio-theme-dark@4.0.0
+2024-08-22T05:13:47.503Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-08-22T05:13:47.503Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-08-22T05:13:47.503Z - info: Using fs provider for template store.
+2024-08-22T05:13:47.507Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-08-22T05:13:47.511Z - info: fs store is loading data
+2024-08-22T05:13:47.518Z - info: fs store is initialized successfully
+2024-08-22T05:13:47.527Z - info: Creating default express app.
+2024-08-22T05:13:47.543Z - info: jsreport server successfully started on http port: 7001
+2024-08-22T05:13:47.544Z - info: Verifying license key free
+2024-08-22T05:13:47.548Z - info: Using free license
+2024-08-22T05:13:47.572Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2024-08-22T05:13:47.578Z - info: Migration successful
+2024-08-22T05:13:47.740Z - info: Initializing worker threads
+2024-08-22T05:13:47.958Z - info: 2 worker threads initialized in 218ms
+2024-08-22T05:13:47.959Z - info: Starting temp files cleanup with 180000ms threshold
+2024-08-22T05:13:47.960Z - info: reporter initialized
+2024-08-22T05:14:10.869Z - info: Logging in user admin
+2024-08-22T05:15:23.574Z - warn: Unable to insert an entity (templates) "/Application/application" during the import: Error: Entity with name "application" already exists in the /Application folder. existing: "Application".
+2024-08-22T05:15:31.353Z - warn: Unable to insert an entity (templates) "/Application/application" during the import: Error: Entity with name "application" already exists in the /Application folder. existing: "Application".
+2024-08-22T05:15:31.357Z - warn: Unable to insert an entity (data) "/Application/application_data" during the import: Error: Entity with _id "5GCk2CwuSHsufOv1" already exists.
+2024-08-22T05:15:42.160Z - info: Render request 1 queued for execution and waiting for available worker rootId=ixkmcvbbrvnd5rv, id=ixkmcvbbrvnd5rv
+2024-08-22T05:15:42.181Z - info: Starting rendering request 1 (user: admin) rootId=ixkmcvbbrvnd5rv, id=ixkmcvbbrvnd5rv
+2024-08-22T05:15:42.181Z - info: Rendering template { name: Application, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ixkmcvbbrvnd5rv, id=ixkmcvbbrvnd5rv
+2024-08-22T05:15:42.192Z - warn: Error when processing render request 1
+(because) asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+Error: Asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:138:24) rootId=ixkmcvbbrvnd5rv, id=ixkmcvbbrvnd5rv
+2024-08-22T05:15:42.192Z - warn: Rendering request 1 finished with error in 36 ms rootId=ixkmcvbbrvnd5rv, id=ixkmcvbbrvnd5rv
+2024-08-22T05:16:02.704Z - info: Render request 2 queued for execution and waiting for available worker rootId=cui4kb0h4mg574j, id=cui4kb0h4mg574j
+2024-08-22T05:16:02.717Z - info: Starting rendering request 2 (user: admin) rootId=cui4kb0h4mg574j, id=cui4kb0h4mg574j
+2024-08-22T05:16:02.717Z - info: Rendering template { name: Application, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=cui4kb0h4mg574j, id=cui4kb0h4mg574j
+2024-08-22T05:16:02.727Z - warn: Error when processing render request 2
+(because) asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+Error: Asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:138:24) rootId=cui4kb0h4mg574j, id=cui4kb0h4mg574j
+2024-08-22T05:16:02.727Z - warn: Rendering request 2 finished with error in 25 ms rootId=cui4kb0h4mg574j, id=cui4kb0h4mg574j
+2024-08-22T05:16:23.020Z - info: Render request 3 queued for execution and waiting for available worker rootId=5jdoyjz5v27r5zf, id=5jdoyjz5v27r5zf
+2024-08-22T05:16:23.030Z - info: Starting rendering request 3 (user: admin) rootId=5jdoyjz5v27r5zf, id=5jdoyjz5v27r5zf
+2024-08-22T05:16:23.030Z - info: Rendering template { name: Application, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=5jdoyjz5v27r5zf, id=5jdoyjz5v27r5zf
+2024-08-22T05:16:23.035Z - warn: Error when processing render request 3
+(because) asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+Error: Asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:138:24) rootId=5jdoyjz5v27r5zf, id=5jdoyjz5v27r5zf
+2024-08-22T05:16:23.035Z - warn: Rendering request 3 finished with error in 17 ms rootId=5jdoyjz5v27r5zf, id=5jdoyjz5v27r5zf
+2024-08-22T05:18:14.522Z - warn: Unable to insert an entity (templates) "/Application/application" during the import: Error: Entity with name "application" already exists in the /Application folder. existing: "Application".
+2024-08-22T05:18:15.397Z - warn: Unable to insert an entity (templates) "/Application/application" during the import: Error: Entity with name "application" already exists in the /Application folder. existing: "Application".
+2024-08-22T05:18:15.402Z - warn: Unable to insert an entity (data) "/Application/application_data" during the import: Error: Entity with _id "5GCk2CwuSHsufOv1" already exists.
+2024-08-22T05:18:20.157Z - info: Render request 4 queued for execution and waiting for available worker rootId=8ul0asuvygkpyim, id=8ul0asuvygkpyim
+2024-08-22T05:18:20.170Z - info: Starting rendering request 4 (user: admin) rootId=8ul0asuvygkpyim, id=8ul0asuvygkpyim
+2024-08-22T05:18:20.170Z - info: Rendering template { name: Application, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=8ul0asuvygkpyim, id=8ul0asuvygkpyim
+2024-08-22T05:18:20.175Z - warn: Error when processing render request 4
+(because) asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+Error: Asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:138:24) rootId=8ul0asuvygkpyim, id=8ul0asuvygkpyim
+2024-08-22T05:18:20.175Z - warn: Rendering request 4 finished with error in 20 ms rootId=8ul0asuvygkpyim, id=8ul0asuvygkpyim
+2024-08-22T05:18:26.576Z - info: Render request 5 queued for execution and waiting for available worker rootId=eefksmhcc4rpoz4, id=eefksmhcc4rpoz4
+2024-08-22T05:18:26.587Z - info: Starting rendering request 5 (user: admin) rootId=eefksmhcc4rpoz4, id=eefksmhcc4rpoz4
+2024-08-22T05:18:26.587Z - info: Rendering template { name: Application, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=eefksmhcc4rpoz4, id=eefksmhcc4rpoz4
+2024-08-22T05:18:26.592Z - warn: Error when processing render request 5
+(because) asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+Error: Asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:138:24) rootId=eefksmhcc4rpoz4, id=eefksmhcc4rpoz4
+2024-08-22T05:18:26.592Z - warn: Rendering request 5 finished with error in 18 ms rootId=eefksmhcc4rpoz4, id=eefksmhcc4rpoz4
+2024-08-22T05:18:40.037Z - info: Render request 6 queued for execution and waiting for available worker rootId=tjys5bbtu4d2nyb, id=tjys5bbtu4d2nyb
+2024-08-22T05:18:40.050Z - info: Starting rendering request 6 (user: admin) rootId=tjys5bbtu4d2nyb, id=tjys5bbtu4d2nyb
+2024-08-22T05:18:40.050Z - info: Rendering template { name: Application, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tjys5bbtu4d2nyb, id=tjys5bbtu4d2nyb
+2024-08-22T05:18:40.054Z - warn: Error when processing render request 6
+(because) asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+Error: Asset /asset/font/Siemreap-Regular.ttf not found in the store and also not on the disk: Unable to find or read file /asset/font/Siemreap-Regular.ttf
+(because) eNOENT: no such file or directory, open 'C:\asset\font\Siemreap-Regular.ttf'
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:138:24) rootId=tjys5bbtu4d2nyb, id=tjys5bbtu4d2nyb
+2024-08-22T05:18:40.054Z - warn: Rendering request 6 finished with error in 19 ms rootId=tjys5bbtu4d2nyb, id=tjys5bbtu4d2nyb
