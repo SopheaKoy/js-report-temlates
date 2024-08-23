@@ -1,0 +1,22 @@
+{
+    "name": "site_visit_test",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "cO9Tcd54H"
+    },
+    "shortid": "mfalhogNBg",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1724386898030
+    },
+    "modificationDate": {
+        "$$date": 1724386998199
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "QP69X1i1UMl2qMH1",
+    "$entitySet": "templates"
+}

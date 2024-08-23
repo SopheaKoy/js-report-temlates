@@ -1,0 +1,7 @@
+2024-08-23T10:21:33.389Z - error: Error when processing OData PATCH: /odata/templates(eSsOOVC3tSFg53eB) Error: Entity (_id: eSsOOVC3tSFg53eB) was modified previously by another source
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at AsyncFunction.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-studio\lib\main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.update (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)

@@ -24,6 +24,11 @@
         src: url({#asset Tacteing.ttf @encoding=dataURI});
         format('ttf');
     }
+    @font-face {
+        font-family: 'limons1l';
+        src: url({#asset limons1l.ttf @encoding=dataURI});
+        format('ttf');
+    }
 
     .indent-paragraph{
         text-indent: 70px;
@@ -76,10 +81,75 @@
     .width-bullet-point{
         width: 25px;
     }
-
-
-
     /* END BULLET POINT */
+
+    /* unorder list */
+    .format > p {
+        text-indent: 68px;
+    }
+
+    .format > ul{
+        margin-left:15px;
+    }
+    /* incase start form ul */
+    .format ul {
+        list-style-type: '-   ';
+    }
+    .format ul ul{
+        padding-left: 50px;
+        list-style-type: circle;
+         
+    }
+    .format ul ul ul{
+        list-style-type: disc;
+    }
+    /* end ul */
+
+    /* start ol */
+
+    .format ol {
+        counter-reset: section;           
+        list-style-type: none;
+        /* list-style-type: decimal; */
+        color: black;
+    }
+    .format ol>li{
+        margin-left: 25px;
+    }
+    .format ol>li ol>li{
+        margin-left: 40px;
+    }
+    .format ol>li ol>li ol>li{
+        margin-left: 60px;
+    }
+    .format ol>li ol>li ol>li ol>li{
+        margin-left: 80px;
+    }
+    
+    .format ol>li:before {
+        font-family: "limons1l";
+        font-size: 32px;
+        position: absolute;
+        margin-left: -25px;
+        margin-top: -3px;
+        counter-increment: section;         
+        content: counters(section, ">") ">";   
+    } 
+    .format ol>li ol>li:before {
+        margin-left: -40px;
+        
+    }
+    .format ol>li ol>li ol>li:before {
+        margin-left: -60px;
+        
+    }
+    .format ol>li ol>li ol>li ol>li:before {
+        margin-left: -80px;
+        
+    }
+    
+    /* end ol */
+
 
     .draft_watermark {
         position: fixed;
@@ -126,7 +196,23 @@
                 </div>
 
                 <div class="w-full text-sm-base leading-7">
-                    <div class="flex mt-2 ">
+                    {{!-- UL LIST --}}
+
+                    <div class="format">
+                        {{{texting}}}
+                    </div>
+                    <div class="format">
+                        {{{testing_two}}}
+                    </div>
+
+                    <div class="pt-40">
+
+                    </div>
+                    {{!-- OL LIST --}}
+                   
+
+
+                    {{!-- <div class="flex mt-2 ">
                         <div class="flex w-[75px]">
                             <p class="font_muol">កម្មវត្ថុ</p>
                             <span>៖</span>
@@ -159,14 +245,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <p class="text-justify indent-paragraph mt-2">
+                    {{!-- <p class="text-justify indent-paragraph mt-2">
                         សេចក្តីដូចមានចែងក្នុងកម្មវត្ថុ និងយោងខាងលើ ខ្ញុំសូមគោរពជម្រាបជូនឯកឧត្តមមេត្តាជ្រាបថា៖ កាលពី{{check_datetime}} គណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន ដឹកនាំដោយ{{composition_lead.salute.translate.km}} <b>{{composition_lead.lastname}} {{composition_lead.firstname }}</b> {{composition_lead.positions.[0].position.translate.km}}{{composition_lead.positions.[0].position.department.translate.km}} បានចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំងស្នើសុំវិនិយោគ របស់ក្រុមហ៊ុនខាងលើ ដោយទទួលបានព័ត៌មានដូចខាងក្រោម៖
-                    </p>
+                    </p> --}}
                     {{!-- START 1 --}}
-                    <p class="font-bold mt-2">១. ទីតាំងស្នើសុំវិនិយោគ</p>
-                    <div class="pl-[75px]">
+                    {{!-- <p class="font-bold mt-2">១. ទីតាំងស្នើសុំវិនិយោគ</p> --}}
+                    {{!-- <div class="pl-[75px]">
                         <table class="p-0 m-0">
                             <tr class="p-0 m-0">
                                 <th class="width-bullet-point p-0 m-0"></th>
@@ -244,11 +330,11 @@
                                     </td>
                                 </tr>
                         </table>
-                    </div>
+                    </div> --}}
                     {{!-- END 1 --}}
 
 
-                    <p class="font-bold mt-2">២. គម្រោងការវិនិយោគ</p>
+                    {{!-- <p class="font-bold mt-2">២. គម្រោងការវិនិយោគ</p>
                     <div class="pl-[75px]">
                         <table class="p-0 m-0">
                             <tr class="p-0 m-0">
@@ -413,10 +499,10 @@
                                 </tr>
                             </table>
                         </div>
-                    </div>
+                    </div> --}}
 
                     {{!-- 3 --}}
-                    <p class="font-bold mt-2">៣. ព័ត៌មានដែលទទួលបានពីការចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំង និងជំនួបប្រជុំជាមួយតំណាងក្រុមហ៊ុន</p>
+                    {{!-- <p class="font-bold mt-2">៣. ព័ត៌មានដែលទទួលបានពីការចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំង និងជំនួបប្រជុំជាមួយតំណាងក្រុមហ៊ុន</p>
                     
                     <div class="">
                         <p class="indent-paragraph text-justify">ករណីសំណើសុំវិនិយោគបង្កើតរោងចក្រផលិតផើងផ្កាជ័រគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន KANHLAND TECHNOLOGY (CAMBODIA) CO., LTD. គណៈកម្មការពិនិត្យឃើញថា៖</p>
@@ -433,7 +519,7 @@
                             <li class="list-disc">ដូចនេះ ករណីនេះគណៈកម្មការយល់ថា៖ គួរដាក់ជូនអង្គប្រជុំ "ច្រកចេញ-ចូលតែមួយ "របស់ ក.អ.ក ពិនិត្យ និងសម្រេចដ៏ខ្ពង់ខ្ពស់។ទន្ទឹមនេះ ក្រុមហ៊ុន និងម្ចាស់ទីតាំងត្រូវបន្តនូវនីតីវិធីមួយចំនួនដូចខាងក្រោម៖
                                 <ul class="list-disc">
                                     <li>ខ.ក្រុមហ៊ុនត្រូវ ៖
-                                        <ol class="list-decimal pl-16 bg-red-200">
+                                        <ol class="list-decimal pl-16">
                                             <li class="">រៀបចំរបាយការណ៍វាយតម្លៃហេតុប៉ះពាល់បរិស្ថានដំបូង ដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិត្យ និងសម្រេច</li>
                                             <li class="">ដាក់ពាក្យស្នើសុំបង្កើតរោងចក្រ អនុលោមតាមបែបបទ និងនីតិវិធីច្បាប់គ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម</li>
                                             <li class="">អនុវត្តតាមបទដ្ឋានបច្ចេទេសឧស្សាហកម្ម គោរពអនុវត្តតាមការណែនាំ និងលិខិតបទដ្ឋាន គតិយុត្តនានា របស់ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍</li>
@@ -445,7 +531,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
                     {{!-- <div class="pl-5">
                         <p class="-indent-[5px] font_siemreap">{{{processTemplateString site_visit_info this}}}</p>
                     </div> --}}
@@ -475,7 +561,7 @@
                             <li>{{{processTemplateString comment this}}}</li>
                         </ul>
                     {{/each}} --}}
-                    <div>
+                    {{!-- <div>
                         <p class="indent-paragraph">សូមគោរពឯកឧត្តមប្រធានក្រុមការងារអន្តរក្រសួង/ស្ថាប័ន</p>
                         <ul class="pl-10">
                             <li class="list-disc">រដ្ឋបាលខេត្ត សូមគាំទ្រ គម្រោងស្នើសុំវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន Kahnland Technology(Cambodian ) Co,.Ltd.ទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកកោះ ស្រុកគងពិសីខេត្តកំពង់ស្ពឺ។</li>
@@ -498,30 +584,53 @@
                                 </ol>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
                     
                     {{!-- render as html in js report --}}
-                    {{!-- <div>
-                        {{{testing}}}
-                    </div>
+                    
 
 
 
                     {{!-- 5 --}}
                     <p class="font-bold mt-2">៥. មតិសរុបរបស់គណៈកម្មការ</p>
-                    <div class="pl-2 text-justify">
-                        <p class="indent-paragraph mt-2">
+
+                    {{!-- <div class="pl-2 text-justify">
+                        {{!-- <p class="indent-paragraph mt-2">
                             {{{processTemplateString commity_comment this}}} 
-                        </p>
-                    </div>
+                        </p> --}}
+
+                        {{!-- {{#each comment_list}}
+                            {{#if (equal is_paragraph 1)}}
+                                <p class="indent-paragraph bg-red-100">{{comment}}</p>
+                            {{else}}
+                                <ul class="pl-10">
+                                    {{#if (equal is_bullet_point 1)}}
+                                        <li class="list-disc bg-red-200">{{comment}}</li>
+                                    {{else}}
+                                        {{#if (equal is_bullet_point 2)}}
+                                            <li class="bg-red-300">
+                                                <ol class="pl-10", style="list-style-type: circle;">
+                                                    <li class="">{{comment}}</li>
+                                                </ol>
+                                            </li>
+                                        {{else}}
+                                            <li class="list-decimal bg-red-300">{{comment}}</li>
+                                        {{/if}}
+                                    {{/if}}
+                                </ul>
+                            {{/if}}
+                        {{/each}}   --}}
+                    {{!-- </div> --}}
+
+
                 </div>
-                <div class="pl-2">
+                {{!-- <div class="pl-2">
                     <p class="indent-paragraph mt-2 text-justify">
                         សេចក្ដីដូចបានគោរពជម្រាបជូនខាងលើ សូម <b>ឯកឧត្តម</b> មេត្តាជ្រាបជារបាយការណ៍ និងផ្តល់ការណែនាំតាមការគួរ។
                     </p>
-                </div>
+                </div> --}}
 
-                <div class="keep-together">
+                {{!-- <div class="keep-together">
                     <div class="pl-2">
                         <p class="indent-paragraph text-justify mt-2">
                             សូម <b>ឯកឧត្តម</b> មេត្តាទទួលនូវគារវកិច្ចដ៏ខ្ពង់ខ្ពស់ពីខ្ញុំបាទ។
@@ -562,9 +671,12 @@
                             {{/each}}
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </main>
     </body>
+    <script>
+
+    </script>
 </html>
 

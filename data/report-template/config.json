@@ -1,0 +1,14 @@
+{
+    "name": "report-template",
+    "creationDate": {
+        "$$date": 1724386801428
+    },
+    "modificationDate": {
+        "$$date": 1724386801428
+    },
+    "shortid": "SS0i5xg",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "tWghR6bbY6ZPYjwl",
+    "$entitySet": "folders"
+}
