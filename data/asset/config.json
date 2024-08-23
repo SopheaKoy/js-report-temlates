@@ -1,0 +1,15 @@
+{
+    "name": "asset",
+    "creationDate": {
+        "$$date": 1724349111052
+    },
+    "modificationDate": {
+        "$$date": 1724349140856
+    },
+    "shortid": "_JXpGI0",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "QnLGAMi4fm8Zkwus",
+    "visibilityPermissions": [],
+    "$entitySet": "folders"
+}

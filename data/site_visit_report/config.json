@@ -1,0 +1,14 @@
+{
+    "name": "site_visit_report",
+    "creationDate": {
+        "$$date": 1724348981927
+    },
+    "modificationDate": {
+        "$$date": 1724348981927
+    },
+    "shortid": "g96tEor",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "LmAbYOP6OlBFcYtD",
+    "$entitySet": "folders"
+}

@@ -1,0 +1,2769 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style rel='stylesheet' type='text/css'>
+    /* new font */
+    @font-face {
+        font-family: "SiemReap";
+        src: url({#asset /asset/font/Siemreap-Regular.ttf @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "SiemReap";
+        src: url({#asset /asset/font/Siemreap-Regular.ttf @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "KhmerOSMuol";
+        src: url({#asset /asset/font/KhmerOSMuolLightRegular.ttf @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "Arial";
+        src: url({#asset /asset/font/arial.ttf @encoding=dataURI});
+        format("ttf");
+    }
+    /* @page{
+        margin:70px 0 100px 0;  
+    } */
+    /* Font Size */
+    .title-header{
+        font-size: 14px;
+        font-family: "KhmerOSMuol";
+    }
+    .title-body{
+        font-size: 14px;
+        font-family: "SiemReap";
+    }
+    .underline-text{
+        text-decoration: underline dashed;
+        text-decoration-color: rgba(128, 128, 128, 0.7); /* gray with 50% opacity */
+    }
+    .title-english{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "Arial";
+    }
+    </style>
+    {{!-- CDN of font Siemreap --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Siemreap&display=swap" rel="stylesheet">
+
+    {{!-- CDC --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+    <style>
+        * {
+            font-family: {{#eq lng 'km'}}"Siemreap"{{else}}"kantumruy Pro"{{/eq}};
+        }
+        .font_custom {
+            font-family: {{#eq lng 'km'}}"KhmerOSMuol"{{else}}"Arial"{{/eq}};
+        }
+        .font_weight_custom {
+            font-weight: {{#eq lng 'km'}}normal{{else}}bold{{/eq}};
+        }
+        .font_size_custom {
+            font-size: {{#eq lng 'km'}}14px{{else}}14px{{/eq}};
+        }
+        /* font_custom font_weight_custom font_size_custom */
+    </style>
+    </head>
+    <body class="w-full">
+        <main class="px-16 w-full">
+            <div class="flex justify-between title-header">
+                <div class="flex justify-center">
+                    <div class="mt-12 justify-center">
+                        <p class="text-center mt-4 trans font_custom font_weight_custom font_size_custom" data-target="cdc">ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា</p>
+                        <p class="text-center mt-2 trans font_custom font_weight_custom font_size_custom" data-target="cambodia_investement_board">គណៈកម្មាធិការវិនិយោគកម្ពុជា</p>
+                        <img class="m-auto mt-1 w-24" src="{{asset "../asset/images/kbach-2.png" "dataURI"}}" />
+                    </div> 
+                </div>
+                <div class="flex">
+                    <div class="mt-3"> 
+                        <p class="text-center mt-2 trans font_custom font_weight_custom font_size_custom" data-target="cambodia">ព្រះរាជាណាចក្រកម្ពុជា</p>
+                        <p class="text-center mt-2 trans font_custom font_weight_custom font_size_custom" data-target="nation_religion_king">ជាតិ  សាសនា​​ ព្រះមហាក្សត្រ</p>
+                        <img class="m-auto mt-1 w-24" src="{{asset "../asset/images/kbach-2.png" "dataURI"}}" />
+                    </div>
+                </div>
+            </div>
+            <div class="w-full mt-7 title-body">
+                <div class="title-header">
+                    <p class="text-center w-ful mb-4 trans font_custom font_weight_custom font_size_custom" data-target="register">ពាក្យសុំចុះបញ្ជីគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់</p>
+                    <div class="flex">
+                        <p class="font-bold">&#8544;&ensp;-&ensp;</p>
+                        <p class="w-full trans font_custom font_weight_custom font_size_custom" data-target="structure_company">រចនាសម្ព័ន្ធក្រុមហ៊ុន</p>
+                    </div>
+                    <div class="flex w-full mt-2">
+                        <p class="trans font_custom font_weight_custom" data-target="a">ក</p>
+                        <p>&ensp;&#8208;&ensp;</p>
+                        <p class="trans font_custom font_weight_custom font_size_custom" data-target="general_info">ព័ត៌មានទូទៅ</p>
+                    </div>
+                </div>
+                <div class="mt-2 w-full" >
+                    <div class="flex">
+                        <div class="flex">
+                            <p>&#8208;&ensp;</p>
+                            <div class="trans" data-target="company_name">ឈ្មោះក្រុមហ៊ុន</div>
+                            <span>&ensp;</span>
+                        </div>
+                        <div class="flex flex-col ml-1 ">
+                            <div class="flex">
+                                <p class="trans" data-target="as_khmer">ជាភាសាខ្មែរ</p>
+                                <span>&ensp;</span>
+                                <p class="underline-text font-semibold">{{ company_name_km }}</p>
+                            </div>
+                            <div class="flex">
+                                <p class="mt-1 trans" data-target="as_english">ជាអក្សរឡាតាំង​​​</p>
+                                <span class="mt-1">&ensp;</span>
+                                <p class="underline-text pt-1 font-semibold">{{ company_name_en }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex mt-2">
+                    <div class="flex">
+                        <p>&#8208;&ensp;</p>
+                        <div class="shrink-0 trans" data-target="address_location">អាសយដ្ឋាន</div>
+                    </div>
+                    <div class="ml-1 w-full">
+                        <div class="w-full space-x-1 flex">
+                            <div class="flex">
+                                <p>&#8208;&ensp;</p>
+                                <p class="shrink-0 trans" style="width:auto;" data-target="company_registered_office">ទីស្នាក់ការក្រុមហ៊ុន</p>
+                                <sapn>&ensp;</sapn>
+                            </div>
+                            <div class="w-full flex-1 space-y-1">
+                                <div>
+                                    <p class="underline-text">
+                                        {{#neq company_house_land_plot_number ""}}
+                                            <span class="trans" data-target="home">ផ្ទះ/ ដីឡូតិ៍លេខ</span>
+                                            {{company_house_land_plot_number}}
+                                        {{/neq}}
+                                        {{#neq company_street_number ""}}
+                                            <span class="trans" data-target="road">ផ្លូវ</span>
+                                            {{company_street_number}}
+                                        {{/neq}}
+                                        <span>{{translatelanguage company_village.official_translate lng}}</span>
+                                        <span>{{translatelanguage company_commune.official_translate lng}}</span>
+                                        <span>{{translatelanguage company_district.official_translate lng}}</span>
+                                        <span>{{translatelanguage company_province.official_translate lng}}</span>
+                                        <span class="trans" data-target="kingdom">ព្រះរាជាណាចក្រកម្ពុជា</span>
+                                    </p>
+
+                                    <p>
+                                        <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
+                                        {{#neq company_phone_number ""}}
+                                            <span class="text-nowrap underline-text">({{company_phone_code}}){{formatphonenumber company_phone_number}}</span>
+                                        {{else}}
+                                            ................................................................................
+                                        {{/neq}}
+                                        <span class="text-nowrap trans" data-target="email" id="email">អុីម៉ែល​</span>
+                                        {{#neq company_email ""}}
+                                            <span class="text-nowrap underline-text">{{company_email}}</span>
+                                        {{else}}
+                                            ................................................................................
+                                        {{/neq}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-full space-x-1 flex">
+                            <div class="flex pl-1">
+                                <span>&#8208;&ensp;</span>
+                                <p class="shrink-0 w-auto trans" data-target="parent_company">ក្រុមហ៊ុន​មេឈ្មោះ</p>
+                                <span>&ensp;</span>
+                            </div> 
+                            {{#if (check_lng lng)}}
+                                <div class="w-full flex-1 space-y-1">
+                                    <p>
+                                        {{#neq parent_company_name ""}}
+                                            <span class="underline-text">{{parent_company_name}}</span>
+                                        {{else}}
+                                            ..............................................................................................
+                                        {{/neq}}
+                                    </p>
+                                    <p>
+                                        <span class="trans" data-target="address_location">អាសយដ្ឋាន​</span>
+                                        <span>
+                                            {{#neq parent_company_address ""}}
+                                                <span class="underline-text">{{parent_company_address}}</span>
+                                            {{else}}
+                                                .........................................................................
+                                            {{/neq}}
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
+                                        {{#neq parent_company_phone_number ""}}
+                                            <span class="text-nowrap underline-text">({{parent_company_phone_code}}){{formatphonenumber parent_company_phone_number}}</span>
+                                        {{else}}
+                                            ................................................................................
+                                        {{/neq}}
+                
+                                    </p>
+                                    <p>
+                                        <span class="trans" data-target="website">វែបសាយ</span>
+                                        {{#neq parent_company_phone_number ""}}
+                                        <span class="text-nowrap underline-text">{{parent_company_website}}</span>
+                                        {{else}}
+                                            ..............................................................................
+                                        {{/neq}}
+                                        
+                                    </p>
+                                    <p>
+                                        <span class="trans" data-target="email" id="email">អុីម៉ែល</span>
+                                        <span>&ensp;</span>
+                                        {{#neq parent_company_email ""}}
+                                            <span class="underline-text">{{parent_company_email}}</span>
+                                        {{else}}
+                                            ..............................................................................
+                                        {{/neq}}
+                                    </p>
+                                </div>
+                            {{else}}
+                                <div class="w-full flex-1 space-y-1">
+                                    <p>
+                                        {{#neq parent_company_name ""}}
+                                            <span class="underline-text">{{parent_company_name}}</span>
+                                        {{else}}
+                                            ........................................................................................
+                                        {{/neq}}
+                                    </p>
+                                    <p>
+                                        <span class="trans" data-target="address_location">អាសយដ្ឋាន​</span>
+                                        <span>
+                                            {{#neq parent_company_address ""}}
+                                                <span class="underline-text">{{parent_company_address}}</span>
+                                            {{else}}
+                                                .........................................................................
+                                            {{/neq}}
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
+                                        {{#neq parent_company_phone_number ""}}
+                                            <span class="text-nowrap underline-text">({{parent_company_phone_code}}){{formatphonenumber parent_company_phone_number}}</span>
+                                        {{else}}
+                                            ............................................................
+                                        {{/neq}}
+                
+                                    </p>
+                                    <p>
+                                        <span class="trans" data-target="website">វែបសាយ</span>
+                                        {{#neq parent_company_phone_number ""}}
+                                        <span class="text-nowrap underline-text">{{parent_company_website}}</span>
+                                        {{else}}
+                                            .........................................................................
+                                        {{/neq}}
+                                        
+                                    </p>
+                                    <p>
+                                        <span class="trans" data-target="email" id="email">អុីម៉ែល</span>
+                                        <span>&ensp;</span>
+                                        {{#neq parent_company_email ""}}
+                                            <span class="underline-text">{{parent_company_email}}</span>
+                                        {{else}}
+                                            .........................................................................
+                                        {{/neq}}
+                                    </p>
+                                </div>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+                    <div class="flex flex-col mt-2 title-body" >
+                        <div class="flex">
+                            <p>&#8208;&ensp;</p>
+                            <div class="shrink-0 trans" data-target="form_of_company">ទ្រង់ទ្រាយក្រុមហ៊ុន​</div>
+                            <span>&ensp;</span>
+                            (<span class="italic trans" data-target="tick">សូមគូស</span>&ensp; ✓ <span class="italic trans" data-target="in_the_box">ក្នុង​ប្រអប់</span>&ensp; ☐)
+                        </div>
+                       
+                        <div class="px-10 grid grid-cols-2 w-108 gap-2 mt-2">
+                            <div class="">
+                                <div class="flex">
+                                    <p>{{getcheckboxeq company_type.code "corporation"}}&ensp;</p>
+                                    <p class="trans" data-target="corporation">ក្រុមហ៊ុនមូលធន</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="flex">
+                                    <p>{{getcheckboxeq company_type.code "partnership"}}&ensp;</p>
+                                    <p class="trans" data-target="partnership">ក្រុមហ៊ុនសហកម្មសិទ្ធិ</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="flex">
+                                    <p>{{getcheckboxeq company_type.code "foreign_commercial_company"}}&ensp;</p>
+                                    <p class="trans" data-target="foreign_commercial_company">ក្រុមហ៊ុនពាណិជ្ជកម្មបរទេស</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex ml-10 mt-2">
+                            <div class="flex">
+                                <p class="shrink-0 mr-1 trans" data-target="note">កំណត់សម្គាល់​</p>
+                                <span>&ensp;</span>
+                            </div>
+                            <p class="trans" data-target="mean_of_note">ក្រុមហ៊ុនមូលធន រួមមាន​ក្រុមហ៊ុនឯកជនទទួលខុសត្រូវមានកម្រិតក្រុមហ៊ុនមហាជនទទួលខុសត្រូវមានកម្រិត និងសហគ្រាសឯកបុគ្គលខុសត្រូវមានកម្រិត</p>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="flex">
+                            <p>&#8208;&ensp;</p>
+                            <div class="shrink-0 trans" data-target="reg_capital">ទុនចុះបញ្ចី</div>
+                            <span>&ensp;</span>       
+                        </div> 
+                        <div class="flex gap-4">
+                            <p>{{#neq company_register_capital null}}<span class="underline-text">{{formatCurrency company_register_capital}}</span>{{else}}........{{/neq}}</p>
+                            <span class="trans" data-target="dollar">USD</span>
+                            <div>
+                                <div class="flex">
+                                    <p class="trans" data-target="foreign">បរទេស​</p>
+                                    <span>&ensp;</span>
+                                    <span>{{#neq company_foreign_share null}}<span class="underline-text">{{formatCurrency company_foreign_share}}</span>{{else}}........{{/neq}}</span>
+                                    <span>%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex">
+                                    <p class="trans" data-target="local">ក្នុងស្រុក</p>
+                                    <span>&ensp;</span>
+                                   <span class="underline-text">{{#neq company_local_share null}}<span class="underline-text">{{company_local_share}}</span>{{else}}........{{/neq}}</span>
+                                   <span>%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-2">
+                        <div class="flex">
+                            <div class="flex">
+                                <p>&#8208;&ensp;</p>
+                                <div class="shrink-0 trans" data-target="number_of_shares">ចំនួនភាគហ៊ុន</div>
+                                <sapn>&ensp;</sapn>
+                                <span class="underline-text">{{formatCurrency company_share_count}}</span>
+                            </div>
+                            <div class="flex">
+                                <span>&ensp;</span>
+                                <div class="shrink-0 trans" data-target="share_per_value">តម្លៃក្នុង១ភាគហ៊ុន</div>
+                                <sapn>&ensp;</sapn>
+                                <span class="underline-text">{{formatCurrency company_price_per_share}}</span>
+                                <span>&ensp;</span>
+                                <span class="trans" data-target="dollar">USD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                       
+            <div class="pt-4 title-body" >
+                <div class="flex w-full title-heade">
+                    <p class="trans font_custom font_weight_custom" data-target="b">ខ</p>
+                    <p>&ensp;&#8208;&ensp;</p>
+                    <p class="trans font_custom font_weight_custom font_size_custom" data-target="composition_of_company">សមាសភាពក្រុមហ៊ុន</p>
+                </div>
+                <div class="flex">
+                    <p class="pl-6 pt-1">&#x2022;</p>
+                    <p class="pl-5 pt-1 trans" data-target="share_holder">ម្ចាស់ភាគហ៊ុន</p>
+                    <span class="mt-1"></sapn>
+                </div>
+                <table class="border-1 border-black w-full mt-2">
+                    <thead class="border border-black" style="page-break-inside: avoid;">
+                        <tr>
+                            <th class="border border-black px-1 py-2 font-normal w-[140px] trans" data-target="fullname">នាមត្រកូល​ និងនាមខ្លួន</th>
+                            <th class="border border-black px-2 py-2 font-normal trans" data-target="national">សញ្ជាតិ</th>
+                            <th class="border border-black px-7 py-2 font-normal trans" data-target="number_date_passport">លេខ​ និងកាលវិច្ឆេទ លិខិត ឆ្លងដែន</th>
+                            <th class="border border-black px-7 py-2 font-normal w-48 trans" data-target="address_share">អាសយដ្ឋាន​​​​</th>
+                            <th class="border border-black px-1 py-2 font-normal trans" data-target="percentage">អត្រាភាគហ៊ុន%</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody class="border border-black title-body">
+                        {{#each share_holders}}
+                        <tr id="table" class="border border-black">
+                            <td class="border-r border-black p-1 text-center">{{ share_holder_fullname }}</td>
+                            <td class="border-r border-black p-1 text-center">{{translatelanguage share_holder_nationality.nationality_translate ../lng }}</td>
+                            <td class="border-r border-black p-1 text-center">
+                                <div>
+                                    <p>{{ share_holder_citid_identification_number }} </p>
+                                    {{#if (check_lng ../lng)}}
+                                        <p>{{formatdate2 share_holder_citid_identification_number_issued_datetime}}</p>
+                                    {{else}}
+                                        <p>{{formatdate3 share_holder_citid_identification_number_issued_datetime}}</p>
+                                    {{/if}}
+                                </div>
+                            </td>
+                            <td class="border-r border-black p-1 text-left">{{ share_holder_address }}</td>
+                            <td class="border-r border-black p-1 text-center">
+                                {{ share_holder_share_percent }}
+                                {{translatelanguage share_holder_share_unit ../lng}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+            {{!-- Page 2 --}}
+            <div class="title-body pt-1">
+                <div class="flex">
+                    <span class="mt-1 pl-5 font-bold">&#x2022;</span>
+                    <p class="mt-1 pl-5 trans" data-target="composition_of_board_member">សមាសភាពក្រុមប្រឹក្សាភិបាល (រួមទំាងតតិយជន)៖</p>
+                </div>               
+                <table class="border border-black w-full mt-2">
+                    <thead class="border border-black" style="page-break-inside: avoid;">
+                        <tr>
+                            <th class="border border-black px-4 py-2 font-normal w-[140px] trans" data-target="fullname_member_borad">នាមត្រកូល​ និងនាមខ្លួន</th>
+                            <th class="border border-black px-2 font-normal trans" data-target="national_member_board">សញ្ជាតិ</th>
+                            <th class="border border-black px-2 py-2 font-normal trans" data-target="number_date_board_member">លេខ​ និងកាលវិច្ឆេទ អត្តសញ្ញាណប័ណ្ណ ឬលិខិត ឆ្លងដែន</th>
+                            <th class="border border-black px-2 py-2 font-normal w-40 trans" data-target="address_board_memer">អាសយដ្ឋាន​​​​</th>
+                            <th class="border border-black px-2 py-2 font-normal trans" data-target="role_board_member">តួនាទីក្នុង ក្រុមហ៊ុន</th>
+                            <th class="border border-black px-2 py-2 font-normal trans" data-target="authorized_borad_member">អ្នកដែលមានសិទ្ធិ ចុះហត្ថលេខា សម្រាប់កិច្ចការ</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody class="border border-black">
+                        {{#each board_members}}
+                        <tr id="table" class="border border-black">
+                            <td class="border-r border-black p-1 text-center">{{translatelanguage board_member_salute.translate ../lng}} {{ board_member_fullname }}</td>
+                            <td class="border-r border-black p-1 text-center">{{translatelanguage board_member_nationality.nationality_translate ../lng}}</td>
+                            <td class="border-r border-black p-1 text-center">
+                                <div>
+                                    <p>{{ board_member_citid_identification_number}}</p>
+                                    {{#if (check_lng ../lng)}}
+                                        <p>{{ formatdate2 board_member_citid_identification_issued_datetime }}</p>
+                                    {{else}}
+                                        <p>{{ formatdate3 board_member_citid_identification_issued_datetime }}</p>
+                                    {{/if}}
+                                </div>
+                            </td>
+                            <td class="border-r border-black p-1 text-left">{{ board_member_address }}</td>
+                            <td class="border-r border-black p-1 text-center">{{translatelanguage board_member_investor_position.translate ../lng}}</td>
+                            <td class="border-r border-black p-1 text-center">{{translatelanguage board_member_authorized_position_to_sign.translate ../lng}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            <div class="title-header">
+                <div class="flex">
+                    <span class="mt-4 font-bold">&#8545;&ensp;-&ensp;</span> 
+                    <p class="w-full mt-4 trans font_custom font_weight_custom font_size_custom" data-target="registration_investment_Project">ពាក្យស្នើសុំវិនិយោគ</p>
+                </div>
+                <div class="flex">
+                    <span class="mt-2 trans font_custom font_weight_custom" data-target="a">ក</span>
+                    <span class="mt-2">&ensp;-&ensp;</span>
+                    <p class="w-full mt-2 trans font_custom font_weight_custom font_size_custom" data-target="genernal_investment">ព័ត៌មានទូទៅ</p>
+                </div> 
+            </div>
+            {{!-- APPLICATION INVESTMENT --}}
+            <div class="mt-2 w-full title-body">
+                <div class="flex mt-2">
+                    <div class="flex">
+                        <span>-&ensp;</span>
+                        <p class="shrink-0 mr-1 trans" data-target="investment_activities">មុខសញ្ញាវិនិយោគ</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ investment_target }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col mt-2 title-body">
+                <div class="flex">
+                    <span>-&ensp;</span>
+                    <p class="shrink-0 mr-1 trans" data-target="investment_sector">វិស័យវិនិយោគ</p>
+                    <span>&ensp;</span>
+                    (<span class="italic trans" data-target="tick">សូមគូស</span>&ensp; ✓ <span class="italic trans" data-target="in_the_box">ក្នុង​ប្រអប់</span>&ensp; ☐)
+                </div>
+                <div class="px-10 flex flex-wrap w-108 gap-2 mt-2 title-body">
+                    {{#each investment_sectors}}
+                        <div>
+                            {{getcheckboxeq code ../investment_sector.code}}
+                            <span>
+                                {{translatelanguage translate ../lng}}
+                            </span>
+                        </div>
+                    {{/each}}
+                    <div class="flex">
+                        <span>{{getcheckboxeq ../investment_sector.code "other"}}</span>
+                        <p class="trans" data-target="other">ផ្សេងៗ</p>
+                    </div>
+                </div>
+            </div>
+            
+            <table class="border border-black w-full title-body mt-3">
+                <thead class="border border-black" style="page-break-inside:void;">
+                    <tr>
+                        <th class="border border-black px-2 p-1 py-2 font-normal w-10 trans" data-target="no_number">ល.រ</th>
+                        <th class="border border-black p-1 py-2 font-normal trans" data-target="investment_activities_table">មុខសញ្ញាវិនិយោគ</th>
+                        <th class="border border-black p-1 py-2 font-normal w-[120px] trans" data-target="code_isic">លេខ ISIC Code</th>
+                    </tr>
+                </thead>
+                <tbody class="border border-black title-body">
+                    {{#each target_association as |item index| }}
+                    <tr class="border border-black">
+                        <td class="border border-black p-1 py-2 text-center">{{increaseone index}}</td>
+                        <td class="border border-black p-1 py-2 text-left">
+                            {{translatelanguage item.translate ../lng}}
+                        </td>
+                        <td class="border border-black p-1 py-2 text-center"></td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+
+            <div class="title-body pt-5">
+                <div class="flex">
+                    <p>&#8208;&ensp;</p>
+                    <div class="shrink-0 trans" data-target="applicant_for_investment">អ្នកដាក់ពាក្យសុំវិនិយោគ</div>
+                </div> 
+                <ul class="list-disc ml-14 ">
+                    <li class="pt-2 space-y-1">
+                        <div class="space-x-2 space-y-1">
+                            <p>
+                                <span class="text-nowrap trans" data-target="name">ឈ្មោះ</span>
+                                {{#neq investor_name null}}<span class="text-nowrap underline-text">{{ investor_name }}</span>{{else}}...................{{/neq}}
+                                <span class="trans" data-target="national_investor">សញ្ជាតិ</span>
+                                <span class="underline-text">{{translatelanguage investor_nationality.nationality_translate lng}}</span>
+                                <span class="text-nowrap trans" data-target="address_location">អាសយដ្ឋាន</span>
+                                {{#neq investor_address null}}
+                                    <span class="underline-text">{{ investor_address }}</span>
+                                {{else}}...................{{/neq}}
+                            </p>
+                            <p>
+                                <span class="text-nowrap trans" data-target="email" id="email">អុីម៉ែល</span>
+                                {{#neq investor_email null}}
+                                    <span class="underline-text">{{ investor_email }}</span>
+                                {{else}}............{{/neq}}
+                                <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ</span>
+                                {{#neq investor_phone_number null}}
+                                    <span class="underline-text">({{ investor_phone_code }}){{formatphonenumber investor_phone_number}}</span>
+                                {{else}}............{{/neq}}
+                            </p>
+                        </div>
+                    </li>
+                    <li class="pt-1">
+                        <div class="flex">
+                            <p class="text-nowrap trans" data-target="role_in_company">តួនាទីក្នុងក្រុមហ៊ុន</p>
+                            <span>&ensp;</span>
+                            <p>{{#neq investor_position null}}<span class="text-nowrap underline-text">{{translatelanguage investor_position.translate lng}}</span>{{else}}............{{/neq}}</p>
+                            <span>&ensp;</span>
+                        </div>
+                    </li>
+                    <li class="pt-1">
+                        <div>
+                            <div class="flex">
+                                <p class="trans" data-target="power_of_attorney">លិខិតប្រគល់សិទ្ធិ</p>
+                                <span class="italic trans" data-target="no_role_company">(បើសិនមិនមានតួនាទីក្នុងក្រុមហ៊ុន)</span>
+                                <span>&ensp;</span>
+                                <p class="trans" data-target="number">លេខ</p>
+                                {{#neq letter_of_authorization ""}}
+                                    {{letter_of_authorization}}
+                                {{else}}.......................{{/neq}}
+                            </div>
+                            <div>
+                                {{#if (check_lng lng)}}
+                                    {{#neq letter_of_authorization_issued_datetime ""}}
+                                        <span>{{formatdate letter_of_authorization_issued_datetime}}</span>
+                                    {{else}}ចុះថ្ងៃទី...........ខែ...........ឆ្នាំ............{{/neq}}
+                                {{else}}
+                                    <span>{{formatdate3 letter_of_authorization_issued_datetime}}</span>
+                                {{/if}}
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>         
+            
+            <div class="flex title-body mt-1">
+                <div class="flex">
+                    <p>&#8208;&ensp;</p>
+                    <div class="shrink-0 trans" data-target="total_investment_capital">ទុនវិនិយោគសរុប</div>
+                    <span>&ensp;</span>
+                    <span class="underline-text">{{formatCurrency total_capital}}</span>
+                    <span>&ensp;</span>
+                    <span class="trans" data-target="dollar">USD</span>
+                </div>
+                <div class="flex">
+                    <span>&ensp;</span>
+                    <p class="trans" data-target="capital_spent_on">ក្នុងនោះទុនលើ</p>
+                    <span>&ensp;</span>
+                </div>
+            </div>
+            <ul class="list-disc ml-14 title-body">
+                <li class="mt-1">
+                    <div class="flex">
+                        <p>
+                            <span class="trans" data-target="site_preparation">រៀបចំការដ្ឋាន</span>
+                            {{#neq construction_area null }}
+                                <span class="underline-text">{{formatCurrency construction_area}}</span>
+                            {{else}}.....................{{/neq}}
+                            <span class="trans" data-target="m">ម</span>
+                            <sup class="trans" data-target="two">២</sup>
+                            <span class="trans" data-target="price">តម្លៃ</span>
+                            {{#neq construction_price null }}
+                                <span class="underline-text">{{formatCurrency construction_price}}</span>
+                            {{else}}.....................{{/neq}}</span>
+                            <span>&ensp;</span>
+                            <span class="trans" data-target="dollar">USD</span>
+                        </p>
+                    </div>
+                </li>
+                <li class="mt-1">
+                    <div class="flex space-x-1">
+                        <div class="flex">
+                            <p>
+                                <span class="trans" data-target="building_construction">សំណង់អាគារ</span>
+                                {{#neq building_size 0 }}
+                                    <span class="underline-text">{{formatCurrency building_size}}</span>
+                                {{else}}..............{{/neq}}
+                                <span class="trans" data-target="m">ម</span>
+                                <sup class="trans" data-target="two">២</sup>
+                                <span class="trans" data-target="price">តម្លៃ</span>
+                                {{#neq building_price 0 }}
+                                    <span class="underline-text">{{formatCurrency building_price }}</span>
+                                {{else}}..............{{/neq}}
+                                <span class="trans" data-target="dollar">USD</span>
+                            </p>
+                        </div>
+                        <div class="flex">
+                            <p>
+                                <span class="trans" data-target="old_building">សំណង់អាគារ</span>
+                                <span>{{getcheckboxeq building_type.code "existing_building"}}</span>
+                                <span class="trans" data-target="new_building">អាគារថ្មី</span>
+                                <span>{{getcheckboxeq building_type.code "new_building"}}</span>
+                            </p>
+                        </div>
+                    </div>    
+                </li>
+                <li class="mt-1">
+                    <div class="flex">
+                        <p>
+                            <span class="trans" data-target="production_equipment_price">សម្ភារៈបរិក្ខារផលិតកម្ម តម្លៃ</span>
+                            {{#neq production_equipment_price 0 }}
+                                <span class="underline-text">{{formatCurrency production_equipment_price }} </span> 
+                            {{else}}..............{{/neq}}             
+                            <span class="trans" data-target="dollar">USD</span>
+                            <span class="trans" data-target="the_list_is_attached_in_the_annex">(មានបញ្ជីជូនភ្ជាប់តាមទម្រង់ដូចមានចែងក្នុង ឧបសម្ព័ន្ធ)</span>
+                        </p>
+                    </div>
+                </li>
+                <li class="mt-1">
+                    <div class="flex">
+                        <p>
+                            <span class="trans" data-target="office_price">ការិយាល័យ តម្លៃ</span>
+                            {{#neq office_price 0 }}
+                                <span class="underline-text">{{formatCurrency office_price }}</span> 
+                            {{else}}..............{{/neq}} 
+                            <span class="trans" data-target="dollar">USD</span>
+                        </p>
+                    </div>                    
+                <li class="mt-1">
+                    <div class="flex">
+                        <p>
+                            <span class="trans" data-target="other_price">ផ្សេងៗ តម្លៃ</span>
+                            {{#neq other_price 0 }}
+                                <span class="underline-text">{{formatCurrency other_price }}</span> 
+                            {{else}}..............{{/neq}} 
+                            <span class="trans" data-target="dollar">USD</span>
+                        </p>
+                    </div> 
+                </li>
+            </ul>
+            
+            <div class="flex mt-2 title-body">
+                <p>&#8208;&ensp;</p>
+                <div class="shrink-0 trans" data-target="working_capital">ទុនបង្វិល</div>
+                <span>&ensp;</span>
+                {{#neq working_capital 0 }}
+                    <span class="underline-text">{{formatCurrency working_capital }}</span> 
+                {{else}}..............{{/neq}} 
+                <span>&ensp;</span>
+                <span class="trans" data-target="dollar">USD</span>
+            </div>
+            
+            <div class="flex mt-2 title-body">
+                <div class="flex"> 
+                    <p>&#8208;&ensp;</p>
+                    <div class="shrink-0 trans" data-target="source_of_investment_capital">ប្រភពទុនវិនិយោគ</div>
+                    <span>៖ </span>
+                </div>
+                <div class="ml-1"> 
+                    <div class="flex">
+                        <p>
+                            <span class="trans" data-target="own_capital">ទន់ផ្ទាល់</span>
+                            {{#neq own_working_capital 0 }}
+                                <span class="underline-text">{{own_working_capital}}%</span>
+                            {{else}}..........%{{/neq}}
+                            <span class="trans" data-target="local_loan">ឥណទានក្នុងស្រុក</span>
+                            {{#neq long_term_bank_loan 0 }}
+                                <span class="underline-text">{{long_term_bank_loan}}</span>%
+                            {{else}}..........%{{/neq}}
+                        </p>
+                    </div>
+                    <div class="flex mt-2">
+                        <p>
+                            <span class="trans" data-target="foreign_loan">ឥណទានបរទេស</span>
+                            {{#neq short_term_bank_loan 0 }}
+                                <span class="underline-text">{{ short_term_bank_loan }}%</span>
+                            {{else}}..........%{{/neq}}
+                        </p>
+                     </div>
+                </div>
+            </div>
+
+            <div class="flex mt-2 title-body leading-6">
+                <div class="flex">
+                    <span>&#8208;&ensp;</span>
+                    <p class="shrink-0 trans" data-target="investment_location">ទីតាំងវិនិយោគ</p>
+                    <span>&ensp;</span>
+                </div>
+                <div class="ml-1 w-full">
+                    <div class="flex pl-5">
+                        <p>
+                            <span class="underline-text">
+                                {{#neq company_house_land_plot_number ""}}
+                                    <span class="trans" data-target="home">ផ្ទះ/ ដីឡូតិ៍លេខ</span>
+                                    {{company_house_land_plot_number}}
+                                {{/neq}}
+                                {{#neq company_street_number ""}}
+                                    <span class="trans" data-target="road">ផ្លូវ</span>
+                                    {{company_street_number}}
+                                {{/neq}}
+                                <span>{{translatelanguage investment_location_village.official_translate lng}}</span>
+                                <span>{{translatelanguage investment_location_commune.official_translate lng}}</span>
+                                <span>{{translatelanguage investment_location_district.official_translate lng}}</span>
+                                <span>{{translatelanguage investment_location_province.official_translate lng}}</span>
+                                <span class="trans" data-target="kingdom">ព្រះរាជាណាចក្រកម្ពុជា</span>
+                            </span>
+                            <span class="trans" data-target="size">ទំហំ</span> 
+                            <span class="underline-text">{{formatCurrency investment_location_size }}</span>
+                            <span class="trans" data-target="m">ម</span>
+                            <sup class="trans" data-target="two">២</sup>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex mt-2 title-body">
+                <p>
+                    <span>&#8208;&ensp;</span>
+                    <span class="shrink-0 trans" data-target="schedule_for_project_implementation">កម្មវិធីអនុវត្តគម្រោង</span>
+                </p>
+            </div>
+            
+            <ul class="list-disc ml-14 title-body w-full pt-1">
+                <li class="mt-1">
+                    <div class="flex w-full">
+                        <p class="trans" data-target="construction_start_datetime">ចាប់ផ្តើមរៀបចំ</p>
+                        {{#if (check_lng lng)}}
+                            <span class="underline-text">{{ formatdateKhmer construction_start_datetime }}</span>
+                        {{else}}
+                            <span class="underline-text">{{ formatdate3 construction_start_datetime }}</span>
+                        {{/if}}
+                        <span>&ensp;</span>
+                        <p class="trans" data-target="construction_end_datetime" style="width:auto;">ព្យាករណ៏បញ្ចប់ការរៀបចំ</p>
+                        {{#if (check_lng lng)}}
+                            <span class="underline-text">{{ formatdateKhmer construction_end_datetime }}</span>
+                        {{else}}
+                             <span class="underline-text">{{ formatdate3 construction_end_datetime }}</span>
+                        {{/if}}
+                    </div>
+                </li>
+                <li class="mt-1">
+                    <div class="flex">
+                        <p class="trans" data-target="machinery_installation_date">ពេលបំពាក់គ្រឿងម៉ាសុីន</p>
+                        <span>&ensp;</span>
+                        {{#if (check_lng lng)}}
+                            <p class="underline-text">{{ formatdateKhmer equipping_datetime }}</p>
+                        {{else}}
+                            <p class="underline-text">{{ formatdate3 equipping_datetime }}</p>
+                        {{/if}}
+                        <span>&ensp;</span>
+                        <p class="trans" data-target="production_commencement_date">ចាប់ផ្តើមដំណើរការផលិតកម្ម</p>
+                        <span>&ensp;</span>
+                        {{#if (check_lng lng)}}
+                            <p class="underline-text">{{ formatdateKhmer start_production_datetime }}</p>
+                        {{else}}
+                             <p class="underline-text">{{ formatdate3 start_production_datetime }}</p>
+                        {{/if}}
+                    </div>
+                </li>
+            </ul>
+
+            {{!-- PRODUCT INFORMATION --}}
+            <div class="flex mt-2 title-body">
+                <p>&#8208;&ensp;</p>
+                <div class="shrink-0 trans" data-target="product_information">ព័ត៌មានស្តីពីផលិតកម្ម​</div>
+                <span>៖</span>
+            </div>
+            <table class="border border-black w-full mt-2 title-body">
+                <thead class="border border-black" style="page-break-inside: avoid;">
+                    <tr>
+                        <th class="border border-black p-2 font-normal w-[120px] trans" rowspan="3" data-target="product_type">ប្រភេទផលិតផល</th>
+                        <th class="border border-black p-2 font-normal w-[80px] trans" rowspan="3" data-target="hs_code">HS Code</th>
+                        <th class="border border-black p-2 font-normal trans" rowspan="3" data-target="unit">ឯកតា</th>
+                        <th class="border border-black p-2 font-normal trans" colspan="4" data-target="annual_production_capacity">​សមត្ថភាពផលិតប្រចំាឆ្នាំ</th>
+                        <th class="border border-black p-2 font-normal trans" colspan="2" data-target="market">ទីផ្សារ</th>
+                    </tr>
+                    <tr>
+                        <th class="border border-black p-2 font-normal trans" colspan="2" data-target="first_year">ឆ្នំាដំបូង</th>
+                        <th class="border border-black p-2 font-normal trans" colspan="2" data-target="full_product">ពេញផលិតកម្ម <br>(Full Production)</th>
+                        <th class="border border-black p-2 font-normal trans" rowspan="2" data-target="local">​ក្នុងស្រុក%</th>
+                        <th class="border border-black p-2 font-normal trans" rowspan="2" data-target="export">នាំចេញ%</th>
+                    </tr>
+                    <tr>
+                        <th class="border border-black p-2 font-normal trans" data-target="quantity">បរិមាណ</th>
+                        <th class="border border-black p-2 font-normal trans" data-target="price_product">តម្លៃ <br>(USD)</th>
+                        <th class="border border-black p-2 font-normal trans" data-target="quantity">បរិមាណ</th>
+                        <th class="border border-black p-2 font-normal trans" data-target="price_product">តម្លៃ (USD)</th>
+                    </tr>
+                </thead>
+                
+                <tbody class="border border-black">
+                    {{#each product_outputs}}
+                    <tr id="table" class="border border-black">
+                        <td class="border border-black p-2 text-left">{{product_output_name }}</td>
+                        <td class="border border-black p-2 text-left">{{product_output_hs_code }}</td>
+                        <td class="border border-black p-2 text-left">{{translatelanguage unit.translate ../lng}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency product_output_first_year_quality }}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency product_output_first_year_cost }}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency product_output_full_production_quality }}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency product_output_full_production_cost }}</td>
+                        <td class="border border-black p-2 text-center">{{formatpercentage product_output_local_market_percent }}</td>
+                        <td class="border border-black p-2 text-center">{{formatpercentage product_output_export_market_percent }}</td>
+                    </tr>
+                    {{/each}}
+                    <tr id="table" class="border border-black">
+                        <td class="border border-black p-2 text-center trans" data-target="total">សរុប</td>
+                        <td class="border border-black p-2 text-center"></td>
+                        <td class="border border-black p-2 text-center"></td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency (sumlist product_outputs "product_output_first_year_quality") }}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency (sumlist product_outputs "product_output_first_year_cost") }}</td>
+                        <td class="border border-black p-2 text-center">{{ formatCurrency (sumlist product_outputs "product_output_full_production_quality") }}</td>
+                        <td class="border border-black p-2 text-center">{{ formatCurrency (sumlist  product_outputs "product_output_full_production_cost" )}}</td>
+                        <td class="border border-black p-2 text-center"></td>
+                        <td class="border border-black p-2 text-center"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            {{!-- <div style='page-break-before: auto;'></div> --}}
+            <div class="w-full title-body pt-5" >
+                {{!-- <div class="flex">
+                    <div class="flex font-medium">
+                        <p class="underline title-header trans font_custom font_weight_custom font_size_custom" data-target="noted">ចំណាំ​</p>
+                        <span>&ensp;</span>
+                    </div>
+                    <p class="pl-1 trans" data-target="noted_mean">តម្លៃនិងចំនួន​ នៃផលិតផលអាចនិងផ្លាស់ប្ដូរ​​នៅពេលក្រុមហ៊ុនចេញម៉ូដែលថ្មី ឫតាមការបញ្ជាទិញជាក់ស្ដែងដោយអតិថិជន ។</p>
+                </div> --}}
+                <div class="w-full pl-6 mt-1 title-body">
+                    <div class="flex">
+                        <p>&#8208;&ensp;</p>
+                        <p class="trans" data-target="market_export">ទីផ្សារនំាចេញ</p>
+                        <span>.................................................................................................................................</span>
+                    </div>
+                    <div class="shrink-0 pt-1">-&ensp;<span class="trans" data-target="labour_requirements">តម្រូវការពលកម្ម៖</span>
+                        {{sumlist labor_demands "labor_demand_startup_local"}}&ensp;
+                        <span class="trans" data-target="domestic_worker">​សម្រាប់ពលកម្មក្នុងស្រុក​និង</span> 
+                        {{sumlist labor_demands "labor_demand_startup_foreign"}}
+                        <span class="trans" data-target="foreign_work">សម្រាប់ពលកម្នបរទេសក្នុងអំឡុងបពេលចាប់ផ្ដើម និង</span>
+                        {{sumlist labor_demands "labor_demand_full_production_local"}}
+                        <span class="trans" data-target="for_work_local">សម្រាប់េពលកម្នក្នុងស្រុក និង</span>
+                        {{sumlist labor_demands "labor_demand_full_production_foreign"}}
+                        <span class="trans" data-target="for_work_foreign">សម្រាប់បរទេសក្នុងកំឡុងពេលផលិតកម្មពេលលេញ</span>
+                    </div>
+                </div>
+            </div>
+            
+            {{!-- LABOR DEMANDS --}}
+            <table class="border border-black w-full mt-2 title-body">
+                <thead class="border border-black" style="page-break-inside: auto;">
+                    <tr>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" rowspan="2" data-target="type_of_labor">ប្រភេទពលកម្ម</th>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" colspan="2" data-target="commencement">ពេលចាប់ផ្តើម</th>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" colspan="2" data-target="full_capacity">ពេលពេញសមត្ថភាព</th>
+                    </tr>
+                    <tr>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" data-target="local">ក្នុងស្រុក</th>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" data-target="foreign">ក្រៅស្រុក</th>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" data-target="local">ក្នុងស្រុក</th>
+                        <th class="border border-black p-1 px-2 py-2 font-normal trans" data-target="foreign">ក្រៅស្រុក</th>
+                    </tr>
+                </thead>
+                <tbody class="border border-black">
+                    {{#each labor_demands}}
+                    <tr id="table" class="border border-black">
+                        <td class="border border-black p-2 text-left">{{translatelanguage labor_demand_type.translate ../lng }}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency labor_demand_startup_local "labor_demand_startup_local"}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency labor_demand_startup_foreign "labor_demand_startup_foreign"}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency labor_demand_full_production_local "labor_demand_full_production_local"}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency labor_demand_full_production_foregin "labor_demand_full_production_foreign"}}</td>
+                    </tr>
+                    {{/each}}
+                    <tr id="table" class="border border-black">
+                        <td class="border border-black p-2 text-center trans" data-target="total">សរុប</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency (sumlist labor_demands "labor_demand_startup_local")}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency (sumlist labor_demands "labor_demand_startup_foreign")}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency (sumlist labor_demands "labor_demand_full_production_foreign")}}</td>
+                        <td class="border border-black p-2 text-center">{{formatCurrency (sumlist labor_demands "labor_demand_full_production_local")}}</td>
+                    </tr>
+                </tbody>
+            </table>
+                  
+
+            <div class="mt-4 pt-1 title-body">
+                 <div class="flex">
+                    <span>&#8208;&ensp;</span>
+                    <p class="trans" data-target="requirement_of_annual">តម្រូវការធាតុចូលផលិតកម្ម​ (វត្ថុធាតុដើម) ប្រចាំឆ្នាំ៖ បំពេញតាមទម្រង់ដូចមានចែងក្នុងឧបសម្ព័ន្ធភ្ជាប់មកជាមួយ។</p>
+                 </div>
+            </div>
+            <div class="mt-2 title-body">
+                 <div class="flex">
+                    <span>&#8208;&ensp;</span>
+                    <p class="trans" data-target="requirement_of_water">តម្រូវការថាមពល និងទឹក</p>
+                    <span>&ensp;</span>
+                 </div>
+            </div>
+            <ul class="list-disc ml-12 title-body">
+                <li class="mt-1">
+                    <div class="flex">
+                        <p class="trans" data-target="coal_or_firewood">ធ្យូងថ្ម​ ឬអូសប្រចាំឆ្នាំ</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ formatnumber energy_needed_coal 0}}</span>
+                        <span class="trans" data-target="m">ម</span>
+                        <span><sup class="trans" data-target="three">៣</sup></span>
+                        <span class="trans" data-target="per_year">/ឆ្នាំ</span>
+                        <span>&ensp;</span>
+                        <p class="trans" data-target="gas">ឧស្ម័ន</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ formatnumber energy_needed_gas 0}}&ensp;</span> 
+                        <span class="trans" data-target="ton_year">តោន/ឆ្នាំ</span>
+                    </div>
+                <li class="mt-1">
+                    <div class="flex">
+                        <p class="trans" data-target="fuel">ប្រេងឥន្ធនៈ</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ formatnumber energy_needed_oil 0}}&ensp;</span>
+                        <span class="trans" data-target="tons">តោន</span>
+                        <span>&ensp;</span>
+                        <span class="trans" data-target="or">ឬ</span>
+                        <span class="trans" data-target="lit_year">លីត​/ឆ្នាំ</span>
+                    </div>
+                </li>
+                <li class="mt-1">
+                     <div class="flex">
+                        <p class="trans" data-target="electricity">អគ្គិសនី (អនុភាពតម្លើង)</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ formatnumber energy_needed_electric 0}}&ensp;</span>
+                        <span>MW</span>
+                        <span>&ensp;</span>
+                        <p class="trans" data-target="requirement">តម្រូវការប្រចាំឆ្នាំ</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ formatnumber energy_needed_electric_size 0}}&ensp;</span> 
+                        <span> KWH</span>
+                    </div>
+                </li>
+                <li class="mt-1">
+                    <div class="flex">
+                        <p class="trans" data-target="water_consumption">ប្រើប្រាស់ទឺក</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{ formatnumber energy_needed_water 0}}&ensp;</span>
+                        <span class="trans" data-target="m">ម</span>
+                        <span><sup class="trans" data-target="three">៣</sup><span class="trans" data-target="per_year">/ឆ្នាំ</span></span>
+                        <span>&ensp;</span>
+                    </div>
+                </li>
+            </ul> 
+            <div>
+                <div class="flex pt-4">
+                <div class="flex shrink-0 title-header">
+                    <p class="trans font_custom font_weight_custom" data-target="b">ខ</p>
+                    <p>&ensp;&#8208;&ensp;</p>
+                    <p class="trans font_custom font_weight_custom font_size_custom" data-target="option">ការជ្រើសរើសរវាង</p>
+                    <span>&ensp;</span>
+                </div>
+                <div class="ml-2 title-body">
+                    <div class="shrink-0">{{getcheckboxneq incentive_type.keyword "special_depreciation"}} <span class="trans" data-target="income_investment">ការលើកលែងពន្ធលើប្រាកចំណេញ និងការធានាលើការវិនិយោគ</span></div>
+                    <div class="shrink-0 mt-2">{{getcheckboxeq incentive_type.keyword "special_depreciation"}} <span class="trans" data-target="special_investment">រំលស់ពិសេស និងការធានាលើការវិនិយោគ</span></div>
+                </div>
+                </div>
+                <div class="ml-14 pt-1 title-body trans" data-target="two_options">(ក្នុងចំណោមជម្រើសទាងពីរខាងលើនេះវិនិយោគិនមានសិទ្ធិជ្រើសរើសបានតែមួយប៉ុណ្ណោះ)</div>
+            </div>
+            
+            <div style="page-break-before: auto;""></div>
+            <div class="flex shrink-0 pt-4 title-header">
+                <p class="trans font_custom font_weight_custom" data-target="c">គ</p>
+                <p>&ensp;&#8208;&ensp;</p>
+                <p class="trans font_custom font_weight_custom font_size_custom" data-target="information_on_environment">ព័ត៌មានស្តីពីបរិស្ថាន</p>
+                <span>&ensp;</span>
+            </div>
+
+            <ul class="list-disc ml-12 title-body">
+                <li class="mt-1">
+                    <p class="trans" data-target="mode_of_transport"> រូបភាពនៃការដឹកជញ្ចូនវត្ថុធាតដើម និងផលិតផលសម្រេចចេញ-ចូល ទីតាំងវិនិយោគ៖</p> 
+                    <div class="flex">
+                        <div class="whitespace-pre-line">{{#neq transport_mode ""}}<span class="underline-text">{{transport_mode}}</span>{{else}}.......................................................................{{/neq}}</div>
+                        <div class="pl-3">
+                            <p class="trans" data-target="other">ផ្សេងៗ​</p> 
+                        </div>
+                    </div>
+                </li>
+                {{!-- <div style='page-break-before: always;'></div> --}}
+                <li class="mt-2">
+                    <p class="trans" data-target="waste_volume_estimation">ប៉ាន់ស្មានកាកសំណល់៖</p>
+                    <div class="flex pt-1">
+                        <span>+&ensp;</span>
+                        <p class="trans" data-target="liquid_waste">សំណល់រាវ</p>
+                        <span>&ensp;</span>
+                        <sapn>{{formatnumber wasted_liquid 0}}&ensp;</sapn>
+                        <span class="trans" data-target="m">ម</span>
+                        <span><sup class="trans" data-target="three">3</sup></span>
+                        <span class="trans" data-target="per_month">/ខែ</span>
+                        <span>&ensp;</span>
+                        <p class="trans" data-target="solid_waste">សំណល់រឹង</p>
+                        <span>&ensp;</span>
+                        <span style="underline-text">{{formatnumber waste_estimation_solids 0}}&ensp;</span>
+                        <span class="trans" data-target="m">ម</span>
+                        <span><sup class="trans" data-target="three">3</sup></span>
+                        <span>&ensp;</span>
+                        <span class="trans" data-target="ton_month">តោន/ខែ</span>
+                    </div>
+                    <div class="flex pt-1">
+                        <span>+&ensp;</span>
+                        <p class="trans" data-target="gas_emission">ឧស្ម័នដែលត្រូវបញ្ចេញ​</p>
+                        <span>&ensp;</span>
+                        <span class="underline-text">{{formatnumber wasted_emitted_gas 0}}&ensp;</span>
+                        <span class="trans" data-target="per_day">/ថ្ងៃ</span>
+                    </div>
+                </li>
+                <li class="mt-2">
+                    <p class="trans" data-target="concentration_estimation_table_in">ប៉ាន់ស្មាននៃកំហាប់ក្នុង៖</p>
+                    <div>
+                        <div class="flex italic mt-1">
+                            <span>+&ensp;</span>
+                            <p class="trans" data-target="process_of_liquid">ដំណើរការបញ្ចេញទឹកស្អុយ</p>
+                        </div>
+                        <div class="flex">
+                            <div class="ml-4 pt-1">
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p>pH:</p>
+                                    <span>{{formatnumber wasted_water_ph 0}}</span>
+                                </div>
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="nitrate_nitrogen">នីត្រាតអាស៊ូត Nitrate Nitrogen:</p>
+                                    <span>{{formatnumber wasted_water_nitrate_nitrogen 0}}</span>
+                                </div>
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="phenol">ផេណុល Phenol</p>
+                                    <span>(C<sub>6</sub>H<sub>5</sub>OH):</span>
+                                    <span>{{formatnumber wasted_water_phenol 0}}</span>
+                                </div>
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="turbidity">ភាពល្អក់ Turbidity</p>
+                                    <span>{{formatnumber wasted_water_turbidity 0}}</span>
+                                </div>
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_water_total_dissolved">ចំនួនសរុបនៃសារធាតុរឹងដែលរលាយក្នុងទឹក: </p>
+                                    <span>{{formatnumber wasted_water_total_dissolved 0}}</span>
+                                </div>
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_water_total_silted">ចំនួនសរុបនៃសារធាតុរឹងដែលរងកករចុះទៅក្នុងទឹក:</p>
+                                    <span> {{formatnumber wasted_water_total_silted 0}}</span>
+                                </div>
+                            </div>
+                            <div class="pt-1">
+                                <div class=" flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_water_amonia">​អាម៉ូញ្ញាក់​ Ammonia</p>
+                                    <span>(NH<sub>3</sub>):</span>
+                                    <span> {{formatnumber wasted_water_total_silted 0}}</span>
+                                </div>
+                                <div class="flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_water_havy_metal">​លោហៈធ្ងន់ Heavy Mental</p>
+                                    <span> {{formatnumber wasted_water_havy_metal 0}}</span>
+                                </div>
+                                <div class="flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_water_oil_grease">ប្រេង និងខ្លាញ់ Oil and Grease:</p>
+                                    <span> {{formatnumber wasted_water_oil_grease 0}}</span>
+                                </div>
+                                 <div class="flex mt-1">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_water_conductivity">ភាពចម្លងអគ្គីសនី Conductivity: </p>
+                                    <span>{{formatnumber wasted_water_conductivity 0}}</span>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="flex italic mt-2">
+                            <span>+&ensp;</span>
+                            <p class="trans" data-target="evaporation_of_gas">ការបំភាយភាគល្អិតតូចៗនៃឧស្ម៏នក្នុងខ្យល់</p>
+                        </div>
+                        <div class="ml-4 py-2">
+                            <div class=" flex mt-1">
+                                <span>-&ensp;</span>
+                                <p class="trans" data-target="wasted_air_carbon_monoxide">កាបូនម៉ូណូអុកសុីតជារបៀន​ Carbon Mono-oxide:</p>
+                                <span> {{formatnumber wasted_air_carbon_monoxide 0}}</span>
+                            </div>
+                            <div class=" flex mt-1">
+                                <span>-&ensp;</span>
+                                <p class="trans" data-target="wasted_air_nitrogen_dioxide">អាស៊ូតឌីអុកសុីត Nitrogen Dioxide:</p>
+                                <span> {{formatnumber wasted_air_nitrogen_dioxide 0}}</span>
+                            </div>
+                            <div class=" flex mt-1">
+                                <span>-&ensp;</span>
+                                <p class="trans" data-target="wasted_air_sulfur_oxide">អុកសុីតស៊ុលផួរិច Sulfuric Oxide:</p>
+                                <span> {{formatnumber wasted_air_sulfur_oxide 0}}</span>
+                                <div class="flex ml-4">
+                                    <span>-&ensp;</span>
+                                    <p class="trans" data-target="wasted_air_ozone">អូស៊ូន Ozone: </p>
+                                    <span>{{formatnumber wasted_air_ozone 0}}</span>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <span>-&ensp;</span>
+                                <p class="trans" data-target="wasted_air_lead"> សំណរ Lead:</p>
+                                <span>{{formatnumber wasted_air_lead 0}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-1">
+                    <p class="mb-2 trans" data-target="disposal_area">ទីតាំងដែលប្រើសម្រាប់បោះបង់សំណល់រឹង បង្ហូរសំណល់រាយ និងការបញ្ចេញឧស្ម័ន៖</p>
+                    <p>
+                        {{#neq dumping_location ""}}{{dumping_location}}{{else}}...............................................................................................................................{{/neq}}
+                    </p>
+                </li>
+                <li class="mt-1">
+                    <p class="mb-2 trans" data-target="sources_of_increased">ប្រភពដែលមានសម្លេង និងរំញ័រខ្ពស់កើនឡើង៖</p>
+                    <p>
+                        {{#neq noise_source ""}}{{noise_source}}{{else}}...............................................................................................................................{{/neq}}
+                    </p>
+                </li>
+                {{!-- <div style='page-break-before: always;'></div> --}}
+                <li class="pt-2">
+                    <p class="mb-2 trans" data-target="land_area">ទំហំផ្ទៃដីដែលនឹងគ្របដណ្តប់សម្រាប់ករណីចាក់ដីបំពេញ ការឈូសឆាយ និងការរានដីថ្មី៖</p>
+                    <p class="mb-2">
+                        {{#neq clearing_land ""}}{{clearing_land}}{{else}}...............................................................................................................................{{/neq}}
+                    </p>
+                </li>
+                <li class="mt-1">
+                    {{!-- <p id="residing_conditions">ស្ថានភាពស្នាក់នៅរបស់បុគ្គលិកកម្មករ៖</p> --}}
+                    <div class="flex">
+                        <p class="trans" data-target="conditions_of_employees">ស្ថានភាពស្នាក់នៅរបស់បុគ្គលិកកម្មករ</p>
+                    </div>
+                    <div class="-left-[6px] pt-2 pb-4"> <!-- Added margin to the top and bottom -->
+                        <div class="flex flex-wrap">
+                            <span>-&ensp;</span>
+                            <p class="trans" data-target="supply_of_clean_water">ផ្គត់ផ្គង់ទឹកស្អាត​៖​</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq supply_of_clean_water.keyword "public"}}</span>
+                            <p class="trans" data-target="public_water">បណ្តាញទឹកស្អាតសាធារណៈ</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq supply_of_clean_water.keyword "village"}}</span>
+                            <p class="trans" data-target="water_village">បណ្តាញទឹកស្អាតក្នុងភូមិ</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq supply_of_clean_water.keyword "other"}}</span>
+                            <p class="trans" data-target="other">ផ្សេងៗ</p>
+                        </div>
+                        <div class="flex mb-1">
+                            <span>-&ensp;</span>
+                            <p class="trans" data-target="health_safety">សុខភាព - សុវត្តិភាព៖ </p>
+                            <span>&ensp;</span>
+                            <p>{{#neq health_and_safety ""}}<span class="underline-text">{{health_and_safety}}</span>{{else}}................................................................................................{{/neq}}</p>
+                        </div>
+                        <div class="flex mb-1">
+                            <span>-&ensp;</span>
+                            <p class="trans" data-target="sanitation">អនាម័យ៖</p>
+                            <span>&ensp;</span>
+                            <p>{{#neq sanitation ""}}<span class="underline-text">{{sanitation}}</span>{{else}}.................................................................................................................{{/neq}}</p>
+                        </div>
+                         <div class="flex mb-1">
+                            <span>-&ensp;</span>
+                            <p class="trans" data-target="management_of_hard_wasted">ការគ្រប់គ្រងសំណល់រឹង៖</p>
+                            <span>&ensp;</span>
+                            <p>{{#neq management_of_hard_wasted ""}}<span class="underline-text">{{management_of_hard_wasted}}</span>{{else}}.............................................................................................{{/neq}}</p>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            {{!-- <div style='page-break-after: auto;'></div> --}}
+            <div class="flex mt-2 title-header">
+                <p class="trans font_custom font_weight_custom" data-target="d">ឃ</p>
+                <p>&ensp;&#8208;&ensp;</p>
+                <p class="trans font_custom font_weight_custom font_size_custom" data-target="information_tax">ព័ត៌មានស្តីពីពន្ធដារ</p>
+            </div>
+            
+            <p class="whitespace-pre-line mt-2 title-body pl-12 trans" data-target="form_attach_annex"> បំពេញតាមទម្រង់បែបបទ (Form) ដូចមានឧបសម្ព័ន្ធជួនភ្ជាប់។</p>
+
+            <div class="flex mt-8 title-header">
+                <p class="trans font_custom font_weight_custom" data-target="e">ង</p>
+                <p>&ensp;&#8208;&ensp;</p>
+                <p class="trans font_custom font_weight_custom font_size_custom" data-target="information_request">ព័ត៌មានសម្រាប់ការស្នើសុំការលើកទឹកចិត្តបន្ថែម</p>
+            </div>
+
+            <ul class="list-disc ml-12 p-1 title-body">
+                <li class="mt-2 space-y-2">
+                    <p class="trans" data-target="information_request_one">តើគម្រោងមានការស្រាវជ្រាវ អភិវឌ្ឃន៏ និងនវានុវត្តន៏ ដែរឬទេ?</p>
+                    <div class="space-y-2">
+                        <div class="flex">
+                            <p class="trans" data-target="yes">មាន </p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_r_and_d "1"}} </span>
+                            <span>&ensp;&ensp;&ensp;</span>
+                            <p class="trans" data-target="no">មិនមាន</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_r_and_d "0"}}</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-2 space-y-2">
+                    <p class="trans leading-6" data-target="information_request_two">តើគម្រោងវិនិយោគមានផែនការការពារអភិវឌ្ឃន៏ធនធានមនុស្សតាមរយៈការផ្តល់ការបណ្តុះបណ្តាលវិជ្ជាជីវៈ និងជំនាញដល់កម្មករនិយោជិតខ្មែរ ដែរឬទេ?​ </p>
+                    <div class="flex flex-col space-y-2">
+                        <div class="flex">
+                            <p class="trans" data-target="yes">មាន </p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_hr_development "1"}} </span>
+                            <span>&ensp;&ensp;&ensp;</span>
+                            <p class="trans" data-target="no">មិនមាន</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_hr_development "0"}}</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-2 space-y-2">
+                    <p class="trans leading-6" data-target="information_request_three">តើគម្រោងវិនិយោគមានការសាងសង់កន្លែងស្នាក់នៅ កន្លែងបរិភោគអាហារ ឬអាហារដ្ឋានដែលមានតម្លៃសមរម្យ​ ទារកដ្ឋាន និងសុខូបត្ថម្ភវត្ថុដទៃទៀតសម្រាប់កម្មករនិយោជិត ដែរឬទេ?</p>
+                    <div class="flex flex-col space-y-2">
+                       <div class="flex">
+                            <p class="trans" data-target="yes">មាន</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_build_shelter_for_worker "1"}} </span>
+                            <span>&ensp;&ensp;&ensp;</span>
+                            <p class="trans" data-target="no">មិនមាន</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_build_shelter_for_worker "0"}}</span>
+                       </div>   
+                    </div>
+                </li>
+                <li class="mt-2 space-y-2">
+                    <p class="trans" data-target="information_request_four">តើគម្រោងវិនិយោគមានការធ្វើទំនើបកម្មលើគ្រឿងម៉ាសុីនដើម្បីបម្រើឲ្យ ខ្សែច្រវាក់ផលិតកម្ម ដែរឬទេ?</p>
+                    <div class="flex flex-col space-y-2">
+                        <div class="flex">
+                            <p class="trans" data-target="yes">មាន </p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_modernize_machinery "1"}} </span>
+                            <span>&ensp;&ensp;&ensp;</span>
+                            <p class="trans" data-target="no">មិនមាន</p>
+                            <span>&ensp;</span>
+                            <span>{{ getcheckboxeq is_modernize_machinery "0"}}</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-1 space-y-2">
+                    <p class="trans" data-target="information_request_five">តើគម្រោងវិនិយោគមានការលើកកម្ពស់សុខុមាលភាព ដល់កម្មករនិយោជិតខ្មែរដូចជា ?</p>
+                    <div class="flex flex-col space-y-2">
+                        {{#each employee_benefits}}
+                            <div>
+                                {{#if (hasMatchingBenefit ../employee_benefit_select this.code)}}
+                                    ☑ {{translatelanguage this.translate ../lng}}
+                                {{else}}
+                                    ☐ {{translatelanguage this.translate ../lng}}
+                                {{/if}}
+                            </div>
+                        {{/each}}
+                    </div>
+                </li>
+            </ul>
+
+            <div class="flex mt-4 title-body pl-4">
+                <div class="flex font-semibold">
+                    <p class="trans" data-target="noted_declaration">បញ្ជាក់​<p/>
+                    <span>&ensp;</span>
+                </div>
+                <p class="trans" data-target="any_chosen_items">រាល់ចំណុចដែលបានជ្រើសរើសខាងលើ ត្រូវភ្ជាប់ឯកសារគាំទ្រមកជាមួយ។</p>
+            </div>
+            
+
+            <div class="flex pt-5 title-body leading-6">
+                <div class="flex w-[110px] title-header">
+                    <span>&#8546;-</span>
+                    <p class="trans font_custom font_weight_custom font_size_custom" data-target="declaration">ការធានា៖</p>
+                    <span>&ensp;</span>
+                </div>
+                <p class="trans" data-target="mean_declaration">ក្នុងនាមជាម្ចាស់គម្រោងសូមធានាអះអាងថា ព័ត៌មានខាងលើនេះ គឺពិតជាត្រឹមត្រូវ ដោយមិនមានចេតនា ក្លែងបន្លំឡើយ។</p>
+            </div>
+            <div class="flex justify-end mt-9 mr-12 title-body">
+                <div >
+                    <p class="text-center trans" data-target="date">ធ្វើនៅថ្ងៃទី................ខែ....................ឆ្នាំ..............</p>
+                    <p class="text-center mt-3 title-header trans font_custom font_weight_custom font_size_custom" data-target="council">ប្រធានក្រុមប្រឹក្សាភិបាល</p>
+                    <p class="text-center mt-1 trans" data-target="signature">( ហត្ថលេខា )</p>
+                    <p class="text-center mt-20 title-header">{{translatelanguage investor_salute.translate lng}} {{ investor_name }}</p>
+                </div>
+            </div>
+        </main>
+
+        {{!-- Javascript --}}
+        <script>
+            
+            const translateLanguage = {
+                "cambodia": {
+                    "en": "KINGDOM OF CAMBODIA",
+                    "cn": "KINGDOM OF CAMBODIA",
+                    "jp": "KINGDOM OF CAMBODIA",
+                    "kr": "KINGDOM OF CAMBODIA",
+                    "km": "ព្រះរាជាណាចក្រកម្ពុជា"
+                },
+                "nation_religion_king": {
+                    "en": "Nation  Religion  King",
+                    "cn": "Nation  Religion  King",
+                    "jp": "Nation  Religion  King",
+                    "kr": "Nation  Religion  King",
+                    "km": "ជាតិ សាសនា​​ ព្រះមហាក្សត្រ"
+                },
+                "register": {
+                    "en": "Application for Investment in Cambodia",
+                    "cn": "Application for Investment in Cambodia",
+                    "jp": "Application for Investment in Cambodia",
+                    "kr": "Application for Investment in Cambodia",
+                    "km": "ពាក្យសុំចុះបញ្ជីគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់"
+                },
+                "structure_company": {
+                    "en": "Structure of Company",
+                    "cn": "Structure of Company",
+                    "jp": "Structure of Company",
+                    "kr": "Structure of Company",
+                    "km": "រចនាសម្ព័ន្ធក្រុមហ៊ុន"
+                },
+                "general_info": {
+                    "en": "General Information",
+                    "cn": "General Information",
+                    "jp": "General Information",
+                    "kr": "General Information",
+                    "km": "ព័ត៌មានទូទៅ"
+                },
+                "cdc":{
+                    "en":"The Council for Development of Cambodia",
+                    "cn":"The Council for Development of Cambodia",
+                    "jp":"The Council for Development of Cambodia",
+                    "kr":"The Council for Development of Cambodia",
+                    "km":"ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា"
+                },
+                "cambodia_investement_board":{
+                    "en":"Cambodia Investment Board",
+                    "cn":"Cambodia Investment Board",
+                    "jp":"Cambodia Investment Board",
+                    "kr":"Cambodia Investment Board",
+                    "km":'គណៈកម្មាធិការវិនិយោគកម្ពុជា'
+                },
+                "a":{
+                    "en":"A",
+                    "cn":"A",
+                    "jp":"A",
+                    "kr":"A",
+                    "km":'ក'
+                },
+                "company_name":{
+                    "en":"Name of company : ",
+                    "cn":"Name of company : ",
+                    "jp":"Name of company : ",
+                    "kr":"Name of company : ",
+                    "km":"ឈ្មោះក្រុមហ៊ុន ៖"
+                },
+                "as_khmer":{
+                    "en":"in Khmer :",
+                    "cn":"in Khmer :",
+                    "jp":"in Khmer :",
+                    "kr":"in Khmer :",
+                    "km":"ជាភាសាខ្មែរ​ ៖"
+                },
+                "as_english":{
+                    "en":"in Latin characters :",
+                    "cn":"in Latin characters :",
+                    "jp":"in Latin characters :",
+                    "kr":"in Latin characters :",
+                    "km":"ជាអក្សរឡាតាំង ៖​​"
+                },
+                "address":{
+                    "en":"Address",
+                    "cn":"Address",
+                    "jp":"Address",
+                    "kr":"Address",
+                    "km":"អាសយដ្ឋាន"
+                },
+                "address_location":{
+                    "en":"Address",
+                    "cn":"Address",
+                    "jp":"Address",
+                    "kr":"Address",
+                    "km":"អាសយដ្ឋាន ៖"
+                },
+                "parent_company":{
+                    "en":"Name of Parent Company:",
+                    "cn":"Name of Parent Company:",
+                    "jp":"Name of Parent Company:",
+                    "kr":"Name of Parent Company:",
+                    "km":"ក្រុមហ៊ុន​មេឈ្មោះ ៖"
+                },
+                "reg_capital":{
+                    "en":"Registered capital :",
+                    "cn":"Registered capital :",
+                    "jp":"Registered capital :",
+                    "kr":"Registered capital :",
+                    "km":"ទុនចុះបញ្ចី ៖"
+                },
+                "dollar":{
+                    "en":"USD",
+                    "cn":"USD",
+                    "jp":"USD",
+                    "kr":"USD",
+                    "km":"ដុល្លារ"
+                },
+                "foreign":{
+                    "en":"Foreign",
+                    "cn":"Foreign",
+                    "jp":"Foreign",
+                    "kr":"Foreign",
+                    "km":"បរទេស​"
+                },
+                "local":{
+                    "en":"Local",
+                    "cn":"Local",
+                    "jp":"Local",
+                    "kr":"Local",
+                    "km":"ក្នុងស្រុក"
+                },
+                "number_of_shares":{
+                    "en":"Number of shares :",
+                    "cn":"Number of shares :",
+                    "jp":"Number of shares :",
+                    "kr":"Number of shares :",
+                    "km":"ចំនួនភាគហ៊ុន ៖"
+                },
+                "share_per_value":{
+                    "en":"Share per value : ",
+                    "cn":"Share per value : ",
+                    "jp":"Share per value : ",
+                    "kr":"Share per value : ",
+                    "km":"តម្លៃក្នុង១ភាគហ៊ុន ៖"
+                },
+                "composition_of_company":{
+                    "en":"Composition of Company",
+                    "cn":"Composition of Company",
+                    "jp":"Composition of Company",
+                    "kr":"Composition of Company",
+                    "km":"សមាសភាពក្រុមហ៊ុន"
+                },
+                "share_holder":{
+                    "en":"Shareholder",
+                    "cn":"Shareholder",
+                    "jp":"Shareholder",
+                    "kr":"Shareholder",
+                    "km":"ម្ចាស់ភាគហ៊ុន ៖"
+                },
+                "b":{
+                    "en":"B",
+                    "cn":"B",
+                    "jp":"B",
+                    "kr":"B",
+                    "km":"ខ"
+                },
+                // share holder 
+                "fullname":{
+                    "en":"Full Name",
+                    "cn":"Full Name",
+                    "jp":"Full Name",
+                    "kr":"Full Name",
+                    "km":"នាមត្រកូល​ និងនាមខ្លួន"
+                },
+                "national":{
+                    "en":"Nationality",
+                    "cn":"Nationality",
+                    "jp":"Nationality",
+                    "kr":"Nationality",
+                    "km":"សញ្ជាតិ "
+                },
+                "national_investor":{
+                    "en":"Nationality",
+                    "cn":"Nationality",
+                    "jp":"Nationality",
+                    "kr":"Nationality",
+                    "km":"សញ្ជាតិ:"
+                }
+                ,
+                "number_date_passport":{
+                    "en":"Number and Date or Passport",
+                    "cn":"Number and Date or Passport",
+                    "jp":"Number and Date or Passport",
+                    "kr":"Number and Date or Passport",
+                    "km":"លេខ​ និងកាលវិច្ឆេទ លិខិត ឆ្លងដែន"
+                },
+                "address_share":{
+                    "en":"Address",
+                    "cn":"Address",
+                    "jp":"Address",
+                    "kr":"Address",
+                    "km":"អាសយដ្ឋាន​​​​"
+                },
+                "percentage":{
+                    "en":"Percentage of shares %",
+                    "cn":"Percentage of shares %",
+                    "jp":"Percentage of shares %",
+                    "kr":"Percentage of shares %",
+                    "km":"អត្រាភាគហ៊ុន%"
+                },
+                "note":{
+                    "en":"Note",
+                    "cn":"Note",
+                    "jp":"Note",
+                    "kr":"Note",
+                    "km":"កំណត់សម្គាល់​៖"
+                },
+                "mean_of_note":{
+                    "en":"Company includes private limited company, public limited company, and single member private limited company.",
+                    "cn":"Company includes private limited company, public limited company, and single member private limited company.",
+                    "jp":"Company includes private limited company, public limited company, and single member private limited company.",
+                    "kr":"Company includes private limited company, public limited company, and single member private limited company.",
+                    "km":"ក្រុមហ៊ុនមូលធន រួមមាន​ក្រុមហ៊ុនឯកជនទទួលខុសត្រូវមានកម្រិតក្រុមហ៊ុនមហាជនទទួលខុសត្រូវមានកម្រិត និងសហគ្រាសឯកបុគ្គលខុសត្រូវមានកម្រិត"
+                },
+                "form_of_company":{
+                    "en":"Form of Company",
+                    "cn":"Form of Company",
+                    "jp":"Form of Company",
+                    "kr":"Form of Company",
+                    "km":"ទ្រង់ទ្រាយក្រុមហ៊ុន​៖​"
+                },
+                "tick":{
+                    "en":"please tick",
+                    "cn":"please tick",
+                    "jp":"please tick",
+                    "kr":"please tick",
+                    "km":"សូមគូស"
+                },
+                "in_the_box":{
+                    "en":"in the box",
+                    "cn":"in the box",
+                    "jp":"in the box",
+                    "kr":"in the box",
+                    "km":"ក្នុង​ប្រអប់"
+                },
+                "corporation":{
+                    "en":"Corporation",
+                    "cn":"Corporation",
+                    "jp":"Corporation",
+                    "kr":"Corporation",
+                    "km":"ក្រុមហ៊ុនមូលធន"
+                },
+                "partnership":{
+                    "en":"Partnership",
+                    "cn":"Partnership",
+                    "jp":"Partnership",
+                    "kr":"Partnership",
+                    "km":"ក្រុមហ៊ុនសហកម្មសិទ្ធិ"
+                },
+                "foreign_commercial_company":{
+                    "en":"Foreign Commercial Company",
+                    "cn":"Foreign Commercial Company",
+                    "jp":"Foreign Commercial Company",
+                    "kr":"Foreign Commercial Company",
+                    "km":"ក្រុមហ៊ុនពាណិជ្ជកម្មបរទេស"
+                },
+                "composition_of_board_member":{
+                    "en":"Composition of the Board of Directors (including third party)",
+                    "cn":"Composition of the Board of Directors (including third party)",
+                    "jp":"Composition of the Board of Directors (including third party)",
+                    "kr":"Composition of the Board of Directors (including third party)",
+                    "km":"សមាសភាពក្រុមប្រឹក្សាភិបាល (រួមទំាងតតិយជន) ៖"
+                },
+                "fullname_member_borad":{
+                    "en":"Full Name",
+                    "cn":"Full Name",
+                    "jp":"Full Name",
+                    "kr":"Full Name",
+                    "km":"នាមត្រកូល​ និងនាមខ្លួន"
+                },
+                "national_member_board":{
+                    "en":"Nationlity",
+                    "cn":"Nationlity",
+                    "jp":"Nationlity",
+                    "kr":"Nationlity",
+                    "km":"សញ្ជាតិ"
+                },
+                "number_date_board_member":{
+                    "en":"Number and Date of ID Card or Passport",
+                    "cn":"Number and Date of ID Card or Passport",
+                    "jp":"Number and Date of ID Card or Passport",
+                    "kr":"Number and Date of ID Card or Passport",
+                    "km":"លេខ​ និងកាលវិច្ឆេទ អត្តសញ្ញាណប័ណ្ណ ឬលិខិត ឆ្លងដែន"
+                },
+                "address_board_memer":{
+                    "en":"Address",
+                    "cn":"Address",
+                    "jp":"Address",
+                    "kr":"Address",
+                    "km":"អាសយដ្ឋាន​​​​"
+                },
+                "role_board_member":{
+                    "en":"Role in Company",
+                    "cn":"Role in Company",
+                    "jp":"Role in Company",
+                    "kr":"Role in Company",
+                    "km":"តួនាទីក្នុង ក្រុមហ៊ុន"
+                } ,
+                "authorized_borad_member":{
+                    "en":"Authorized signatory for all acts",
+                    "cn":"Authorized signatory for all acts",
+                    "jp":"Authorized signatory for all acts",
+                    "kr":"Authorized signatory for all acts",
+                    "km":"អ្នកដែលមានសិទ្ធិ ចុះហត្ថលេខា សម្រាប់កិច្ចការ"
+                },
+                "registration_investment_Project":{
+                    "en":"Request for Registration of an Investment Project",
+                    "cn":"Request for Registration of an Investment Project",
+                    "jp":"Request for Registration of an Investment Project",
+                    "kr":"Request for Registration of an Investment Project",
+                    "km":"ពាក្យស្នើសុំវិនិយោគ"
+                },
+                "genernal_investment":{
+                    "en":"General Information",
+                    "cn":"General Information",
+                    "jp":"General Information",
+                    "kr":"General Information",
+                    "km":"ព័ត៌មានទូទៅ"
+                },
+                "investment_activities":{
+                    "en":"Investment activities :",
+                    "cn":"Investment activities :",
+                    "jp":"Investment activities :",
+                    "kr":"Investment activities :",
+                    "km":"មុខសញ្ញាវិនិយោគ ៖"
+                },
+                "foreign":{
+                    "en":"Foreign",
+                    "cn":"Foreign",
+                    "jp":"Foreign",
+                    "kr":"Foreign",
+                    "km":"បរទេស"
+                },
+                "investment_sector":{
+                    "en":"Investment Sector :",
+                    "cn":"Investment Sector :",
+                    "jp":"Investment Sector :",
+                    "kr":"Investment Sector :",
+                    "km":"វិស័យវិនិយោគ ៖"
+                },
+                "other":{
+                    "en":"Others",
+                    "cn":"Others",
+                    "jp":"Others",
+                    "kr":"Others",
+                    "km":"ផ្សេងៗ ​៖​"
+                },
+                "applicant_for_investment":{
+                    "en":"Applicant for Investment",
+                    "cn":"Applicant for Investment",
+                    "jp":"Applicant for Investment",
+                    "kr":"Applicant for Investment",
+                    "km":"អ្នកដាក់ពាក្យសុំវិនិយោគ"
+                },
+                "name":{
+                    "en":"Name :",
+                    "cn":"Name :",
+                    "jp":"Name :",
+                    "kr":"Name :",
+                    "km":"ឈ្មោះ ៖"
+                },
+                "phone_number":{
+                    "en":"Phone Number :",
+                    "cn":"Phone Number :",
+                    "jp":"Phone Number :",
+                    "kr":"Phone Number :",
+                    "km":"ទូរស័ព្ទ ៖"
+                },
+                "email":{
+                    "en":"Email :",
+                    "cn":"Email :",
+                    "jp":"Email :",
+                    "kr":"Email :",
+                    "km":"អុីម៉ែល ៖"
+                },
+                "role_in_company":{
+                    "en":"Role in Company : ",
+                    "cn":"Role in Company : ",
+                    "jp":"Role in Company : ",
+                    "kr":"Role in Company : ",
+                    "km":"តួនាទីក្នុងក្រុមហ៊ុន ៖"
+                }
+                ,
+                "power_of_attorney":{
+                    "en":"Power of Attorney ",
+                    "cn":"Power of Attorney ",
+                    "jp":"Power of Attorney ",
+                    "kr":"Power of Attorney ",
+                    "km":"លិខិតប្រគល់សិទ្ធិ"
+                }
+                ,
+                "no_role_company":{
+                    "en":"(if no role/duty in a company) :",
+                    "cn":"(if no role/duty in a company) :",
+                    "jp":"(if no role/duty in a company) :",
+                    "kr":"(if no role/duty in a company) :",
+                    "km":"(បើសិនមិនមានតួនាទីក្នុងក្រុមហ៊ុន) ៖"
+                }
+                ,
+                "number":{
+                    "en":"Number",
+                    "cn":"Number",
+                    "jp":"Number",
+                    "kr":"Number",
+                    "km":"លេខ"
+                }
+                ,
+                "total_investment_capital":{
+                    "en":"Total Investment Capital :",
+                    "cn":"Total Investment Capital :",
+                    "jp":"Total Investment Capital :",
+                    "kr":"Total Investment Capital :",
+                    "km":"ទុនវិនិយោគសរុប ៖"
+                },
+                "capital_spent_on":{
+                    "en":"in which capital spent on",
+                    "cn":"in which capital spent on",
+                    "jp":"in which capital spent on",
+                    "kr":"in which capital spent on",
+                    "km":"ក្នុងនោះទុនលើ ៖"
+                },
+                "site_preparation":{
+                    "en":"Site Preparation :",
+                    "cn":"Site Preparation :",
+                    "jp":"Site Preparation :",
+                    "kr":"Site Preparation :",
+                    "km":"រៀបចំការដ្ឋាន ៖"
+                }
+                ,
+                "price":{
+                    "en":"Price",
+                    "cn":"Price",
+                    "jp":"Price",
+                    "kr":"Price",
+                    "km":"តម្លៃ"
+                },
+                "building_construction":{
+                    "en":"Building Construction :",
+                    "cn":"Building Construction :",
+                    "jp":"Building Construction :",
+                    "kr":"Building Construction :",
+                    "km":"សំណង់អាគារ ៖"
+                },
+                "new_building":{
+                    "en":"New building :",
+                    "cn":"New building :",
+                    "jp":"New building :",
+                    "kr":"New building :",
+                    "km":"អាគារថ្មី"
+                },
+                "old_building":{
+                    "en":"Existing building ",
+                    "cn":"Existing building ",
+                    "jp":"Existing building ",
+                    "kr":"Existing building ",
+                    "km":"សំណង់អាគារ"
+                },
+                "production_equipment_price":{
+                    "en":"Production Equipment  Price",
+                    "cn":"Production Equipment  Price",
+                    "jp":"Production Equipment  Price",
+                    "kr":"Production Equipment  Price",
+                    "km":"សម្ភារៈបរិក្ខារផលិតកម្ម តម្លៃ"
+                },
+                "the_list_is_attached_in_the_annex":{
+                    "en":"(the list is attached in the annex)",
+                    "cn":"(the list is attached in the annex)",
+                    "jp":"(the list is attached in the annex)",
+                    "kr":"(the list is attached in the annex)",
+                    "km":"(មានបញ្ជីជូនភ្ជាប់តាមទម្រង់ដូចមានចែងក្នុង ឧបសម្ព័ន្ធ)"
+                },
+                "office_price":{
+                    "en":"Office costs :",
+                    "cn":"Office costs :",
+                    "jp":"Office costs :",
+                    "kr":"Office costs :",
+                    "km":"ការិយាល័យ តម្លៃ ៖"
+                },
+                "other_price":{
+                    "en":"Other costs :",
+                    "cn":"Other costs :",
+                    "jp":"Other costs :",
+                    "kr":"Other costs :",
+                    "km":"ផ្សេងៗ តម្លៃ ៖"
+                },
+                "working_capital":{
+                    "en":"Working Capital",
+                    "cn":"Working Capital",
+                    "jp":"Working Capital",
+                    "kr":"Working Capital",
+                    "km":"ទុនបង្វិល"
+                },
+                "source_of_investment_capital":{
+                    "en":"Source of Investment Capital",
+                    "cn":"Source of Investment Capital",
+                    "jp":"Source of Investment Capital",
+                    "kr":"Source of Investment Capital",
+                    "km":"ប្រភពទុនវិនិយោគ"
+                },
+                "own_capital":{
+                    "en":"Own Capital :",
+                    "cn":"Own Capital :",
+                    "jp":"Own Capital :",
+                    "kr":"Own Capital :",
+                    "km":"ទន់ផ្ទាល់ ៖"
+                },
+                "local_loan":{
+                    "en":"Local Loan :",
+                    "cn":"Local Loan :",
+                    "jp":"Local Loan :",
+                    "kr":"Local Loan :",
+                    "km":"ឥណទានក្នុងស្រុក ៖"
+                }
+                ,
+                "foreign_loan":{
+                    "en":"Foreign Loan :",
+                    "cn":"Foreign Loan :",
+                    "jp":"Foreign Loan :",
+                    "kr":"Foreign Loan :",
+                    "km":"ឥណទានបរទេស ៖"
+                }
+                ,
+                "investment_location":{
+                    "en":"Investment Location",
+                    "cn":"Investment Location",
+                    "jp":"Investment Location",
+                    "kr":"Investment Location",
+                    "km":"ទីតាំងវិនិយោគ ៖"
+                }
+                ,
+                "schedule_for_project_implementation":{
+                    "en":"Schedule for Project Implementation :",
+                    "cn":"Schedule for Project Implementation :",
+                    "jp":"Schedule for Project Implementation :",
+                    "kr":"Schedule for Project Implementation :",
+                    "km":"កម្មវិធីអនុវត្តគម្រោង ៖"
+                },
+                "construction_start_datetime":{
+                    "en":"Construction commencement date",
+                    "cn":"Construction commencement date",
+                    "jp":"Construction commencement date",
+                    "kr":"Construction commencement date",
+                    "km":"ចាប់ផ្តើមរៀបចំ៖ "
+                },
+                "construction_end_datetime":{
+                    "en":"Expected construction completion date :",
+                    "cn":"Expected construction completion date :",
+                    "jp":"Expected construction completion date :",
+                    "kr":"Expected construction completion date :",
+                    "km":"ព្យាករណ៏បញ្ចប់ការរៀបចំ៖ "
+                }
+                ,
+                "machinery_installation_date":{
+                    "en":"Machinery installation date :",
+                    "cn":"Machinery installation date :",
+                    "jp":"Machinery installation date :",
+                    "kr":"Machinery installation date :",
+                    "km":"ពេលបំពាក់គ្រឿងម៉ាសុីន៖ "
+                }
+                ,
+                "production_commencement_date":{
+                    "en":"Production commencement date",
+                    "cn":"Production commencement date",
+                    "jp":"Production commencement date",
+                    "kr":"Production commencement date",
+                    "km":"ចាប់ផ្តើមដំណើរការផលិតកម្ម៖"
+                }
+                ,
+                "product_information":{
+                    "en":"Product Information",
+                    "cn":"Product Information",
+                    "jp":"Product Information",
+                    "kr":"Product Information",
+                    "km":"ព័ត៌មានស្តីពីផលិតកម្ម​"
+                }
+                ,
+                "product_type":{
+                    "en":"Product Information",
+                    "cn":"Product Information",
+                    "jp":"Product Information",
+                    "kr":"Product Information",
+                    "km":"ប្រភេទផលិតផល"
+                },
+                "hs_code":{
+                    "en":"HS Code",
+                    "cn":"HS Code",
+                    "jp":"HS Code",
+                    "kr":"HS Code",
+                    "km":"HS Code"
+                },
+                "unit":{
+                    "en":"Unit",
+                    "cn":"Unit",
+                    "jp":"Unit",
+                    "kr":"Unit",
+                    "km":"ឯកតា"
+                },
+                "annual_production_capacity":{
+                    "en":"Annua Production Capacity",
+                    "cn":"Annua Production Capacity",
+                    "jp":"Annua Production Capacity",
+                    "kr":"Annua Production Capacity",
+                    "km":"សមត្ថភាពផលិតប្រចំាឆ្នាំ"
+                }
+                ,
+                "market":{
+                    "en":"Market",
+                    "cn":"Market",
+                    "jp":"Market",
+                    "kr":"Market",
+                    "km":"ទីផ្សារ"
+                }
+                ,
+                "first_year":{
+                    "en":"1st Year",
+                    "cn":"1st Year",
+                    "jp":"1st Year",
+                    "kr":"1st Year",
+                    "km":"ឆ្នំាដំបូង"
+                }
+                ,
+                "full_product":{
+                    "en":"Full Production",
+                    "cn":"Full Production",
+                    "jp":"Full Production",
+                    "kr":"Full Production",
+                    "km":"ពេញផលិតកម្ម"
+                },
+                "quantity":{
+                    "en":"Quantity",
+                    "cn":"Quantity",
+                    "jp":"Quantity",
+                    "kr":"Quantity",
+                    "km":"បរិមាណ"
+                },
+                "price_product":{
+                    "en":"Price",
+                    "cn":"Price",
+                    "jp":"Price",
+                    "kr":"Price",
+                    "km":"តម្លៃ (USD)"
+                },
+                "export":{
+                    "en":"Export",
+                    "cn":"Export",
+                    "jp":"Export",
+                    "kr":"Export",
+                    "km":"នាំចេញ %"
+                },
+                "type_of_labor":{
+                    "en":"Type of Labor",
+                    "cn":"Type of Labor",
+                    "jp":"Type of Labor",
+                    "kr":"Type of Labor",
+                    "km":"ប្រភេទពលកម្ម"
+                }
+                ,
+                "commencement":{
+                    "en":"Commencement",
+                    "cn":"Commencement",
+                    "jp":"Commencement",
+                    "kr":"Commencement",
+                    "km":"ពេលចាប់ផ្តើម"
+                }
+                ,
+                "full_capacity":{
+                    "en":"Full Capacity",
+                    "cn":"Full Capacity",
+                    "jp":"Full Capacity",
+                    "kr":"Full Capacity",
+                    "km":"ពេលពេញសមត្ថភាព"
+                },
+                "requirement_of_annual":{
+                    "en":"Requirement of annual production input (raw materials): fill in the form as attached in the annex.",
+                    "cn":"Requirement of annual production input (raw materials): fill in the form as attached in the annex.",
+                    "jp":"Requirement of annual production input (raw materials): fill in the form as attached in the annex.",
+                    "kr":"Requirement of annual production input (raw materials): fill in the form as attached in the annex.",
+                    "km":"តម្រូវការធាតុចូលផលិតកម្ម​ (វត្ថុធាតុដើម) ប្រចាំឆ្នាំ៖ បំពេញតាមទម្រង់ដូចមានចែងក្នុងឧបសម្ព័ន្ធភ្ជាប់មកជាមួយ។"
+                }
+                ,
+                "requirement_of_water":{
+                    "en":"Requirement of energy and water :",
+                    "cn":"Requirement of energy and water :",
+                    "jp":"Requirement of energy and water :",
+                    "kr":"Requirement of energy and water :",
+                    "km":"តម្រូវការថាមពល និងទឹក ៖"
+                }
+                ,
+                "coal_or_firewood":{
+                    "en":"Coal or Firewood :",
+                    "cn":"Coal or Firewood :",
+                    "jp":"Coal or Firewood :",
+                    "kr":"Coal or Firewood :",
+                    "km":"ធ្យូងថ្ម​ ឬអូសប្រចាំឆ្នាំ ៖"
+                },
+                "gas":{
+                    "en":"Gas :",
+                    "cn":"Gas :",
+                    "jp":"Gas :",
+                    "kr":"Gas :",
+                    "km":"ឧស្ម័ន ៖"
+                },
+                "ton_year":{
+                    "en": "Tons/year",
+                    "cn": "Tons/year",
+                    "jp": "Tons/year",
+                    "kr": "Tons/year",
+                    "km":"តោន/ឆ្នាំ"
+                },
+                "tons":{
+                    "en": "Tons",
+                    "cn": "Tons",
+                    "jp": "Tons",
+                    "kr": "Tons",
+                    "km":"តោន"
+                },
+                "fuel":{
+                    "en":"Fuel",
+                    "cn":"Fuel",
+                    "jp":"Fuel",
+                    "kr":"Fuel",
+                    "km":"ប្រេងឥន្ធនៈ ៖"
+                },
+                "electricity":{
+                    "en":"Electricity (installed capacity)",
+                    "cn":"Electricity (installed capacity)",
+                    "jp":"Electricity (installed capacity)",
+                    "kr":"Electricity (installed capacity)",
+                    "km":"អគ្គិសនី (អនុភាពតម្លើង)៖"
+                },
+                "requirement":{
+                    "en":"requirement",
+                    "cn":"requirement",
+                    "jp":"requirement",
+                    "kr":"requirement",
+                    "km":"តម្រូវការប្រចាំឆ្នាំ៖"
+                },
+                "water_consumption":{
+                    "en":"Water consumption",
+                    "cn":"Water consumption",
+                    "jp":"Water consumption",
+                    "kr":"Water consumption",
+                    "km":"ប្រើប្រាស់ទឺក ៖"
+                },
+                "option":{
+                    "en":"Option :",
+                    "cn":"Option :",
+                    "jp":"Option :",
+                    "kr":"Option :",
+                    "km":"ការជ្រើសរើសរវាង ៖"
+                }
+                ,
+                "special_investment":{
+                    "en":"pecial depreciation and investment guarantees.",
+                    "cn":"pecial depreciation and investment guarantees.",
+                    "jp":"pecial depreciation and investment guarantees.",
+                    "kr":"pecial depreciation and investment guarantees.",
+                    "km":"រំលស់ពិសេស និងការធានាលើការវិនិយោគ"
+                }
+                ,
+                "income_investment":{
+                    "en":" income tax exemption and investment guarantees.",
+                    "cn":" income tax exemption and investment guarantees.",
+                    "jp":" income tax exemption and investment guarantees.",
+                    "kr":" income tax exemption and investment guarantees.",
+                    "km":"ការលើកលែងពន្ធលើប្រាកចំណេញ និងការធានាលើការវិនិយោគ"
+                }
+                ,
+                "two_options":{
+                    "en":"(The investors can only select one of the two options listed above.) ",
+                    "cn":"(The investors can only select one of the two options listed above.) ",
+                    "jp":"(The investors can only select one of the two options listed above.) ",
+                    "kr":"(The investors can only select one of the two options listed above.) ",
+                    "km":"(ក្នុងចំណោមជម្រើសទាងពីរខាងលើនេះវិនិយោគិនមានសិទ្ធិជ្រើសរើសបានតែមួយប៉ុណ្ណោះ)"
+                }
+                ,
+                "information_on_environment":{
+                    "en":"Information on Environment",
+                    "cn":"Information on Environment",
+                    "jp":"Information on Environment",
+                    "kr":"Information on Environment",
+                    "km":"ព័ត៌មានស្តីពីបរិស្ថាន"
+                }
+                ,
+                "c":{
+                    "en":"C",
+                    "cn":"C",
+                    "jp":"C",
+                    "kr":"C",
+                    "km":"គ"
+                }
+                ,
+                "mode_of_transport":{
+                    "en":"Mode of transport of the raw materials and finished products (import-export) from-to the investment area:",
+                    "cn":"Mode of transport of the raw materials and finished products (import-export) from-to the investment area:",
+                    "jp":"Mode of transport of the raw materials and finished products (import-export) from-to the investment area:",
+                    "kr":"Mode of transport of the raw materials and finished products (import-export) from-to the investment area:",
+                    "km":"រូបភាពនៃការដឹកជញ្ចូនវត្ថុធាតដើម និងផលិតផលសម្រេចចេញ-ចូល ទីតាំងវិនិយោគ"
+                }
+                ,
+                "waste_volume_estimation":{
+                    "en":"Waste volume estimation :",
+                    "cn":"Waste volume estimation :",
+                    "jp":"Waste volume estimation :",
+                    "kr":"Waste volume estimation :",
+                    "km":"ប៉ាន់ស្មានកាកសំណល់ ៖ "
+                }
+                ,
+                "liquid_waste":{
+                    "en":"Liquid waste :",
+                    "cn":"Liquid waste :",
+                    "jp":"Liquid waste :",
+                    "kr":"Liquid waste :",
+                    "km":"សំណល់រាវ ៖"
+                }
+                ,
+                "solid_waste":{
+                    "en":"Solid waste :",
+                    "cn":"Solid waste :",
+                    "jp":"Solid waste :",
+                    "kr":"Solid waste :",
+                    "km":"សំណល់រឹង ៖"
+                }
+                ,
+                "gas_emission":{
+                    "en":"Gas emission",
+                    "cn":"Gas emission",
+                    "jp":"Gas emission",
+                    "kr":"Gas emission",
+                    "km":"ឧស្ម័នដែលត្រូវបញ្ចេញ​"
+                }
+                ,
+                "concentration_estimation_table_in":{
+                    "en":"Concentration estimation table in",
+                    "cn":"Concentration estimation table in",
+                    "jp":"Concentration estimation table in",
+                    "kr":"Concentration estimation table in",
+                    "km":"តារាងប៉ាន់ស្មាននៃកំហាប់ក្នុង​៖​"
+                }
+                ,
+                "process_of_liquid":{
+                    "en":"the process of liquid waste/sewage discharge",
+                    "cn":"the process of liquid waste/sewage discharge",
+                    "jp":"the process of liquid waste/sewage discharge",
+                    "kr":"the process of liquid waste/sewage discharge",
+                    "km":"ដំណើរការបញ្ចេញទឹកស្អុយ​៖​"
+                },
+                // chemistry
+                "nitrate_nitrogen":{
+                    "en":"Nitrate Nitrogen :",
+                    "cn":"Nitrate Nitrogen :",
+                    "jp":"Nitrate Nitrogen :",
+                    "kr":"Nitrate Nitrogen :",
+                    "km":"នីត្រាតអាស៊ូត Nitrate Nitrogen:"
+                },
+                "phenol":{
+                    "en":"Phenol :",
+                    "cn":"Phenol :",
+                    "jp":"Phenol :",
+                    "kr":"Phenol :",
+                    "km":"ផេណុល Phenol"
+                },
+                "turbidity":{
+                    "en":"Turbidity :",
+                    "cn":"Turbidity :",
+                    "jp":"Turbidity :",
+                    "kr":"Turbidity :",
+                    "km":"ភាពល្អក់ Turbidity:"
+                },
+                "wasted_water_total_silted":{
+                    "en":"Total hard substance disssolved in water :",
+                    "cn":"Total hard substance disssolved in water :",
+                    "jp":"Total hard substance disssolved in water :",
+                    "kr":"Total hard substance disssolved in water :",
+                    "km":"ចំនួនសរុបនៃសារធាតុរឹងដែលរងកករចុះទៅក្នុងទឹក :"
+                }
+                ,
+                "wasted_water_total_dissolved":{
+                    "en":"Total number of hard substance dissolved in water :",
+                    "cn":"Total number of hard substance dissolved in water :",
+                    "jp":"Total number of hard substance dissolved in water :",
+                    "kr":"Total number of hard substance dissolved in water :",
+                    "km":"ចំនួនសរុបនៃសារធាតុរឹងដែលរលាយក្នុងទឹក :"
+                }
+                ,
+                "wasted_water_amonia":{
+                    "en":"Ammonia :",
+                    "cn":"Ammonia :",
+                    "jp":"Ammonia :",
+                    "kr":"Ammonia :",
+                    "km":"អាម៉ូញ្ញាក់​ Ammonia"
+                }
+                ,
+                "wasted_water_havy_metal":{
+                    "en":"Heavy Metal :",
+                    "cn":"Heavy Metal :",
+                    "jp":"Heavy Metal :",
+                    "kr":"Heavy Metal :",
+                    "km":"លោហៈធ្ងន់ Heavy Mental :"
+                }
+                ,
+                "wasted_water_oil_grease":{
+                    "en":"Oil and grease : ",
+                    "cn":"Oil and grease : ",
+                    "jp":"Oil and grease : ",
+                    "kr":"Oil and grease : ",
+                    "km":"ប្រេង និងខ្លាញ់ Oil and Grease:"
+                }
+                ,
+                "wasted_water_conductivity":{
+                    "en":"Conductivity : ",
+                    "cn":"Conductivity : ",
+                    "jp":"Conductivity : ",
+                    "kr":"Conductivity : ",
+                    "km":"ភាពចម្លងអគ្គីសនី Conductivity:"
+                }
+                ,
+                "evaporation_of_gas":{
+                    "en":"Evaporation of gas and molecules in air",
+                    "cn":"Evaporation of gas and molecules in air",
+                    "jp":"Evaporation of gas and molecules in air",
+                    "kr":"Evaporation of gas and molecules in air",
+                    "km":"ការបំភាយភាគល្អិតតូចៗនៃឧស្ម៏នក្នុងខ្យល់"
+                }
+                ,
+                "wasted_air_carbon_monoxide":{
+                    "en":"Carbon Monoxide :",
+                    "cn":"Carbon Monoxide :",
+                    "jp":"Carbon Monoxide :",
+                    "kr":"Carbon Monoxide :",
+                    "km":"កាបូនម៉ូណូអុកសុីតជារបៀន​ Carbon Mono-oxide:"
+                }
+                ,
+                "wasted_air_nitrogen_dioxide":{
+                    "en":"Nitrogen Dioxide :",
+                    "cn":"Nitrogen Dioxide :",
+                    "jp":"Nitrogen Dioxide :",
+                    "kr":"Nitrogen Dioxide :",
+                    "km":"អាស៊ូតឌីអុកសុីត Nitrogen Dioxide:"
+                }
+                ,
+                "wasted_air_sulfur_oxide":{
+                    "en":"Sulfur Dioxide :",
+                    "cn":"Sulfur Dioxide :",
+                    "jp":"Sulfur Dioxide :",
+                    "kr":"Sulfur Dioxide :",
+                    "km":"អុកសុីតស៊ុលផួរិច Sulfuric Oxide:"
+                }
+                ,
+                "wasted_air_ozone":{
+                    "en":"Ozone :",
+                    "cn":"Ozone :",
+                    "jp":"Ozone :",
+                    "kr":"Ozone :",
+                    "km":"អូស៊ូន Ozone:"
+                },
+                "wasted_air_lead":{
+                    "en":"Lead :",
+                    "cn":"Lead :",
+                    "jp":"Lead :",
+                    "kr":"Lead :",
+                    "km":" សំណរ Lead:"
+                }
+                ,
+                "disposal_area":{
+                    "en":"Place used as disposal area for solid and liquid waste and gas emissions:",
+                    "cn":"Place used as disposal area for solid and liquid waste and gas emissions:",
+                    "jp":"Place used as disposal area for solid and liquid waste and gas emissions:",
+                    "kr":"Place used as disposal area for solid and liquid waste and gas emissions:",
+                    "km":"ទីតាំងដែលប្រើសម្រាប់បោះបង់សំណល់រឹង បង្ហូរសំណល់រាយ និងការបញ្ចេញឧស្ម័ន៖"
+                },
+                "sources_of_increased":{
+                    "en":"Sources of increased noise and vibration",
+                    "cn":"Sources of increased noise and vibration",
+                    "jp":"Sources of increased noise and vibration",
+                    "kr":"Sources of increased noise and vibration",
+                    "km":"ប្រភពដែលមានសម្លេង និងភាពរំញ័រខ្ពស់កើនឡើង៖"
+                },
+                "land_area":{
+                    "en":"Land area to be covered in the event of filling, leveling, or clearing new land",
+                    "cn":"Land area to be covered in the event of filling, leveling, or clearing new land",
+                    "jp":"Land area to be covered in the event of filling, leveling, or clearing new land",
+                    "kr":"Land area to be covered in the event of filling, leveling, or clearing new land",
+                    "km":"ទំហំផ្ទៃដីដែលនឹងគ្របដណ្តប់សម្រាប់ករណីចាក់ដីបំពេញ ការឈូសឆាយ និងការរានដីថ្មី៖"
+                }
+                ,
+                "conditions_of_employees":{
+                    "en":"Residing conditions of employees/workers:",
+                    "cn":"Residing conditions of employees/workers:",
+                    "jp":"Residing conditions of employees/workers:",
+                    "kr":"Residing conditions of employees/workers:",
+                    "km":"ស្ថានភាពស្នាក់នៅរបស់បុគ្គលិកកម្មករ៖"
+                }
+                ,
+                "supply_of_clean_water":{
+                    "en":"Supply of clean water",
+                    "cn":"Supply of clean water",
+                    "jp":"Supply of clean water",
+                    "kr":"Supply of clean water",
+                    "km":"ផ្គត់ផ្គង់ទឹកស្អាត​៖​"
+                }
+                ,
+                "health_safety":{
+                    "en":"Health-safety",
+                    "cn":"Health-safety",
+                    "jp":"Health-safety",
+                    "kr":"Health-safety",
+                    "km":"សុខភាព - សុវត្តិភាព៖"
+                }
+                ,
+                "sanitation":{
+                    "en":"Sanitation",
+                    "cn":"Sanitation",
+                    "jp":"Sanitation",
+                    "kr":"Sanitation",
+                    "km":"អនាម័យ៖"
+                }
+                ,
+                "management_of_hard_wasted":{
+                    "en":"Solid waste management:",
+                    "cn":"Solid waste management:",
+                    "jp":"Solid waste management:",
+                    "kr":"Solid waste management:",
+                    "km":"ការគ្រប់គ្រងសំណល់រឹង៖"
+                }
+                ,
+                "public_water":{
+                    "en":"public clean water network ",
+                    "cn":"public clean water network ",
+                    "jp":"public clean water network ",
+                    "kr":"public clean water network ",
+                    "km":"បណ្តាញទឹកស្អាតសាធារណៈ"
+                }
+                ,
+                "water_village":{
+                    "en":"clean water network in village",
+                    "cn":"clean water network in village",
+                    "jp":"clean water network in village",
+                    "kr":"clean water network in village",
+                    "km":"បណ្តាញទឹកស្អាតក្នុងភូមិ"
+                }
+                ,
+                "information_tax":{
+                    "en":"Information on Tax ",
+                    "cn":"Information on Tax ",
+                    "jp":"Information on Tax ",
+                    "kr":"Information on Tax ",
+                    "km":"ព័ត៌មានស្តីពីពន្ធដារ"
+                }
+                ,
+                "form_attach_annex":{
+                    "en":"Fill in the form attached in the annex.",
+                    "cn":"Fill in the form attached in the annex.",
+                    "jp":"Fill in the form attached in the annex.",
+                    "kr":"Fill in the form attached in the annex.",
+                    "km":"បំពេញតាមទម្រង់បែបបទ (Form) ដូចមានឧបសម្ព័ន្ធជួនភ្ជាប់។"
+                }
+                ,
+                "d":{
+                    "en":"D",
+                    "cn":"D",
+                    "jp":"D",
+                    "kr":"D",
+                    "km":"ឃ"
+                }
+                ,
+                "e":{
+                    "en":"E",
+                    "cn":"E",
+                    "jp":"E",
+                    "kr":"E",
+                    "km":"ង"
+                },
+                "information_request":{
+                    "en":"Information for requesting additional incentives.",
+                    "cn":"Information for requesting additional incentives.",
+                    "jp":"Information for requesting additional incentives.",
+                    "kr":"Information for requesting additional incentives.",
+                    "km":"ព័ត៌មានសម្រាប់ការស្នើសុំការលើកទឹកចិត្តបន្ថែម"
+                },
+                "information_request_one":{
+                    "en":"Does the project undergo any research, development, or innovation?",
+                    "cn":"Does the project undergo any research, development, or innovation?",
+                    "jp":"Does the project undergo any research, development, or innovation?",
+                    "kr":"Does the project undergo any research, development, or innovation?",
+                    "km":"តើគម្រោងមានការស្រាវជ្រាវ អភិវឌ្ឃន៏ និងនវានុវត្តន៏ ដែរឬទេ?"
+                },
+                "information_request_two":{
+                    "en":"Does the investment project have a human resource development plan by providing skills and vocational training to Cambodian employees/workers?",
+                    "cn":"Does the investment project have a human resource development plan by providing skills and vocational training to Cambodian employees/workers?",
+                    "jp":"Does the investment project have a human resource development plan by providing skills and vocational training to Cambodian employees/workers?",
+                    "kr":"Does the investment project have a human resource development plan by providing skills and vocational training to Cambodian employees/workers?",
+                    "km":"តើគម្រោងវិនិយោគមានផែនការការពារអភិវឌ្ឃន៏ធនធានមនុស្សតាមរយៈការផ្តល់ការបណ្តុះបណ្តាលវិជ្ជាជីវៈ និងជំនាញដល់កម្មករនិយោជិតខ្មែរ ដែរឬទេ?"
+                },
+                "information_request_three":{
+                    "en":"Does the investment project include the construction of accommodation, canteens or affordable food courts, nurseries, and other facilities for employees/workers?",
+                    "cn":"Does the investment project include the construction of accommodation, canteens or affordable food courts, nurseries, and other facilities for employees/workers?",
+                    "jp":"Does the investment project include the construction of accommodation, canteens or affordable food courts, nurseries, and other facilities for employees/workers?",
+                    "kr":"Does the investment project include the construction of accommodation, canteens or affordable food courts, nurseries, and other facilities for employees/workers?",
+                    "km":"តើគម្រោងវិនិយោគមានការសាងសង់កន្លែងស្នាក់នៅ កន្លែងបរិភោគអាហារ ឬអាហារដ្ឋានដែលមានតម្លៃសមរម្យ​ ទារកដ្ឋាន និងសុខូបត្ថម្ភវត្ថុដទៃទៀតសម្រាប់កម្មករនិយោជិត ដែរឬទេ?"
+                },
+                "information_request_four":{
+                    "en":"Does the investment project include machinery modernization to support the production line?",
+                    "cn":"Does the investment project include machinery modernization to support the production line?",
+                    "jp":"Does the investment project include machinery modernization to support the production line?",
+                    "kr":"Does the investment project include machinery modernization to support the production line?",
+                    "km":"តើគម្រោងវិនិយោគមានការធ្វើទំនើបកម្មលើគ្រឿងម៉ាសុីនដើម្បីបម្រើឲ្យ ខ្សែច្រវ៉ាក់ផលិតកម្ម ដែរឬទេ?"
+                },
+                "information_request_five":{
+                    "en":"Does the investment project promote the welfare of Cambodian employees /workers ?",
+                    "cn":"Does the investment project promote the welfare of Cambodian employees /workers ?",
+                    "jp":"Does the investment project promote the welfare of Cambodian employees /workers ?",
+                    "kr":"Does the investment project promote the welfare of Cambodian employees /workers ?",
+                    "km":"តើគម្រោងវិនិយោគមានការលើកកម្ពស់សុខុមាលភាព ដល់កម្មករនិយោជិតខ្មែរដូចជា ៖"
+                },
+                "yes":{
+                    "en":"Yes",
+                    "cn":"Yes",
+                    "jp":"Yes",
+                    "kr":"Yes",
+                    "km":"មាន"
+                },
+                "no":{
+                    "en":"No",
+                    "cn":"No",
+                    "jp":"No",
+                    "kr":"No",
+                    "km":"មិនមាន"
+                },
+                "noted_declaration":{
+                    "en":"Note : ",
+                    "cn":"Note : ",
+                    "jp":"Note : ",
+                    "kr":"Note : ",
+                    "km":"បញ្ជាក់​ ៖"
+                }
+                ,
+                "any_chosen_items":{
+                    "en":"Any chosen items shall be attached with supporting documents. ",
+                    "cn":"Any chosen items shall be attached with supporting documents. ",
+                    "jp":"Any chosen items shall be attached with supporting documents. ",
+                    "kr":"Any chosen items shall be attached with supporting documents. ",
+                    "km":"រាល់ចំណុចដែលបានជ្រើសរើសខាងលើ ត្រូវភ្ជាប់ឯកសារគាំទ្រមកជាមួយ។"
+                },
+                "declaration":{
+                    "en":"Declaration:",
+                    "cn":"Declaration:",
+                    "jp":"Declaration:",
+                    "kr":"Declaration:",
+                    "km":"ការធានា ៖"
+                }
+                ,
+                "mean_declaration":{
+                    "en":"As the project owner, I hereby declare that the above information is true and accurate without any intentional falsification.    ",
+                    "cn":"As the project owner, I hereby declare that the above information is true and accurate without any intentional falsification.    ",
+                    "jp":"As the project owner, I hereby declare that the above information is true and accurate without any intentional falsification.    ",
+                    "kr":"As the project owner, I hereby declare that the above information is true and accurate without any intentional falsification.    ",
+                    "km":"ក្នុងនាមជាម្ចាស់គម្រោងសូមធានាអះអាងថា ព័ត៌មានខាងលើនេះ គឺពិតជាត្រឹមត្រូវ ដោយមិនមានចេតនា ក្លែងបន្លំឡើយ។"
+                },
+                "date":{
+                    "en":"Date:.........................................................",
+                    "cn":"Date:.........................................................",
+                    "jp":"Date:.........................................................",
+                    "kr":"Date:.........................................................",
+                    "km":"ធ្វើនៅថ្ងៃទី................ខែ....................ឆ្នាំ.............."
+                },
+                "council":{
+                    "en":"Chairman of the Board",
+                    "cn":"Chairman of the Board",
+                    "jp":"Chairman of the Board",
+                    "kr":"Chairman of the Board",
+                    "km":"ប្រធានក្រុមប្រឹក្សាភិបាល"
+                }
+                ,
+                "signature":{
+                    "en":"Signature",
+                    "cn":"Signature",
+                    "jp":"Signature",
+                    "kr":"Signature",
+                    "km":"( ហត្ថលេខា )"
+                },
+                "noted":{
+                    "en":"Noted",
+                    "cn":"Noted",
+                    "jp":"Noted",
+                    "kr":"Noted",
+                    "km":"ចំណាំ​"
+                },
+                "noted_mean":{
+                    "en":"Prices and Quantities of products are subject to change when the company releases a new model or as an actual order by the customer.",
+                    "cn":"Prices and Quantities of products are subject to change when the company releases a new model or as an actual order by the customer.",
+                    "jp":"Prices and Quantities of products are subject to change when the company releases a new model or as an actual order by the customer.",
+                    "kr":"Prices and Quantities of products are subject to change when the company releases a new model or as an actual order by the customer.",
+                    "km":"តម្លៃនិងចំនួន​ នៃផលិតផលអាចនិងផ្លាស់ប្ដូរ​​នៅពេលក្រុមហ៊ុនចេញម៉ូដែលថ្មី ឫតាមការបញ្ជាទិញជាក់ស្ដែងដោយអតិថិជន ។"
+                },
+                "market_export":{
+                    "en":"Export Marke :",
+                    "cn":"Export Marke :",
+                    "jp":"Export Marke :",
+                    "kr":"Export Marke :",
+                    "km":"ទីផ្សារនំាចេញ ៖"
+                },
+                "labour_requirements":{
+                    "en":"Labour Requirements :",
+                    "cn":"Labour Requirements :",
+                    "jp":"Labour Requirements :",
+                    "kr":"Labour Requirements :",
+                    "km":"តម្រូវការពលកម្ម ៖"
+                },
+                "domestic_worker":{
+                    "en":"for Domestic Workers",
+                    "cn":"for Domestic Workers",
+                    "jp":"for Domestic Workers",
+                    "kr":"for Domestic Workers",
+                    "km":"​សម្រាប់ពលកម្មក្នុងស្រុក​និង"
+                },
+                "foreign_work":{
+                    "en":"for Foreign Workers During the commencement period",
+                    "cn":"for Foreign Workers During the commencement period",
+                    "jp":"for Foreign Workers During the commencement period",
+                    "kr":"for Foreign Workers During the commencement period",
+                    "km":"សម្រាប់ពលកម្នបរទេសក្នុងអំឡុងបពេលចាប់ផ្ដើម និង"
+                },
+                "for_work_local":{
+                    "en":"for Domestic Workers",
+                    "cn":"for Domestic Workers",
+                    "jp":"for Domestic Workers",
+                    "kr":"for Domestic Workers",
+                    "km":"សម្រាប់េពលកម្មក្នុងស្រុក និង"
+                },
+                "for_work_foreign":{
+                    "en":"for Domestic Workers",
+                    "cn":"for Domestic Workers",
+                    "jp":"for Domestic Workers",
+                    "kr":"for Domestic Workers",
+                    "km":"សម្រាប់បរទេសក្នុងកំឡុងពេលផលិតកម្មពេលលេញ"
+                }
+                ,
+                "company_registered_office":{
+                    "en":"Company Registered office:",
+                    "cn":"Company Registered office:",
+                    "jp":"Company Registered office:",
+                    "kr":"Company Registered office:",
+                    "km":"ទីស្នាក់ការក្រុមហ៊ុន ៖"
+                }
+                ,
+                "total":{
+                    "en":"Total",
+                    "cn":"Total",
+                    "jp":"Total",
+                    "kr":"Total",
+                    "km":"សរុប"
+                }
+                ,
+                "website":{
+                    "en":"Website: ",
+                    "cn":"Website: ",
+                    "jp":"Website: ",
+                    "kr":"Website: ",
+                    "km":"វេបសាយ៖"
+                },
+                "no_number":{
+                    "en":"No",
+                    "cn":"No",
+                    "jp":"No",
+                    "kr":"No",
+                    "km":"ល.រ"
+                },
+                "investment_activities_table":{
+                    "en":"Investment activities",
+                    "cn":"Investment activities",
+                    "jp":"Investment activities",
+                    "kr":"Investment activities",
+                    "km":"មុខសញ្ញាវិនិយោគ"
+                },
+                "code_isic":{
+                    "en":"ISIC Code",
+                    "cn":"ISIC Code",
+                    "jp":"ISIC Code",
+                    "kr":"ISIC Code",
+                    "km":"លេខ ISIC Code"
+                },
+                // location 
+                "home":{
+                    "en":"home",
+                    "cn":"home",
+                    "jp":"home",
+                    "kr":"home",
+                    "km":"ផ្ទះ / ដីឡូតិ៍លេខ"
+                },
+                "road":{
+                    "en":"road",
+                    "cn":"road",
+                    "jp":"road",
+                    "kr":"road",
+                    "km":"ផ្លូវ"
+                },
+                "village":{
+                    "en":" Village",
+                    "cn":" Village",
+                    "jp":" Village",
+                    "kr":" Village",
+                    "km":"ភូមិ"
+                },
+                "commune":{
+                    "en":" Commune",
+                    "cn":" Commune",
+                    "jp":" Commune",
+                    "kr":" Commune",
+                    "km":"សង្កាត់"
+                },
+                "district":{
+                    "en":" District",
+                    "cn":" District",
+                    "jp":" District",
+                    "kr":" District",
+                    "km":"ខណ្ឌ"
+                },
+                "city":{
+                    "en":" City",
+                    "cn":" City",
+                    "jp":" City",
+                    "kr":" City",
+                    "km":"ក្រុង"
+                },
+                "province":{
+                    "en":" Provice",
+                    "cn":" Provice",
+                    "jp":" Provice",
+                    "kr":" Provice",
+                    "km":"ខេត្ត"
+                },
+                "kingdom":{
+                    "en":"King of Cambodia.",
+                    "cn":"King of Cambodia.",
+                    "jp":"King of Cambodia.",
+                    "kr":"King of Cambodia.",
+                    "km":"ព្រះរាជាណាចក្រកម្ពុជា"
+                },
+                "ton_month":{
+                    "en":"Ton/month",
+                    "cn":"Ton/month",
+                    "jp":"Ton/month",
+                    "kr":"Ton/month",
+                    "km":"តោន/ខែ"
+                },
+                "m":{
+                    "en":"m",
+                    "cn":"m",
+                    "jp":"m",
+                    "kr":"m",
+                    "km":"ម"
+                },
+                "three":{
+                    "en":"3",
+                    "cn":"3",
+                    "jp":"3",
+                    "kr":"3",
+                    "km":"៣"
+                },
+                "two":{
+                    "en":"2",
+                    "cn":"2",
+                    "jp":"2",
+                    "kr":"2",
+                    "km":"២"
+                },
+                "lit_year":{
+                    "en":"liter/year",
+                    "cn":"liter/year",
+                    "jp":"liter/year",
+                    "kr":"liter/year",
+                    "km":"លីត​/ឆ្នាំ"
+                },
+                "per_day":{
+                    "en":"/day",
+                    "cn":"/day",
+                    "jp":"/day",
+                    "kr":"/day",
+                    "km":"/ថ្ងៃ"
+                },
+                "per_month":{
+                    "en":"/month",
+                    "cn":"/month",
+                    "jp":"/month",
+                    "kr":"/month",
+                    "km":"/ខែ"
+                },
+                "per_year":{
+                    "en":"/year",
+                    "cn":"/year",
+                    "jp":"/year",
+                    "kr":"/year",
+                    "km":"/ឆ្នាំ"
+                },
+                "size":{
+                    "en":"Size : ",
+                    "cn":"Size : ",
+                    "jp":"Size : ",
+                    "kr":"Size : ",
+                    "km":"ទំហំ៖"
+                },
+                "or":{
+                    "en":"or",
+                    "cn":"or",
+                    "jp":"or",
+                    "kr":"or",
+                    "km":"ឬ"
+                }
+            };
+
+            // function using for translate
+            function translate(keyword, language) {
+                if (translateLanguage[keyword] && translateLanguage[keyword][language]) {
+                    return translateLanguage[keyword][language];
+                } else {
+                    return "";
+                }
+            }
+
+            // Font
+            const fontTimeNew             = "/assets/font/times.ttf";
+            const fontKantumruyPro      = '/asset/font/KantumruyPro-Regular.ttf';
+            const fontSiemreap            = "/asset/font/Siemreap-Regular.ttf";
+            const customFontKhmerOsMoul   = '/IRC/Assets/Fonts/KhmerOSMuolLightRegular.ttf';
+            const customFontEnglish       = "/asset/font/arial.ttf";
+            const customFontEnglishBold   = "/asset/font/arialbd.ttf";
+            const language = "{{lng}}";
+
+            document.querySelectorAll('.trans').forEach(el => {
+                el.textContent = translate(el.dataset.target, language)
+            })
+            
+            // Check font
+            // const fontToUse = language === "km" ? "Siemreap" : "kantumruy Pro";
+            // const fontCustom = language === "km" ? "KhmerOSMuol" : "Arial";
+            // const fontWeight = language === "km" ? "normal" : "bold";
+            // const fontSize = language === "km" ? "14px" : "14px";
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "ApplicationData",
+    "shortid": "v0qwwCuoy",
+    "creationDate": {
+        "$$date": 1724304341671
+    },
+    "modificationDate": {
+        "$$date": 1724304341671
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "5GCk2CwuSHsufOv1",
+    "$entitySet": "data"
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Application",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "v0qwwCuoy"
+    },
+    "shortid": "UPD6xJC36b",
+    "chrome": {
+        "printBackground": true,
+        "format": "A4",
+        "marginTop": "2cm",
+        "displayHeaderFooter": false,
+        "marginBottom": "2cm",
+        "marginRight": "",
+        "marginLeft": ""
+    },
+    "creationDate": {
+        "$$date": 1724304341664
+    },
+    "modificationDate": {
+        "$$date": 1724304590801
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "AmLvRK91UAAOLW7P",
+    "scripts": [],
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "8koHJ9q",
+            "mergeWholeDocument": true
+        }
+    ],
+    "$entitySet": "templates"
+}
