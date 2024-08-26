@@ -1,0 +1,585 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{!-- <style rel='stylesheet' type='text/css'>
+    @font-face {
+        font-family: "Siemreap";
+        src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "KhmerOSMuol";
+        src: url({#asset KhmerOSMuolLightRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "Roman";
+        src: url({#asset times_new_roman.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: 'Tacteing';
+        src: url({#asset Tacteing.ttf @encoding=dataURI});
+        format('ttf');
+    }
+
+    .indent-paragraph{
+        text-indent: 68px;
+    }
+
+    .keep-together{
+        page-break-inside:avoid;
+    }
+
+    body {
+        font-size: 15px;
+        font-family: "Roman", "Siemreap";
+    }
+    /* FONT */
+    .font_muol {
+        font-family: "Roman", "KhmerOSMuol";
+    }
+    .font_siemreap {
+        font-family: "Roman", "Siemreap";
+    }
+    .font_tacteing {
+        font-family: "Tacteing";
+    }
+    /* END FONT */
+
+    /* FONT SIZE */
+    .font-base {
+        font-size: 16px;
+    }
+    
+    .text-main {
+        font-size: 14px;
+    }
+    .text-sm-base {
+        font-size: 15px;
+    }
+
+    .text_xs_sm{
+        font-size: 13px;
+    }
+    .text-xs {
+        font-size: 11px;
+    }
+     /* STYLE CUSTOME INDENT */
+   .indent-text-small {
+        text-indent: -9px; 
+        padding-left: 12px;
+    }
+
+    /* STYLE CUSTOM INDENT WITH -20px INDENT AND 20px PADDING */
+    .indent-text-large {
+        text-indent: -20px; 
+        padding-left: 20px;
+    }
+
+    /* END FONT SIZE */
+    .underline-text{
+        text-decoration: underline dashed #175214;
+    }
+    .size-font{
+        font-size: 15px;
+    }
+    .font-title{
+        font-size: 16px;
+    }
+    .draft_watermark {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background-image: url("{#asset /asset/images/draft-km.png @encoding=dataURI}"); 
+    }
+    </style> --}}
+    <style>
+        {#asset main-style.css @encoding=utf8}
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="w-full h-full">
+        {{#if (equal is_draft 1)}}
+            <div class="draft_watermark bg-auto w-full h-full top-0 h-0 z-20">
+            </div>
+        {{/if}}
+        <main class="leading-7 flex flex-col w-full">
+            <div class="flex flex-1 px-12 justify-between text-[#648558] relative">
+                <div class="flex flex-col justify-items-center font_muol">
+                    <img class="mx-auto w-[90px]" src="{{asset "/asset/images/CDC_logo_old_gold.png" "dataURI"}}">
+                    <p class="text-center leading-7 font-base">រាជរដ្ឋាភិបាលកម្ពុជា</p>
+                    <p class="text-center leading-6">ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា</p>
+                    <p class="text-center leading-6 font-bold">Council for the Development of Cambodia</p>
+                    <p class="text-center leading-6 text-sm-base">គណៈកម្មាធិការវិនិយោគកម្ពុជា</p>
+                    <p class="text-center leading-6 text-sm-base font-bold">Cambodian Investment Board</p>
+                    <p class="text-center leading-6 text_xs_sm font_siemreap">លេខៈ {{ letter_number }}</p>
+                </div>
+
+                <div class="flex">
+                    <div class="mt-9">
+                        <div class="flex flex-col w-fix font_muol">
+                            <p class="text-center leading-6 font-base">ព្រះរាជាណាចក្រកម្ពុជា</p>
+                            <p class="text-center leading-6 font-base font-bold">Kingdom of Cambodia</p>
+                            <p class="text-center leading-6 font-base">ជាតិ សាសនា ព្រះមហាក្សត្រ</p>
+                            <p class="text-center leading-6 font-base font-bold italic">Nation- Religion- King</p>
+                            <p class="text-center leading-6 text-main font_tacteing">ujv</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-end mt-[75px] text_xs_sm font-normal absolute right-12 bottom-0">
+                    <p class="text-end leading-6">{{{processTemplateString issue_date_lunar this}}} </p>
+                    <p class="text-end leading-6">{{{processTemplateString capical_city_of_cambodia this}}}, {{{processTemplateString issue_date this}}} </p>
+                </div>
+            </div>
+
+            <div class="ml-[80px] mr-[65px] text-sm-base mt-2">
+                <div class="w-full leading-7">
+                    <p class="text-center font_muol">សូមគោរពជូន</p>
+                    <p class="text-center font_muol">ឯកឧត្ដមឧបនាយករដ្ឋមន្រ្តី អនុប្រធានទី១ ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា</p>
+                </div> 
+
+                <div class="w-full leading-6 font_siemreap">
+                    <div class="flex mt-2">
+                        <div class=" w-20 flex justify-between pr-1">
+                            <p class="font_muol">តាមរយៈ</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-start"><p>ឯកឧត្តមអគ្គលេខាធិការគណៈកម្មាធិការវិនិយោគកម្ពុជា</p></div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class=" w-20 flex justify-between pr-1">
+                            <p class="font_muol">កម្មវត្ថុ</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-justify"><p>ករណីសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគ{{investment_target_km}}</p></div>
+                    </div>
+                    <div class="flex mt-2">
+                        <div class=" w-20 flex justify-between pr-1">
+                            <p class="font_muol">យោង</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-justify"> 
+                            <p>ពាក្យសុំវិនិយោគលេខៈ {{project_number}} ដែលក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា “គណៈកម្មាធិការវិនិយោគកម្ពុជា” បានទទួលនៅ{{first_payment_datetime}}។</p>
+                        </div>
+                    </div>
+
+                    {{!-- TEMPLATE CONTENT --}}
+                    <p class="indent-20 text-justify mt-2">
+                        សេចក្តីដូចមានចែងក្នុងកម្មវត្ថុ និងយោងខាងលើ ខ្ញុំបាទមានកិត្តិយសសូមគោរពជម្រាបជូន <span class="font-bold">ឯកឧត្តមឧបនាយករដ្ឋមន្ត្រី </span>មេត្តាជ្រាបថា៖ ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា/គណៈកម្មាធិការវិនិយោគកម្ពុជា “ក.អ.ក./គ.វ.ក.” បានទទួលសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគ{{investment_target_km}} ក្នុងគម្រោងទុនវិនិយោគសរុបចំនួន {{total_investment_capital}} ដុល្លារអាម៉េរិក និងបង្កើតការងារប្រមាណ {{labor_demand_full_production_local}}កន្លែង នៅ{{investment_location_village.official_translate.km}} {{investment_location_commune.official_translate.km}} {{investment_location_district.official_translate.km}} {{investment_location_province.official_translate.km}} របស់ក្រុមហ៊ុន {{company_name_km}} ({{company_name_en}})។
+                    </p>
+                    <p class="indent-paragraph text-justify mt-2">
+                        “ក.អ.ក./គ.វ.ក.” បានបង្កើតគណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន ចុះពិនិត្យដល់ទីតាំងជាក់ស្តែង នា{{check_datetime}} ដោយមានការចូលរួមពីគ្រប់តំណាងក្រសួង-ស្ថាប័នពាក់ព័ន្ធ រួមទាំងអាជ្ញាធរដែនដីផងដែរ។ ជាលទ្ធផល គណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន បានគាំទ្រគម្រោងវិនិយោគនេះ។
+                    </p>
+                    <p class="indent-paragraph text-justify mt-2">
+                        គម្រោងវិនិយោគនេះស្ថិតក្នុងក្រុមសកម្មភាពវិនិយោគទី{{investment_target_group}} (ក្រុម{{investment_target_group}}) នៃឧបសម្ព័ន្ធទី២ ភ្ជាប់អនុក្រឹត្យលេខ ១៣៩ អនក្រ. បក ចុះថ្ងៃទី២៦ ខែមិថុនា ឆ្នាំ២០២៣ ពោលគឺ គម្រោងនេះត្រូវទទួលបាននូវការលើកទឹកចិត្ត៖
+                    </p>
+
+                    {{!-- INCENTIVE --}}
+                    {{!-- DEPRECIATION --}}
+                    {{#each incentive_depreciations}}
+                        <div style="{{checkTab tab_count}}">
+                            <p class="indent-text-small mt-2">- {{data}}</p>
+                        </div>
+                    {{/each}}
+
+                    {{!-- INCOME TAX --}}
+                    {{#each incentive_income_taxes}}
+                        <div style="{{checkTab tab_count}}">
+                            <p class="indent-text-small mt-2">- {{data}}</p>
+                        </div>
+                    {{/each}}
+
+                    {{!-- ADDITIONAL INCENTIVE --}}
+                    {{#each template_additional_incentive}}
+                        <div style="{{checkTab 1}}">
+                            <p class="indent-text-small mt-2">- {{translate.km}}</p>
+                        </div>
+                    {{/each}}
+
+                    <p class="font-bold mt-2">សូមគោរពជូនមតិ៖</p>
+                    <p class="indent-paragraph mt-2">
+                        {{{processTemplateString conslusion}}}
+                    </p>
+
+                    <p class="indent-paragraph mt-2">
+                        សេចក្ដីដូចបានគោរពជម្រាបជូនខាងលើ សូម <span class="font_muol">ឯកឧត្តមឧបនាយករដ្ឋមន្ត្រី</span> មេត្តាពិនិត្យសម្រេចដោយក្តីអនុគ្រោះ។
+                    </p>
+                </div> 
+
+                {{!-- Signature --}}
+                <div class="keep-together">
+                    <p class="indent-paragraph mt-2">
+                        សូម <span class="font_muol">ឯកឧត្តមឧបនាយករដ្ឋមន្ត្រី</span>  មេត្តាទទួលនូវការគោរពដ៏ខ្ពង់ខ្ពស់បំផុត ពីខ្ញុំបាទ។
+                    </p>
+                    <div class="w-full mt-2 relative"> 
+                        <div class="flex w-full justify-between justify-items-start mt-5">
+                            <div class="mt-9">
+                                {{#if qr_url}}
+                                    {{#neq qr_value ""}}
+                                        <a href="{{ qr_value }}" target="_blank">
+                                            <img src="{{qr_url}}" class="w-14 h-14"/>
+                                        </a>
+                                    {{else}}
+                                        <img src="{{qr_url}}" class="w-14 h-14"/>
+                                    {{/neq}}
+                                {{else}}{{/if}}
+                            </div>
+                            <div class="flex flex-col leading-6 items-center font_muol">
+                                <p class="text-center">{{ signature_position }}</p>
+                                <p class="text-center">{{ signature_org }}</p>
+                                <p class="text-center">({{ signature_position_made_up }})</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{!-- Page break --}}
+            <div style="page-break-after: always;"></div>
+
+            {{!-- New Template 2 --}}
+            <div class="flex flex-1 px-12 justify-between">
+                <div class="flex flex-1 justify-between mt-4">
+                    <div class="flex flex-col justify-items-center mt-2">
+                        <p class="text-center mt-1 font_muol">ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា</p>
+                        <p class="text-center mt-2 font_muol">គណៈកម្មាធិការវិនិយោគកម្ពុជា</p>
+                        <p class="text-center mt-2 font-bold">នាយកដ្ឋានវិភាគគម្រោង និងការលើកទឹកចិត្ត</p>
+                        <p class="text-center font_tacteing">ujv</p>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex flex-col w-fix font_siemreap">
+                            <p class="text-center font_muol">ព្រះរាជាណាចក្រកម្ពុជា</p>
+                            <p class="text-center mt-2 font_muol">ជាតិ សាសនា ព្រះមហាក្សត្រ</p>
+                            <p class="text-center leading-6 font_tacteing">ujv</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-[80px] mr-[65px] text-sm-base">
+                <div class="w-full leading-7">
+                    <p class="text-center text-base w-full font-bold">កំណត់បង្ហាញ</p>
+                    <p class="font_muol">ក- ព័ត៌មានទូទៅ</p> 
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <p>- ឈ្មោះក្រុមហ៊ុន</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-start"><p>{{company_name_km}} ({{company_name_en}})</p></div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <p>- គម្រោងវិនិយោគ</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-start"><p>{{investment_target_km}}</p></div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                    <p>- ទីតាំង</p>
+                                    <p>៖</p>
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. ការិយាល័យ</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{contact_village.official_translate.km}} {{contact_commune.official_translate.km}} {{contact_district.official_translate.km}} {{contact_province.official_translate.km}}</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. វិនិយោគ</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{investment_location_village.official_translate.km}} {{investment_location_commune.official_translate.km}} {{investment_location_district.official_translate.km}} {{investment_location_province.official_translate.km}}</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div></div>
+                                <div class="flex justify-between">
+                                    <p>. ឯកសារដី</p>
+                                    <p>៖</p>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="flex-1 text-start px-0.5"><p class="">{{{processTemplateString land_doc}}}</p></div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div></div>
+                                <div class="flex justify-between">
+                                    <p>. កិច្ចសន្យាជួល</p>
+                                    <p>៖</p>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="flex-1 text-start px-0.5"><p class="">{{{processTemplateString contract_rent}}}</p></div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                    <p>- ទុន</p>
+                                    <p>៖</p>
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. ចុះបញ្ជី</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{register_capital}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. វិនិយោគ</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{total_investment_capital}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. សំណង់អគារ</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{building_type}} “ទំហំ{{building_size}}ម<sup>២</sup>” ៖ {{building_cost}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. រៀបចំការដ្ឋាន</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{construction_cost}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. សម្ភារៈបរិក្ខារផលិតកម្ម</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{equipment_production_cost}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. ការិយាល័យ</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{equipment_stationery_cost}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <div class="w-full grid grid-cols-2">
+                                <div class="flex">
+                                </div>
+                                <div class="flex justify-between">
+                                    <p>. សម្ភារៈផ្សេងៗ</p>
+                                    <span>៖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-3">{{equipment_other_cost}} ដុល្លារអាម៉េរិក</div>  
+                    </div>
+
+                    {{!-- NEW  --}}
+                    <div class="mt-2 flex leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <p>- ភាគហ៊ុន</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1">
+                            {{#each share_holders}}
+                                <div>{{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ញាតិ{{share_holder_nationality.nationality_translate.km}} មានភាគហ៊ុន {{share_holder_share_percent}}{{share_holder_share_unit.translate.km}}</div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    
+
+                    <div class="flex mt-2 leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <p>- បង្កើតការងារ</p>
+                            <p>៖</p>
+                        </div class="leading-7">
+                            <p>ចំនួន {{labor_demand_full_production_local}} នាក់ ក្នុងនោះបរទេសចំនួន {{labor_demand_full_production_foreign}} នាក់</p>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2 leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between">
+                            <p>- គ្រឿងម៉ាស៊ីន-សម្ភារៈបរិក្ខារ</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1">
+                            <div >
+                                <p class="w-full flex space-x-5">
+                                    {{{processTemplateString equipment_material}}}, ...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2 leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between" >
+                            <p>- វត្ថុធាតុដើម</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1">
+                            <div >
+                                <p class="w-full flex space-x-5">
+                                    {{{processTemplateString product_input}}}, ...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2 leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between" >
+                            <p>- ផលិតផល</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-start">
+                            <div class="flex-1">
+                            <div >
+                                <p class="w-full flex space-x-5">
+                                {{{processTemplateString product_output}}}
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2 leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between" >
+                            <p>- សមត្ថភាពផលិតកម្ម</p>
+                            <p>៖</p>
+                        </div>
+                            <div class="flex-1 text-start"><p>ឆ្នាំ ដំបូងចំនួន {{product_quantity_first_year}} {{product_output_unit}} និងពេលសមត្ថភាពចំនួន {{product_quantity_first_full_production}} {{product_output_unit}}</p></div>         
+                    </div>
+
+                    <div class="flex mt-2 leading-7">
+                        <div class="w-[215px] flex pr-2 justify-between" >
+                            <p>- ទីផ្សារ</p>
+                            <p>៖</p>
+                        </div>
+                        <div class="flex-1 text-start"><p>{{{processTemplateString investment_output_market}}}</p></div>
+                    </div>
+
+                    
+                    <div class="leading-7">
+                        <p class="font_muol mt-2">ខ- មតិតំណាងក្រសួង-ស្ថាប័នពាក់ព័ន្ធ (ពេលចុះពិនិត្យទីតាំងជាក់ស្តែង)</p>
+                        {{#each commity_comments as |item index| }}
+                            <div>
+                            <p class="indent-paragraph text-justify mt-2">
+                                    <span class="font-bold">
+                                        {{CharacterKhmer index}}- 
+                                        {{item.user.salute.translate.km}} 
+                                        {{item.user.lastname}} 
+                                        {{item.user.firstname}} 
+                                        {{item.user.positions.[0].position.translate.km}}
+                                        {{item.user.positions.[0].position.department.translate.km}}
+                                    </span>
+                                </p>
+                                <div class="format">
+                                    {{{item.comment}}}
+                                </div>
+                            </div>
+                        {{/each}}
+
+                        <p class="font_muol mt-2">គ- មតិគណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន</p>
+                        <div>
+                            <p class="text-justify pl-6">
+                                {{{processTemplateString commity_comment}}}
+                            </p>
+                        </div>
+
+                        <p class="font_muol mt-2">ឃ- ឯកសារគតិយុត្ត</p>
+                        <p class="pl-6 mt-2">{{{processTemplateString legal_instrument}}}</p>
+                        
+                        <p class="font_muol">សូមគោរពជូនមតិ</p>
+                        <p class="indent-14 mt-2">{{{processTemplateString incentive_suggestion}}}</p> 
+                        <div class="w-full mt-8 relative"> 
+                            <div class="flex justify-end items-center">
+                                <div class="flex flex-col items-center leading-7">
+                                    <p class="text-center">{{issue_date_lunar}}</p>
+                                    <p class="text-center">{{capical_city_of_cambodia}}, {{issue_date}}</p>
+                                    <p class="text-center font-bold">{{ document_preparer_org }}</p>
+                                </div>
+                            </div>
+                            <div>
+                                {{#if qr_url}}
+                                    {{#neq qr_value ""}}
+                                        <a href="{{qr_value}}" target="_blank">
+                                            <img src="{{qr_url}}" class="w-14 h-14"/>
+                                        </a>
+                                    {{else}}
+                                        <img src="{{qr_url}}" class="w-14 h-14"/>
+                                    {{/neq}}
+                                {{else}}
+                                    <div class="w-14 h-14 mt-5"></div>
+                                {{/if}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

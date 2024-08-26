@@ -1,0 +1,23 @@
+{
+    "name": "incentive_report_footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1724636774110
+    },
+    "modificationDate": {
+        "$$date": 1724636774110
+    },
+    "shortid": "n9NLzvR",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "YtTtnJOJzNvxXu0Y",
+    "chrome": {
+        "marginTop": "",
+        "marginLeft": "1.5cm",
+        "marginBottom": "8",
+        "marginRight": "1.5cm",
+        "format": "a4"
+    },
+    "$entitySet": "templates"
+}

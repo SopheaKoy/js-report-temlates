@@ -1,0 +1,39 @@
+{
+    "name": "incentive_report_index",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "u0xfA2Zti"
+    },
+    "shortid": "A8KHRq0KRS",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "marginBottom": "2cm",
+        "viewportHeight": null,
+        "pageRanges": "",
+        "format": "A4"
+    },
+    "creationDate": {
+        "$$date": 1724636774114
+    },
+    "modificationDate": {
+        "$$date": 1724637581782
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "ja87m8gkUwBDWK2h",
+    "pdfPassword": null,
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "mergeWholeDocument": true
+        },
+        {
+            "type": "merge",
+            "templateShortid": "n9NLzvR",
+            "mergeWholeDocument": true
+        }
+    ],
+    "$entitySet": "templates"
+}
