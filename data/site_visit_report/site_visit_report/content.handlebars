@@ -29,9 +29,14 @@
         src: url({#asset limons1l.ttf @encoding=dataURI});
         format('ttf');
     }
+    @font-face{
+        font-family: "Arial"
+        src: url({#asset arial.ttf @encoding=dataURI})
+        format('ttf');
+    }
 
     .indent-paragraph{
-        text-indent: 70px;
+        text-indent: 75px;
     }
 
     .keep-together{
@@ -54,6 +59,9 @@
     }
     .font_tacteing {
         font-family: "Tacteing";
+    }
+    .font_arail{
+        font-family:"Arial", "Siemreap";
     }
     /* END FONT */
 
@@ -81,20 +89,33 @@
     .width-bullet-point{
         width: 25px;
     }
-    /* END BULLET POINT */
+    .format p > br {
+        display: none;
+    }
+    .format, .format p{
+        margin-top:8px;
+        text-indent:75px;
+    } 
+    .format * {
+        text-indent:0px;
+    }
+    .format>ol, .format>ul {
+        padding-left: 75px;
+    }
+    .format ol, .format ul{
+        margin-bottom: 8px;
+    }
 
     /* unorder list */
-    .format > p {
-        text-indent: 68px;
+    .format>ul{
+        margin-left:25px;
     }
-
-    .format > ul{
-        margin-left:15px;
-    }
-    /* incase start form ul */
-    .format ul {
-        list-style-type: '-   ';
-    }
+    .format>ul>li:before {
+        position: absolute;
+        margin-left: -25px;
+        margin-top: -3px;
+        content: "-";   
+    } 
     .format ul ul{
         padding-left: 50px;
         list-style-type: circle;
@@ -128,12 +149,12 @@
     
     .format ol>li:before {
         font-family: "limons1l";
-        font-size: 32px;
+        font-size: 28px;
         position: absolute;
         margin-left: -25px;
-        margin-top: -3px;
+        margin-top: -1px;
         counter-increment: section;         
-        content: counters(section, ">") ">";   
+        content: counters(section, ">") ">"; 
     } 
     .format ol>li ol>li:before {
         margin-left: -40px;
@@ -144,12 +165,13 @@
         
     }
     .format ol>li ol>li ol>li ol>li:before {
-        margin-left: -80px;
-        
+        margin-left: -80px;   
     }
-    
     /* end ol */
 
+
+
+    /* END BULLET POINT */
 
     .draft_watermark {
         position: fixed;
@@ -161,6 +183,7 @@
         background-image: url("{#asset /asset/images/draft-km.png @encoding=dataURI}"); 
     }
     </style>
+
     <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="w-full h-full">
@@ -196,23 +219,7 @@
                 </div>
 
                 <div class="w-full text-sm-base leading-7">
-                    {{!-- UL LIST --}}
-
-                    <div class="format">
-                        {{{texting}}}
-                    </div>
-                    <div class="format">
-                        {{{testing_two}}}
-                    </div>
-
-                    <div class="pt-40">
-
-                    </div>
-                    {{!-- OL LIST --}}
-                   
-
-
-                    {{!-- <div class="flex mt-2 ">
+                    <div class="flex mt-2 ">
                         <div class="flex w-[75px]">
                             <p class="font_muol">កម្មវត្ថុ</p>
                             <span>៖</span>
@@ -245,20 +252,21 @@
                                 </div>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
 
-                    {{!-- <p class="text-justify indent-paragraph mt-2">
-                        សេចក្តីដូចមានចែងក្នុងកម្មវត្ថុ និងយោងខាងលើ ខ្ញុំសូមគោរពជម្រាបជូនឯកឧត្តមមេត្តាជ្រាបថា៖ កាលពី{{check_datetime}} គណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន ដឹកនាំដោយ{{composition_lead.salute.translate.km}} <b>{{composition_lead.lastname}} {{composition_lead.firstname }}</b> {{composition_lead.positions.[0].position.translate.km}}{{composition_lead.positions.[0].position.department.translate.km}} បានចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំងស្នើសុំវិនិយោគ របស់ក្រុមហ៊ុនខាងលើ ដោយទទួលបានព័ត៌មានដូចខាងក្រោម៖
-                    </p> --}}
+                    <p class="text-justify indent-paragraph mt-2">
+                        សេចក្តីដូចមានចែងក្នុងកម្មវត្ថុ និងយោងខាងលើ ខ្ញុំសូមគោរពជម្រាបជូនឯកឧត្តមមេត្តាជ្រាបថា៖ កាលពី{{check_datetime}} គណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន ដឹកនាំដោយ{{composition_lead}} បានចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំងស្នើសុំវិនិយោគ របស់ក្រុមហ៊ុនខាងលើ ដោយទទួលបានព័ត៌មានដូចខាងក្រោម៖
+                    </p>
                     {{!-- START 1 --}}
-                    {{!-- <p class="font-bold mt-2">១. ទីតាំងស្នើសុំវិនិយោគ</p> --}}
-                    {{!-- <div class="pl-[75px]">
+                    <p class="font-bold mt-2 font_arail">&#8544;. ទីតាំងស្នើសុំវិនិយោគ</p>
+                    <div class="pl-[75px]">
                         <table class="p-0 m-0">
                             <tr class="p-0 m-0">
                                 <th class="width-bullet-point p-0 m-0"></th>
                                 <th class="w-[120px]"></th>
                                 <th class=""></th>
                             </tr>
+                            
                                 <tr >
                                     <td>
                                         <p>-</p>
@@ -330,11 +338,11 @@
                                     </td>
                                 </tr>
                         </table>
-                    </div> --}}
+                    </div>
                     {{!-- END 1 --}}
 
 
-                    {{!-- <p class="font-bold mt-2">២. គម្រោងការវិនិយោគ</p>
+                    <p class="font-bold mt-2 font_arail">&#8545;. គម្រោងការវិនិយោគ</p>
                     <div class="pl-[75px]">
                         <table class="p-0 m-0">
                             <tr class="p-0 m-0">
@@ -499,139 +507,51 @@
                                 </tr>
                             </table>
                         </div>
-                    </div> --}}
+                    </div>
 
                     {{!-- 3 --}}
-                    {{!-- <p class="font-bold mt-2">៣. ព័ត៌មានដែលទទួលបានពីការចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំង និងជំនួបប្រជុំជាមួយតំណាងក្រុមហ៊ុន</p>
-                    
-                    <div class="">
-                        <p class="indent-paragraph text-justify">ករណីសំណើសុំវិនិយោគបង្កើតរោងចក្រផលិតផើងផ្កាជ័រគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន KANHLAND TECHNOLOGY (CAMBODIA) CO., LTD. គណៈកម្មការពិនិត្យឃើញថា៖</p>
-                        <ul class="pl-10">
-                            <li class="list-disc">ទីតាំងស្នើសុំជាទីតាំងថ្មី អគាររោងចក្រទើបសាងសង់រួច ០១អគារ  ទំហំ ៥.៨០០ម២ និងការិយាល័យ ទំហំ ៥៨០ម២ (ក្នុងអគារផលិតកម្ម)។</li>
-                            <li class="list-disc">តាំងស្នើសុំស្ថិតក្នុងតំបន់ដែលមានរោងចក្រកំពុងដំណើរការ ដូចជារោងចក្រផ្តុំដំឡើងអំពូលលម្អ គ្រប់ ប្រភេទ របស់ក្រុមហ៊ុន LITESUN HOMEDECOR CO., LTD. រោងចក្រផ្តុំ និងដំឡើងខ្សែភ្លើង អំពូលភ្លើង អំពូលលម្អ និងសម្ភារៈបរិក្ខារអគ្គិសនី របស់ក្រុមហ៊ុន LAMUES TECHNOLOGY CO., LTD. និងរោងចក្រមួយចំនួនផ្សេងទៀត។</li>
-                            <li class="list-disc">ទីតាំងស្នើសុំ ដីមានប័ណ្ណកម្មសិទ្ធ សំណង់អគាររោងចក្រ ពុំទាន់បានផ្តល់លិខិតអនុញ្ញាតសាងសង់។</li>
-                            <li class="list-disc">ក្រុមហ៊ុនប្រើប្រាស់ធាតុចូលផលិតកម្មជាប្រភេទ PP raw material, Paint raw material, Butter, Pe bag , Color Label និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន និងទិញក្នុងស្រុក ផលិតជាផើងផ្កាជ័រគ្រប់ប្រភេទនាំចេញ ១០០% ទៅសហរដ្ឋអាមេរិក សហគមន៍ អឺរ៉ុប និងបណ្តាប្រទេសផ្សេងទៀត។</li>
-                            <li class="list-disc">កម្លាំងពលកម្មដំបូងចំនួន ៩៥នាក់  ចាប់ផ្តើមដំណើរការនៅខែកញ្ញា ឆ្នាំ២០២៤ ខាងមុខ។ ចំណែក សំណល់សល់ពីផលិតកម្មជាប្រភេទសំណល់កម្ទេចធាតុចូលផលិតកម្ម ក្រុមហ៊ុននឹងប្រគល់ឲ្យក្រុមហ៊ុនដឹកជញ្ជូនសំរាមដែលមានអាជ្ញាប័ណ្ណយកទៅចោលបន្ត។</li>
-                            <li class="list-disc">ក្រុមហ៊ុនប្រើប្រាស់ធាតុចូលផលិតកម្មជាប្រភេទ PP raw material, Paint raw material, Butter, Pe bag , Color Label និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន និងទិញក្នុងស្រុក ផលិតជាផើងផ្កាជ័រគ្រប់ប្រភេទនាំចេញ ១០០% ទៅសហរដ្ឋអាមេរិក សហគមន៍ អឺរ៉ុប និងបណ្តាប្រទេសផ្សេងទៀត។</li>
-                            <li class="list-disc">
-                                <p class="">ក.ម្ចាស់ទីតាំង ៖ ត្រូវបំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ស្របតាមនីតិវិធីច្បាប់ជាធរមាន។</p>
-                            </li>
-                            <li class="list-disc">ដូចនេះ ករណីនេះគណៈកម្មការយល់ថា៖ គួរដាក់ជូនអង្គប្រជុំ "ច្រកចេញ-ចូលតែមួយ "របស់ ក.អ.ក ពិនិត្យ និងសម្រេចដ៏ខ្ពង់ខ្ពស់។ទន្ទឹមនេះ ក្រុមហ៊ុន និងម្ចាស់ទីតាំងត្រូវបន្តនូវនីតីវិធីមួយចំនួនដូចខាងក្រោម៖
-                                <ul class="list-disc">
-                                    <li>ខ.ក្រុមហ៊ុនត្រូវ ៖
-                                        <ol class="list-decimal pl-16">
-                                            <li class="">រៀបចំរបាយការណ៍វាយតម្លៃហេតុប៉ះពាល់បរិស្ថានដំបូង ដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិត្យ និងសម្រេច</li>
-                                            <li class="">ដាក់ពាក្យស្នើសុំបង្កើតរោងចក្រ អនុលោមតាមបែបបទ និងនីតិវិធីច្បាប់គ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម</li>
-                                            <li class="">អនុវត្តតាមបទដ្ឋានបច្ចេទេសឧស្សាហកម្ម គោរពអនុវត្តតាមការណែនាំ និងលិខិតបទដ្ឋាន គតិយុត្តនានា របស់ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍</li>
-                                            <li class="">គ្រប់គ្រងសំណល់គ្រប់ប្រភេទឱ្យបានត្រឹមត្រូវតាមបទដ្ឋានបច្ចេកទេស</li>
-                                            <li class="">អនុវត្តតាមបទដ្ឋានបច្ចេទេសឧស្សាហកម្ម គោរពអនុវត្តតាមការណែនាំ និងលិខិតបទដ្ឋាន គតិយុត្តនានា របស់ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍</li>
-                                            <li class="">ទំនាក់ទំនង និងសហការឱ្យបានល្អជាមួយអាជ្ញាធរដែនដីគ្រប់លំដាប់ថ្នាក់ និងគោរពតាមលិខិត បទដ្ឋានគតិយុត្តនានាជាធរមាន។</li>
-                                        </ol>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div> --}}
-                    {{!-- <div class="pl-5">
-                        <p class="-indent-[5px] font_siemreap">{{{processTemplateString site_visit_info this}}}</p>
-                    </div> --}}
+                    <p class="font-bold mt-2 font_arail">&#8546;. ព័ត៌មានដែលទទួលបានពីការចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំង និងជំនួបប្រជុំជាមួយតំណាងក្រុមហ៊ុន</p>
+                    <div class="format">
+                        {{{site_visit_info}}}
+                    </div>
                     {{!-- 3 --}}
 
                     {{!-- 4 --}}
-                    <p class="font-bold mt-2">៤. មតិរបស់គណៈកម្មការ</p>
-                    {{!-- {{#each commity_comments as |item index| }}
-                        <div class="pl-2">
-                            <p class="indent-paragraph text-justify mt-2"><span class="font-bold">{{CharaterKhmer index}}- {{user.salute.translate.km}} {{user.lastname}} {{user.firstname}} {{user.positions.[0].position.translate.km}}{{user.positions.[0].position.department.translate.km}}</span>៖</p>
-                            <p class="indent-paragraph text-justify">{{{processTemplateString comment this}}}</p>
+                    <p class="font-bold mt-2 ">&#8547;. មតិរបស់គណៈកម្មការ</p>
+                    {{#each commity_comments as |item index| }}
+                        <div>
+                           <p class="indent-paragraph text-justify mt-2">
+                                <span class="font-bold">
+                                    {{CharacterKhmer index}}- 
+                                    {{item.user.salute.translate.km}} 
+                                    {{item.user.lastname}} 
+                                    {{item.user.firstname}} 
+                                    {{item.user.positions.[0].position.translate.km}}
+                                    {{item.user.positions.[0].position.department.translate.km}}
+                                </span>
+                            </p>
+                            <div class="format">
+                                {{{item.comment}}}
+                            </div>
                         </div>
-                    {{/each}} --}}
+                    {{/each}}
                     {{!-- 4 --}}
-                    {{!-- {{#each commity_comments as |item index| }}
-                        <p class="indent-paragraph text-justify mt-2">
-                            <span class="font-bold">
-                                {{CharacterKhmer index}}- 
-                                {{item.user.salute.translate.km}} 
-                                {{item.user.lastname}} 
-                                {{item.user.firstname}} 
-                                {{item.user.positions.[0].position.translate.km}}
-                                {{item.user.positions.[0].position.department.translate.km}}
-                            </span>៖
-                        </p>
-                        <ul class="list-disc">
-                            <li>{{{processTemplateString comment this}}}</li>
-                        </ul>
-                    {{/each}} --}}
-                    {{!-- <div>
-                        <p class="indent-paragraph">សូមគោរពឯកឧត្តមប្រធានក្រុមការងារអន្តរក្រសួង/ស្ថាប័ន</p>
-                        <ul class="pl-10">
-                            <li class="list-disc">រដ្ឋបាលខេត្ត សូមគាំទ្រ គម្រោងស្នើសុំវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន Kahnland Technology(Cambodian ) Co,.Ltd.ទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកកោះ ស្រុកគងពិសីខេត្តកំពង់ស្ពឺ។</li>
-                            <li class="list-disc">ទន្ទឹមនេះ សូមសំណូមពរ ឱ្យក្រុមហ៊ុនយកចិត្តទុកដាក់ចំពោះចំនុចមួយចំនួនដូចខាងក្រោម៖</li>
-                            <li>
-                                <ol class="pl-16">
-                                    <li class="list-decimal">ត្រូវស្នើសុំលិខិតអនុញ្ញាតសាងសង់តាមនីតិវិធី</li>
-                                    <li class="list-decimal">ត្រូវស្នើសុំអនុញ្ញាតច្បាប់បង្កើតរោងចក្រពីស្ថាប័នពាក់ព័ន្ធឱ្យបានត្រឹមត្រូវ</li>
-                                    <li class="list-decimal">ត្រូវរៀបចំប្រព័ន្ធកង្ហារខ្យល់ក្នុងរោងចក្រ ឱ្យបានត្រឹមត្រូវ</li>
-                                    <li class="list-decimal">ត្រូវមានបន្ទប់សង្គ្រោះបឋម</li>
-                                    <li class="list-decimal">ត្រូវរៀបចំប្រព័ន្ធកង្ហារខ្យល់ក្នុងរោងចក្រ ឱ្យបានត្រឹមត្រូវ</li>
-                                    <li class="list-decimal">ត្រូវរៀបចំអាហារដ្ឋានសម្រាប់បុគ្គលិកកម្មករអោយបានសមរម្យ</li>
-                                    <li class="list-decimal">ធានាមិនអោយមានកាកកស្ទះនៅមុខរោងចក្រប៉ះពាល់សណ្តាប់ធ្នាប់</li>
-                                    <li class="list-decimal">ត្រូវគ្រប់គ្រងកាកសំណល់គ្រប់ប្រភេទ និងជាពិសេសសំណល់ចេញពីសង្វាក់ផលិតកម្មឱ្យបានត្រឹមត្រូវ</li>
-                                    <li class="list-decimal">នៅពេលរោងចក្រដំណើរការ ត្រូវស្វែងរក និងធ្វើកិច្ចសន្យាជាមួយក្រុមហ៊ុនដឹកកាកសំណល់ដែលមានអាជ្ញាប័ណ្ណក្នុងការដឹកកាកសំណល់រឹង រាវចេញពីតំបន់គម្រោង</li>
-                                    <li class="list-decimal">ត្រូវរៀបចំប្រព័ន្ធលូទឹកភ្លៀង និងបង្គន់អនាម័យ ឱ្យបានត្រឹមត្រូវតាមបច្ចេកទេស</li>
-                                    <li class="list-decimal">ត្រូវមានអាងប្រព្រឹត្តកម្មក្នុងតំបន់គម្រោងឱ្យស្របតាមមុខសញ្ញានៃសង្វាក់ផលិតកម្ម</li>
-                                    <li class="list-decimal">ជៀសវាងឱ្យបាននូវការបង្ហូរកាកសំណល់គ្រប់ប្រភេទចូលប្រឡាយសាធារណៈ៕</li>
-                                    <li class="">ពីខ្ញុំបាទ: វ៉ាន់ ណារី</br>ប្រធានការិយាល័យកិច្ចការសេដ្ឋកិច្ច និងសង្គមកិច្ច</li>
-                                </ol>
-                            </li>
-                        </ul>
-                    </div> --}}
-                    
-                    {{!-- render as html in js report --}}
-                    
-
-
 
                     {{!-- 5 --}}
-                    <p class="font-bold mt-2">៥. មតិសរុបរបស់គណៈកម្មការ</p>
-
-                    {{!-- <div class="pl-2 text-justify">
-                        {{!-- <p class="indent-paragraph mt-2">
-                            {{{processTemplateString commity_comment this}}} 
-                        </p> --}}
-
-                        {{!-- {{#each comment_list}}
-                            {{#if (equal is_paragraph 1)}}
-                                <p class="indent-paragraph bg-red-100">{{comment}}</p>
-                            {{else}}
-                                <ul class="pl-10">
-                                    {{#if (equal is_bullet_point 1)}}
-                                        <li class="list-disc bg-red-200">{{comment}}</li>
-                                    {{else}}
-                                        {{#if (equal is_bullet_point 2)}}
-                                            <li class="bg-red-300">
-                                                <ol class="pl-10", style="list-style-type: circle;">
-                                                    <li class="">{{comment}}</li>
-                                                </ol>
-                                            </li>
-                                        {{else}}
-                                            <li class="list-decimal bg-red-300">{{comment}}</li>
-                                        {{/if}}
-                                    {{/if}}
-                                </ul>
-                            {{/if}}
-                        {{/each}}   --}}
-                    {{!-- </div> --}}
-
+                    <p class="font-bold mt-2 font_arail">&#8548;. មតិសរុបរបស់គណៈកម្មការ</p>
+                    <div class="format">
+                        {{{commity_comment}}}
+                    </div>
 
                 </div>
-                {{!-- <div class="pl-2">
+                <div>
                     <p class="indent-paragraph mt-2 text-justify">
                         សេចក្ដីដូចបានគោរពជម្រាបជូនខាងលើ សូម <b>ឯកឧត្តម</b> មេត្តាជ្រាបជារបាយការណ៍ និងផ្តល់ការណែនាំតាមការគួរ។
                     </p>
-                </div> --}}
+                </div>
 
-                {{!-- <div class="keep-together">
-                    <div class="pl-2">
+                <div class="keep-together">
+                    <div>
                         <p class="indent-paragraph text-justify mt-2">
                             សូម <b>ឯកឧត្តម</b> មេត្តាទទួលនូវគារវកិច្ចដ៏ខ្ពង់ខ្ពស់ពីខ្ញុំបាទ។
                         </p>
@@ -640,23 +560,29 @@
                         <div class="flex justify-end absolute right-0 top-0 items-center">
                             <div class="flex flex-col items-center">
                                 <p class="text-center font-bold">{{ document_preparer_position_made_up }}</p>
-                                <p class="text-center font-bold mt-16"> {{document_preparer_name}}</p>
+                                <p class="text-center font-bold mt-16">{{secretary.firstname}}  {{secretary.lastname}}</p>
                             </div>
                         </div>
                         <div class="-mt-4">
                             {{#if qr_url}}
                                 {{#neq qr_value ""}}
-                                    <a href="{{ qr_value }}" target="_blank">
-                                        <a href="{{ qr_value }}"><img src="{{qr_url}}" class="w-14 h-14 mt-5" alt="QR Code"/></a>
-                                    </a>
+                                        <a href="{{ qr_value }}" target="_blank">
+                                            <img src="{{qr_url}}" class="w-14 h-14"/>
+                                        </a>
                                 {{else}}
-                                    <img src="{{qr_url}}" class="w-14 h-14 mt-5" alt="QR Code"/>
+                                    <img src="{{qr_url}}" class="w-14 h-14"/>
                                 {{/neq}}
                             {{else}}
-                                <div class="w-14 h-14 mt-5"></div>
+                                <div class="w-14 h-14"></div>
                             {{/if}}
+                            <div class="text-xs leading-5">
+                                <p class="font-bold">ចម្លងជូន៖</p>
+                                {{#each cc}}
+                                    <p>- {{this}}</p>
+                                {{/each}}
+                            </div>
                         </div>
-                        <div class="flex justify-start items-center pl-32 -mt-4">
+                        <div class="flex justify-start items-center pl-36 -mt-[50px]">
                             <div class="flex flex-col items-center leading-7 font-bold">
                                 <p class="text-center">{{ signature_position }}</p>
                                 <p class="text-center">{{ signature_org }}</p>
@@ -664,19 +590,11 @@
                                 <p class="text-center mt-16">{{ signature_name }}</p>
                             </div>
                         </div>
-                        <div class="-mt-6 leading-6 text_xs_sm">
-                            <p class="font-bold">ចម្លងជូន៖</p>
-                            {{#each cc}}
-                                <p>- {{this}}</p>
-                            {{/each}}
-                        </div>
+                        
                     </div>
-                </div> --}}
+                </div>
             </div>
         </main>
     </body>
-    <script>
-
-    </script>
 </html>
 
