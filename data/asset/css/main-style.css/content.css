@@ -81,6 +81,9 @@ body {
 /* END FONT SIZE */
 
 /* BULLET POINT */
+.width-bullet-point-sm{
+    width: 20px;
+}
 .width-bullet-point{
     width: 25px;
 }
