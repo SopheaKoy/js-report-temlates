@@ -1,15 +1,17 @@
 {
     "name": "font",
     "creationDate": {
-        "$$date": 1724349111055
+        "$$date": 1724730184968
     },
     "modificationDate": {
-        "$$date": 1724349140811
+        "$$date": 1724730185010
     },
     "shortid": "mMSUwso",
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],
     "_id": "Gtx2CkM7y9JyHI2x",
-    "visibilityPermissions": [],
+    "visibilityPermissions": [
+        "G3wX6hUXmzaMF4d4"
+    ],
     "$entitySet": "folders"
 }

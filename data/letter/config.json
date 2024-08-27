@@ -1,0 +1,14 @@
+{
+    "name": "letter",
+    "creationDate": {
+        "$$date": 1724730184964
+    },
+    "modificationDate": {
+        "$$date": 1724730184964
+    },
+    "shortid": "pQewgoA",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "15qkWCNILDOdcEJC",
+    "$entitySet": "folders"
+}

@@ -1,239 +1,90 @@
 {
-    "is_draft": 0,
-    "project_number":"QIP23073177",
-    "letter_number": "IPR៤៦១៩/២៣ ក.អ.ក",
-    "issue_date_lunar": "ថ្ងៃ...ខែ...ឆ្នាំ...ព.ស...",
-    "issue_date": "ថ្ងៃទី...ខែ...ឆ្នាំ...",
-    "capical_city_of_cambodia": "រាជធានីភ្នំពេញ",
-    "investment_target_km": "ផលិតកាបូប កាត់ដេរសម្លៀកបំពាក់ សម្លៀកបំពាក់សម្ភាៈសត្វចិញ្ចឹម វាយនភណ្ឌក្នុងផ្ទះ(ស្រោមខ្នើយ ស្រោមពូក ភួយ មុង កម្រាលជូតជើង កម្រាលតុ និងកន្សែង) និងគ្រឿងបន្សំសម្លៀកបំពាក់ និងកាបូប",
-    "investment_target_en": "Make all kind of shoes",
-    "first_payment_datetime": "ថ្ងៃទី២៨ ខែសីហា ឆ្នាំ២០២៤",
-    "register_capital": "១៥.៥៦៦.៦៣០,០",
-    "total_investment_capital": "៥០០,០",
-    "construction_cost": "១០០,០",
-    "equipment_production_cost": "៥០០,០",
-    "equipment_stationery_cost": "២០០,០",
-    "equipment_other_cost": "៤០០,០",
-    "building_cost": "៣០០,០",
-    "building_type": "អាគារមានស្រាប់",
-    "building_size": "១៩,០",
-    "total_labor_demand": "២៦២,០",
-    "labor_demand_full_production_local": "២៦០,០",
-    "labor_demand_full_production_foreign": "២,០",
-    "investment_location_province": {
-        "code": "01",
-        "official_translate": {
-            "id": "f55327bc-3ec4-4760-9434-760f87b42d7a",
-            "km": "ខេត្តបន្ទាយមានជ័យ",
-            "en": "Banteay Meanchey Province",
-            "cn": "Banteay Meanchey Province",
-            "jp": "Banteay Meanchey Province",
-            "kr": "Banteay Meanchey Province"
+  "signature_position": "អគ្គលេខាធិការរង",
+  "signature_position_made_up": "ទទួលបន្ទុកនាយកដា្ឋនវិភាគគម្រោងនិងការលើកទឹកចិត្ត",
+  "signature_org": "គណៈកម្មាធិការវិនិយោគកម្ពុជា",
+  "signature_name": "យុន ហេង",
+  "document_preparer_position": "ប្រធាននាយកដ្ឋានស្ដីទី",
+  "document_preparer_position_made_up": "",
+  "document_preparer_org": "នាយកដ្ឋានវិភាគគម្រោងនិងការលើកទឹកចិត្ត",
+  "document_preparer_name": "ហម គីមឆេង",
+  "qr_url": "https://qr-pub.cdc.gov.kh/api/v1/qr?l=cdc&content=https://url-pub.cdc.gov.kh/xKpXRuzJTy",
+  "is_draft": 0,
+  "land_doc": "វិញ្ញាបនបត្រសម្គាល់ម្ចាស់អចលនវត្ថុលេខៈ០៥០៣០៨០៧-០០១៣ ចុះថ្ងៃទី១៨ ខែកក្កដា ឆ្នាំ២០២៤ មានផ្ទៃដីទំហំ ៧១.២១៩ម២ ជាកម្មសិទ្ធិរបស់ លោក ហ័ង ហេនរី សញ្ជាតិខ្មែរ។",
+  "qr_value": "https://url-pub.cdc.gov.kh/xKpXRuzJTy",
+  "conslusion": "",
+  "issue_date": "ថ្ងៃទី.........ខែ.........ឆ្នាំ.......",
+  "building_cost": "៥.៨០០",
+  "building_size": "៥.៨០០",
+  "building_type": "អាគារមានស្រាប់",
+  "contract_rent": "កិច្ចសន្យាជួលអគាររោងចក្រ ជួលអគារទំហំ ៥.៨០០ម៉ែត្រការ៉េ ចុះថ្ងៃទី២៨ ខែឧសភា ឆ្នាំ២០២៤ មានសុពលភាព ០៥ឆ្នាំ ដោយចាប់គិតពីថ្ងៃទី០១ ខែកញ្ញា ឆ្នាំ២០២៤។",
+  "letter_number": "............",
+  "product_input": "Abrasive Cloth 320#, Abrasive Cloth 600#, Cable Tie, Masking Tape, Sealing Glue",
+  "share_holders": [
+    {
+      "share_holder_salute": {
+        "code": "mr",
+        "translate": {
+          "cn": "Mr.",
+          "en": "Mr.",
+          "id": "cfeaab85-49fb-4671-9e5b-281e34ec0298",
+          "jp": "Mr.",
+          "km": "លោក",
+          "kr": "Mr."
         }
-    },
-    "investment_location_district": {
-        "code": "0102",
-        "official_translate": {
-            "id": "2f5210b3-ac20-4c6f-9d25-21f07e73d40b",
-            "km": "ស្រុកមង្គលបូរី",
-            "en": "Mongkol Borei District",
-            "cn": "Mongkol Borei District",
-            "jp": "Mongkol Borei District",
-            "kr": "Mongkol Borei District"
+      },
+      "share_holder_address": "19A, Building 6, Jindi Tennis Garden, No.2 Antoshan Nine Road, Futian District, Shenzhen City, Guangdong Province, China.",
+      "share_holder_fullname": "Wang Yi",
+      "share_holder_share_unit": null,
+      "share_holder_nationality": {
+        "nationality_translate": {
+          "cn": "中文",
+          "en": "Chinese",
+          "id": "84c2bdea-7222-4c1e-bd01-a39718028d18",
+          "jp": "中国語",
+          "km": "ចិន",
+          "kr": "중국어"
         }
-    },
-    "investment_location_commune": {
-        "code": "010201",
-        "official_translate": {
-            "id": "1a382728-2d50-4e6a-be32-402fa3812540",
-            "km": "ឃុំបន្ទាយនាង",
-            "en": "Banteay Neang Commune",
-            "cn": "Banteay Neang Commune",
-            "jp": "Banteay Neang Commune",
-            "kr": "Banteay Neang Commune"
-        }
-    },
-    "investment_location_village": {
-        "code": "01020108",
-        "official_translate": {
-            "id": "3d0942a7-37a9-4188-8a99-f24f8d848fb6",
-            "km": "ភូមិត្របែក",
-            "en": "Trabaek Village",
-            "cn": "Trabaek Village",
-            "jp": "Trabaek Village",
-            "kr": "Trabaek Village"
-        }
-    },
-    "contact_province": {
-        "code": "01",
-        "official_translate": {
-            "id": "f55327bc-3ec4-4760-9434-760f87b42d7a",
-            "km": "ខេត្តបន្ទាយមានជ័យ",
-            "en": "Banteay Meanchey Province",
-            "cn": "Banteay Meanchey Province",
-            "jp": "Banteay Meanchey Province",
-            "kr": "Banteay Meanchey Province"
-        }
-    },
-    "contact_village": {
-        "code": "01020108",
-        "official_translate": {
-            "id": "3d0942a7-37a9-4188-8a99-f24f8d848fb6",
-            "km": "ភូមិត្របែក",
-            "en": "Trabaek Village",
-            "cn": "Trabaek Village",
-            "jp": "Trabaek Village",
-            "kr": "Trabaek Village"
-        }
-    },
-    "contact_district": {
-        "code": "0102",
-        "official_translate": {
-            "id": "2f5210b3-ac20-4c6f-9d25-21f07e73d40b",
-            "km": "ស្រុកមង្គលបូរី",
-            "en": "Mongkol Borei District",
-            "cn": "Mongkol Borei District",
-            "jp": "Mongkol Borei District",
-            "kr": "Mongkol Borei District"
-        }
-    },
-    "contact_commune": {
-        "code": "010201",
-        "official_translate": {
-            "id": "1a382728-2d50-4e6a-be32-402fa3812540",
-            "km": "ឃុំបន្ទាយនាង",
-            "en": "Banteay Neang Commune",
-            "cn": "Banteay Neang Commune",
-            "jp": "Banteay Neang Commune",
-            "kr": "Banteay Neang Commune"
-        }
-    },
-    "check_datetime": "ថ្ងៃទី៣ ខែកញ្ញា ឆ្នាំ២០២៤",
-    "investment_target_group": "១",
-    "incentive_depreciations": [],
-    "incentive_income_taxes": [
-        {
-            "tab_count": 1,
-            "title": "",
-            "data": "ការលើកលែងពន្ធលើប្រាក់បំណូលចំនួន  ៩ (ប្រាំបួន) ឆ្នាំ គិតចាប់ពីពេលដែលទទួលបាន ប្រាក់ចំណូលលើកដំបួងពីសកម្មភាពអាជីវកម្ម។ បន្ទាប់ពីផុតរយៈ ពេលលើកលែងពន្ធ លើប្រាក់ចំណូល គ.ល.គ. មានសិទ្ធិទទួលបានការលើកទឹកចិត្តឱ្យបង់ពន្ធលើប្រាក់ចំណូល តាមអត្រាកំណើន តាមពេលធៀបទៅនឹងទីកប្រាក់ពន្ធត្រូវបង់សរុប ដូចខាងក្រោម៖",
-            "is_paragraph": 0
-        },
-        {
-            "tab_count": 2,
-            "title": "",
-            "data": "២៥ (ម្ភៃប្រាំ) ភាគរយ សម្រាប់២ (ពីរ) ឆ្នាំដំបូង",
-            "is_paragraph": 0
-        },
-        {
-            "tab_count": 2,
-            "title": "",
-            "data": "៥០ (ហាសិប) ភាគរយ សម្រាប់២ (ពីរ) ឆ្នាំបន្ទាប់",
-            "is_paragraph": 0
-        },
-        {
-            "tab_count": 2,
-            "title": "",
-            "data": "៧៥ (ចិតសិបប្រាំ) ភាគរយ សម្រាប់២ (ពីរ) ឆ្នាំចុងក្រោយ។",
-            "is_paragraph": 0
-        }
-    ],
-    "template_additional_incentive": [
-        {
-            "code": "3b959e98-3d79-4d37-a940-c7ae77357fc0",
-            "translate": {
-                "id": "f34f6794-f730-46b4-b57d-9eb3a82f2b13",
-                "km": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម ជាបន្ទូករបស់រដ្ឋនូវ សម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារះបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូល ផលិតកម្ម រដ្ឋទទួលបន្ទកលើពន្ធតយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែក ដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
-                "en": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម ជាបន្ទូករបស់រដ្ឋនូវ សម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារះបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូល ផលិតកម្ម រដ្ឋទទួលបន្ទកលើពន្ធតយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែក ដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
-                "cn": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម ជាបន្ទូករបស់រដ្ឋនូវ សម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារះបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូល ផលិតកម្ម រដ្ឋទទួលបន្ទកលើពន្ធតយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែក ដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
-                "jp": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម ជាបន្ទូករបស់រដ្ឋនូវ សម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារះបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូល ផលិតកម្ម រដ្ឋទទួលបន្ទកលើពន្ធតយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែក ដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
-                "kr": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម ជាបន្ទូករបស់រដ្ឋនូវ សម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារះបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូល ផលិតកម្ម រដ្ឋទទួលបន្ទកលើពន្ធតយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែក ដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។"
-            }
-        },
-        {
-            "code": "8aa4705e-4a08-4e70-9e90-11278aa36282",
-            "translate": {
-                "id": "fc64dd02-c94e-4692-b628-5c14208c31e4",
-                "km": "ការលើកទីកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
-                "en": "ការលើកទីកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
-                "cn": "ការលើកទីកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
-                "jp": "ការលើកទីកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
-                "kr": "ការលើកទីកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។"
-            }
-        }
-    ],
-    "conslusion": "បានជួលទៅឲ្យក្រុមហ៊ុន SPRINGAIR FASHION (CAMBODIA) CO., LTD.",
-    "company_name_km": "តេស ពង្រៀងការលើកទឹកចិត្ត",
-    "company_name_en": "TEST INCENTIVE SUGGESTION REPORT",
-    "land_doc": "ជាកម្មសិទ្ធិរបស់លោក ម៉ាក វុិត ជនជាតិខ្មែរ សញ្ជាតិខ្មែរ កាន់អត្តសញ្ញាណបណ្ណ សញ្ជាតិខ្មែរ លេខ០២០៤១៨៨៥៣(០១) ចុះថ្ងៃទី២៦ ខែវិច្ឆិកា ឆ្នាំ២០១៤ មានវិញ្ញាបន បត្រសម្គាល់ម្ចាស់អចលនវត្ថុលេខៈ២១០៧០៧២៣០៩៤៥ ចុះថ្ងៃទី២០ ខែកញ្ញា ឆ្នាំ ២០២៣, លេខៈ២១០៧០៧២៣០៩៤៧, លេខៈ២១០៧០៧២៣-០១៦៦, លេខ២១០ ៧០៧២៣០១៥៨, លេខ២១០៧០៧២៣០១៥៩, លេខៈ២១០៧០៧២៣០៦១៤,ចុះ ថ្ងៃទី០២ ខែតុលា ឆ្នាំ២០២៣, និងលេខ២១០៧០៧២៣-០០៥០ ចុះថ្ងៃទី២៧ ខែកញ្ញា ឆ្នាំ២០២៣ របស់មន្ទីររៀបចំដែនដី នគរូបនីយកម្ម សំណង់ និងសុរិយោដី ខេត្តតាកែវ។",
-    "contract_rent": "បានជួលទៅឲ្យក្រុមហ៊ុន SPRINGAIR FASHION (CAMBODIA) CO., LTD. តំណាងដោយលោកស្រី WONG LAI LEE សញ្ជាតិចិន កាន់លិខិតឆ្លងដែន សញ្ជាតិ ចិន លេខ H២១២០៣០២៤ ចុះថ្ងៃទី០៧ ខែតុលា ឆ្នាំ២០២២ រយៈពេល ១៤ឆ្នាំ (ដប់ បួនឆ្នាំ) ចាប់ពីថ្ងៃទី២៤ ខែកុម្ភៈ ឆ្នាំ២០២៤ ដល់ថ្ងៃទី២៤ ខែកុម្ភៈ ឆ្នាំ២០៣៨។",
-    "location_situation": "",
-    "share_holders": [
-        {
-            "share_holder_fullname": "គង់ ដាវី",
-            "share_holder_nationality": {
-                "nationality_translate": {
-                    "id": "1be631e8-242b-43ae-a2aa-913d68094d35",
-                    "km": "ខ្មែរ",
-                    "en": "Cambodian",
-                    "cn": "柬埔寨人",
-                    "jp": "カンボジア人",
-                    "kr": "캄보디아인"
-                }
-            },
-            "share_holder_citid_identification_number": "26475997",
-            "share_holder_citid_identification_number_issued_datetime": "2024-07-28T00:00:00.000000Z",
-            "share_holder_address": "",
-            "share_holder_share_percent": 11.0,
-            "share_holder_share_unit": null,
-            "share_holder_salute": {
-                "code": "miss",
-                "translate": {
-                    "id": "5b70d44d-4718-4128-9212-552868d3d888",
-                    "km": "កញ្ញា",
-                    "en": "Miss",
-                    "cn": "Miss",
-                    "jp": "Miss",
-                    "kr": "Miss"
-                }
-            }
-        },
-        {
-            "share_holder_fullname": "Wang Choli",
-            "share_holder_nationality": {
-                "nationality_translate": {
-                    "id": "84c2bdea-7222-4c1e-bd01-a39718028d18",
-                    "km": "ចិន",
-                    "en": "Chinese",
-                    "cn": "中文",
-                    "jp": "中国語",
-                    "kr": "중국어"
-                }
-            },
-            "share_holder_citid_identification_number": "26487358",
-            "share_holder_citid_identification_number_issued_datetime": "2024-07-28T00:00:00.000000Z",
-            "share_holder_address": "",
-            "share_holder_share_percent": 87.0,
-            "share_holder_share_unit": null,
-            "share_holder_salute": {
-                "code": "mr",
-                "translate": {
-                    "id": "cfeaab85-49fb-4671-9e5b-281e34ec0298",
-                    "km": "លោក",
-                    "en": "Mr.",
-                    "cn": "Mr.",
-                    "jp": "Mr.",
-                    "kr": "Mr."
-                }
-            }
-        }
-    ],
-    "product_input": "នំ",
-    "product_output": "Shoe, Bag",
-    "product_output_unit": "ម៉ែត្រគីប",
-    "product_quantity_first_year": "១៥.៤០០,០",
-    "product_quantity_first_full_production": "៥០.០០០,០",
-    "investment_output_market": "USA, CHINA, ASIA.",
-    "commity_comments": [
+      },
+      "share_holder_share_percent": 100,
+      "share_holder_company_parent_name": "KANEGY PTE. LTD.",
+      "share_holder_company_parent_address": null,
+      "share_holder_company_parent_country": null,
+      "share_holder_citid_identification_number": "EM5603998",
+      "share_holder_company_parent_registration_number": null,
+      "share_holder_citid_identification_number_issued_datetime": "2024-05-13T00:00:00.000000Z",
+      "share_holder_company_parent_registration_number_issue_datetime": ""
+    }
+  ],
+  "check_datetime": "ថ្ងៃទី២០ ខែសីហា ឆ្នាំ២០២៤",
+  "product_output": "18 Inches Red Roar Planter, 12 Inches Red Roar Planter, 18 Inches Blue Meadow Planter, 12 Inches Blue Meadow Planter",
+  "project_number": "QIP24081232",
+  "commity_comment": "<p>ករណីសំណើសុំវិនិយោគបង្កើតរោងចក្រផលិតផើងផ្កាជ័រគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន KANH- LAND TECHNOLOGY (CAMBODIA) CO., LTD. គណៈកម្មការពិនិត្យឃើញថា៖</p><ul><li>ទីតាំងស្នើសុំជាទីតាំងថ្មី អគាររោងចក្រទើបសាងសង់រួច ០១អគារ ទំហំ ៥.៨០០ម៉ែត្រការ៉េ និងការិយាល័យ ទំហំ ៥៨០ម៉ែត្រការ៉េ (ក្នុងអគារផលិតកម្ម)។</li><li>ទីតាំងស្នើសុំ ដីមានប័ណ្ណកម្មសិទ្ធ សំណង់អគាររោងចក្រ ពុំទាន់បានផ្តល់លិខិតអនុញ្ញាតសាងសង់។</li><li>ក្រុមហ៊ុនប្រើប្រាស់ធាតុចូលផលិតកម្មជាប្រភេទ PP raw material, Paint raw material, Butter, Pe bag, Color Label និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន និងទិញក្នុងស្រុក ផលិតជាផើងផ្កាជ័រគ្រប់ប្រភេទនាំចេញ ១០០% ទៅសហរដ្ឋអាមេរិក សហគមន៍ អឺរ៉ុប និងបណ្តាប្រទេសផ្សេងទៀត។</li><li>កម្លាំងពលកម្មដំបូងចំនួន ៩៥នាក់ ចាប់ផ្តើមដំណើរការនៅខែកញ្ញា ឆ្នាំ២០២៤ ខាងមុខ។ ចំណែក សំណល់សល់ពីផលិតកម្មជាប្រភេទសំណល់កម្ទេចធាតុចូលផលិតកម្ម ក្រុមហ៊ុននឹងប្រគល់ឲ្យក្រុមហ៊ុនដឹកជញ្ជូនសំរាមដែលមានអាជ្ញាប័ណ្ណយកទៅចោលបន្ត។</li></ul><p>ដូចនេះ ករណីនេះគណៈកម្មការយល់ថា៖ គួរដាក់ជូនអង្គប្រជុំ “ច្រកចេញ-ចូលតែមួយ ”របស់ ក.អ.ក ពិនិត្យ និងសម្រេចដ៏ខ្ពង់ខ្ពស់។ ទន្ទឹមនេះ ក្រុមហ៊ុន និងម្ចាស់ទីតាំងត្រូវបន្តនូវនីតីវិធីមួយចំនួនដូចខាងក្រោម៖</p><ol><li>ម្ចាស់ទីតាំង៖ ត្រូវបំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ស្របតាមនីតិវិធីច្បាប់</li><li>ក្រុមហ៊ុនត្រូវ៖<ol><li>រៀបចំរបាយការណ៍វាយតម្លៃហេតុប៉ះពាល់បរិស្ថានដំបូង ដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិត្យ និងសម្រេច</li><li>ដាក់ពាក្យស្នើសុំបង្កើតរោងចក្រ អនុលោមតាមបែបបទ និងនីតិវិធីច្បាប់គ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម</li><li>អនុវត្តតាមបទដ្ឋានបច្ចេទេសឧស្សាហកម្ម គោរពអនុវត្តតាមការណែនាំ និងលិខិតបទដ្ឋាន គតិយុត្តនានា របស់ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍</li><li>គ្រប់គ្រងសំណល់គ្រប់ប្រភេទឱ្យបានត្រឹមត្រូវតាមបទដ្ឋានបច្ចេកទេស</li><li>ទំនាក់ទំនង និងសហការឱ្យបានល្អជាមួយអាជ្ញាធរដែនដីគ្រប់លំដាប់ថ្នាក់ និងគោរពតាមលិខិត បទដ្ឋានគតិយុត្តនានាជាធរមាន។</li></ol></li></ol>",
+  "company_name_en": "KAHNLAND TECHNOLOGY (CAMBODIA) CO., LTD.",
+  "company_name_km": "កានលេន ថេកណឡជី (ខេមបូឌា) ឯ.ក",
+  "contact_commune": {
+    "code": "050308",
+    "official_translate": {
+      "cn": "Roka Kaoh Commune",
+      "en": "Roka Kaoh Commune",
+      "id": "2ac71738-51ab-4f1c-94d6-2a72657d3121",
+      "jp": "Roka Kaoh Commune",
+      "km": "ឃុំរកាកោះ",
+      "kr": "Roka Kaoh Commune"
+    }
+  },
+  "contact_village": {
+    "code": "05030807",
+    "official_translate": {
+      "cn": "Ou Ta Pung Village",
+      "en": "Ou Ta Pung Village",
+      "id": "7df70489-c576-4cea-a104-e86a20eae97b",
+      "jp": "Ou Ta Pung Village",
+      "km": "ភូមិអូរតាពូង",
+      "kr": "Ou Ta Pung Village"
+    }
+  },
+  "office_location": "ភូមិអូរតាពូង ឃុំរការកោះ ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ",
+  "commity_comments": [
     {
       "user": {
         "id": "e84fc28a-34e8-4fb4-b9e6-3e236508ed20",
@@ -285,7 +136,247 @@
           "label": "Visoth-1.jpg"
         }
       },
-      "comment": "<p>ទីតាំងស្នើសុំវិនិយោគ ដីមានប័ណ្ណកម្មសិទ្ធិ និងមានកិច្ចសន្យាជួលត្រឹមត្រូវ សំណង់អគាររោងចក្រថ្មី ០១អគារ ទំហំ ៥.៨០០ម២ ពុំទាន់បានផ្តល់លិខិតអនុញ្ញាសាងសង់ ស្ថិតក្នុងតំបន់បណ្តុំរោងចក្រកំពុងដំណើរការ (ដូចជារោងចក្រផ្គុំដំឡើងអំពូលលម្អគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន LITESUN HOMEDECOR CO., LTD. រោងចក្រផ្គុំ និងដំឡើងខ្សែភ្លើងអំពូលភ្លើង អំពូលលម្អ និងសម្ភារៈបរិក្ខារអគ្គិសនី របស់ ក្រុមហ៊ុន LAMUES TECHNOLOGY CO., LTD. និងរោងចក្រមួយចំនួនផ្សេងទៀត )។</p><ol><li>ធាតុចូលផលិតកម្មៈ PP raw material, Paint raw material, Butter, Pe bag ,Color Label និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន និងទិញ ក្នុងស្រុក</li><li>ផលិតផលសម្រេចៈ ផើងផ្កាជ័រគ្រប់ប្រភេទ (12 inch &amp; 18 inch Blue meadow planter, 12 inch &amp; 18 inch Red roar planter)</li><li>ទីផ្សារនាំចេញៈ សហរដ្ឋអាមេរិក សហគមន៍អឺរ៉ុប និងបណ្តាប្រទេសផ្សេងទៀត</li><li>កម្លាំងពលកម្មដំបូងៈ ៩៥នាក់ ចាប់ផ្តើមខែកញ្ញា ឆ្នាំ២០២៤ ខាងមុខ</li><li>សមត្ថភាពផលិតៈ ៨៣៥.១០០ Pcs&#47;ឆ្នាំ។</li></ol><p>ដូចនេះ ករណីសំណើសុំវិនិយោគរបស់ក្រុមហ៊ុននេះ គួរអនុញ្ញាតឱ្យចុះបញ្ជីវិនិយោគជា គ.ល.គ។ ទន្ទឹមនេះ ក្រុមហ៊ុនត្រូវអនុវត្តឱ្យបានត្រឹមត្រូវតាមការណែនាំ និងលិខិតបទដ្ឋានគតិយុត្តនានា របស់ ក្រសួង ស្ថាប័នពាក់ព័ន្ធ។</p>"
+      "comment": "<p>ទីតាំងស្នើសុំវិនិយោគ ដីមានប័ណ្ណកម្មសិទ្ធិ និងមានកិច្ចសន្យាជួលត្រឹមត្រូវ សំណង់អគាររោងចក្រថ្មី ០១អគារ ទំហំ ៥.៨០០ម៉ែត្រការ៉េ ពុំទាន់បានផ្តល់លិខិតអនុញ្ញាសាងសង់ ស្ថិតក្នុងតំបន់បណ្តុំរោងចក្រកំពុងដំណើរការ (ដូចជារោងចក្រផ្គុំដំឡើងអំពូលលម្អគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន LITESUN HOME- DECOR CO., LTD. រោងចក្រផ្គុំ និងដំឡើងខ្សែភ្លើងអំពូលភ្លើង អំពូលលម្អ និងសម្ភារៈបរិក្ខារអគ្គិសនី របស់ ក្រុមហ៊ុន LAMUES TECHNOLOGY CO., LTD. និងរោងចក្រមួយចំនួនផ្សេងទៀត )។</p><ul><li>ធាតុចូលផលិតកម្មៈ PP raw material, Paint raw material, Butter, Pe bag ,Color Label និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន និងទិញ ក្នុងស្រុក</li><li>ផលិតផលសម្រេចៈ ផើងផ្កាជ័រគ្រប់ប្រភេទ (12 inch &amp; 18 inch Blue meadow planter, 12 inch &amp; 18 inch Red roar planter)</li><li>ទីផ្សារនាំចេញៈ សហរដ្ឋអាមេរិក សហគមន៍អឺរ៉ុប និងបណ្តាប្រទេសផ្សេងទៀត</li><li>កម្លាំងពលកម្មដំបូងៈ ៩៥នាក់ ចាប់ផ្តើមខែកញ្ញា ឆ្នាំ២០២៤ ខាងមុខ</li><li>សមត្ថភាពផលិតៈ ៨៣៥.១០០ Pcs&#47;ឆ្នាំ។</li></ul><p>ដូចនេះ ករណីសំណើសុំវិនិយោគរបស់ក្រុមហ៊ុននេះ គួរអនុញ្ញាតឱ្យចុះបញ្ជីវិនិយោគជា គ.ល.គ។ ទន្ទឹមនេះ ក្រុមហ៊ុនត្រូវអនុវត្តឱ្យបានត្រឹមត្រូវតាមការណែនាំ និងលិខិតបទដ្ឋានគតិយុត្តនានា របស់ ក្រសួង ស្ថាប័នពាក់ព័ន្ធ។</p>"
+    },
+    {
+      "user": {
+        "id": "2186d99c-45ed-4d62-9749-324e10320000",
+        "salute": {
+          "id": "e692f6a2-952d-4f04-843b-332f57c4af0b",
+          "translate": {
+            "cn": "His Excellency",
+            "en": "His Excellency",
+            "id": "843dfc6f-e312-4c5f-8665-f4eaa72cb46e",
+            "jp": "His Excellency",
+            "km": "ឯកឧត្តម",
+            "kr": "His Excellency"
+          }
+        },
+        "lastname": "ហ៊ុល",
+        "firstname": "បុណ្ណារិទ្ធ",
+        "positions": [
+          {
+            "position": {
+              "id": "7558858d-02b7-4bb1-ad93-0c5c98bddc42",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "65eb5e1d-a9d2-40a0-85ea-68c33986c349",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "21198ab2-0e97-4d92-a12f-5fc57149293a",
+                "translate": {
+                  "cn": "Ministry of Industry, Science, Technology & Innovation",
+                  "en": "Ministry of Industry, Science, Technology & Innovation",
+                  "id": "00d310bf-dbbb-4bf2-a33f-2b636d4972f9",
+                  "jp": "Ministry of Industry, Science, Technology & Innovation",
+                  "km": "ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍",
+                  "kr": "Ministry of Industry, Science, Technology & Innovation"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA6994742",
+        "profile_photo_att": null
+      },
+      "comment": "<p>លោកអុល ភារិទ្ឋ ជំនួស ឯកឧត្តម ហ៊ុល ប៊ុណ្ណារិទ្ឋ តំណាងក្រសួងឧស្សាហកម្ម វិទ្យាសាស្រ្ត បច្ចេកវិទ្យា និងនវានុវត្តន៍៖<br/>ករណីសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ(ជ័រ) របស់ក្រុមហ៊ុន KAHNLAND TECHNOLOGY (CAMBODIA) CO,. LTD.ទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកោះ ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ។ ជាមតិ សូមគាំទ្រឱ្យវិនិយោគ ក្រុមហ៊ុនត្រូវដាក់ពាក្យមកច្រកចេញ ចូលតែមួយ នៅក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍ ដើម្បីស្នើសុំការអនុញ្ញាតប្រកាសបង្តើតរោងចក្រ មុននឹងដំណើរការផលិតកម្ម ហើយក្រុមហ៊ុនត្រូវ៖</p><ul><li>រៀបចំអគាររោងចក្រ ឱ្យបានសមស្របតាមលក្ខណៈបច្ចេកទេសសុវត្តិភាពឧស្សាហកម្ម</li><li>រៀបចំប្រព័ន្ឋបង្ការអគ្គិភ័យ ក្នុងទីតាំងរោងចក្រឱ្យបានសមស្របតាមលក្ខណៈបច្ចេកទេសសុវត្តិភាពឧស្សាហកម្</li><li>ត្រូវរៀបចំទុកដាក់ និងញ៉ែកសំណល់ឧស្សាហកម្ម (សំណល់ រឹង រាវ ឧស្ម័ន) ដែលសល់ពីផលិតកម្មឱ្យបានត្រឹមត្រូវ</li><li>ត្រូវលើកស្លាកឈ្មោះរោងចក្រជាភាសាខ្មែរ នឹងនៅខាងលើភាសាបរទេស ពីមុខរោងចក្រ</li><li>ត្រូវគោរពតាមច្បាប់ស្តីពីការគ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម និងច្បាប់ស្តីពីវិសោធនកម្មច្បាប់ស្តីពីការគ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "2696e0ea-4369-4655-b3eb-4bff44746df7",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "ស្រ៊ុន",
+        "firstname": "វណ្ណនី",
+        "positions": [
+          {
+            "position": {
+              "id": "64a434a7-b5a2-459c-883e-34d755170a79",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "eebe5ce6-702a-48b4-9359-c32a15f38c49",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "6b1caa77-d5aa-4367-978d-7386001e9839",
+                "translate": {
+                  "cn": "Ministry of Land Management, Urban Planning and Construction",
+                  "en": "Ministry of Land Management, Urban Planning and Construction",
+                  "id": "68229a24-e5a6-41c9-ad98-7717dbd11a3f",
+                  "jp": "Ministry of Land Management, Urban Planning and Construction",
+                  "km": "ក្រសួងរៀបចំដែនដី នគរូបនីយកម្ម និងសំណង់",
+                  "kr": "Ministry of Land Management, Urban Planning and Construction"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPA9114897",
+        "profile_photo_att": null
+      },
+      "comment": "<p>ករណីគម្រោងស្នើសុំវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន KAHN- LAND TECHNOLOGY (CAMBODIA) CO,. LTD. មានទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកកោះ ស្រុកគងពិសីខេត្តកំពង់ស្ពឺ</p><ul><li>ទីតាំងនេះ តាមការចុះពិនិត្យ និង យោងតាមឯកសារឃើញថា៖អគារថ្មី តែពុំទាន់ផ្តល់លិខិតអនុញ្ញាតសាងសង់នៅឡើយ</li><li>ក្នុងករណីអគារគ្មានលិខិតអនុញ្ញាតសាងសង់ទេនោះ ម្ចាស់សំណង់ត្រូវបំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ស្របតាមនីតិវិធីច្បាប់ជាធរមាន។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "9577aa0b-6581-4604-8075-6e59e0c7864a",
+        "salute": {
+          "id": "b64a4089-efba-4460-9ede-61e6416d1600",
+          "translate": {
+            "cn": "Miss.",
+            "en": "Miss.",
+            "id": "969b69a6-a570-4842-bfaf-c108007ff5b9",
+            "jp": "Miss.",
+            "km": "កញ្ញា",
+            "kr": "Miss."
+          }
+        },
+        "lastname": "ហេន",
+        "firstname": "សុភារីកា",
+        "positions": [
+          {
+            "position": {
+              "id": "9b1b2148-cae2-4d29-9bea-fd526ea62c20",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "1e635d22-7eec-4794-8511-729e7380d522",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "992817a8-082f-410a-8455-1409ab24f21d",
+                "translate": {
+                  "cn": "Ministry of Planning",
+                  "en": "Ministry of Planning",
+                  "id": "b8721605-7c3c-493b-8c1d-033afce804fd",
+                  "jp": "Ministry of Planning",
+                  "km": "ក្រសួងផែនការ",
+                  "kr": "Ministry of Planning"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA5498460",
+        "profile_photo_att": null
+      },
+      "comment": "<p>ចំពោះការចុះពិនិត្យទីតាំងជាក់ស្តែងរបស់ក្រុមហ៊ុន KAHNLAND TECHNOLOGY (CAMBODIA) CO., LTD. លើការស្នើសុំគម្រោងវិនិយោគបង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ ដែលមានទីតាំងនៅភូមិអូរតាពូង ឃុំរកាកោះ ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ។ ជារួម ក្រសួងផែនការសូមគាំទ្រចំពោះគម្រោងវិនិយោគ។ ទន្ទឹមនឹងនេះ ក្រុមហ៊ុនខាងលើត្រូវគោរពតាមបែបបទ និងនីតិវិធីច្បាប់ដែលបានចែង។</p>"
+    },
+    {
+      "user": {
+        "id": "2ba4a45f-fc64-42e8-a72c-8485110614f2",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "សរ",
+        "firstname": "កុសល",
+        "positions": [
+          {
+            "position": {
+              "id": "9a012fbc-5801-4f8f-8ec2-f1933dcd0813",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "8a0f67d3-aa8f-43a6-9b40-f4f1e7eb636c",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "6adccef8-60b1-4b49-933c-2e8b7a3cae77",
+                "translate": {
+                  "cn": "Ministry of Environment",
+                  "en": "Ministry of Environment",
+                  "id": "68f6bd90-1d53-4538-9acb-5004726ea266",
+                  "jp": "Ministry of Environment",
+                  "km": "ក្រសួងបរិស្ថាន",
+                  "kr": "Ministry of Environment"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA4935042",
+        "profile_photo_att": null
+      },
+      "comment": "<p>សូមជូនយោបល់ដូចខាងក្រោម៖</p><ul><li>ក្រសួងបរិស្ថានគាំទ្រគម្រោងស្នើសុំខាងលើនេះ។</li><li>ក្រុមហ៊ុនម្ចាស់គម្រោងត្រូវគ្រប់គ្រងសំណល់រឹង-រាវ ដែលចេញពីការប្រើប្រាស់ប្រចាំថ្ងៃរបស់បុគ្គលិក-កម្មករ និងសំណល់រឹងចេញពីខ្សែរច្រវ៉ាក់ផលិតកម្មឱ្យបានត្រឹមត្រូវតាមបទដ្ឋានបច្ចេកទេស។</li><li>ក្រសួងបរិស្ថានតម្រូវឱ្យក្រុមហ៊ុនម្ចាស់គម្រោងរៀបចំរបាយការណ៌វាយតម្លៃហេតុប៉ះពាល់បរិស្ថានដំបូង សម្រាប់គម្រោងខាងលើ ដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិត្យ និងសម្រេច។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "f18faf2a-3659-4dbd-86df-33f14c337bc4",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "លោក",
+        "firstname": "ស្រី",
+        "positions": [
+          {
+            "position": {
+              "id": "1035ff32-9334-4bf4-bae8-f74d101b3ca0",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "2a39cb6a-b714-433e-8a4e-2782375e16cc",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "0fbfce21-a1ff-4931-8638-6382bd1bf8e5",
+                "translate": {
+                  "cn": "សាលាខេត្តកំពង់ស្ពឺ",
+                  "en": "សាលាខេត្តកំពង់ស្ពឺ",
+                  "id": "568ad40d-b8e4-4679-a5ab-e497592ad28d",
+                  "jp": "សាលាខេត្តកំពង់ស្ពឺ",
+                  "km": "សាលាខេត្តកំពង់ស្ពឺ",
+                  "kr": "សាលាខេត្តកំពង់ស្ពឺ"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA2554813",
+        "profile_photo_att": null
+      },
+      "comment": "<p>រដ្ឋបាលខេត្ត សូមគាំទ្រ គម្រោងស្នើសុំវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន KAHNLAND TECHNOLOGY (CAMBODIA) CO., LTD. មានទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកកោះ ស្រុកគងពិសីខេត្តកំពង់ស្ពឺ។ ទន្ទឹមនេះ សូមសំណូមពរ ឱ្យក្រុមហ៊ុនយកចិត្តទុកដាក់ចំពោះចំនុចមួយចំនួនដូចខាងក្រោម៖</p><ul><li>ត្រូវស្នើសុំលិខិតអនុញ្ញាតសាងសង់តាមនីតិវិធី</li><li>ត្រូវស្នើសុំអនុញ្ញាតច្បាប់បង្កើតរោងចក្រពីស្ថាប័នពាក់ព័ន្ធឱ្យបានត្រឹមត្រូវ</li><li>ត្រូវរៀបចំប្រព័ន្ធកង្ហារខ្យល់ក្នុងរោងចក្រ ឱ្យបានត្រឹមត្រូវ</li><li>ត្រូវរៀបចំប្រព័ន្ធការពារអគ្គីភ័យឱ្យបានត្រឹមត្រូវតាមលក្ខណៈបច្ចេកទេស</li><li>ត្រូវមានបន្ទប់សង្គ្រោះបឋម</li><li>ត្រូវរៀបចំអាហារដ្ឋានសម្រាប់បុគ្គលិកកម្មករអោយបានសមរម្យ</li><li>ធានាមិនអោយមានកាកកស្ទះនៅមុខរោងចក្រប៉ះពាល់សណ្តាប់ធ្នាប់</li><li>ត្រូវគ្រប់គ្រងកាកសំណល់គ្រប់ប្រភេទ និងជាពិសេសសំណល់ចេញពីសង្វាក់ផលិតកម្មឱ្យបានត្រឹមត្រូវ</li><li>នៅពេលរោងចក្រដំណើរការ ត្រូវស្វែងរក និងធ្វើកិច្ចសន្យាជាមួយក្រុមហ៊ុនដឹកកាកសំណល់ដែលមានអាជ្ញាប័ណ្ណក្នុងការដឹកកាកសំណល់រឹង រាវចេញពីតំបន់គម្រោង</li><li>ត្រូវរៀបចំប្រព័ន្ធលូទឹកភ្លៀង និងបង្គន់អនាម័យ ឱ្យបានត្រឹមត្រូវតាមបច្ចេកទេស</li><li>ត្រូវមានអាងប្រព្រឹត្តកម្មក្នុងតំបន់គម្រោងឱ្យស្របតាមមុខសញ្ញានៃសង្វាក់ផលិតកម្ម</li><li>ជៀសវាងឱ្យបាននូវការបង្ហូរកាកសំណល់គ្រប់ប្រភេទចូលប្រឡាយសាធារណៈ</li></ul>"
     },
     {
       "user": {
@@ -338,107 +429,11 @@
           "label": "mr-kimchheng.png"
         }
       },
-      "comment": "<p>ដោយទីតាំងស្នើសុំមានប័ណ្ណកម្មសិទ្ធិស្របច្បាប់ មានលិខិតអនុញ្ញាតសាងសង់ ទំហំអគារផលិតកម្មមានលក្ខណៈធំទូលាយ និងមុខសញ្ញាវិនិយោគពុំស្ថិតក្នុងបញ្ជីអវិជ្ជមានភ្ជាប់អនុក្រឹត្យលេខ១៣៩ អនក្រ.បក ចុះថ្ងៃទី២៣ ខែមិថុនា ឆ្នាំ២០២៣ ស្តីពីការអនុវត្តច្បាប់ស្តីពីវិនិយោគនោះ ជាមតិ ខ្ញុំបាទសូមគាំទ្រគម្រោងវិនិយោគរបស់ក្រុមហ៊ុន។<br/>ប៉ុន្តែ ដោយមុខសញ្ញាវិនិយោគ ពុំមែនជាប្រភេទគម្រោងសាមញ្ញនោះ ខ្ញុំបាទយល់ថា គួរដាក់ករណីនេះក្នុងអង្គប្រជុំ “ច្រកចេញ-ចូលតែមួយ” ដើម្បីពិនិត្យសម្រេចដ៏ខ្ពង់ខ្ពស់។</p>"
+      "comment": "<p>ដោយទីតាំងស្នើសុំមានប័ណ្ណកម្មសិទ្ធិស្របច្បាប់ មានលិខិតអនុញ្ញាតសាងសង់ ទំហំអគារផលិតកម្មមានលក្ខណៈធំទូលាយ និងមុខសញ្ញាវិនិយោគពុំស្ថិតក្នុងបញ្ជីអវិជ្ជមានភ្ជាប់អនុក្រឹត្យលេខ១៣៩ អនក្រ.បក ចុះថ្ងៃទី២៣ ខែមិថុនា ឆ្នាំ២០២៣ ស្តីពីការអនុវត្តច្បាប់ស្តីពីវិនិយោគនោះ ជាមតិ ខ្ញុំបាទសូមគាំទ្រគម្រោងវិនិយោគរបស់ក្រុមហ៊ុន។ ប៉ុន្តែ ដោយមុខសញ្ញាវិនិយោគ ពុំមែនជាប្រភេទគម្រោងសាមញ្ញនោះ ខ្ញុំបាទយល់ថា គួរដាក់ករណីនេះក្នុងអង្គប្រជុំ “ច្រកចេញ-ចូលតែមួយ” ដើម្បីពិនិត្យសម្រេចដ៏ខ្ពង់ខ្ពស់។</p>"
     },
     {
       "user": {
-        "id": "9577aa0b-6581-4604-8075-6e59e0c7864a",
-        "salute": {
-          "id": "b64a4089-efba-4460-9ede-61e6416d1600",
-          "translate": {
-            "cn": "Miss.",
-            "en": "Miss.",
-            "id": "969b69a6-a570-4842-bfaf-c108007ff5b9",
-            "jp": "Miss.",
-            "km": "កញ្ញា",
-            "kr": "Miss."
-          }
-        },
-        "lastname": "ហេន",
-        "firstname": "សុភារីកា",
-        "positions": [
-          {
-            "position": {
-              "id": "9b1b2148-cae2-4d29-9bea-fd526ea62c20",
-              "keyword": "តំណាង",
-              "translate": {
-                "cn": "Representation",
-                "en": "Representation",
-                "id": "1e635d22-7eec-4794-8511-729e7380d522",
-                "jp": "Representation",
-                "km": "តំណាង",
-                "kr": "Representation"
-              },
-              "department": {
-                "id": "992817a8-082f-410a-8455-1409ab24f21d",
-                "translate": {
-                  "cn": "Ministry of Planning",
-                  "en": "Ministry of Planning",
-                  "id": "b8721605-7c3c-493b-8c1d-033afce804fd",
-                  "jp": "Ministry of Planning",
-                  "km": "ក្រសួងផែនការ",
-                  "kr": "Ministry of Planning"
-                }
-              }
-            }
-          }
-        ],
-        "public_id": "12IPMA5498460",
-        "profile_photo_att": null
-      },
-      "comment": "<p>នាងខ្ញុំ ហេន សុភារីកា តំណាង​ក្រសួងផែនការ៖ ចំពោះការចុះពិនិត្យទីតាំងជាក់ស្តែងរបស់ក្រុមហ៊ុន KAHNLAND TECHNOLOGY (CAMBODIA) CO., LTD. លើការស្នើសុំគម្រោងវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ ដែលមានទីតាំងនៅភូមិអូរតាពូង ឃុំរកាកោះ ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ។<br/>ជារួម ក្រសួងផែនការសូមធ្វើការគាំទ្រចំពោះគម្រោងវិនិយោគ។ ទន្ទឹមនឹងនេះ ក្រុមហ៊ុនខាងលើត្រូវគោរពតាមបែបបទ និងនីតិវិធីច្បាប់ដែលបានចែង។ សូមអរគុណ។</p>"
-    },
-    {
-      "user": {
-        "id": "2186d99c-45ed-4d62-9749-324e10320000",
-        "salute": {
-          "id": "e692f6a2-952d-4f04-843b-332f57c4af0b",
-          "translate": {
-            "cn": "His Excellency",
-            "en": "His Excellency",
-            "id": "843dfc6f-e312-4c5f-8665-f4eaa72cb46e",
-            "jp": "His Excellency",
-            "km": "ឯកឧត្តម",
-            "kr": "His Excellency"
-          }
-        },
-        "lastname": "ហ៊ុល",
-        "firstname": "បុណ្ណារិទ្ធ",
-        "positions": [
-          {
-            "position": {
-              "id": "7558858d-02b7-4bb1-ad93-0c5c98bddc42",
-              "keyword": "តំណាង",
-              "translate": {
-                "cn": "Representation",
-                "en": "Representation",
-                "id": "65eb5e1d-a9d2-40a0-85ea-68c33986c349",
-                "jp": "Representation",
-                "km": "តំណាង",
-                "kr": "Representation"
-              },
-              "department": {
-                "id": "21198ab2-0e97-4d92-a12f-5fc57149293a",
-                "translate": {
-                  "cn": "Ministry of Industry, Science, Technology & Innovation",
-                  "en": "Ministry of Industry, Science, Technology & Innovation",
-                  "id": "00d310bf-dbbb-4bf2-a33f-2b636d4972f9",
-                  "jp": "Ministry of Industry, Science, Technology & Innovation",
-                  "km": "ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍",
-                  "kr": "Ministry of Industry, Science, Technology & Innovation"
-                }
-              }
-            }
-          }
-        ],
-        "public_id": "12IPMA6994742",
-        "profile_photo_att": null
-      },
-      "comment": "<p>មតិលោកអុល ភារិទ្ឋ ជំនួស ឯកឧត្តម ហ៊ុល ប៊ុណ្ណារិទ្ឋ តំណាងក្រសួងឧស្សាហកម្ម វិទ្យាសាស្រ្ត បច្ចេកវិទ្យា និងនវានុវត្តន៍។ ករណីសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ(ជ័រ) របស់ក្រុមហ៊ុន KAHNLAND TECHNOLOGY (Cambodia) Co,. Ltd.ទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកោះ ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ។ ជាមតិសូមគាំទ្រឱ្យវិនិយោគ ក្រុមហ៊ុនត្រូវដាក់ពាក្យមកច្រកចេញ ចូលតែមួយ នៅក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍ ដើម្បីស្នើសុំការអនុញ្ញាតប្រកាសបង្តើតរោងចក្រ មុននឹងដំណើរការផលិតកម្ម ហើយក្រុមហ៊ុនត្រូវ៖</p><ul><li>រៀបចំអគាររោងចក្រ និងប្រព័ន្ឋបង្ការអគ្គិភ័យ ក្នុងទីតាំងរោងចក្រឱ្យបានសមស្របតាមលក្ខណៈបច្ចេកទេស សុវត្តិភាពឧស្សាហកម្ម។</li><li>ត្រូវរៀបចំទុកដាក់ និងញ៉ែកសំណល់ឧស្សាហកម្ម (សំណល់ រឹង រាវ ឧស្ម័ន) ដែលសល់ពីផលិតកម្មឱ្យបានត្រឹមត្រូវ។</li><li>ត្រូវលើកស្លាកឈ្មោះរោងចក្រជាភាសាខ្មែរ នឹងនៅខាងលើភាសាបរទេស ពីមុខរោងចក្រ។</li><li>ត្រូវគោរពតាមច្បាប់ស្តីពីការគ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម និងច្បាប់ស្តីពីវិសោធនកម្មច្បាប់ស្តីពីការគ្រប់គ្រងរោងចក្រ និងសិប្បកម្ម។</li></ul><p>អុល ភារិទ្ឋ។<br/>សូមអរគុណ!</p>"
-    },
-    {
-      "user": {
-        "id": "2ba4a45f-fc64-42e8-a72c-8485110614f2",
+        "id": "daff4a06-4566-4482-be66-6be185e9acab",
         "salute": {
           "id": "daaeb978-104f-4684-a958-48fb8440edbb",
           "translate": {
@@ -450,148 +445,166 @@
             "kr": "Mr."
           }
         },
-        "lastname": "សរ",
-        "firstname": "កុសល",
+        "lastname": "លឹម",
+        "firstname": "មុនី",
         "positions": [
           {
             "position": {
-              "id": "9a012fbc-5801-4f8f-8ec2-f1933dcd0813",
-              "keyword": "តំណាង",
+              "id": "e4fe840e-e710-42cb-b1a4-d82d14ef97ed",
+              "keyword": "ប្រធាននាយកដ្ឋានស្តីទី",
               "translate": {
-                "cn": "Representation",
-                "en": "Representation",
-                "id": "8a0f67d3-aa8f-43a6-9b40-f4f1e7eb636c",
-                "jp": "Representation",
-                "km": "តំណាង",
-                "kr": "Representation"
+                "cn": "Acting Director",
+                "en": "Acting Director",
+                "id": "fda4f97f-bb12-4119-9dd0-b00d65a830bd",
+                "jp": "Acting Director",
+                "km": "ប្រធាននាយកដ្ឋានស្តីទី",
+                "kr": "Acting Director"
               },
               "department": {
-                "id": "6adccef8-60b1-4b49-933c-2e8b7a3cae77",
+                "id": "7d3f6a15-25ef-469a-8239-e63654184982",
                 "translate": {
-                  "cn": "Ministry of Environment",
-                  "en": "Ministry of Environment",
-                  "id": "68f6bd90-1d53-4538-9acb-5004726ea266",
-                  "jp": "Ministry of Environment",
-                  "km": "ក្រសួងបរិស្ថាន",
-                  "kr": "Ministry of Environment"
+                  "cn": "Department of Environment Impact Assessment",
+                  "en": "Department of Environment Impact Assessment",
+                  "id": "35d0a8c0-d41d-42af-b8ff-7d688361e5f3",
+                  "jp": "Department of Environment Impact Assessment",
+                  "km": "នាយកដ្ឋានវាយតម្លៃខាងបរិស្ថាន",
+                  "kr": "Department of Environment Impact Assessment"
                 }
               }
             }
           }
         ],
-        "public_id": "12IPMA4935042",
-        "profile_photo_att": null
+        "public_id": "12IPR3423124",
+        "profile_photo_att": {
+          "url": "https://dev-osm.cdcdigital.net/api/v1/download/fm97ByFQdP",
+          "size": 104049,
+          "type": "image/jpeg",
+          "label": "photo_2022-11-29_14-59-58.jpg"
+        }
       },
-      "comment": "<p>ខ្ញុំបាទមន្រ្តីប្រចាំកា តំណាងក្រសួងបរិស្ថាន សូមជូនយោបល់ដូចខាងក្រោម៖</p><ol><li>ក្រសួងបរិស្ថានគាំទ្រគម្រោងស្នើសុំខាងលើនេះ។</li><li>ក្រុមហ៊ុនម្ចាស់គម្រោងត្រូវគ្រប់គ្រងសំណល់រឹង-រាវ ដែលចេញពីការប្រើប្រាស់ប្រចាំថ្ងៃរបស់បុគ្គលិក-កម្មករ និងសំណល់រឹងចេញពីខ្សែរច្រវ៉ាក់ផលិតកម្មឱ្យបានត្រឹមត្រូវតាមបទដ្ឋានបច្ចេកទេស។</li><li>ក្រសួងបរិស្ថានតម្រូវឱ្យក្រុមហ៊ុនម្ចាស់គម្រោងរៀបចំរបាយការណ៌វាយតម្លៃហេតុប៉ះពាល់បរិស្ថានដំបូង សម្រាប់គម្រោងខាងលើ ដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិត្យ និងសម្រេច។</li></ol><p>សូមអរគុណ</p>"
-    },
-    {
-      "user": {
-        "id": "2696e0ea-4369-4655-b3eb-4bff44746df7",
-        "salute": {
-          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
-          "translate": {
-            "cn": "Mr.",
-            "en": "Mr.",
-            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
-            "jp": "Mr.",
-            "km": "លោក",
-            "kr": "Mr."
-          }
-        },
-        "lastname": "ស្រ៊ុន",
-        "firstname": "វណ្ណនី",
-        "positions": [
-          {
-            "position": {
-              "id": "64a434a7-b5a2-459c-883e-34d755170a79",
-              "keyword": "តំណាង",
-              "translate": {
-                "cn": "Representation",
-                "en": "Representation",
-                "id": "eebe5ce6-702a-48b4-9359-c32a15f38c49",
-                "jp": "Representation",
-                "km": "តំណាង",
-                "kr": "Representation"
-              },
-              "department": {
-                "id": "6b1caa77-d5aa-4367-978d-7386001e9839",
-                "translate": {
-                  "cn": "Ministry of Land Management, Urban Planning and Construction",
-                  "en": "Ministry of Land Management, Urban Planning and Construction",
-                  "id": "68229a24-e5a6-41c9-ad98-7717dbd11a3f",
-                  "jp": "Ministry of Land Management, Urban Planning and Construction",
-                  "km": "ក្រសួងរៀបចំដែនដី នគរូបនីយកម្ម និងសំណង់",
-                  "kr": "Ministry of Land Management, Urban Planning and Construction"
-                }
-              }
-            }
-          }
-        ],
-        "public_id": "12IPA9114897",
-        "profile_photo_att": null
-      },
-      "comment": "<p>ខ្ញុំបាទ ស្រ៊ុន វណ្ណនី អនុប្រធាននាយកដ្ឋាន អ វ ទ នៃក្រសួងរៀបចំដែនដី នគរូបនីយកម្ម និងសំណង់ ជាមន្រ្តីប្រចាំការ នៅ ក អ ក</p><ul><li>ករណីគម្រោងស្នើសុំវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន Kahnland Technology (Cambodian ) Co,. Ltd.ទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកកោះ ស្រុកគងពិសីខេត្តកំពង់ស្ពឺ</li><li>ទីតាំងនេះ តាមការចុះពិនិត្យ និង យោងតាមឯកសារឃើញថា៖អគារថ្មី តែពុំទាន់ផ្តល់លិខិតអនុញ្ញាតសាងសង់នៅឡើយ</li><li>ក្នុងករណីអគារគ្មានលិខិតអនុញ្ញាតសាងសង់ទេនោះ ម្ចាស់សំណង់ត្រូវបំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ស្របតាមនីតិវិធីច្បាប់ជាធរមាន៕</li></ul>"
-    },
-    {
-      "user": {
-        "id": "f18faf2a-3659-4dbd-86df-33f14c337bc4",
-        "salute": {
-          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
-          "translate": {
-            "cn": "Mr.",
-            "en": "Mr.",
-            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
-            "jp": "Mr.",
-            "km": "លោក",
-            "kr": "Mr."
-          }
-        },
-        "lastname": "លោក",
-        "firstname": "ស្រី",
-        "positions": [
-          {
-            "position": {
-              "id": "1035ff32-9334-4bf4-bae8-f74d101b3ca0",
-              "keyword": "តំណាង",
-              "translate": {
-                "cn": "Representation",
-                "en": "Representation",
-                "id": "2a39cb6a-b714-433e-8a4e-2782375e16cc",
-                "jp": "Representation",
-                "km": "តំណាង",
-                "kr": "Representation"
-              },
-              "department": {
-                "id": "0fbfce21-a1ff-4931-8638-6382bd1bf8e5",
-                "translate": {
-                  "cn": "សាលាខេត្តកំពង់ស្ពឺ",
-                  "en": "សាលាខេត្តកំពង់ស្ពឺ",
-                  "id": "568ad40d-b8e4-4679-a5ab-e497592ad28d",
-                  "jp": "សាលាខេត្តកំពង់ស្ពឺ",
-                  "km": "សាលាខេត្តកំពង់ស្ពឺ",
-                  "kr": "សាលាខេត្តកំពង់ស្ពឺ"
-                }
-              }
-            }
-          }
-        ],
-        "public_id": "12IPMA2554813",
-        "profile_photo_att": null
-      },
-      "comment": "<p>សូមគោរពឯកឧត្តមប្រធានក្រុមការងារអន្តរក្រសួង&#47;ស្ថាប័ន</p><ol><li>រដ្ឋបាលខេត្ត សូមគាំទ្រ គម្រោងស្នើសុំវិនិយោគ បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ របស់ក្រុមហ៊ុន Kahnland Technology(Cambodian ) Co,. Ltd.ទីតាំងស្ថិតនៅភូមិអូរតាពូង ឃុំរកាកកោះ ស្រុកគងពិសីខេត្តកំពង់ស្ពឺ។</li><li>ទន្ទឹមនេះ សូមសំណូមពរ ឱ្យក្រុមហ៊ុនយកចិត្តទុកដាក់ចំពោះចំនុចមួយចំនួនដូចខាងក្រោម៖<ol><li>ត្រូវស្នើសុំលិខិតអនុញ្ញាតសាងសង់តាមនីតិវិធី<ol><li>ត្រូវស្នើសុំអនុញ្ញាតច្បាប់បង្កើតរោងចក្រពីស្ថាប័នពាក់ព័ន្ធឱ្យបានត្រឹមត្រូវ<ol><li>ត្រូវរៀបចំប្រព័ន្ធកង្ហារខ្យល់ក្នុងរោងចក្រ ឱ្យបានត្រឹមត្រូវ</li><li>ត្រូវរៀបចំប្រព័ន្ធការពារអគ្គីភ័យឱ្យបានត្រឹមត្រូវតាមលក្ខណៈបច្ចេកទេស</li></ol></li><li>ត្រូវមានបន្ទប់សង្គ្រោះបឋម</li></ol></li><li>ត្រូវរៀបចំអាហារដ្ឋានសម្រាប់បុគ្គលិកកម្មករអោយបានសមរម្យ</li></ol></li></ol><ul><li>ធានាមិនអោយមានកាកកស្ទះនៅមុខរោងចក្រប៉ះពាល់សណ្តាប់ធ្នាប់<ul><li>ត្រូវគ្រប់គ្រងកាកសំណល់គ្រប់ប្រភេទ និងជាពិសេសសំណល់ចេញពីសង្វាក់ផលិតកម្មឱ្យបានត្រឹមត្រូវ<ul><li>នៅពេលរោងចក្រដំណើរការ ត្រូវស្វែងរក និងធ្វើកិច្ចសន្យាជាមួយក្រុមហ៊ុនដឹកកាកសំណល់ដែលមានអាជ្ញាប័ណ្ណក្នុងការដឹកកាកសំណល់រឹង រាវចេញពីតំបន់គម្រោង</li><li>ត្រូវរៀបចំប្រព័ន្ធលូទឹកភ្លៀង និងបង្គន់អនាម័យ ឱ្យបានត្រឹមត្រូវតាមបច្ចេកទេស</li><li>ត្រូវមានអាងប្រព្រឹត្តកម្មក្នុងតំបន់គម្រោងឱ្យស្របតាមមុខសញ្ញានៃសង្វាក់ផលិតកម្ម<ul><li>ជៀសវាងឱ្យបាននូវការបង្ហូរកាកសំណល់គ្រប់ប្រភេទចូលប្រឡាយសាធារណៈ៕</li></ul></li></ul></li></ul></li></ul><p>ពីខ្ញុំបាទ: វ៉ាន់ ណារី ប្រធានការិយាល័យកិច្ចការសេដ្ឋកិច្ច និងសង្គមកិច្ច</p>"
+      "comment": "<p>ទីតាំងនេះស្ថិតនៅក្នុងតំបន់រោងចក្រ និងទីប្រជុំជន។ ចំពោះមុខសញ្ញាវិនិយោគរបស់ក្រុមហ៊ុននេះអាចបង្ករផលប៉ះពាល់ដល់បរិស្ថាន និងសង្គមក្នុងកំរិតមធ្យម។ នាយកដ្ឋានសូមគាំទ្រនៅគម្រោងវិនិយោគបង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទនេះ។ ទន្ទឹមនឹងនេះដែរស្នើសុំឲ្យក្រុមហ៊ុនត្រូវ៖</p><ul><li>អនុវត្តសកម្មភាពអាជីវកម្មរបស់ខ្លួន ដោយអនុលោមទៅតាមច្បាប់ និងបទដ្ឋានគតិយុត្តនានា របស់ក្រសួង-ស្ថាប័ន មានសមត្ថកិច្ចជាធរមាន</li><li>បំពាក់ប្រព័ន្ធបង្ការអគ្គិភ័យឲ្យបានត្រឹមត្រូវតាមលក្ខណៈបច្ចេកទេស</li><li>រៀបចំបន្ទប់ពេទ្យសង្រ្គោះបឋម ចំណតឡាន-ម៉ូតូ និងអាហារដ្ឋានសមរម្យ</li><li>សហការជាមួយអាជ្ញាធរដែនដីគ្រប់លំដាប់ថ្នាក់ ដើម្បីធានាបាននូវសន្តិសុខសណ្តាប់ធ្នាប់សង្គម និងជាពិសេសការធ្វើចរាចរណ៍ចេញ-ចូល ក្នុងរោងចក្រ។</li></ul>"
     }
   ],
-    "commity_comment": "ទីតាំងស្នើសុំជាទីតាំងថ្មី កំពុងដំណើរការរស្នើសុំតាមនីតិវិធីនៃច្បាប់ស្តីពីសំណង់។\nដូច្នេះ ករណីនេះ គណៈកម្មការយល់ថា៖ គួរអនុញ្ញាតចុះបញ្ជីជាគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិ​គ្រប់គ្រាន់ គ.ល.គ ជូនក្រុមហ៊ុន។ ទន្ទឹមនេះ ក្រុមហ៊ុននឹងម្ចាស់ទីតាំងត្រូវ៖\n+ បំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ និងប្លង់ស្ថាបត្យកម្ម ស្របតាមនីតិវិធី នៃច្បាប់ស្តីពីសំណង់។\n+ this is more text...",
-    "legal_instrument": "ទីតាំងស្នើសុំជាទីតាំងថ្មី កំពុងដំណើរការរស្នើសុំតាមនីតិវិធីនៃច្បាប់ស្តីពីសំណង់។\nដូច្នេះ ករណីនេះ គណៈកម្មការយល់ថា៖ គួរអនុញ្ញាតចុះបញ្ជីជាគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិ​គ្រប់គ្រាន់ គ.ល.គ ជូនក្រុមហ៊ុន។ ទន្ទឹមនេះ ក្រុមហ៊ុននឹងម្ចាស់ទីតាំងត្រូវ៖\n+ បំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ និងប្លង់ស្ថាបត្យកម្ម ស្របតាមនីតិវិធី នៃច្បាប់ស្តីពីសំណង់។\n+ this is more text...",
-    "incentive_suggestion": "ទីតាំងស្នើសុំជាទីតាំងថ្មី កំពុងដំណើរការរស្នើសុំតាមនីតិវិធីនៃច្បាប់ស្តីពីសំណង់។\nដូច្នេះ ករណីនេះ គណៈកម្មការយល់ថា៖ គួរអនុញ្ញាតចុះបញ្ជីជាគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិ​គ្រប់គ្រាន់ គ.ល.គ ជូនក្រុមហ៊ុន។ ទន្ទឹមនេះ ក្រុមហ៊ុននឹងម្ចាស់ទីតាំងត្រូវ៖\n+ បំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ និងប្លង់ស្ថាបត្យកម្ម ស្របតាមនីតិវិធី នៃច្បាប់ស្តីពីសំណង់។\n+ this is more text...",
-    "qr_url":"https://dev-osqr.cdcdigital.net/api/v1/qr?l=cdc&content=https%3A//dev-qip.cdcdigital.net/attachments%3Finvt_id%3Dtest",
-    "qr_value" : "",
-    "signature_position": "អគ្គលេខាធិការរង",
-    "signature_position_made_up": "ទទួលបន្ទុកនាយកដា្ឋនវិភាគគម្រោងនិងការលើកទឹកចិត្ត",
-    "signature_org": "គណៈកម្មាធិការវិនិយោគកម្ពុជា",
-    "signature_name": "",
-    "document_preparer_position": "",
-    "document_preparer_position_made_up": "",
-    "document_preparer_org": "នាយកដ្ឋានវិភាគគម្រោងនិងការលើកទឹកចិត្ត",
-    "document_preparer_name": ""
+  "contact_district": {
+    "code": "0503",
+    "official_translate": {
+      "cn": "Kong Pisei District",
+      "en": "Kong Pisei District",
+      "id": "54b893bb-c65f-4064-8487-7cb1326ef190",
+      "jp": "Kong Pisei District",
+      "km": "ស្រុកគងពិសី",
+      "kr": "Kong Pisei District"
+    }
+  },
+  "contact_province": {
+    "code": "05",
+    "official_translate": {
+      "cn": "Kampong Speu Province",
+      "en": "Kampong Speu Province",
+      "id": "14e407b7-09e7-414c-8817-149745f50cef",
+      "jp": "Kampong Speu Province",
+      "km": "ខេត្តកំពង់ស្ពឺ",
+      "kr": "Kampong Speu Province"
+    }
+  },
+  "issue_date_lunar": "ថ្ងៃ.................ខែ.........ឆ្នាំ.........ព.ស........",
+  "legal_instrument": "<ul><li>ការបំពេញឯកសារ៖ ក្រុមហ៊ុនបានបំពេញឯកសារគ្រប់គ្រាន់ ស្របតាមនីតិវិធីរួចហើយ។</li><li>ផ្នែកច្បាប់៖<ul><li>គម្រោងវិនិយោគនេះ ពំុស្ថិតក្នុងបញ្ជីអវិជ្ជមាននៃងនុក្រឹត្យលេខ ១៣៩ អនក្រ. បក ចុះថ្ងៃទី២៦ ខែមិថុនា ឆ្នាំ២០២៣ ទេ គឺជាគម្រោងស្ថិតក្នុងក្រុមសកម្មភាពវិនិយោគក្រុមទី៣ (ក្រុម៣) នៃឧបសម្ព័ន្ធទី២ នៃអនុក្រឹត្យលេខ ១៣៩ អនក្រ. បក ចុះថ្ងៃទី២៦ ខែមិថុនា ឆ្នាំ២០២៣ ដែលត្រូវទទួលបានការលើកលែងពន្ធលើប្រាក់ចំណូលចំនួន ៣(បី) ឆ្នាំ។</li><li>លោកស្រី WONG, LAI LEE ដែជាអភិបាលក្រុមហ៊ុននេះ មិនមានជាប់ពាក់ព័ន្ធទៅនឹង គ.ល.គ. ផ្សេងឡើយ។</li></ul></li></ul>",
+  "register_capital": "១.០០០.០០០",
+  "construction_cost": "០",
+  "equipment_material": "Liquid Raw Material Belt, Screw Rod, Explosion Proof Lamp, Emergency Exit Light, Emergency Light",
+  "total_labor_demand": "១៦៥",
+  "investment_location": "ភូមិអូរតាពូង ឃុំរការកោះ ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ",
+  "product_output_unit": "pcs",
+  "equipment_other_cost": "១៤០.០០០",
+  "incentive_suggestion": "<p>ដោយទីតាំងនេះជាទីតាំងថ្មី មានប័ណ្ណកម្មសិទ្ធិ និងមានទំហំធំទូលាយ សមស្របទៅនឹងមុខសញ្ញាផលិតកម្ម និងដោយគម្រោងនេះមិនស្ថិតក្នុងបញ្ជីអវិជ្ជមាននឺអនុក្រឹង្យលេខ ១៣៩ អនក្រ. បក និងយោងតាមរបាយការណ៍ ចុះពិនិត្យទីតាំង,  ខ្ញុំបាទយល់ថា គួរអនុញ្ញាតឱ្យក្រុមហ៊ុនវិនិយោគ ដោយទទួលបានការលើកទឹកចិត្ត ស្របតាមច្បាប់និងបទប្បញ្ញត្តិ ជាធរមាន។</p>",
+  "investment_target_en": "Planter",
+  "investment_target_km": "បង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទបង្កើតរោងចក្រផលិតផើងផ្កាគ្រប់ប្រភេទ",
+  "first_payment_datetime": "ថ្ងៃទី៧ ខែសីហា ឆ្នាំ២០២៤",
+  "incentive_income_taxes": [
+    {
+      "data": "ការលើកលែងពន្ធលើប្រាក់ចំណូលចំនួន ៦ (ប្រាំមួយ) ឆ្នាំ គិតចាប់ពីពេលដែលទទួលបាន ប្រាក់ចំណូលលើកដំបូងពីសកម្មភាពអាជីវកម្ម។",
+      "title": "",
+      "tab_count": 1,
+      "is_paragraph": 0
+    }
+  ],
+  "incentive_depreciations": [],
+  "investment_target_group": "២",
+  "capical_city_of_cambodia": "រាជធានីភ្នំពេញ",
+  "investment_output_market": "នាំចេញ ១០០% (សហរដ្ឋអាម៉េរិក សហគមន៍អឺរ៉ុប និងបណ្ដាប្រទេសផ្សេងទៀត) ",
+  "total_investment_capital": "5,135,682",
+  "equipment_production_cost": "៤.៧៧៣.៤៣២",
+  "equipment_stationery_cost": "១២២.២៥០",
+  "investment_location_commune": {
+    "code": "050308",
+    "official_translate": {
+      "cn": "Roka Kaoh Commune",
+      "en": "Roka Kaoh Commune",
+      "id": "2ac71738-51ab-4f1c-94d6-2a72657d3121",
+      "jp": "Roka Kaoh Commune",
+      "km": "ឃុំរកាកោះ",
+      "kr": "Roka Kaoh Commune"
+    }
+  },
+  "investment_location_village": {
+    "code": "05030807",
+    "official_translate": {
+      "cn": "Ou Ta Pung Village",
+      "en": "Ou Ta Pung Village",
+      "id": "7df70489-c576-4cea-a104-e86a20eae97b",
+      "jp": "Ou Ta Pung Village",
+      "km": "ភូមិអូរតាពូង",
+      "kr": "Ou Ta Pung Village"
+    }
+  },
+  "product_quantity_first_year": "",
+  "investment_location_district": {
+    "code": "0503",
+    "official_translate": {
+      "cn": "Kong Pisei District",
+      "en": "Kong Pisei District",
+      "id": "54b893bb-c65f-4064-8487-7cb1326ef190",
+      "jp": "Kong Pisei District",
+      "km": "ស្រុកគងពិសី",
+      "kr": "Kong Pisei District"
+    }
+  },
+  "investment_location_province": {
+    "code": "05",
+    "official_translate": {
+      "cn": "Kampong Speu Province",
+      "en": "Kampong Speu Province",
+      "id": "14e407b7-09e7-414c-8817-149745f50cef",
+      "jp": "Kampong Speu Province",
+      "km": "ខេត្តកំពង់ស្ពឺ",
+      "kr": "Kampong Speu Province"
+    }
+  },
+  "template_additional_incentive": [
+    {
+      "code": "3b959e98-3d79-4d37-a940-c7ae77357fc0",
+      "translate": {
+        "cn": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែមជាបន្ទុករបស់រដ្ឋនូវសម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារៈបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូលផលិតកម្ម រដ្ឋទទួលបន្ទុកលើពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែកដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
+        "en": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែមជាបន្ទុករបស់រដ្ឋនូវសម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារៈបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូលផលិតកម្ម រដ្ឋទទួលបន្ទុកលើពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែកដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
+        "id": "f34f6794-f730-46b4-b57d-9eb3a82f2b13",
+        "jp": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែមជាបន្ទុករបស់រដ្ឋនូវសម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារៈបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូលផលិតកម្ម រដ្ឋទទួលបន្ទុកលើពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែកដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
+        "km": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែមជាបន្ទុករបស់រដ្ឋនូវសម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារៈបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូលផលិតកម្ម រដ្ឋទទួលបន្ទុកលើពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែកដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។",
+        "kr": "ការនាំចូលដោយពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែមជាបន្ទុករបស់រដ្ឋនូវសម្ភារៈសាងសង់ បរិក្ខារសំណង់ និងសម្ភារៈបរិក្ខារផលិតកម្ម។ ដោយឡែកធាតុចូលផលិតកម្ម រដ្ឋទទួលបន្ទុកលើពន្ធគយ អាករពិសេស និងអាករលើតម្លៃបន្ថែម តែផ្នែកដែលផលិតសម្រាប់បម្រើឱ្យការនាំចេញប៉ុណ្ណោះ។"
+      }
+    },
+    {
+      "code": "8aa4705e-4a08-4e70-9e90-11278aa36282",
+      "translate": {
+        "cn": "ការលើកទឹកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
+        "en": "ការលើកទឹកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
+        "id": "fc64dd02-c94e-4692-b628-5c14208c31e4",
+        "jp": "ការលើកទឹកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
+        "km": "ការលើកទឹកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។",
+        "kr": "ការលើកទឹកចិត្តដទៃទៀត ដូចមានចែងក្នុងច្បាប់និងលិខិតបទដ្ឋានគតិយុត្តជាធរមាន។"
+      }
+    }
+  ],
+  "labor_demand_full_production_local": "១៥៥",
+  "labor_demand_full_production_foreign": "១០",
+  "product_quantity_first_full_production": "១.៥៨៧.៨៨៣"
 }

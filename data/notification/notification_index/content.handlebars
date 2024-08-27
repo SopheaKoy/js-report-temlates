@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style rel='stylesheet' type='text/css'>
+    @font-face {
+        font-family: "Siemreap";
+        src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "KhmerOSMuol";
+        src: url({#asset KhmerOSMuolLightRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "Roman";
+        src: url({#asset times_new_roman.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: 'Tacteing';
+        src: url({#asset Tacteing.ttf @encoding=dataURI});
+        format('ttf');
+    }
+
+    .indent-paragraph{
+        text-indent: 68px;
+    }
+
+    .keep-together{
+        page-break-inside:avoid;
+    }
+
+    body {
+        font-size: 15px;
+        font-family: "Roman", "Siemreap";
+    }
+    /* FONT */
+    .font_muol {
+        font-family: "Roman", "KhmerOSMuol";
+    }
+    .font_siemreap {
+        font-family: "Roman", "Siemreap";
+    }
+    .font_tacteing {
+        font-family: "Tacteing";
+    }
+
+    /* END FONT */
+
+    /* FONT SIZE */
+
+    .font-base {
+        font-size: 16px;
+    }
+    
+    .text-main {
+        font-size: 14px;
+    }
+    .text-sm-base {
+        font-size: 15px;
+    }
+
+    .text_xs_sm{
+        font-size: 13px;
+    }
+    .text-xs {
+        font-size: 11px;
+    }
+
+    /* END FONT SIZE */
+   
+    .draft_watermark {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background-image: url("{#asset /asset/images/draft-km.png @encoding=dataURI}"); 
+    }
+    
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="w-full h-full">
+        {{#if (equal is_draft 1)}}
+            <div class="draft_watermark bg-auto w-full h-full top-0 h-0 z-20">
+            </div>
+        {{/if}}
+        <main class="leading-7 flex flex-col w-full">
+            <div class="flex flex-1 px-12 justify-between text-[#648558] relative">
+                <div class="flex flex-col justify-items-center font_muol">
+                    <img class="mx-auto w-[90px]" src={{{processTemplateString logo_url this}}}>
+                    <p class="text-center leading-7">{{{processTemplateString text_header_one this}}} </p>
+                    <p class="text-center leading-6 text-sm-base">{{{processTemplateString text_header_two this}}} </p>
+                    <p class="text-center leading-6 text_xs_sm font_siemreap">{{ number }}</p>
+                </div>
+
+                <div class="flex">
+                    <div class="mt-7">
+                        <div class="flex flex-col w-fix font_muol">
+                            <p class="text-center leading-6 font-base">{{{processTemplateString text_motto_one this}}}</p>
+                            <p class="text-center leading-6 font-base font-bold">{{{processTemplateString text_motto_two this}}}</p>
+                            <p class="text-center leading-6 font-base">{{{processTemplateString text_motto_three this}}}</p>
+                            <p class="text-center leading-6 font-base font-bold italic">{{{processTemplateString text_motto_four this}}}</p>
+                            <p class="text-center leading-6 text-main font_tacteing">{{{processTemplateString text_motto_decorate this}}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-end mt-[75px] text_xs_sm font-normal absolute right-12 bottom-0">
+                    <p class="text-end leading-6">{{{processTemplateString date this}}} </p>
+                </div>
+            </div>
+
+            <div class="ml-[80px] mr-[65px] text-sm-base">
+                <div>
+                    <p class="text-center mt-2 font_muol">{{ certificate_title }}</p>
+                    {{#each template_contents}}
+                        <p class="text-justify mt-2 {{#if (equal is_paragraph 1)}}indent-14{{/if}}">
+                            {{{processTemplateString data this}}}
+                        </p>
+                    {{/each}}
+                    <div class="flex w-full justify-between justify-items-start mt-1 keep-together">
+                        <div class="">
+                            <div>
+                                {{#neq qr_value ""}}
+                                    <a href="{{ qr_value }}" target="_blank">
+                                        <img src="{{qr_code}}" class="w-14 h-14"/>
+                                    </a>
+                                {{else}}
+                                    <img src="{{qr_code}}" class="w-14 h-14"/>
+                                {{/neq}}
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center font_muol">
+                            <p class="text-center leading-8">{{{processTemplateString signature_text this}}} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

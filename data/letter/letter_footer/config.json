@@ -1,0 +1,22 @@
+{
+    "name": "letter_footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1724730184975
+    },
+    "modificationDate": {
+        "$$date": 1724730184975
+    },
+    "shortid": "wN_idwW",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "iQ7N6pW4mbJCYWxk",
+    "chrome": {
+        "marginTop": "",
+        "marginRight": "1.5cm",
+        "marginLeft": "1.5cm",
+        "marginBottom": "8"
+    },
+    "$entitySet": "templates"
+}
