@@ -26,7 +26,7 @@ Handlebars.registerHelper('checkTab', function(tab) {
     if (tab == 0){
         return ''
     } else {
-        return `padding-left: ${ tab * 60 }px;`
+        return `padding-left: ${ tab * 75 }px;`
     }
 });
 
