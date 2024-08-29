@@ -96,3 +96,8 @@ Handlebars.registerHelper('CharacterKhmer', function(index) {
     return new Handlebars.SafeString(result || '');
 });
 
+function getTOCTemplate() {
+    return {
+        recipe: "html"
+    }
+}

@@ -5,3 +5,19 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
     at async Object.update (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)
+2024-08-28T09:07:07.267Z - error: Error occurred during reporter init: Error: Error when trying to parse file at "Incentive_report\data_incentive_report_a1\config.json", check that file contains valid JSON. Expected ',' or '}' after property value in JSON at position 137
+    at parseFiles (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:58:18)
+    at async load (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:98:27)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\p-map\index.js:57:22
+2024-08-28T09:07:53.260Z - error: Error occurred during reporter init: Error: Error when trying to parse file at "Incentive_report\data_incentive_report_a1\config.json", check that file contains valid JSON. Expected ',' or '}' after property value in JSON at position 137
+    at parseFiles (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:58:18)
+    at async load (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:98:27)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\p-map\index.js:57:22
+2024-08-28T09:11:45.357Z - error: Error occurred during reporter init: Error: Error when trying to parse file at "Incentive_report\data_incentive_report_a1\config.json", check that file contains valid JSON. Expected ',' or '}' after property value in JSON at position 137
+    at parseFiles (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:58:18)
+    at async load (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:98:27)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\p-map\index.js:57:22
+2024-08-28T09:12:12.665Z - error: Error occurred during reporter init: Error: Error when trying to parse file at "Incentive_report\data_incentive_report_a1\config.json", check that file contains valid JSON. Expected ',' or '}' after property value in JSON at position 137
+    at parseFiles (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:58:18)
+    at async load (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-fs-store\lib\persistence.js:98:27)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\p-map\index.js:57:22

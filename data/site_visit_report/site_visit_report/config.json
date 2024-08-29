@@ -2,25 +2,19 @@
     "name": "site_visit_report",
     "engine": "handlebars",
     "recipe": "chrome-pdf",
-    "shortid": "UcX9e665C3",
+    "data": null,
+    "shortid": "QWgbAgEjk",
     "chrome": {
-        "printBackground": true,
-        "format": "A4",
-        "marginTop": "2cm",
-        "marginBottom": "2cm"
+        "printBackground": true
     },
     "creationDate": {
-        "$$date": 1724349019282
+        "$$date": 1724918726714
     },
     "modificationDate": {
-        "$$date": 1724724991689
+        "$$date": 1724928555133
     },
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],
-    "_id": "eSsOOVC3tSFg53eB",
-    "$entitySet": "templates",
-    "data": {
-        "shortid": "JCANMuywh"
-    },
-    "pdfOperations": []
+    "_id": "6raowK1ePkaeUfBw",
+    "$entitySet": "templates"
 }

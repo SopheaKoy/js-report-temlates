@@ -1,0 +1,15 @@
+{
+    "name": "header",
+    "engine": "handlebars",
+    "shortid": "GuZ8jU8S1v",
+    "creationDate": {
+        "$$date": 1724921723943
+    },
+    "modificationDate": {
+        "$$date": 1724928644857
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "ILxM9mFFf0QLm1b7",
+    "$entitySet": "components"
+}

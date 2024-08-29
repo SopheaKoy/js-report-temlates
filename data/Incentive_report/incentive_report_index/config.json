@@ -18,22 +18,12 @@
         "$$date": 1724682982583
     },
     "modificationDate": {
-        "$$date": 1724728712879
+        "$$date": 1724928860522
     },
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],
     "_id": "ja87m8gkUwBDWK2h",
     "pdfPassword": null,
-    "pdfOperations": [
-        {
-            "type": "merge",
-            "mergeWholeDocument": true
-        },
-        {
-            "type": "merge",
-            "templateShortid": "n9NLzvR",
-            "mergeWholeDocument": true
-        }
-    ],
+    "pdfOperations": [],
     "$entitySet": "templates"
 }
