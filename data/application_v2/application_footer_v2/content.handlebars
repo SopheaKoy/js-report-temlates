@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face {
+                font-family: "Siemreap";
+                src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
+                format('ttf');
+            }
+            @font-face {
+                font-family: "Roman";
+                src: url({#asset times new roman.ttf  @encoding=dataURI});
+                format('ttf');
+            }
+            .font_siemreap {
+                font-family: "Roman", "Siemreap";
+            }
+            * {
+                box-sizing: border-box;
+            }
+
+            html, body {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .main {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+                height: 100%;
+            }
+
+            .header {
+                width: 100%;
+                padding-top: 20px;
+                border-bottom: 1px solid black;
+            }
+
+            .footer {
+                width: 100%;
+                padding-bottom: 20px;
+                text-align: center;
+                font-size: 12px;
+            }
+        </style>
+         <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+    </head>
+    <body>
+        {{#each $pdf.pages}}
+          {{#if @index}}
+            <div style="page-break-before: always;"></div>
+          {{/if}}
+          <main class="main">
+            <header>
+            </header>
+            <footer class="footer text-center text-xs">
+                <div class="font_siemreap">{{getPageNumber @index @root.lng}}/{{getTotalPages ../$pdf.pages}}</div>
+            </footer>
+          </main>
+        {{/each}}
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "data_application_v2",
+    "shortid": "ecJQlOoDX",
+    "creationDate": {
+        "$$date": 1725258751722
+    },
+    "modificationDate": {
+        "$$date": 1725258751722
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "b7qOGWyLxfMPzMjG",
+    "$entitySet": "data"
+}

@@ -12,13 +12,14 @@
         "marginBottom": "2cm",
         "viewportHeight": null,
         "pageRanges": "",
-        "format": "A4"
+        "format": "A4",
+        "landscape": false
     },
     "creationDate": {
         "$$date": 1724682982583
     },
     "modificationDate": {
-        "$$date": 1724928860522
+        "$$date": 1725252919912
     },
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],

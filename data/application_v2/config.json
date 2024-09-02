@@ -1,0 +1,14 @@
+{
+    "name": "application_v2",
+    "creationDate": {
+        "$$date": 1725258751706
+    },
+    "modificationDate": {
+        "$$date": 1725258751706
+    },
+    "shortid": "0C6b2UP",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "QpuPIwF6zYfOM2C3",
+    "$entitySet": "folders"
+}
