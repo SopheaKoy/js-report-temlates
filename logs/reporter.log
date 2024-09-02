@@ -1,0 +1,459 @@
+2024-09-02T02:54:15.226Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-09-02T02:54:15.235Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-09-02T02:54:15.241Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-09-02T02:54:15.409Z - info: Found 35 extension(s)
+2024-09-02T02:54:15.493Z - info: Using extension authentication@4.2.1
+2024-09-02T02:54:15.758Z - info: Using extension base@4.0.0
+2024-09-02T02:54:15.762Z - info: Using extension child-templates@4.1.0
+2024-09-02T02:54:15.763Z - info: Using extension cli@4.0.4
+2024-09-02T02:54:15.768Z - info: Using extension components@4.0.2
+2024-09-02T02:54:15.770Z - info: Using extension data@4.1.0
+2024-09-02T02:54:15.772Z - info: Using extension express@4.1.2
+2024-09-02T02:54:16.275Z - info: Using extension freeze@4.0.0
+2024-09-02T02:54:16.277Z - info: Using extension fs-store@4.0.4
+2024-09-02T02:54:16.447Z - info: Using extension handlebars@4.0.1
+2024-09-02T02:54:16.450Z - info: Using extension import-export@4.0.4
+2024-09-02T02:54:16.465Z - info: Using extension jsrender@4.0.0
+2024-09-02T02:54:16.466Z - info: Using extension licensing@4.0.2
+2024-09-02T02:54:16.494Z - info: Using extension localization@4.0.1
+2024-09-02T02:54:16.495Z - info: Using extension npm@4.0.0
+2024-09-02T02:54:16.500Z - info: Using extension pdf-utils@4.2.1
+2024-09-02T02:54:16.503Z - info: Using extension reports@4.1.2
+2024-09-02T02:54:16.506Z - info: Using extension tags@4.0.1
+2024-09-02T02:54:16.508Z - info: Using extension text@4.0.2
+2024-09-02T02:54:16.509Z - info: Using extension version-control@4.0.0
+2024-09-02T02:54:16.518Z - info: Using extension assets@4.1.1
+2024-09-02T02:54:16.531Z - info: Using extension authorization@4.0.0
+2024-09-02T02:54:16.537Z - info: Using extension browser-client@4.1.0
+2024-09-02T02:54:16.542Z - info: Using extension chrome-pdf@4.1.0
+2024-09-02T02:54:16.546Z - info: Using extension docx@4.5.0
+2024-09-02T02:54:16.548Z - info: Using extension html-to-xlsx@4.1.2
+2024-09-02T02:54:17.104Z - info: html-to-xlsx detected chrome as available html engine
+2024-09-02T02:54:17.104Z - info: Using extension pptx@4.3.1
+2024-09-02T02:54:17.107Z - info: Using extension scheduling@4.0.0
+2024-09-02T02:54:17.141Z - info: Using extension scripts@4.1.0
+2024-09-02T02:54:17.143Z - info: Using extension static-pdf@4.1.0
+2024-09-02T02:54:17.144Z - info: Using extension studio@4.1.1
+2024-09-02T02:54:17.236Z - info: Using extension xlsx@4.2.0
+2024-09-02T02:54:17.238Z - info: Using extension public-templates@4.0.0
+2024-09-02T02:54:17.239Z - info: Using extension sample-template@4.0.0
+2024-09-02T02:54:17.241Z - info: Using extension studio-theme-dark@4.0.0
+2024-09-02T02:54:17.242Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-09-02T02:54:17.242Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-09-02T02:54:17.243Z - info: Using fs provider for template store.
+2024-09-02T02:54:17.246Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-09-02T02:54:17.254Z - info: fs store is loading data
+2024-09-02T02:54:17.335Z - info: fs store is initialized successfully
+2024-09-02T02:54:17.355Z - info: Creating default express app.
+2024-09-02T02:54:17.395Z - info: jsreport server successfully started on http port: 7001
+2024-09-02T02:54:17.396Z - info: Verifying license key free
+2024-09-02T02:54:17.399Z - info: Using free license
+2024-09-02T02:54:17.405Z - info: Initializing worker threads
+2024-09-02T02:54:17.641Z - info: 2 worker threads initialized in 236ms
+2024-09-02T02:54:17.642Z - info: Starting temp files cleanup with 180000ms threshold
+2024-09-02T02:54:17.642Z - info: reporter initialized
+2024-09-02T02:55:04.467Z - info: Render request 1 queued for execution and waiting for available worker rootId=vk9b5de2xgggj00, id=vk9b5de2xgggj00
+2024-09-02T02:55:04.493Z - info: Starting rendering request 1 (user: admin) rootId=vk9b5de2xgggj00, id=vk9b5de2xgggj00
+2024-09-02T02:55:04.495Z - info: Rendering template { name: incentive_report_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vk9b5de2xgggj00, id=vk9b5de2xgggj00
+2024-09-02T02:55:06.843Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=vk9b5de2xgggj00, id=vk9b5de2xgggj00
+2024-09-02T02:55:07.730Z - info: Rendering request 1 finished in 3267 ms rootId=vk9b5de2xgggj00, id=vk9b5de2xgggj00
+2024-09-02T02:55:24.655Z - info: Render request 2 queued for execution and waiting for available worker rootId=a3g5hgpaid6s4xm, id=a3g5hgpaid6s4xm
+2024-09-02T02:55:24.667Z - info: Starting rendering request 2 (user: admin) rootId=a3g5hgpaid6s4xm, id=a3g5hgpaid6s4xm
+2024-09-02T02:55:24.667Z - info: Rendering template { name: incentive_report_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a3g5hgpaid6s4xm, id=a3g5hgpaid6s4xm
+2024-09-02T02:55:26.437Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=a3g5hgpaid6s4xm, id=a3g5hgpaid6s4xm
+2024-09-02T02:55:27.338Z - info: Rendering request 2 finished in 2685 ms rootId=a3g5hgpaid6s4xm, id=a3g5hgpaid6s4xm
+2024-09-02T03:04:57.020Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-09-02T03:04:57.023Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-09-02T03:04:57.026Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-09-02T03:04:57.138Z - info: Found 35 extension(s)
+2024-09-02T03:04:57.191Z - info: Using extension authentication@4.2.1
+2024-09-02T03:04:57.320Z - info: Using extension base@4.0.0
+2024-09-02T03:04:57.323Z - info: Using extension child-templates@4.1.0
+2024-09-02T03:04:57.324Z - info: Using extension cli@4.0.4
+2024-09-02T03:04:57.326Z - info: Using extension components@4.0.2
+2024-09-02T03:04:57.327Z - info: Using extension data@4.1.0
+2024-09-02T03:04:57.328Z - info: Using extension express@4.1.2
+2024-09-02T03:04:57.551Z - info: Using extension freeze@4.0.0
+2024-09-02T03:04:57.552Z - info: Using extension fs-store@4.0.4
+2024-09-02T03:04:57.635Z - info: Using extension handlebars@4.0.1
+2024-09-02T03:04:57.637Z - info: Using extension import-export@4.0.4
+2024-09-02T03:04:57.644Z - info: Using extension jsrender@4.0.0
+2024-09-02T03:04:57.646Z - info: Using extension licensing@4.0.2
+2024-09-02T03:04:57.661Z - info: Using extension localization@4.0.1
+2024-09-02T03:04:57.662Z - info: Using extension npm@4.0.0
+2024-09-02T03:04:57.665Z - info: Using extension pdf-utils@4.2.1
+2024-09-02T03:04:57.667Z - info: Using extension reports@4.1.2
+2024-09-02T03:04:57.670Z - info: Using extension tags@4.0.1
+2024-09-02T03:04:57.671Z - info: Using extension text@4.0.2
+2024-09-02T03:04:57.672Z - info: Using extension version-control@4.0.0
+2024-09-02T03:04:57.679Z - info: Using extension assets@4.1.1
+2024-09-02T03:04:57.688Z - info: Using extension authorization@4.0.0
+2024-09-02T03:04:57.692Z - info: Using extension browser-client@4.1.0
+2024-09-02T03:04:57.695Z - info: Using extension chrome-pdf@4.1.0
+2024-09-02T03:04:57.698Z - info: Using extension docx@4.5.0
+2024-09-02T03:04:57.700Z - info: Using extension html-to-xlsx@4.1.2
+2024-09-02T03:04:57.964Z - info: html-to-xlsx detected chrome as available html engine
+2024-09-02T03:04:57.964Z - info: Using extension pptx@4.3.1
+2024-09-02T03:04:57.966Z - info: Using extension scheduling@4.0.0
+2024-09-02T03:04:57.998Z - info: Using extension scripts@4.1.0
+2024-09-02T03:04:58.000Z - info: Using extension static-pdf@4.1.0
+2024-09-02T03:04:58.002Z - info: Using extension studio@4.1.1
+2024-09-02T03:04:58.062Z - info: Using extension xlsx@4.2.0
+2024-09-02T03:04:58.064Z - info: Using extension public-templates@4.0.0
+2024-09-02T03:04:58.065Z - info: Using extension sample-template@4.0.0
+2024-09-02T03:04:58.067Z - info: Using extension studio-theme-dark@4.0.0
+2024-09-02T03:04:58.068Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-09-02T03:04:58.068Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-09-02T03:04:58.068Z - info: Using fs provider for template store.
+2024-09-02T03:04:58.071Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-09-02T03:04:58.076Z - info: fs store is loading data
+2024-09-02T03:04:58.131Z - info: fs store is initialized successfully
+2024-09-02T03:04:58.146Z - info: Creating default express app.
+2024-09-02T03:04:58.161Z - info: jsreport server successfully started on http port: 7001
+2024-09-02T03:04:58.162Z - info: Verifying license key free
+2024-09-02T03:04:58.164Z - info: Using free license
+2024-09-02T03:04:58.167Z - info: Initializing worker threads
+2024-09-02T03:04:58.332Z - info: 2 worker threads initialized in 165ms
+2024-09-02T03:04:58.332Z - info: Starting temp files cleanup with 180000ms threshold
+2024-09-02T03:04:58.333Z - info: reporter initialized
+2024-09-02T03:07:37.898Z - info: Render request 1 queued for execution and waiting for available worker rootId=tl0bikqftm2r58z, id=tl0bikqftm2r58z
+2024-09-02T03:07:37.908Z - info: Starting rendering request 1 (user: admin) rootId=tl0bikqftm2r58z, id=tl0bikqftm2r58z
+2024-09-02T03:07:37.908Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tl0bikqftm2r58z, id=tl0bikqftm2r58z
+2024-09-02T03:07:39.510Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=tl0bikqftm2r58z, id=tl0bikqftm2r58z
+2024-09-02T03:07:39.760Z - info: Rendering request 1 finished in 1865 ms rootId=tl0bikqftm2r58z, id=tl0bikqftm2r58z
+2024-09-02T03:08:16.215Z - info: Render request 2 queued for execution and waiting for available worker rootId=gcsbobwfbscwmw0, id=gcsbobwfbscwmw0
+2024-09-02T03:08:16.224Z - info: Starting rendering request 2 (user: admin) rootId=gcsbobwfbscwmw0, id=gcsbobwfbscwmw0
+2024-09-02T03:08:16.224Z - info: Rendering template { name: site_visit_report, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gcsbobwfbscwmw0, id=gcsbobwfbscwmw0
+2024-09-02T03:08:16.628Z - warn: Error when processing render request 2
+(because) error when evaluating engine handlebars for template /site_visit_report/site_visit_report
+(because) missing helper: "processTemplateString"
+
+(sandbox.js line 13:18)
+Error: Missing helper: "processTemplateString"
+    at Object.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:153:136)
+    at main (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:260:42)
+    at sandbox.js:13:18
+    at async run (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /site_visit_report/site_visit_report
+(because) missing helper: "processTemplateString"
+    at module.exports (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+    at async engine.engine (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+    at async invokeRender (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+    at async processAndResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=gcsbobwfbscwmw0, id=gcsbobwfbscwmw0
+2024-09-02T03:08:16.628Z - warn: Rendering request 2 finished with error in 415 ms rootId=gcsbobwfbscwmw0, id=gcsbobwfbscwmw0
+2024-09-02T03:12:08.443Z - info: Render request 3 queued for execution and waiting for available worker rootId=qoxckxumyuy3e9y, id=qoxckxumyuy3e9y
+2024-09-02T03:12:08.449Z - info: Starting rendering request 3 (user: admin) rootId=qoxckxumyuy3e9y, id=qoxckxumyuy3e9y
+2024-09-02T03:12:08.449Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qoxckxumyuy3e9y, id=qoxckxumyuy3e9y
+2024-09-02T03:12:08.882Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=qoxckxumyuy3e9y, id=qoxckxumyuy3e9y
+2024-09-02T03:12:12.103Z - info: Rendering request 3 finished in 3661 ms rootId=qoxckxumyuy3e9y, id=qoxckxumyuy3e9y
+2024-09-02T03:12:19.086Z - info: Render request 4 queued for execution and waiting for available worker rootId=dklna6i7nm3fb3z, id=dklna6i7nm3fb3z
+2024-09-02T03:12:19.092Z - info: Starting rendering request 4 (user: admin) rootId=dklna6i7nm3fb3z, id=dklna6i7nm3fb3z
+2024-09-02T03:12:19.092Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=dklna6i7nm3fb3z, id=dklna6i7nm3fb3z
+2024-09-02T03:12:20.350Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=dklna6i7nm3fb3z, id=dklna6i7nm3fb3z
+2024-09-02T03:12:21.679Z - info: Rendering request 4 finished in 2594 ms rootId=dklna6i7nm3fb3z, id=dklna6i7nm3fb3z
+2024-09-02T03:12:38.396Z - info: Render request 5 queued for execution and waiting for available worker rootId=fygb37zdqomdglu, id=fygb37zdqomdglu
+2024-09-02T03:12:38.404Z - info: Starting rendering request 5 (user: admin) rootId=fygb37zdqomdglu, id=fygb37zdqomdglu
+2024-09-02T03:12:38.404Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fygb37zdqomdglu, id=fygb37zdqomdglu
+2024-09-02T03:12:38.761Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=fygb37zdqomdglu, id=fygb37zdqomdglu
+2024-09-02T03:12:38.961Z - info: Rendering request 5 finished in 569 ms rootId=fygb37zdqomdglu, id=fygb37zdqomdglu
+2024-09-02T03:14:53.357Z - info: Render request 6 queued for execution and waiting for available worker rootId=ndsblnhwqqrej7n, id=ndsblnhwqqrej7n
+2024-09-02T03:14:53.365Z - info: Starting rendering request 6 (user: admin) rootId=ndsblnhwqqrej7n, id=ndsblnhwqqrej7n
+2024-09-02T03:14:53.365Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ndsblnhwqqrej7n, id=ndsblnhwqqrej7n
+2024-09-02T03:14:53.762Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=ndsblnhwqqrej7n, id=ndsblnhwqqrej7n
+2024-09-02T03:14:53.926Z - info: Rendering request 6 finished in 570 ms rootId=ndsblnhwqqrej7n, id=ndsblnhwqqrej7n
+2024-09-02T03:15:05.412Z - info: Render request 7 queued for execution and waiting for available worker rootId=2op0ivchch792bt, id=2op0ivchch792bt
+2024-09-02T03:15:05.421Z - info: Starting rendering request 7 (user: admin) rootId=2op0ivchch792bt, id=2op0ivchch792bt
+2024-09-02T03:15:05.421Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=2op0ivchch792bt, id=2op0ivchch792bt
+2024-09-02T03:15:05.768Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=2op0ivchch792bt, id=2op0ivchch792bt
+2024-09-02T03:15:05.951Z - info: Rendering request 7 finished in 540 ms rootId=2op0ivchch792bt, id=2op0ivchch792bt
+2024-09-02T03:15:11.129Z - info: Render request 8 queued for execution and waiting for available worker rootId=fktwjhukj0ghdaq, id=fktwjhukj0ghdaq
+2024-09-02T03:15:11.136Z - info: Starting rendering request 8 (user: admin) rootId=fktwjhukj0ghdaq, id=fktwjhukj0ghdaq
+2024-09-02T03:15:11.136Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fktwjhukj0ghdaq, id=fktwjhukj0ghdaq
+2024-09-02T03:15:11.507Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=fktwjhukj0ghdaq, id=fktwjhukj0ghdaq
+2024-09-02T03:15:11.691Z - info: Rendering request 8 finished in 563 ms rootId=fktwjhukj0ghdaq, id=fktwjhukj0ghdaq
+2024-09-02T03:16:45.353Z - info: Render request 9 queued for execution and waiting for available worker rootId=ggi3uy9pgqe1w7w, id=ggi3uy9pgqe1w7w
+2024-09-02T03:16:45.360Z - info: Starting rendering request 9 (user: admin) rootId=ggi3uy9pgqe1w7w, id=ggi3uy9pgqe1w7w
+2024-09-02T03:16:45.360Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ggi3uy9pgqe1w7w, id=ggi3uy9pgqe1w7w
+2024-09-02T03:16:45.687Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=ggi3uy9pgqe1w7w, id=ggi3uy9pgqe1w7w
+2024-09-02T03:16:45.880Z - info: Rendering request 9 finished in 528 ms rootId=ggi3uy9pgqe1w7w, id=ggi3uy9pgqe1w7w
+2024-09-02T03:17:00.701Z - info: Render request 10 queued for execution and waiting for available worker rootId=9yl29vapbezg6n6, id=9yl29vapbezg6n6
+2024-09-02T03:17:00.707Z - info: Starting rendering request 10 (user: admin) rootId=9yl29vapbezg6n6, id=9yl29vapbezg6n6
+2024-09-02T03:17:00.707Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9yl29vapbezg6n6, id=9yl29vapbezg6n6
+2024-09-02T03:17:01.049Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=9yl29vapbezg6n6, id=9yl29vapbezg6n6
+2024-09-02T03:17:01.223Z - info: Rendering request 10 finished in 523 ms rootId=9yl29vapbezg6n6, id=9yl29vapbezg6n6
+2024-09-02T03:17:12.613Z - info: Render request 11 queued for execution and waiting for available worker rootId=mfc0mt9nrh0ui3t, id=mfc0mt9nrh0ui3t
+2024-09-02T03:17:12.619Z - info: Starting rendering request 11 (user: admin) rootId=mfc0mt9nrh0ui3t, id=mfc0mt9nrh0ui3t
+2024-09-02T03:17:12.619Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mfc0mt9nrh0ui3t, id=mfc0mt9nrh0ui3t
+2024-09-02T03:17:12.959Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=mfc0mt9nrh0ui3t, id=mfc0mt9nrh0ui3t
+2024-09-02T03:17:13.136Z - info: Rendering request 11 finished in 524 ms rootId=mfc0mt9nrh0ui3t, id=mfc0mt9nrh0ui3t
+2024-09-02T03:17:22.291Z - info: Render request 12 queued for execution and waiting for available worker rootId=f05xg2a6x38e37d, id=f05xg2a6x38e37d
+2024-09-02T03:17:22.300Z - info: Starting rendering request 12 (user: admin) rootId=f05xg2a6x38e37d, id=f05xg2a6x38e37d
+2024-09-02T03:17:22.301Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=f05xg2a6x38e37d, id=f05xg2a6x38e37d
+2024-09-02T03:17:22.634Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=f05xg2a6x38e37d, id=f05xg2a6x38e37d
+2024-09-02T03:17:22.807Z - info: Rendering request 12 finished in 517 ms rootId=f05xg2a6x38e37d, id=f05xg2a6x38e37d
+2024-09-02T03:17:43.437Z - info: Render request 13 queued for execution and waiting for available worker rootId=6di6efnnh99pbhb, id=6di6efnnh99pbhb
+2024-09-02T03:17:43.445Z - info: Starting rendering request 13 (user: admin) rootId=6di6efnnh99pbhb, id=6di6efnnh99pbhb
+2024-09-02T03:17:43.445Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6di6efnnh99pbhb, id=6di6efnnh99pbhb
+2024-09-02T03:17:43.812Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=6di6efnnh99pbhb, id=6di6efnnh99pbhb
+2024-09-02T03:17:44.006Z - info: Rendering request 13 finished in 683 ms rootId=6di6efnnh99pbhb, id=6di6efnnh99pbhb
+2024-09-02T03:17:53.023Z - info: Render request 14 queued for execution and waiting for available worker rootId=gmyk65wwcnhmdkb, id=gmyk65wwcnhmdkb
+2024-09-02T03:17:53.030Z - info: Starting rendering request 14 (user: admin) rootId=gmyk65wwcnhmdkb, id=gmyk65wwcnhmdkb
+2024-09-02T03:17:53.030Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gmyk65wwcnhmdkb, id=gmyk65wwcnhmdkb
+2024-09-02T03:17:53.367Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=gmyk65wwcnhmdkb, id=gmyk65wwcnhmdkb
+2024-09-02T03:17:53.585Z - info: Rendering request 14 finished in 562 ms rootId=gmyk65wwcnhmdkb, id=gmyk65wwcnhmdkb
+2024-09-02T03:18:03.435Z - info: Render request 15 queued for execution and waiting for available worker rootId=0oew3q45u9nz69n, id=0oew3q45u9nz69n
+2024-09-02T03:18:03.442Z - info: Starting rendering request 15 (user: admin) rootId=0oew3q45u9nz69n, id=0oew3q45u9nz69n
+2024-09-02T03:18:03.442Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0oew3q45u9nz69n, id=0oew3q45u9nz69n
+2024-09-02T03:18:03.817Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=0oew3q45u9nz69n, id=0oew3q45u9nz69n
+2024-09-02T03:18:04.022Z - info: Rendering request 15 finished in 588 ms rootId=0oew3q45u9nz69n, id=0oew3q45u9nz69n
+2024-09-02T03:18:12.492Z - info: Render request 16 queued for execution and waiting for available worker rootId=sx03wdol3ytcuji, id=sx03wdol3ytcuji
+2024-09-02T03:18:12.498Z - info: Starting rendering request 16 (user: admin) rootId=sx03wdol3ytcuji, id=sx03wdol3ytcuji
+2024-09-02T03:18:12.499Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sx03wdol3ytcuji, id=sx03wdol3ytcuji
+2024-09-02T03:18:12.865Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=sx03wdol3ytcuji, id=sx03wdol3ytcuji
+2024-09-02T03:18:13.051Z - info: Rendering request 16 finished in 560 ms rootId=sx03wdol3ytcuji, id=sx03wdol3ytcuji
+2024-09-02T03:18:20.529Z - info: Render request 17 queued for execution and waiting for available worker rootId=6rw3ylp502wzjjr, id=6rw3ylp502wzjjr
+2024-09-02T03:18:20.536Z - info: Starting rendering request 17 (user: admin) rootId=6rw3ylp502wzjjr, id=6rw3ylp502wzjjr
+2024-09-02T03:18:20.537Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6rw3ylp502wzjjr, id=6rw3ylp502wzjjr
+2024-09-02T03:18:20.892Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=6rw3ylp502wzjjr, id=6rw3ylp502wzjjr
+2024-09-02T03:18:21.094Z - info: Rendering request 17 finished in 566 ms rootId=6rw3ylp502wzjjr, id=6rw3ylp502wzjjr
+2024-09-02T03:18:28.009Z - info: Render request 18 queued for execution and waiting for available worker rootId=ewa88w59dazw7zy, id=ewa88w59dazw7zy
+2024-09-02T03:18:28.015Z - info: Starting rendering request 18 (user: admin) rootId=ewa88w59dazw7zy, id=ewa88w59dazw7zy
+2024-09-02T03:18:28.015Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ewa88w59dazw7zy, id=ewa88w59dazw7zy
+2024-09-02T03:18:28.354Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=ewa88w59dazw7zy, id=ewa88w59dazw7zy
+2024-09-02T03:18:28.552Z - info: Rendering request 18 finished in 544 ms rootId=ewa88w59dazw7zy, id=ewa88w59dazw7zy
+2024-09-02T03:18:40.929Z - info: Render request 19 queued for execution and waiting for available worker rootId=p00g8ivtigzhupx, id=p00g8ivtigzhupx
+2024-09-02T03:18:40.938Z - info: Starting rendering request 19 (user: admin) rootId=p00g8ivtigzhupx, id=p00g8ivtigzhupx
+2024-09-02T03:18:40.938Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=p00g8ivtigzhupx, id=p00g8ivtigzhupx
+2024-09-02T03:18:41.286Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=p00g8ivtigzhupx, id=p00g8ivtigzhupx
+2024-09-02T03:18:41.472Z - info: Rendering request 19 finished in 543 ms rootId=p00g8ivtigzhupx, id=p00g8ivtigzhupx
+2024-09-02T03:18:46.212Z - info: Render request 20 queued for execution and waiting for available worker rootId=1sxx018vwx7vmk0, id=1sxx018vwx7vmk0
+2024-09-02T03:18:46.219Z - info: Starting rendering request 20 (user: admin) rootId=1sxx018vwx7vmk0, id=1sxx018vwx7vmk0
+2024-09-02T03:18:46.219Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1sxx018vwx7vmk0, id=1sxx018vwx7vmk0
+2024-09-02T03:18:46.600Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=1sxx018vwx7vmk0, id=1sxx018vwx7vmk0
+2024-09-02T03:18:46.782Z - info: Rendering request 20 finished in 571 ms rootId=1sxx018vwx7vmk0, id=1sxx018vwx7vmk0
+2024-09-02T03:20:31.354Z - info: Render request 21 queued for execution and waiting for available worker rootId=lx1tfahgd06m0ls, id=lx1tfahgd06m0ls
+2024-09-02T03:20:31.363Z - info: Starting rendering request 21 (user: admin) rootId=lx1tfahgd06m0ls, id=lx1tfahgd06m0ls
+2024-09-02T03:20:31.363Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lx1tfahgd06m0ls, id=lx1tfahgd06m0ls
+2024-09-02T03:20:31.732Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=lx1tfahgd06m0ls, id=lx1tfahgd06m0ls
+2024-09-02T03:20:31.907Z - info: Rendering request 21 finished in 553 ms rootId=lx1tfahgd06m0ls, id=lx1tfahgd06m0ls
+2024-09-02T03:22:16.333Z - info: Render request 22 queued for execution and waiting for available worker rootId=h5ih0fecmypxyzc, id=h5ih0fecmypxyzc
+2024-09-02T03:22:16.338Z - info: Starting rendering request 22 (user: admin) rootId=h5ih0fecmypxyzc, id=h5ih0fecmypxyzc
+2024-09-02T03:22:16.339Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=h5ih0fecmypxyzc, id=h5ih0fecmypxyzc
+2024-09-02T03:22:16.714Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=h5ih0fecmypxyzc, id=h5ih0fecmypxyzc
+2024-09-02T03:22:16.840Z - warn: Page error: Unexpected token '<' , stack: SyntaxError: Unexpected token '<' rootId=h5ih0fecmypxyzc, id=h5ih0fecmypxyzc
+2024-09-02T03:22:16.889Z - info: Rendering request 22 finished in 557 ms rootId=h5ih0fecmypxyzc, id=h5ih0fecmypxyzc
+2024-09-02T03:22:26.437Z - info: Render request 23 queued for execution and waiting for available worker rootId=sc9ojwiebxqn1s4, id=sc9ojwiebxqn1s4
+2024-09-02T03:22:26.444Z - info: Starting rendering request 23 (user: admin) rootId=sc9ojwiebxqn1s4, id=sc9ojwiebxqn1s4
+2024-09-02T03:22:26.444Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sc9ojwiebxqn1s4, id=sc9ojwiebxqn1s4
+2024-09-02T03:22:26.842Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=sc9ojwiebxqn1s4, id=sc9ojwiebxqn1s4
+2024-09-02T03:22:26.963Z - warn: Page error: Unexpected token '<' , stack: SyntaxError: Unexpected token '<' rootId=sc9ojwiebxqn1s4, id=sc9ojwiebxqn1s4
+2024-09-02T03:22:27.026Z - info: Rendering request 23 finished in 591 ms rootId=sc9ojwiebxqn1s4, id=sc9ojwiebxqn1s4
+2024-09-02T03:22:46.908Z - info: Render request 24 queued for execution and waiting for available worker rootId=dnm8imebp7h82n7, id=dnm8imebp7h82n7
+2024-09-02T03:22:46.915Z - info: Starting rendering request 24 (user: admin) rootId=dnm8imebp7h82n7, id=dnm8imebp7h82n7
+2024-09-02T03:22:46.915Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=dnm8imebp7h82n7, id=dnm8imebp7h82n7
+2024-09-02T03:22:47.259Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=dnm8imebp7h82n7, id=dnm8imebp7h82n7
+2024-09-02T03:22:47.388Z - warn: Page error: Unexpected token '<' , stack: SyntaxError: Unexpected token '<' rootId=dnm8imebp7h82n7, id=dnm8imebp7h82n7
+2024-09-02T03:22:47.433Z - info: Rendering request 24 finished in 527 ms rootId=dnm8imebp7h82n7, id=dnm8imebp7h82n7
+2024-09-02T03:22:55.818Z - info: Render request 25 queued for execution and waiting for available worker rootId=l27bijfo89zvw4r, id=l27bijfo89zvw4r
+2024-09-02T03:22:55.828Z - info: Starting rendering request 25 (user: admin) rootId=l27bijfo89zvw4r, id=l27bijfo89zvw4r
+2024-09-02T03:22:55.828Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=l27bijfo89zvw4r, id=l27bijfo89zvw4r
+2024-09-02T03:22:56.178Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=l27bijfo89zvw4r, id=l27bijfo89zvw4r
+2024-09-02T03:22:56.303Z - warn: Page error: Unexpected token '<' , stack: SyntaxError: Unexpected token '<' rootId=l27bijfo89zvw4r, id=l27bijfo89zvw4r
+2024-09-02T03:22:56.348Z - info: Rendering request 25 finished in 532 ms rootId=l27bijfo89zvw4r, id=l27bijfo89zvw4r
+2024-09-02T03:23:15.356Z - info: Render request 26 queued for execution and waiting for available worker rootId=lu57gnac9izwrjl, id=lu57gnac9izwrjl
+2024-09-02T03:23:15.364Z - info: Starting rendering request 26 (user: admin) rootId=lu57gnac9izwrjl, id=lu57gnac9izwrjl
+2024-09-02T03:23:15.364Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lu57gnac9izwrjl, id=lu57gnac9izwrjl
+2024-09-02T03:23:15.747Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=lu57gnac9izwrjl, id=lu57gnac9izwrjl
+2024-09-02T03:23:15.875Z - warn: Page error: Unexpected token '<' , stack: SyntaxError: Unexpected token '<' rootId=lu57gnac9izwrjl, id=lu57gnac9izwrjl
+2024-09-02T03:23:15.946Z - info: Rendering request 26 finished in 591 ms rootId=lu57gnac9izwrjl, id=lu57gnac9izwrjl
+2024-09-02T03:23:30.182Z - info: Render request 27 queued for execution and waiting for available worker rootId=j7ove1t0ubs7p9y, id=j7ove1t0ubs7p9y
+2024-09-02T03:23:30.190Z - info: Starting rendering request 27 (user: admin) rootId=j7ove1t0ubs7p9y, id=j7ove1t0ubs7p9y
+2024-09-02T03:23:30.190Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=j7ove1t0ubs7p9y, id=j7ove1t0ubs7p9y
+2024-09-02T03:23:30.550Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=j7ove1t0ubs7p9y, id=j7ove1t0ubs7p9y
+2024-09-02T03:23:30.677Z - warn: Page error: Unexpected token ',' , stack: SyntaxError: Unexpected token ',' rootId=j7ove1t0ubs7p9y, id=j7ove1t0ubs7p9y
+2024-09-02T03:23:30.722Z - info: Rendering request 27 finished in 541 ms rootId=j7ove1t0ubs7p9y, id=j7ove1t0ubs7p9y
+2024-09-02T03:24:25.684Z - info: Render request 28 queued for execution and waiting for available worker rootId=jljn19639i88pvz, id=jljn19639i88pvz
+2024-09-02T03:24:25.691Z - info: Starting rendering request 28 (user: admin) rootId=jljn19639i88pvz, id=jljn19639i88pvz
+2024-09-02T03:24:25.691Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jljn19639i88pvz, id=jljn19639i88pvz
+2024-09-02T03:24:26.059Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=jljn19639i88pvz, id=jljn19639i88pvz
+2024-09-02T03:24:26.189Z - warn: Page error: Cannot read properties of null (reading 'getContext') , stack: TypeError: Cannot read properties of null (reading 'getContext')
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/4928256c-078d-4935-ab16-d577ab45005f-chrome-pdf.html:204:53) rootId=jljn19639i88pvz, id=jljn19639i88pvz
+2024-09-02T03:24:26.242Z - info: Rendering request 28 finished in 559 ms rootId=jljn19639i88pvz, id=jljn19639i88pvz
+2024-09-02T03:24:29.788Z - info: Render request 29 queued for execution and waiting for available worker rootId=s2ufen3ka7vj4lm, id=s2ufen3ka7vj4lm
+2024-09-02T03:24:29.794Z - info: Starting rendering request 29 (user: admin) rootId=s2ufen3ka7vj4lm, id=s2ufen3ka7vj4lm
+2024-09-02T03:24:29.794Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=s2ufen3ka7vj4lm, id=s2ufen3ka7vj4lm
+2024-09-02T03:24:30.161Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=s2ufen3ka7vj4lm, id=s2ufen3ka7vj4lm
+2024-09-02T03:24:30.295Z - warn: Page error: Cannot read properties of null (reading 'getContext') , stack: TypeError: Cannot read properties of null (reading 'getContext')
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/3813a834-b716-4de4-9aeb-16eb196711c5-chrome-pdf.html:204:53) rootId=s2ufen3ka7vj4lm, id=s2ufen3ka7vj4lm
+2024-09-02T03:24:30.352Z - info: Rendering request 29 finished in 564 ms rootId=s2ufen3ka7vj4lm, id=s2ufen3ka7vj4lm
+2024-09-02T03:24:55.855Z - info: Render request 30 queued for execution and waiting for available worker rootId=qruwv8de3lhsf2f, id=qruwv8de3lhsf2f
+2024-09-02T03:24:55.862Z - info: Starting rendering request 30 (user: admin) rootId=qruwv8de3lhsf2f, id=qruwv8de3lhsf2f
+2024-09-02T03:24:55.862Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qruwv8de3lhsf2f, id=qruwv8de3lhsf2f
+2024-09-02T03:24:56.245Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=qruwv8de3lhsf2f, id=qruwv8de3lhsf2f
+2024-09-02T03:24:56.664Z - info: Rendering request 30 finished in 810 ms rootId=qruwv8de3lhsf2f, id=qruwv8de3lhsf2f
+2024-09-02T03:25:03.240Z - info: Render request 31 queued for execution and waiting for available worker rootId=2r52q2qy8pygj9l, id=2r52q2qy8pygj9l
+2024-09-02T03:25:03.246Z - info: Starting rendering request 31 (user: admin) rootId=2r52q2qy8pygj9l, id=2r52q2qy8pygj9l
+2024-09-02T03:25:03.246Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=2r52q2qy8pygj9l, id=2r52q2qy8pygj9l
+2024-09-02T03:25:03.638Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=2r52q2qy8pygj9l, id=2r52q2qy8pygj9l
+2024-09-02T03:25:04.037Z - info: Rendering request 31 finished in 798 ms rootId=2r52q2qy8pygj9l, id=2r52q2qy8pygj9l
+2024-09-02T03:27:09.803Z - info: Render request 32 queued for execution and waiting for available worker rootId=1pzf2veh7gy2ihp, id=1pzf2veh7gy2ihp
+2024-09-02T03:27:09.809Z - info: Starting rendering request 32 (user: admin) rootId=1pzf2veh7gy2ihp, id=1pzf2veh7gy2ihp
+2024-09-02T03:27:09.809Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1pzf2veh7gy2ihp, id=1pzf2veh7gy2ihp
+2024-09-02T03:27:10.170Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=1pzf2veh7gy2ihp, id=1pzf2veh7gy2ihp
+2024-09-02T03:27:10.295Z - warn: Page error: Cannot read properties of null (reading 'getContext') , stack: TypeError: Cannot read properties of null (reading 'getContext')
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/7ceaa0fc-2492-480a-bf9e-a01823c1c1c7-chrome-pdf.html:200:53) rootId=1pzf2veh7gy2ihp, id=1pzf2veh7gy2ihp
+2024-09-02T03:27:10.339Z - info: Rendering request 32 finished in 536 ms rootId=1pzf2veh7gy2ihp, id=1pzf2veh7gy2ihp
+2024-09-02T03:27:31.563Z - info: Render request 33 queued for execution and waiting for available worker rootId=ng8yhihofukm6o0, id=ng8yhihofukm6o0
+2024-09-02T03:27:31.568Z - info: Starting rendering request 33 (user: admin) rootId=ng8yhihofukm6o0, id=ng8yhihofukm6o0
+2024-09-02T03:27:31.569Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ng8yhihofukm6o0, id=ng8yhihofukm6o0
+2024-09-02T03:27:31.911Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=ng8yhihofukm6o0, id=ng8yhihofukm6o0
+2024-09-02T03:27:32.037Z - warn: Page error: issuesByStatusChart is not defined , stack: ReferenceError: issuesByStatusChart is not defined
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/57e69609-f3e5-4773-84ab-3bbe87b25f02-chrome-pdf.html:200:39) rootId=ng8yhihofukm6o0, id=ng8yhihofukm6o0
+2024-09-02T03:27:32.086Z - info: Rendering request 33 finished in 524 ms rootId=ng8yhihofukm6o0, id=ng8yhihofukm6o0
+2024-09-02T03:27:42.910Z - info: Render request 34 queued for execution and waiting for available worker rootId=ojfn7ezjrz6knn5, id=ojfn7ezjrz6knn5
+2024-09-02T03:27:42.919Z - info: Starting rendering request 34 (user: admin) rootId=ojfn7ezjrz6knn5, id=ojfn7ezjrz6knn5
+2024-09-02T03:27:42.919Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ojfn7ezjrz6knn5, id=ojfn7ezjrz6knn5
+2024-09-02T03:27:43.283Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=ojfn7ezjrz6knn5, id=ojfn7ezjrz6knn5
+2024-09-02T03:27:43.406Z - warn: Page error: issuesByStatusChart is not defined , stack: ReferenceError: issuesByStatusChart is not defined
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/57d805a7-132c-4fca-9023-a5b602923242-chrome-pdf.html:200:39) rootId=ojfn7ezjrz6knn5, id=ojfn7ezjrz6knn5
+2024-09-02T03:27:43.457Z - info: Rendering request 34 finished in 548 ms rootId=ojfn7ezjrz6knn5, id=ojfn7ezjrz6knn5
+2024-09-02T03:28:06.044Z - info: Render request 35 queued for execution and waiting for available worker rootId=cz3zxqsp2gdgd0g, id=cz3zxqsp2gdgd0g
+2024-09-02T03:28:06.051Z - info: Starting rendering request 35 (user: admin) rootId=cz3zxqsp2gdgd0g, id=cz3zxqsp2gdgd0g
+2024-09-02T03:28:06.051Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=cz3zxqsp2gdgd0g, id=cz3zxqsp2gdgd0g
+2024-09-02T03:28:06.439Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=cz3zxqsp2gdgd0g, id=cz3zxqsp2gdgd0g
+2024-09-02T03:28:06.551Z - warn: Page error: issuesByStatusChart is not defined , stack: ReferenceError: issuesByStatusChart is not defined
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/4c93f7b1-2760-4b24-a6f7-ad89856e5781-chrome-pdf.html:200:39) rootId=cz3zxqsp2gdgd0g, id=cz3zxqsp2gdgd0g
+2024-09-02T03:28:06.597Z - info: Rendering request 35 finished in 555 ms rootId=cz3zxqsp2gdgd0g, id=cz3zxqsp2gdgd0g
+2024-09-02T03:28:08.762Z - info: Render request 36 queued for execution and waiting for available worker rootId=qnvrkpioii4c8k7, id=qnvrkpioii4c8k7
+2024-09-02T03:28:08.769Z - info: Starting rendering request 36 (user: admin) rootId=qnvrkpioii4c8k7, id=qnvrkpioii4c8k7
+2024-09-02T03:28:08.770Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qnvrkpioii4c8k7, id=qnvrkpioii4c8k7
+2024-09-02T03:28:09.176Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=qnvrkpioii4c8k7, id=qnvrkpioii4c8k7
+2024-09-02T03:28:09.302Z - warn: Page error: issuesByStatusChart is not defined , stack: ReferenceError: issuesByStatusChart is not defined
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/e837fdb0-6ebc-43a5-8c3a-602771a49139-chrome-pdf.html:200:39) rootId=qnvrkpioii4c8k7, id=qnvrkpioii4c8k7
+2024-09-02T03:28:09.353Z - info: Rendering request 36 finished in 591 ms rootId=qnvrkpioii4c8k7, id=qnvrkpioii4c8k7
+2024-09-02T03:29:18.156Z - info: Render request 37 queued for execution and waiting for available worker rootId=7hnyh6kkn284lfl, id=7hnyh6kkn284lfl
+2024-09-02T03:29:18.165Z - info: Starting rendering request 37 (user: admin) rootId=7hnyh6kkn284lfl, id=7hnyh6kkn284lfl
+2024-09-02T03:29:18.165Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7hnyh6kkn284lfl, id=7hnyh6kkn284lfl
+2024-09-02T03:29:18.545Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=7hnyh6kkn284lfl, id=7hnyh6kkn284lfl
+2024-09-02T03:29:18.782Z - info: Rendering request 37 finished in 627 ms rootId=7hnyh6kkn284lfl, id=7hnyh6kkn284lfl
+2024-09-02T03:29:39.722Z - info: Render request 38 queued for execution and waiting for available worker rootId=0muhe9x32vxufhg, id=0muhe9x32vxufhg
+2024-09-02T03:29:39.728Z - info: Starting rendering request 38 (user: admin) rootId=0muhe9x32vxufhg, id=0muhe9x32vxufhg
+2024-09-02T03:29:39.728Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0muhe9x32vxufhg, id=0muhe9x32vxufhg
+2024-09-02T03:29:40.099Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=0muhe9x32vxufhg, id=0muhe9x32vxufhg
+2024-09-02T03:29:40.364Z - info: Rendering request 38 finished in 642 ms rootId=0muhe9x32vxufhg, id=0muhe9x32vxufhg
+2024-09-02T03:29:49.463Z - info: Render request 39 queued for execution and waiting for available worker rootId=1rbkjz20l2ksalr, id=1rbkjz20l2ksalr
+2024-09-02T03:29:49.470Z - info: Starting rendering request 39 (user: admin) rootId=1rbkjz20l2ksalr, id=1rbkjz20l2ksalr
+2024-09-02T03:29:49.470Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1rbkjz20l2ksalr, id=1rbkjz20l2ksalr
+2024-09-02T03:29:49.834Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=1rbkjz20l2ksalr, id=1rbkjz20l2ksalr
+2024-09-02T03:29:50.060Z - info: Rendering request 39 finished in 597 ms rootId=1rbkjz20l2ksalr, id=1rbkjz20l2ksalr
+2024-09-02T03:30:05.726Z - info: Render request 40 queued for execution and waiting for available worker rootId=esqmqy2zwnqvaz3, id=esqmqy2zwnqvaz3
+2024-09-02T03:30:05.731Z - info: Starting rendering request 40 (user: admin) rootId=esqmqy2zwnqvaz3, id=esqmqy2zwnqvaz3
+2024-09-02T03:30:05.731Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=esqmqy2zwnqvaz3, id=esqmqy2zwnqvaz3
+2024-09-02T03:30:06.083Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=esqmqy2zwnqvaz3, id=esqmqy2zwnqvaz3
+2024-09-02T03:30:06.312Z - info: Rendering request 40 finished in 587 ms rootId=esqmqy2zwnqvaz3, id=esqmqy2zwnqvaz3
+2024-09-02T03:30:15.798Z - info: Render request 41 queued for execution and waiting for available worker rootId=tfkjwroc4r21k8h, id=tfkjwroc4r21k8h
+2024-09-02T03:30:15.805Z - info: Starting rendering request 41 (user: admin) rootId=tfkjwroc4r21k8h, id=tfkjwroc4r21k8h
+2024-09-02T03:30:15.805Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tfkjwroc4r21k8h, id=tfkjwroc4r21k8h
+2024-09-02T03:30:16.227Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=tfkjwroc4r21k8h, id=tfkjwroc4r21k8h
+2024-09-02T03:30:16.485Z - info: Rendering request 41 finished in 687 ms rootId=tfkjwroc4r21k8h, id=tfkjwroc4r21k8h
+2024-09-02T03:31:45.817Z - info: Render request 42 queued for execution and waiting for available worker rootId=z5g93o0y92301er, id=z5g93o0y92301er
+2024-09-02T03:31:45.824Z - info: Starting rendering request 42 (user: admin) rootId=z5g93o0y92301er, id=z5g93o0y92301er
+2024-09-02T03:31:45.825Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=z5g93o0y92301er, id=z5g93o0y92301er
+2024-09-02T03:31:46.180Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=z5g93o0y92301er, id=z5g93o0y92301er
+2024-09-02T03:31:46.405Z - info: Rendering request 42 finished in 589 ms rootId=z5g93o0y92301er, id=z5g93o0y92301er
+2024-09-02T03:32:52.394Z - info: Render request 43 queued for execution and waiting for available worker rootId=jefod7hbkvr7sxp, id=jefod7hbkvr7sxp
+2024-09-02T03:32:52.400Z - info: Starting rendering request 43 (user: admin) rootId=jefod7hbkvr7sxp, id=jefod7hbkvr7sxp
+2024-09-02T03:32:52.400Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jefod7hbkvr7sxp, id=jefod7hbkvr7sxp
+2024-09-02T03:32:52.734Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=jefod7hbkvr7sxp, id=jefod7hbkvr7sxp
+2024-09-02T03:32:52.953Z - info: Rendering request 43 finished in 561 ms rootId=jefod7hbkvr7sxp, id=jefod7hbkvr7sxp
+2024-09-02T03:33:05.367Z - info: Render request 44 queued for execution and waiting for available worker rootId=j051nf54u1ihoqw, id=j051nf54u1ihoqw
+2024-09-02T03:33:05.373Z - info: Starting rendering request 44 (user: admin) rootId=j051nf54u1ihoqw, id=j051nf54u1ihoqw
+2024-09-02T03:33:05.373Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=j051nf54u1ihoqw, id=j051nf54u1ihoqw
+2024-09-02T03:33:05.751Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=j051nf54u1ihoqw, id=j051nf54u1ihoqw
+2024-09-02T03:33:05.983Z - info: Rendering request 44 finished in 617 ms rootId=j051nf54u1ihoqw, id=j051nf54u1ihoqw
+2024-09-02T03:33:12.704Z - info: Render request 45 queued for execution and waiting for available worker rootId=cdz1htr7eeoozuf, id=cdz1htr7eeoozuf
+2024-09-02T03:33:12.710Z - info: Starting rendering request 45 (user: admin) rootId=cdz1htr7eeoozuf, id=cdz1htr7eeoozuf
+2024-09-02T03:33:12.710Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=cdz1htr7eeoozuf, id=cdz1htr7eeoozuf
+2024-09-02T03:33:13.060Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=cdz1htr7eeoozuf, id=cdz1htr7eeoozuf
+2024-09-02T03:33:13.303Z - info: Rendering request 45 finished in 600 ms rootId=cdz1htr7eeoozuf, id=cdz1htr7eeoozuf
+2024-09-02T03:33:19.952Z - info: Render request 46 queued for execution and waiting for available worker rootId=4ug24euowtph6xb, id=4ug24euowtph6xb
+2024-09-02T03:33:19.958Z - info: Starting rendering request 46 (user: admin) rootId=4ug24euowtph6xb, id=4ug24euowtph6xb
+2024-09-02T03:33:19.958Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4ug24euowtph6xb, id=4ug24euowtph6xb
+2024-09-02T03:33:20.332Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=4ug24euowtph6xb, id=4ug24euowtph6xb
+2024-09-02T03:33:20.567Z - info: Rendering request 46 finished in 616 ms rootId=4ug24euowtph6xb, id=4ug24euowtph6xb
+2024-09-02T03:33:39.363Z - info: Render request 47 queued for execution and waiting for available worker rootId=6ggzr644pd0dpav, id=6ggzr644pd0dpav
+2024-09-02T03:33:39.370Z - info: Starting rendering request 47 (user: admin) rootId=6ggzr644pd0dpav, id=6ggzr644pd0dpav
+2024-09-02T03:33:39.370Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6ggzr644pd0dpav, id=6ggzr644pd0dpav
+2024-09-02T03:33:39.733Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=6ggzr644pd0dpav, id=6ggzr644pd0dpav
+2024-09-02T03:33:39.939Z - info: Rendering request 47 finished in 577 ms rootId=6ggzr644pd0dpav, id=6ggzr644pd0dpav
+2024-09-02T03:35:26.253Z - info: Render request 48 queued for execution and waiting for available worker rootId=6xcuzx4xizrbrkn, id=6xcuzx4xizrbrkn
+2024-09-02T03:35:26.259Z - info: Starting rendering request 48 (user: admin) rootId=6xcuzx4xizrbrkn, id=6xcuzx4xizrbrkn
+2024-09-02T03:35:26.259Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6xcuzx4xizrbrkn, id=6xcuzx4xizrbrkn
+2024-09-02T03:35:26.646Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=6xcuzx4xizrbrkn, id=6xcuzx4xizrbrkn
+2024-09-02T03:35:26.779Z - warn: Page error: Cannot read properties of undefined (reading '0') , stack: TypeError: Cannot read properties of undefined (reading '0')
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/7f3da42f-7812-4839-919e-fb0e9418336f-chrome-pdf.html:266:66)
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/7f3da42f-7812-4839-919e-fb0e9418336f-chrome-pdf.html:245:35)
+    at afterDraw (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/7f3da42f-7812-4839-919e-fb0e9418336f-chrome-pdf.html:243:41)
+    at notify (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:81249)
+    at draw (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:58512)
+    at render (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:58209)
+    at update (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:57098)
+    at construct (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:53558)
+    at t (https://unpkg.com/chart.js@2.7.3/dist/Chart.min... rootId=6xcuzx4xizrbrkn, id=6xcuzx4xizrbrkn
+2024-09-02T03:35:26.872Z - info: Rendering request 48 finished in 620 ms rootId=6xcuzx4xizrbrkn, id=6xcuzx4xizrbrkn
+2024-09-02T03:35:29.251Z - info: Render request 49 queued for execution and waiting for available worker rootId=qwjh8n5w358ekyk, id=qwjh8n5w358ekyk
+2024-09-02T03:35:29.257Z - info: Starting rendering request 49 (user: admin) rootId=qwjh8n5w358ekyk, id=qwjh8n5w358ekyk
+2024-09-02T03:35:29.257Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qwjh8n5w358ekyk, id=qwjh8n5w358ekyk
+2024-09-02T03:35:29.621Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=qwjh8n5w358ekyk, id=qwjh8n5w358ekyk
+2024-09-02T03:35:29.763Z - warn: Page error: Cannot read properties of undefined (reading '0') , stack: TypeError: Cannot read properties of undefined (reading '0')
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/bc935140-3f60-425d-9f8e-3998083f9390-chrome-pdf.html:266:66)
+    at <anonymous> (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/bc935140-3f60-425d-9f8e-3998083f9390-chrome-pdf.html:245:35)
+    at afterDraw (file:///C:/Users/shsmo/AppData/Local/Temp/jsreport/autocleanup/bc935140-3f60-425d-9f8e-3998083f9390-chrome-pdf.html:243:41)
+    at notify (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:81249)
+    at draw (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:58512)
+    at render (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:58209)
+    at update (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:57098)
+    at construct (https://unpkg.com/chart.js@2.7.3/dist/Chart.min.js:10:53558)
+    at t (https://unpkg.com/chart.js@2.7.3/dist/Chart.min... rootId=qwjh8n5w358ekyk, id=qwjh8n5w358ekyk
+2024-09-02T03:35:29.858Z - info: Rendering request 49 finished in 608 ms rootId=qwjh8n5w358ekyk, id=qwjh8n5w358ekyk
+2024-09-02T03:36:17.691Z - info: Render request 50 queued for execution and waiting for available worker rootId=q28g6qxh7zbhbk1, id=q28g6qxh7zbhbk1
+2024-09-02T03:36:17.697Z - info: Starting rendering request 50 (user: admin) rootId=q28g6qxh7zbhbk1, id=q28g6qxh7zbhbk1
+2024-09-02T03:36:17.697Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q28g6qxh7zbhbk1, id=q28g6qxh7zbhbk1
+2024-09-02T03:36:18.098Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=q28g6qxh7zbhbk1, id=q28g6qxh7zbhbk1
+2024-09-02T03:36:18.327Z - info: Rendering request 50 finished in 637 ms rootId=q28g6qxh7zbhbk1, id=q28g6qxh7zbhbk1
+2024-09-02T03:36:31.904Z - info: Render request 51 queued for execution and waiting for available worker rootId=43uockxqo1opl7o, id=43uockxqo1opl7o
+2024-09-02T03:36:31.912Z - info: Starting rendering request 51 (user: admin) rootId=43uockxqo1opl7o, id=43uockxqo1opl7o
+2024-09-02T03:36:31.912Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=43uockxqo1opl7o, id=43uockxqo1opl7o
+2024-09-02T03:36:32.241Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=43uockxqo1opl7o, id=43uockxqo1opl7o
+2024-09-02T03:36:32.456Z - info: Rendering request 51 finished in 552 ms rootId=43uockxqo1opl7o, id=43uockxqo1opl7o
+2024-09-02T03:36:47.665Z - info: Render request 52 queued for execution and waiting for available worker rootId=98j6omud6qk4dks, id=98j6omud6qk4dks
+2024-09-02T03:36:47.670Z - info: Starting rendering request 52 (user: admin) rootId=98j6omud6qk4dks, id=98j6omud6qk4dks
+2024-09-02T03:36:47.670Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=98j6omud6qk4dks, id=98j6omud6qk4dks
+2024-09-02T03:36:48.046Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=98j6omud6qk4dks, id=98j6omud6qk4dks
+2024-09-02T03:36:48.256Z - info: Rendering request 52 finished in 592 ms rootId=98j6omud6qk4dks, id=98j6omud6qk4dks
+2024-09-02T03:37:05.428Z - info: Render request 53 queued for execution and waiting for available worker rootId=xts8hel25c7i9n7, id=xts8hel25c7i9n7
+2024-09-02T03:37:05.435Z - info: Starting rendering request 53 (user: admin) rootId=xts8hel25c7i9n7, id=xts8hel25c7i9n7
+2024-09-02T03:37:05.435Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xts8hel25c7i9n7, id=xts8hel25c7i9n7
+2024-09-02T03:37:05.785Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=xts8hel25c7i9n7, id=xts8hel25c7i9n7
+2024-09-02T03:37:06.005Z - info: Rendering request 53 finished in 578 ms rootId=xts8hel25c7i9n7, id=xts8hel25c7i9n7
+2024-09-02T03:37:19.700Z - info: Render request 54 queued for execution and waiting for available worker rootId=9ymtjj75msey24s, id=9ymtjj75msey24s
+2024-09-02T03:37:19.709Z - info: Starting rendering request 54 (user: admin) rootId=9ymtjj75msey24s, id=9ymtjj75msey24s
+2024-09-02T03:37:19.709Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9ymtjj75msey24s, id=9ymtjj75msey24s
+2024-09-02T03:37:20.064Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=9ymtjj75msey24s, id=9ymtjj75msey24s
+2024-09-02T03:37:20.296Z - info: Rendering request 54 finished in 598 ms rootId=9ymtjj75msey24s, id=9ymtjj75msey24s
+2024-09-02T03:37:27.782Z - info: Render request 55 queued for execution and waiting for available worker rootId=dpp9fqnaog158d2, id=dpp9fqnaog158d2
+2024-09-02T03:37:27.789Z - info: Starting rendering request 55 (user: admin) rootId=dpp9fqnaog158d2, id=dpp9fqnaog158d2
+2024-09-02T03:37:27.789Z - info: Rendering template { name: chart_templates, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=dpp9fqnaog158d2, id=dpp9fqnaog158d2
+2024-09-02T03:37:28.188Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.5) rootId=dpp9fqnaog158d2, id=dpp9fqnaog158d2
+2024-09-02T03:37:28.402Z - info: Rendering request 55 finished in 621 ms rootId=dpp9fqnaog158d2, id=dpp9fqnaog158d2

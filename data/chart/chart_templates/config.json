@@ -1,0 +1,22 @@
+{
+    "name": "chart_templates",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "0DyoT8qmM",
+    "chrome": {
+        "printBackground": true,
+        "format": "A4",
+        "marginTop": "1cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1725246430886
+    },
+    "modificationDate": {
+        "$$date": 1725248246409
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "yn3MOM6NhhFXT8Xz",
+    "$entitySet": "templates"
+}
