@@ -117,13 +117,13 @@ Handlebars.registerHelper('formatnumber', function (number, ifnull = 0, options)
 });
 
 Handlebars.registerHelper('getcheckboxeq', function(v1, v2, options) {
-    if (v1 == v2) return '<p class="text-xl">☑</p>';
-    else return '<p class="text-xl">☐</p>';
+    if (v1 == v2) return '<span class="text-lg">☑</span>';
+    else return '<span class="text-lg">☐</span>';
 });
 
 Handlebars.registerHelper('getcheckboxneq', function (v1, v2, options) {
-    if (v1 != v2) return '<p class="text-xl">☑</p>';
-    else return '<p class="text-xl">☐</p>';
+    if (v1 != v2) return '<span class="text-lg">☑</span>';
+    else return '<span class="text-lg">☐</span>';
 });
 
 // Handlebars.registerHelper('getcheckboxeq', function (v1, v2, options) {

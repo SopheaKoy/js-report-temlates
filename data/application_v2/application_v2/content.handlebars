@@ -32,9 +32,18 @@
                 padding-left: 12px;
             }
             body {
-                font-size: 16px;
+                font-size: 15px;
                 font-family: "Roman", "Siemreap";
             }
+
+            .align-item-center{
+                
+            }
+            .border-box{
+                border: 1px solid black;
+            }
+
+
             /* FONT */
             .font_muol {
                 font-family: "Roman", "KhmerOSMuol";
@@ -46,6 +55,7 @@
                 font-family: "Tacteing";
             }
             /* END FONT */
+
 
             /* FONT SIZE */
             .font-base {
@@ -68,12 +78,17 @@
 
             .underline-text{
                 text-decoration: underline dashed;
-                text-decoration-color: rgba(128, 128, 128, 0.5); /* gray with 50% opacity */
+                text-decoration-color: rgba(128, 128, 128, 0.7); /* gray with 50% opacity */
             }
             .title-english{
                 font-size: 16px;
                 font-weight: bold;
                 font-family: "Arial";
+            }
+        </style>
+        <style>
+            * {
+                font-family: {{#eq lng 'km'}}"Siemreap"{{else}}"Roman"{{/eq}};
             }
             .font_custom {
                 font-family: {{#eq lng 'km'}}"KhmerOSMuol"{{else}}"Roman"{{/eq}};
@@ -81,8 +96,9 @@
             .font_weight_custom {
                 font-weight: {{#eq lng 'km'}}normal{{else}}bold{{/eq}};
             }
-
-
+            .font_size_custom {
+                font-size: {{#eq lng 'km'}}14px{{else}}14px{{/eq}};
+            }
             .draft_watermark {
                 position: fixed;
                 top: 0;
@@ -93,9 +109,7 @@
                 background-image: url("{#asset /asset/images/draft-km.png @encoding=dataURI}"); 
             }
         </style>
-
         <script src="https://cdn.tailwindcss.com/3.4.1"></script>
-
     </head>
     <body class="w-full">
         {{#if (equal is_draft 1)}}
@@ -121,280 +135,286 @@
             </div>
 
             <div class="ml-[80px] mr-[65px] text-sm-base mt-4"> 
-            
-                <p class="text-center w-ful mb-4 trans font_weight_custom font_muol" data-target="register">សំណើសុំចុះបញ្ជីគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់</p>
-                <div class="flex">
-                    <p class="font-bold">&#8544;-&ensp;</p>
-                    <p class="w-full trans font_weight_custom font_muol" data-target="structure_company">រចនាសម្ព័ន្ធក្រុមហ៊ុន</p>
-                </div>
-                <div class="flex w-full mt-2">
-                    <p class="trans font_custom font_weight_custom" data-target="a">ក</p>
-                    <p>-&ensp;</p>
-                    <p class="trans font_weight_custom font_muol" data-target="general_info">ព័ត៌មានទូទៅ</p>
-                </div>
-               
-                
-                <div class="flex mt-2">
-                    <div class="flex ">
-                        <p>-&ensp;</p>
-                        <div class="trans" data-target="company_name">ឈ្មោះក្រុមហ៊ុន</div>
-                        <span>&ensp;</span>
-                    </div>
-                    <div class="flex flex-col ml-1">
-                        <div class="flex ">
-                            <p class="trans" data-target="as_khmer">ជាភាសាខ្មែរ</p>
-                            <span>&ensp;</span>
-                            <p class="underline-text font_siemreap font-bold">{{ company_name_km }}</p>
+                <div class="w-full">
+                    <div class="">
+                        <p class="text-center w-ful mb-4 trans font_weight_custom font_muol" data-target="register">សំណើសុំចុះបញ្ជីគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់</p>
+                        <div class="flex bg-red-100 border-box">
+                            <p class="font-bold">&#8544;-&ensp;</p>
+                            <p class="w-full trans font_weight_custom font_muol" data-target="structure_company">រចនាសម្ព័ន្ធក្រុមហ៊ុន</p>
                         </div>
-                        <div class="flex ">
-                            <p class="mt-1 trans" data-target="as_english">ជាអក្សរឡាតាំង​​​</p>
-                            <span class="mt-1">&ensp;</span>
-                            <p class="underline-text pt-1 font-bold">{{ company_name_en }}</p>
+                        <div class="flex w-full mt-2 border-box">
+                            <p class="trans font_custom font_weight_custom" data-target="a">ក</p>
+                            <p>-&ensp;</p>
+                            <p class="trans font_weight_custom font_muol" data-target="general_info">ព័ត៌មានទូទៅ</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="flex mt-2 font_siemreap ">
-                    <div class="flex">
-                        <p>-&ensp;</p>
-                        <p class="shrink-0 trans" data-target="address_location_company">អាសយដ្ឋាន</p><span>៖</span>
-                    </div>
-                    <div class="ml-1 w-full">
-                        <div class="w-full flex">
-                            <div class="flex ">
+ 
+                    <div class="w-full">
+                        <div class="flex mt-2 border-box">
+                            <div class="flex">
                                 <p>-&ensp;</p>
-                                <p class="shrink-0 trans" style="width:auto;" data-target="company_registered_office">ទីស្នាក់ការក្រុមហ៊ុន</p>
-                                <sapn>&ensp;</sapn>
+                                <div class="trans" data-target="company_name">ឈ្មោះក្រុមហ៊ុន</div>
+                                <span>&ensp;</span>
                             </div>
-                            <div class="w-full flex-1">
-                                <div class="leading-6">
-                                    <p class="underline-text font_siemreap">
-                                        {{#neq company_house_land_plot_number ""}}
-                                            <span class="trans" data-target="home">អគារ/ផ្ទះ/ដីឡូតិ៍លេខ</span>
-                                            {{company_house_land_plot_number}}
-                                        {{/neq}}  
-                                        
-                                        {{#neq company_street_number ""}}
-                                            <span class="trans" data-target="road">ផ្លូវ</span>
-                                            {{company_street_number}}
-                                        {{/neq}}
-                                        <span>{{translatelanguage company_village.official_translate lng}}</span>
-                                        <span>{{translatelanguage company_commune.official_translate lng}}</span>
-                                        <span>{{translatelanguage company_district.official_translate lng}}</span>
-                                        <span>{{translatelanguage company_province.official_translate lng}}</span>
-                                        <span class="trans" data-target="kingdom">ព្រះរាជាណាចក្រកម្ពុជា</span>
-                                    </p>
-
-                                    <p>
-                                        <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
-                                        {{#neq company_phone_number ""}}
-                                            <span class="text-nowrap underline-text">({{company_phone_code}}){{formatphonenumber company_phone_number}}</span>
-                                        {{else}}
-                                            ................................................................................
-                                        {{/neq}}
-                                    </p>
-                                    <p>
-                                        <span class="text-nowrap trans" data-target="email" id="email">អុីមែល​</span>
-                                        {{#neq company_email ""}}
-                                            <span class="text-nowrap underline-text">{{company_email}}</span>
-                                        {{else}}
-                                            ................................................................................
-                                        {{/neq}}
-                                    </p>
+                            <div class="flex flex-col ml-1">
+                                <div class="flex">
+                                    <p class="trans" data-target="as_khmer">ជាភាសាខ្មែរ</p>
+                                    <span>&ensp;</span>
+                                    <p class="underline-text font_siemreap font-bold">{{ company_name_km }}</p>
+                                </div>
+                                <div class="flex">
+                                    <p class="mt-1 trans" data-target="as_english">ជាអក្សរឡាតាំង​​​</p>
+                                    <span class="mt-1">&ensp;</span>
+                                    <p class="underline-text pt-1 font-bold">{{ company_name_en }}</p>
                                 </div>
                             </div>
                         </div>
+                        <div class="flex mt-2 border-box">
+                            <div class="flex">
+                                <p>-&ensp;</p>
+                                <p class="shrink-0 trans" data-target="address_location_company">អាសយដ្ឋាន</p><span>៖</span>
+                            </div>
+                            <div class="ml-1 w-full">
+                                <div class="w-full space-x-1 flex">
+                                    <div class="flex">
+                                        <p>-&ensp;</p>
+                                        <p class="shrink-0 trans" style="width:auto;" data-target="company_registered_office">ទីស្នាក់ការក្រុមហ៊ុន</p>
+                                        <sapn>&ensp;</sapn>
+                                    </div>
+                                    <div class="w-full flex-1 space-y-1">
+                                        <div>
+                                            <p class="underline-text font_siemreap">
+                                                {{#neq company_house_land_plot_number ""}}
+                                                    <span class="trans" data-target="home">អគារ/ផ្ទះ/ដីឡូតិ៍លេខ</span>
+                                                    {{company_house_land_plot_number}}
+                                                {{/neq}}  
+                                                
+                                                {{#neq company_street_number ""}}
+                                                    <span class="trans" data-target="road">ផ្លូវ</span>
+                                                    {{company_street_number}}
+                                                {{/neq}}
+                                                <span>{{translatelanguage company_village.official_translate lng}}</span>
+                                                <span>{{translatelanguage company_commune.official_translate lng}}</span>
+                                                <span>{{translatelanguage company_district.official_translate lng}}</span>
+                                                <span>{{translatelanguage company_province.official_translate lng}}</span>
+                                                <span class="trans" data-target="kingdom">ព្រះរាជាណាចក្រកម្ពុជា</span>
+                                            </p>
+
+                                            <p>
+                                                <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
+                                                {{#neq company_phone_number ""}}
+                                                    <span class="text-nowrap underline-text">({{company_phone_code}}){{formatphonenumber company_phone_number}}</span>
+                                                {{else}}
+                                                    ................................................................................
+                                                {{/neq}}
+                                            </p>
+                                            <p>
+                                                <span class="text-nowrap trans" data-target="email" id="email">អុីមែល​</span>
+                                                {{#neq company_email ""}}
+                                                    <span class="text-nowrap underline-text">{{company_email}}</span>
+                                                {{else}}
+                                                    ................................................................................
+                                                {{/neq}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                {{!-- Parent Company Info--}}
+                                <div class="w-full space-x-1 flex">
+                                    <div class="flex pl-1">
+                                        <span>&#8208;&ensp;</span>
+                                        <p class="shrink-0 w-auto trans" data-target="parent_company">ក្រុមហ៊ុន​មេឈ្មោះ</p>
+                                        <span>&ensp;</span>
+                                    </div> 
+                                    {{#if (check_lng lng)}}
+                                        <div class="w-full flex-1 space-y-1">
+                                            <p>
+                                                {{#neq parent_company_name ""}}
+                                                    <span class="underline-text">{{parent_company_name}}</span>
+                                                {{else}}
+                                                    .....................................................................................................
+                                                {{/neq}}
+                                            </p>
+                                            <p>
+                                                <span class="trans" data-target="address_location">អាសយដ្ឋាន​</span>
+                                                <span>
+                                                    {{#neq parent_company_address ""}}
+                                                        <span class="underline-text">{{parent_company_address}}</span>
+                                                    {{else}}
+                                                        ..................................................................................
+                                                    {{/neq}}
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
+                                                {{#neq parent_company_phone_number ""}}
+                                                    <span class="text-nowrap underline-text">({{parent_company_phone_code}}){{formatphonenumber parent_company_phone_number}}</span>
+                                                {{else}}
+                                                    .........................................................................................
+                                                {{/neq}}
                         
-                        <div class="w-full space-x-1 flex">
-                            <div class="flex ">
-                                <span>-&ensp;</span>
-                                <p class="shrink-0 w-auto trans" data-target="parent_company">ក្រុមហ៊ុន​មេឈ្មោះ</p>
+                                            </p>
+                                            <p>
+                                                <span class="trans" data-target="email" id="email">អុីម៉ែល</span>
+                                                {{#neq parent_company_email ""}}
+                                                    <span class="underline-text">{{parent_company_email}}</span>
+                                                {{else}}
+                                                    .........................................................................................
+                                                {{/neq}}
+                                            </p>
+                                            <p>
+                                                <span class="trans" data-target="website">វែបសាយ</span>
+                                                {{#neq parent_company_phone_number ""}}
+                                                <span class="text-nowrap underline-text">{{parent_company_website}}</span>
+                                                {{else}}
+                                                    ......................................................................................
+                                                {{/neq}}
+                                                
+                                            </p>
+                                        </div>
+                                    {{else}}
+                                        <div class="w-full flex-1 space-y-1">
+                                            <p>
+                                                {{#neq parent_company_name ""}}
+                                                    <span class="underline-text">{{parent_company_name}}</span>
+                                                {{else}}
+                                                    ........................................................................................
+                                                {{/neq}}
+                                            </p>
+                                            <p>
+                                                <span class="trans" data-target="address_location">អាសយដ្ឋាន​</span>
+                                                <span>
+                                                    {{#neq parent_company_address ""}}
+                                                        <span class="underline-text">{{parent_company_address}}</span>
+                                                    {{else}}
+                                                        .............................................................................
+                                                    {{/neq}}
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
+                                                {{#neq parent_company_phone_number ""}}
+                                                    <span class="text-nowrap underline-text">({{parent_company_phone_code}}){{formatphonenumber parent_company_phone_number}}</span>
+                                                {{else}}
+                                                    ............................................................
+                                                {{/neq}}
+                                            </p>
+                                            <p>
+                                                <span class="trans" data-target="email" id="email">អុីម៉ែល</span>
+                                                {{#neq parent_company_email ""}}
+                                                    <span class="underline-text">{{parent_company_email}}</span>
+                                                {{else}}
+                                                    .........................................................................
+                                                {{/neq}}
+                                            </p>
+                                            <p>
+                                                <span class="trans" data-target="website">វែបសាយ</span>
+                                                {{#neq parent_company_phone_number ""}}
+                                                <span class="text-nowrap underline-text">{{parent_company_website}}</span>
+                                                {{else}}
+                                                    .........................................................................
+                                                {{/neq}}
+                                            </p>
+                                        </div>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col mt-2">
+                            <div class="flex items-center">
+                                <p>-&ensp;</p>
+                                <div class="shrink-0 trans" data-target="form_of_company">ទ្រង់ទ្រាយក្រុមហ៊ុន​</div>
                                 <span>&ensp;</span>
+                                (<span class="italic trans" data-target="tick">សូមគូស</span>&ensp; ✓ <span class="italic trans" data-target="in_the_box">ក្នុង​ប្រអប់</span>&ensp; <span class="text-lg">☐</span>)
+                            </div>
+                        
+                            <div class="px-10 grid grid-cols-2 w-108 gap-3">
+                                <div class="">
+                                    <div class="flex items-center">
+                                        <p>{{{getcheckboxeq company_type.code "corporation"}}}&ensp;</p>
+                                        <p class="trans" data-target="corporation">ក្រុមហ៊ុនមូលធន</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex items-center">
+                                        <p>{{{getcheckboxeq company_type.code "partnership"}}}&ensp;</p>
+                                        <p class="trans" data-target="partnership">ក្រុមហ៊ុនសហកម្មសិទ្ធិ</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex items-center">
+                                        <p>{{{getcheckboxeq company_type.code "foreign_commercial_company"}}}&ensp;</p>
+                                        <p class="trans" data-target="foreign_commercial_company">ក្រុមហ៊ុនពាណិជ្ជកម្មបរទេស</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex ml-10 mt-2">
+                                <div class="flex">
+                                    <p class="shrink-0 mr-1 trans" data-target="note">កំណត់សម្គាល់​</p>
+                                    <span>&ensp;</span>
+                                </div>
+                                <p class="trans pl-1" data-target="mean_of_note">ក្រុមហ៊ុនមូលធន រួមមាន​ក្រុមហ៊ុនឯកជនទទួលខុសត្រូវមានកម្រិត ក្រុមហ៊ុនមហាជនទទួលខុសត្រូវមានកម្រិត និងសហគ្រាសឯកបុគ្គលទទួលខុសត្រូវមានកម្រិត</p>
+                            </div>
+                        </div>
+
+                        {{!-- Investment Registion --}}
+                        <div class="flex mt-2 border-box">
+                            <div class="flex">
+                                <p>-&ensp;</p>
+                                <div class="shrink-0 trans" data-target="reg_capital">ទុនចុះបញ្ជី</div>
+                                <span>&ensp;</span>       
                             </div> 
-                            {{#if (check_lng lng)}}
-                                <div class="w-full flex-1 space-y-1">
-                                    <p>
-                                        {{#neq parent_company_name ""}}
-                                            <span class="underline-text">{{parent_company_name}}</span>
-                                        {{else}}
-                                            .....................................................................................................
-                                        {{/neq}}
-                                    </p>
-                                    <p>
-                                        <span class="trans" data-target="address_location">អាសយដ្ឋាន​</span>
-                                        <span>
-                                            {{#neq parent_company_address ""}}
-                                                <span class="underline-text">{{parent_company_address}}</span>
-                                            {{else}}
-                                                ..................................................................................
-                                            {{/neq}}
-                                        </span>
-                                    </p>
-                                    <p>
-                                        <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
-                                        {{#neq parent_company_phone_number ""}}
-                                            <span class="text-nowrap underline-text">({{parent_company_phone_code}}){{formatphonenumber parent_company_phone_number}}</span>
-                                        {{else}}
-                                            .........................................................................................
-                                        {{/neq}}
-                
-                                    </p>
-                                    <p>
-                                        <span class="trans" data-target="email" id="email">អុីម៉ែល</span>
-                                        {{#neq parent_company_email ""}}
-                                            <span class="underline-text">{{parent_company_email}}</span>
-                                        {{else}}
-                                            .........................................................................................
-                                        {{/neq}}
-                                    </p>
-                                    <p>
-                                        <span class="trans" data-target="website">វែបសាយ</span>
-                                        {{#neq parent_company_phone_number ""}}
-                                        <span class="text-nowrap underline-text">{{parent_company_website}}</span>
-                                        {{else}}
-                                            ......................................................................................
-                                        {{/neq}}
-                                        
-                                    </p>
+                            <div class="flex gap-4">
+                                <p>
+                                    <span>{{{checkEmptyOrNull company_register_capital}}}</span>
+                                    <span class="trans" data-target="dollar">USD</span>
+                                </p>
+                                
+                                <div>
+                                    <div class="flex">
+                                        <p class="trans" data-target="foreign_company">បរទេស​</p>
+                                        <span>&ensp;</span>
+                                        <span>{{{checkEmptyOrNull company_foreign_share}}}</span>
+                                        <span>%</span>
+                                    </div>
                                 </div>
-                            {{else}}
-                                <div class="w-full flex-1 space-y-1">
-                                    <p>
-                                        {{#neq parent_company_name ""}}
-                                            <span class="underline-text">{{parent_company_name}}</span>
-                                        {{else}}
-                                            ........................................................................................
-                                        {{/neq}}
-                                    </p>
-                                    <p>
-                                        <span class="trans" data-target="address_location">អាសយដ្ឋាន​</span>
-                                        <span>
-                                            {{#neq parent_company_address ""}}
-                                                <span class="underline-text">{{parent_company_address}}</span>
-                                            {{else}}
-                                                .............................................................................
-                                            {{/neq}}
-                                        </span>
-                                    </p>
-                                    <p>
-                                        <span class="text-nowrap trans" data-target="phone_number" id="phone_number">ទូរស័ព្ទ​​​​</span>
-                                        {{#neq parent_company_phone_number ""}}
-                                            <span class="text-nowrap underline-text">({{parent_company_phone_code}}){{formatphonenumber parent_company_phone_number}}</span>
-                                        {{else}}
-                                            ............................................................
-                                        {{/neq}}
-                                    </p>
-                                    <p>
-                                        <span class="trans" data-target="email" id="email">អុីម៉ែល</span>
-                                        {{#neq parent_company_email ""}}
-                                            <span class="underline-text">{{parent_company_email}}</span>
-                                        {{else}}
-                                            .........................................................................
-                                        {{/neq}}
-                                    </p>
-                                    <p>
-                                        <span class="trans" data-target="website">វែបសាយ</span>
-                                        {{#neq parent_company_phone_number ""}}
-                                        <span class="text-nowrap underline-text">{{parent_company_website}}</span>
-                                        {{else}}
-                                            .........................................................................
-                                        {{/neq}}
-                                    </p>
+                                <div>
+                                    <div class="flex">
+                                        <p class="trans" data-target="local_company">ក្នុងស្រុក</p>
+                                        <span>&ensp;</span>
+                                        <span>{{{checkEmptyOrNull company_local_share}}}</span>
+                                    <span>%</span>
+                                    </div>
                                 </div>
-                            {{/if}}
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col mt-1">
-                    <div class="flex items-center mt-2">
-                        <p>-&ensp;</p>
-                        <div class="shrink-0 trans" data-target="form_of_company">ទ្រង់ទ្រាយក្រុមហ៊ុន​</div>
-                        <span>&ensp;</span>
-                        (<span class="italic trans" data-target="tick">សូមគូស</span>&ensp; ✓ <span class="italic trans" data-target="in_the_box">ក្នុង​ប្រអប់</span>&ensp; <span class="text-xl">☐</span>)
-                    </div>
-                
-                    <div class="px-10 grid grid-cols-2 w-108 gap-2">
-                        <div>
-                            <div class="flex items-center ">
-                                <p class="text-base">{{{getcheckboxeq company_type.code "corporation"}}}&ensp;</p>
-                                <p class="trans" data-target="corporation">ក្រុមហ៊ុនមូលធន</p>
                             </div>
                         </div>
-                        <div>
-                            <div class="flex items-center ">
-                                <p>{{{getcheckboxeq company_type.code "partnership"}}}&ensp;</p>
-                                <p class="trans" data-target="partnership">ក្រុមហ៊ុនសហកម្មសិទ្ធិ</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="flex items-center ">
-                                <p>{{{getcheckboxeq company_type.code "foreign_commercial_company"}}}&ensp;</p>
-                                <p class="trans" data-target="foreign_commercial_company">ក្រុមហ៊ុនពាណិជ្ជកម្មបរទេស</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex ml-10 mt-2">
-                        <div class="flex">
-                            <p class="shrink-0 mr-1 trans" data-target="note">កំណត់សម្គាល់​</p>
-                            <span>&ensp;</span>
-                        </div>
-                        <p class="trans" data-target="mean_of_note">ក្រុមហ៊ុនមូលធន រួមមាន​ក្រុមហ៊ុនឯកជនទទួលខុសត្រូវមានកម្រិត ក្រុមហ៊ុនមហាជនទទួលខុសត្រូវមានកម្រិត និងសហគ្រាសឯកបុគ្គលទទួលខុសត្រូវមានកម្រិត</p>
-                    </div>
-                </div>
 
-                {{!-- Investment Registion --}}
-                <div class="flex mt-2">
-                    <div class="flex">
-                        <p>-&ensp;</p>
-                        <div class="shrink-0 trans" data-target="reg_capital">ទុនចុះបញ្ជី</div>
-                        <span>&ensp;</span>       
-                    </div> 
-                    <div class="flex gap-4">
-                        <p>
-                            <span>{{{checkEmptyOrNull company_register_capital}}}</span>
-                            <span class="trans" data-target="dollar">USD</span>
-                        </p>
-                        
-                        <div>
+                        <div class="mt-2 border-box">
                             <div class="flex">
-                                <p class="trans" data-target="foreign_company">បរទេស​</p>
-                                <span>&ensp;</span>
-                                <span>{{{checkEmptyOrNull company_foreign_share}}}</span>
-                                <span>%</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex">
-                                <p class="trans" data-target="local_company">ក្នុងស្រុក</p>
-                                <span>&ensp;</span>
-                                <span>{{{checkEmptyOrNull company_local_share}}}</span>
-                            <span>%</span>
+                                <div class="flex">
+                                    <p>-&ensp;</p>
+                                    <div class="shrink-0 trans" data-target="number_of_shares">ចំនួនភាគហ៊ុន</div>
+                                    <sapn>&ensp;</sapn>
+                                    <span>{{{checkEmptyOrNull company_share_count}}}</span>
+                                </div>
+                                <div class="flex">
+                                    <span>&ensp;</span>
+                                    <div class="shrink-0 trans" data-target="share_per_value">តម្លៃក្នុង០១ភាគហ៊ុន</div>
+                                    <sapn>&ensp;</sapn>
+                                    <span>{{{checkEmptyOrNull company_price_per_share}}}</span>
+                                    <span>&ensp;</span>
+                                    <span class="trans" data-target="dollar">USD</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mt-2">
-                    <div class="flex">
-                        <div class="flex">
-                            <p>&#8208;&ensp;</p>
-                            <div class="shrink-0 trans" data-target="number_of_shares">ចំនួនភាគហ៊ុន</div>
-                            <sapn>&ensp;</sapn>
-                            <span>{{{checkEmptyOrNull company_share_count}}}</span>
-                        </div>
-                        <div class="flex">
-                            <span>&ensp;</span>
-                            <div class="shrink-0 trans" data-target="share_per_value">តម្លៃក្នុង០១ភាគហ៊ុន</div>
-                            <sapn>&ensp;</sapn>
-                            <span>{{{checkEmptyOrNull company_price_per_share}}}</span>
-                            <span>&ensp;</span>
-                            <span class="trans" data-target="dollar">USD</span>
-                        </div>
-                    </div>
-                </div>
                 
-                
-                <div class="keep-together">
-                    <div class="flex w-full">
+                <div class="pt-2 keep-together">
+                    <div class="flex w-full title-heade">
                         <p class="trans font_weight_custom font_muol" data-target="b">ខ</p>
                         <p>-&ensp;</p>
                         <p class="trans font_weight_custom font_muol" data-target="composition_of_company">សមាសភាពក្រុមហ៊ុន</p>
@@ -498,12 +518,11 @@
                         </tbody>
                     </table>
                 </div>
-
                 {{!-- BOARD MEMEBERS --}}
-                <div class="keep-together mt-2">
+                <div class="pt-1 keep-together">
                     <div class="flex">
-                        <p class="">-</p>
-                        <p class="pl-2 trans" data-target="composition_of_board_member">សមាសភាពក្រុមប្រឹក្សាភិបាល (រួមទំាងតតិយជន)៖</p>
+                        <p class="pt-1">-</p>
+                        <p class="mt-1 pl-2 trans" data-target="composition_of_board_member">សមាសភាពក្រុមប្រឹក្សាភិបាល (រួមទំាងតតិយជន)៖</p>
                     </div>  
 
                     <table class="border border-black w-full mt-2">
@@ -542,38 +561,39 @@
                     </table>
                 </div>
                 
-                <div class="mt-2">
-                    <div class="flex">
-                        <span class="font-bold">&#8545;-&ensp;</span> 
-                        <p class="w-full trans font_weight_custom font_muol" data-target="registration_investment_Project">ពាក្យស្នើសុំវិនិយោគ</p>
-                    </div>
+                <div>
                     <div class="flex mt-2">
-                        <span class="trans font_weight_custom font_muol" data-target="a">ក</span>
-                        <span class="">-&ensp;</span>
-                        <p class="w-full trans font_weight_custom font_muol" data-target="genernal_investment">ព័ត៌មានទូទៅ</p>
+                        <span class="font-bold mt-4">&#8545;-&ensp;</span> 
+                        <p class="w-full mt-4 trans font_weight_custom font_muol" data-target="registration_investment_Project">ពាក្យស្នើសុំវិនិយោគ</p>
+                    </div>
+                    <div class="flex">
+                        <span class="mt-2 trans font_weight_custom font_muol" data-target="a">ក</span>
+                        <span class="mt-2">-&ensp;</span>
+                        <p class="w-full mt-2 trans font_weight_custom font_muol" data-target="genernal_investment">ព័ត៌មានទូទៅ</p>
                     </div> 
                 </div>
 
                 {{!-- APPLICATION INVESTMENT --}}
-                <div class="mt-2">
-                    <div class="flex">
-                        <p>-</p>
-                        <p class="shrink-0 pl-2 trans" data-target="investment_activities">មុខសញ្ញាវិនិយោគ</p>
-                        <span>&ensp;</span>
-                        {{#if (check_lng lng)}}
-                            <span class="underline-text">{{ investment_target_km }}</span>
-                        {{else}}
-                            <span class="underline-text">{{ investment_target_en }}</span>
-                        {{/if}}
+                <div class="mt-2 w-full">
+                    <div class="flex mt-2">
+                        <div class="flex">
+                            <p>-</p>
+                            <p class="shrink-0 mr-1 pl-2 trans" data-target="investment_activities">មុខសញ្ញាវិនិយោគ</p>
+                            <span>&ensp;</span>
+                            {{#if (check_lng lng)}}
+                                <span class="underline-text">{{ investment_target_km }}</span>
+                            {{else}}
+                                <span class="underline-text">{{ investment_target_en }}</span>
+                            {{/if}}
+                        </div>
                     </div>
                 </div>
-
                 <div class="w-full flex flex-col mt-2 font_siemreap">
                     <div class="flex items-center">
                         <p>-</p>
                         <p class="shrink-0 mr-1 pl-2 trans" data-target="investment_sector">វិស័យវិនិយោគ</p>
                         <span>&ensp;</span>
-                        (<span class="italic trans" data-target="tick">សូមគូស</span>&ensp; ✓ <span class="italic trans" data-target="in_the_box">ក្នុង​ប្រអប់</span>&ensp; <span class="text-xl">☐</span>)
+                        (<span class="italic trans" data-target="tick">សូមគូស</span>&ensp; ✓ <span class="italic trans" data-target="in_the_box">ក្នុង​ប្រអប់</span>&ensp; <span class="text-lg">☐</span>)
                     </div>
                     <div class="px-10 flex flex-wrap gap-2 mt-2">
                         {{#each investment_sectors}}
@@ -588,8 +608,7 @@
                         </div>
                     </div>
                 </div>
-
-                <table class="border border-black w-full mt-2 font_siemreap keep-together">
+                <table class="border border-black w-full mt-3 font_siemreap keep-together">
                     <thead class="border border-black">
                         <tr>
                             <th class="border border-black px-1 py-2 w-10 trans" data-target="no_number">ល.រ</th>
@@ -615,9 +634,9 @@
                         <p>-&ensp;</p>
                         <div class="shrink-0 trans" data-target="applicant_for_investment">អ្នកដាក់ពាក្យសុំវិនិយោគ</div>
                     </div> 
-                    <ul class="list-disc ml-14 leading-7">
-                        <li class="font_siemreap">
-                            <div class="">
+                    <ul class="list-disc ml-14 leading-6">
+                        <li class="pt-2 space-y-1 font_siemreap">
+                            <div class="space-x-2 space-y-1">
                                 <p>
                                     <span class="text-nowrap trans" data-target="name">ឈ្មោះ</span>
                                     {{#neq investor_name null}}<span class="text-nowrap underline-text">{{translatelanguage investor_salute.translate lng}} {{ investor_name }}</span>{{else}}...................{{/neq}}
@@ -630,7 +649,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="font_siemreap">
+                        <li class="pt-1 font_siemreap">
                             <div class="flex">
                                 <p class="text-nowrap trans" data-target="role_in_company">តួនាទីក្នុងក្រុមហ៊ុន</p>
                                 <span>&ensp;</span>
@@ -649,24 +668,26 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="font_siemreap">                       
-                            <div class="flex font_siemreap">
-                                <p class="trans" data-target="power_of_attorney">លិខិតប្រគល់សិទ្ធិ</p>
-                                <span class="italic trans" data-target="no_role_company">(បើសិនមិនមានតួនាទីក្នុងក្រុមហ៊ុន)</span>
-                                <span>៖</span>
-                                <span>&ensp;</span>
-                                <p class="trans" data-target="number">លេខ</p>
-                                <span>&ensp;</span>
-                                {{#neq legal_representative_nomination_letter_number ""}}
-                                    <span class="font_siemreap">{{legal_representative_nomination_letter_number}}</span>
-                                {{else}}.......................{{/neq}}
+                        <li class="pt-1 font_siemreap">
+                            <div>
+                                <div class="flex font_siemreap">
+                                    <p class="trans" data-target="power_of_attorney">លិខិតប្រគល់សិទ្ធិ</p>
+                                    <span class="italic trans" data-target="no_role_company">(បើសិនមិនមានតួនាទីក្នុងក្រុមហ៊ុន)</span>
+                                    <span>៖</span>
+                                    <span>&ensp;</span>
+                                    <p class="trans" data-target="number">លេខ</p>
+                                    <span>&ensp;</span>
+                                    {{#neq legal_representative_nomination_letter_number ""}}
+                                        <span class="font_siemreap">{{legal_representative_nomination_letter_number}}</span>
+                                    {{else}}.......................{{/neq}}
+                                </div>
+                                <div><span class="font_siemreap">ចុះ{{legal_representative_nomination_letter_issue_datetime}}</span></div>
                             </div>
-                            <div><span class="font_siemreap">ចុះ{{legal_representative_nomination_letter_issue_datetime}}</span></div>                          
                         </li>
                     </ul>
                 </div>         
 
-                <div class="flex mt-2">
+                <div class="flex  mt-1">
                     <div class="flex">
                         <p>-&ensp;</p>
                         <div class="shrink-0 trans" data-target="total_investment_capital">ទុនវិនិយោគសរុប</div>
@@ -681,8 +702,7 @@
                         <span>&ensp;</span>
                     </div>
                 </div>
-
-                <ul class="list-disc ml-14 leading-7">
+                <ul class="list-disc ml-14  leading-6">
                     <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p>
@@ -692,6 +712,8 @@
                                 {{else}}.....................{{/neq}}
                                 <span class="trans" data-target="m">ម</span>
                                 <span><sup class="trans" data-target="two">២</sup></span>
+                                {{!-- <span class="trans" data-target="m">ម<sup class="trans" data-target="two">២</sup></span>
+                                <span><sup class="trans" data-target="two">២</sup></span> --}}
                                 <span class="trans" data-target="price">តម្លៃ</span>
                                 {{#neq construction_price null }}
                                     <span class="underline-text">{{formatCurrency construction_price}}</span>
@@ -700,12 +722,14 @@
                             </p>
                         </div>
                     </li>
-                    <li class="flex items-center flex-wrap font_siemreap">
+                    <li class="flex space-x-1 items-center flex-wrap font_siemreap">
                         <span class="trans" data-target="building_construction">សំណង់អគារ៖</span>
                         {{#neq building_size 0 }}
                             <span class="underline-text font_siemreap">{{formatCurrency building_size}}</span>
                         {{else}}..............{{/neq}}
                         <span>ម<sup class="trans" data-target="two">២</sup></span>
+                        {{!-- <span class="trans" data-target="m">ម</span>
+                        <sup class="trans" data-target="two">២</sup> --}}
                         <span class="trans" data-target="price">តម្លៃ</span>
                         {{#neq building_price 0 }}
                             <span class="underline-text">{{formatCurrency building_price }}</span>
@@ -716,7 +740,7 @@
                         <span class="trans" data-target="new_building">អាគារថ្មី</span>
                         <sapn>{{{getcheckboxeq building_type.code "new_building"}}}</sapn>
                     </li>
-                    <li class="font_siemreap">
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p>
                                 <span class="trans" data-target="production_equipment_price">សម្ភារៈបរិក្ខារផលិតកម្ម តម្លៃ</span>
@@ -726,7 +750,7 @@
                             </p>
                         </div>
                     </li>
-                    <li class="font_siemreap">
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p>
                                 <span class="trans" data-target="office_price">ការិយាល័យ តម្លៃ</span>
@@ -734,7 +758,7 @@
                                 <span class="trans" data-target="dollar">USD</span>
                             </p>
                         </div>                    
-                    <li class="font_siemreap">
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p>
                                 <span class="trans" data-target="other_price">ផ្សេងៗ តម្លៃ</span>
@@ -747,8 +771,8 @@
                     </li>
                 </ul>
 
-                <div class="flex mt-2 font_siemreap">
-                    <p>-&ensp;</p>
+                <div class="flex pt-2 font_siemreap">
+                    <p>&#8208;&ensp;</p>
                     <div class="shrink-0 trans" data-target="working_capital">ទុនបង្វិល</div>
                     <span>៖ </span>
                     {{#neq working_capital null }}
@@ -758,13 +782,13 @@
                     <span class="trans" data-target="dollar">USD</span>
                 </div>
                 
-                <div class="flex mt-2">
+                <div class="flex mt-2 ">
                     <div class="flex"> 
                         <p>-&ensp;</p>
                         <div class="shrink-0 trans" data-target="source_of_investment_capital">ប្រភពទុនវិនិយោគ</div>
                         <span>៖ </span>
                     </div>
-                    <div> 
+                    <div class="ml-1"> 
                         <div class="flex">
                             <p>
                                 <span>-</span>
@@ -774,7 +798,7 @@
                                 {{/if}}
                             </p>
                         </div>
-                        <div class="">
+                        <div class="mt-2">
                             <p> 
                                 <span>-</span>
                                 <span class="trans" data-target="local_loan">ឥណទានក្នុងស្រុក</span>
@@ -793,12 +817,12 @@
                     </div>
                 </div>
 
-                 <div class="flex mt-2 leading-7">
+                <div class="flex mt-2  leading-6">
                     <div class="flex">
-                        <span>-&ensp;</span>
+                        <span>&#8208;&ensp;</span>
                         <p class="shrink-0 trans" data-target="investment_location">ទីតាំងវិនិយោគ</p>
                     </div>
-                    <div class="w-full">
+                    <div class="ml-1 w-full">
                         <div class="flex pl-5">
                             <p class="font_siemreap">
                                 <span class="underline-text font_siemreap">
@@ -826,20 +850,20 @@
                     </div>
                 </div>
 
-                <div class="flex mt-2">
+                <div class="flex mt-2 ">
                     <div class="flex">
                         <span>&#8208;&ensp;</span>
                         <p class="shrink-0 trans" data-target="schedule_for_project_implementation">កម្មវិធីអនុវត្តគម្រោង</p>
                     </div>
                 </div>
-                <ul class="list-disc ml-14 w-full pt-1 leading-7">
-                    <li class="mt-1">
+                <ul class="list-disc ml-14  w-full pt-1 leading-6">
+                    <li class="mt-1 font_siemreap">
                         <div class="w-full flex space-x-1">
                             <p class="trans" data-target="construction_start_datetime">ចាប់ផ្តើមរៀបចំ</p>
                             <span class="font_siemreap">{{construction_start_datetime}}</span>
                         </div>
                     </li>
-                    <li class="mt-1">
+                    <li class="mt-1 font_siemreap">
                         <div class="w-full flex space-x-2">
                             <div class="flex-1">
                                 <div class="w-full flex space-x-1">
@@ -849,7 +873,7 @@
                             </div>
                         </div>
                     </li>
-                     <li class="mt-1 font_siemreap">
+                    <li class="mt-1 font_siemreap">
                         <div class="w-full flex space-x-2">
                             <div class="flex space-x-1">
                                 <p class="trans" data-target="machinery_installation_date">ពេលបំពាក់គ្រឿងម៉ាសុីន</p>
@@ -871,12 +895,12 @@
             
                 {{!-- PRODUCT INFORMATION --}}
                 <div class="break-inside-auto-page">
-                    <div class="flex pt-1 title-body">
-                        <p>&#8208;&ensp;</p>
+                    <div class="flex pt-1 ">
+                        <p>-&ensp;</p>
                         <div class="shrink-0 trans" data-target="product_information">ព័ត៌មានស្តីពីផលិតផល​</div>
                         <span>៖</span>
                     </div>
-                    <table class="border border-black w-full mt-2 title-body">
+                    <table class="border border-black w-full mt-2 ">
                         <thead class="border border-black">
                             <tr>
                                 <th class="border border-black px-1 py-2 w-[140px] trans" rowspan="3" data-target="product_type">ប្រភេទផលិតផល</th>
@@ -939,8 +963,8 @@
                         </div>                        
                     </div>
 
-                    <div class="w-full font_siemreap leading-7">
-                        <div class="shrink-0">
+                    <div class="w-full mt-1 font_siemreap leading-6">
+                        <div class="shrink-0 pt-1">
                             <span>- </span>
                             <span class="trans" data-target="labour_requirements">តម្រូវការពលកម្ម៖</span>
                             <span class="">{{sumlist labor_demands "labor_demand_startup_local"}}</span><span class="trans" data-target="domestic_worker">​នាក់ សម្រាប់ពលកម្មក្នុងស្រុក ​និង</span>&nbsp;{{sumlist labor_demands "labor_demand_startup_foreign"}}<span class="trans" data-target="foreign_work">នាក់ សម្រាប់ពលកម្មបរទេស ក្នុងអំឡុងបពេលចាប់ផ្ដើម និង</span>&nbsp;{{sumlist labor_demands "labor_demand_full_production_local"}}<span class="trans" data-target="for_work_local">នាក់ សម្រាប់េពលកម្នក្នុងស្រុក និង</span>&nbsp;{{sumlist labor_demands "labor_demand_full_production_foreign"}}<span class="trans" data-target="for_work_foreign">នាក់ សម្រាប់បរទេសក្នុងអំឡុងពេលផលិតកម្មពេលលេញ។</span>
@@ -949,7 +973,7 @@
                 </div>
                 
                 {{!-- START LABOR DEMANDS --}}
-                <table class="border border-black w-full mt-2" style="page-break-inside: auto;">
+                <table class="border border-black w-full mt-2 " style="page-break-inside: auto;">
                     <thead class="border border-black">
                         <tr>
                             <th class="border border-black px-1 py-2 trans" rowspan="2" data-target="type_of_labor">ប្រភេទពលកម្ម</th>
@@ -982,23 +1006,23 @@
                         </tr>
                     </tbody>
                 </table>
+                {{!-- END LABOR DEMANDS --}}
 
-                {{!-- END LABOR DEMANDS --}} 
-                <div class="mt-4 pt-1 title-body">
+                <div class="mt-4 pt-1 ">
                     <div class="flex">
                         <span>&#8208;&ensp;</span>
                         <p class="trans" data-target="requirement_of_annual">តម្រូវការធាតុចូលផលិតកម្ម​ (វត្ថុធាតុដើម) ប្រចាំឆ្នាំ៖ បំពេញតាមទម្រង់ដូចមានចែងក្នុងឧបសម្ព័ន្ធភ្ជាប់មកជាមួយ។</p>
                     </div>
                 </div>
-                <div class="mt-2 title-body">
+                <div class="mt-2 ">
                     <div class="flex">
                         <span>&#8208;&ensp;</span>
                         <p class="trans" data-target="requirement_of_water">តម្រូវការថាមពល និងទឹក</p>
                         <span>&ensp;</span>
                     </div>
                 </div>
-                <ul class="list-disc ml-14 leading-7 font_siemreap">
-                    <li>
+                <ul class="list-disc ml-12 ">
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p class="trans" data-target="coal_or_firewood">ធ្យូងថ្ម​ ឬអុសប្រចាំឆ្នាំ</p>
                             <span>&ensp;</span>
@@ -1012,7 +1036,7 @@
                             <span>{{{checkEmptyOrNull energy_needed_gas}}}&ensp;</span>
                             <span class="trans" data-target="ton_year">តោន/ឆ្នាំ</span>
                         </div>
-                    <li>
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p class="trans" data-target="fuel">ប្រេងឥន្ធនៈ</p>
                             <span>&ensp;</span>
@@ -1023,7 +1047,7 @@
                             <span class="trans" data-target="lit_year">លីត្រ​/ឆ្នាំ</span>
                         </div>
                     </li>
-                    <li>
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p class="trans" data-target="electricity">អគ្គិសនី (អនុភាពតម្លើង)</p>
                             <span>&ensp;</span>
@@ -1036,7 +1060,7 @@
                             <span> KWH</span>
                         </div>
                     </li>
-                    <li>
+                    <li class="mt-1 font_siemreap">
                         <div class="flex">
                             <p class="trans" data-target="water_consumption">ប្រើប្រាស់ទឺក</p>
                             <span>&ensp;</span>
@@ -1046,18 +1070,27 @@
                             <span>&ensp;</span>
                         </div>
                     </li>
-                </ul>
-
-
-                <div style="page-break-inside: avoid;">
-                    <div class="flex pt-4">
-                        <div class="flex shrink-0 title-header">
-                            <p class="trans font_custom font_weight_custom" data-target="b">ខ</p>
-                            <p>&#8208;&ensp;</p>
-                            <p class="trans font_custom font_weight_custom font_size_custom" data-target="option">ការជ្រើសរើសរវាង</p>
+                </ul> 
+                <div class="keep-together mt-2">
+                    <div class="flex">
+                        <div class="flex">
+                            <p class="trans font_weight_custom font_muol" data-target="b">ខ</p>
+                            <p>-&ensp;</p>
+                            <p class="trans font_weight_custom font_muol" data-target="option">ការជ្រើសរើសរវាង</p>
                             <span>&ensp;</span>
                         </div>
-                        <div class="ml-2 -mt-1 title-body w-full">
+                        <div class="border-box">
+                            <div class="flex items-center">
+                                <p>{{{getcheckboxneq incentive_type.keyword "special_depreciation"}}}&ensp;</p>
+                                <p class="trans" data-target="income_investment">ការលើកលែងពន្ធលើប្រាកចំណេញ និងការធានាលើការវិនិយោគ</p>
+                            </div>
+                            <div class="flex items-center">
+                                <p>{{{getcheckboxeq incentive_type.keyword "special_depreciation"}}}&ensp;</p>
+                                <p class="trans" data-target="special_investment">រំលស់ពិសេស និងការធានាលើការវិនិយោគ</p>
+                            </div>
+                        </div>
+
+                        {{!-- <div class="w-full">
                             <div class="shrink-0 flex items-center space-x-1">
                                 <p>{{{getcheckboxneq incentive_type.keyword "special_depreciation"}}}</p>
                                 <p class="trans" data-target="income_investment">ការលើកលែងពន្ធលើប្រាកចំណេញ និងការធានាលើការវិនិយោគ</p>
@@ -1066,21 +1099,27 @@
                                 <p>{{{getcheckboxeq incentive_type.keyword "special_depreciation"}}}</p>
                                 <p class="trans" data-target="special_investment">រំលស់ពិសេស និងការធានាលើការវិនិយោគ</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="ml-6 trans" data-target="two_options">(ក្នុងចំណោមជម្រើសទាំងពីរខាងលើនេះវិនិយោគិនមានសិទ្ធិជ្រើសរើសបានតែមួយប៉ុណ្ណោះ)</div>
                 </div>
 
-                <div class="flex shrink-0 keep-together">
+                <div class="flex mt-2">
                     <p class="trans font_weight_custom font_muol" data-target="c">គ</p>
                     <p>-&ensp;</p>
                     <p class="trans font_weight_custom font_muol" data-target="information_on_environment">ព័ត៌មានស្តីពីបរិស្ថាន</p>
                     <span>&ensp;</span>
                 </div>
 
-                {{!-- <ul class="list-disc ml-12 title-body">
+                <ul class="list-disc ml-12">
                     <li class="mt-1 font_siemreap">
                         <p class="trans" data-target="mode_of_transport"> រូបភាពនៃការដឹកជញ្ចូនវត្ថុធាតុដើម និងផលិតផលសម្រេចចេញ-ចូល ទីតាំងវិនិយោគ៖</p> <span class="underline-text">{{transport_mode}}</span>
+                        {{!-- <div class="flex">
+                            <div class="whitespace-pre-line"></div>
+                            <div class="pl-3">
+                                <p class="trans" data-target="other">ផ្សេងៗ​</p> 
+                            </div>
+                        </div> --}}
                     </li>
                     <li class="mt-2 font_siemreap">
                         <p class="trans" data-target="waste_volume_estimation">ប៉ាន់ស្មានបរិមាណកាកសំណល់៖</p>
@@ -1110,7 +1149,8 @@
                             <span class="trans" data-target="per_day">/ថ្ងៃ</span>
                         </div>
                     </li>
-                    <li class="mt-2 font_siemreap">
+
+                    <li class="mt-2 font_siemreap bg-blue-200">
                         <p class="trans" data-target="concentration_estimation_table_in">ប៉ាន់ស្មាននៃកំហាប់ក្នុង៖</p>
                         <div>
                             <div class="flex mt-1">
@@ -1119,17 +1159,17 @@
                             </div>
                             <div class="flex">
                                 <div class="ml-4 pt-1">
-                                    <div class=" flex mt-1">
+                                    <div class="flex mt-1">
                                         <span>-&ensp;</span>
                                         <p>pH<span class="trans" data-target="colon">៖</span></p>
                                         <span>&ensp;{{{checkEmptyOrNull wasted_water_ph}}}</span>
                                     </div>
-                                    <div class=" flex mt-1">
+                                    <div class="flex mt-1">
                                         <span>-&ensp;</span>
                                         <p class="trans" data-target="nitrate_nitrogen">នីត្រាតអាស៊ូត Nitrate Nitrogen:</p>
                                         <span>&ensp;{{{checkEmptyOrNull wasted_water_nitrate_nitrogen}}}</span>
                                     </div>
-                                    <div class=" flex mt-1">
+                                    <div class="flex mt-1">
                                         <span>-&ensp;</span>
                                         <p class="trans" data-target="phenol">ផេណុល Phenol</p>
                                         <span>(C<sub>6</sub>H<sub>5</sub>OH)<span class="trans" data-target="colon">៖</span></span>
@@ -1140,7 +1180,7 @@
                                         <p class="trans" data-target="turbidity">ភាពល្អក់ Turbidity</p>
                                         <span>&ensp;{{{checkEmptyOrNull wasted_water_turbidity}}}</span>
                                     </div>
-                                    <div class=" flex mt-1">
+                                    <div class="flex mt-1">
                                         <span>-&ensp;</span>
                                         <p class="trans" data-target="wasted_water_amonia">​អាម៉ូញាក់​ Ammonia</p>
                                         <span>(NH<sub>3</sub>)<span class="trans" data-target="colon">៖</span></span>
@@ -1207,6 +1247,7 @@
                             </div>
                         </div>
                     </li>
+
                     <li class="mt-1 font_siemreap">
                         <p class="mb-2 trans" data-target="disposal_area">ទីតាំងដែលប្រើសម្រាប់បោះបង់សំណល់រឹង បង្ហូរសំណល់រាវ និងការបញ្ចេញឧស្ម័ន៖</p>
                         <p>
@@ -1229,18 +1270,18 @@
                         <div class="flex">
                             <p class="trans" data-target="conditions_of_employees">ស្ថានភាពស្នាក់នៅរបស់បុគ្គលិកកម្មករ</p>
                         </div>
-                        <div class="-left-[6px] pt-2 pb-4"> <!-- Added margin to the top and bottom -->
-                            <div class="flex flex-wrap items-center space-x-0.5">
+                        <div class="-left-[6px] pt-2 pb-4">
+                            <div class="flex flex-wrap items-center">
                                 <span>-&ensp;</span>
                                 <p class="trans" data-target="supply_of_clean_water">ផ្គត់ផ្គង់ទឹកស្អាត​៖​</p>
                                 <span>&ensp;</span>
-                                <span>{{{ getcheckboxeq supply_of_clean_water.code "public"}}}</span>
+                                <p>{{{ getcheckboxeq supply_of_clean_water.code "public"}}}&ensp;</p>
                                 <p class="trans" data-target="public_water">បណ្តាញទឹកស្អាតសាធារណៈ</p>
                                 <span>&ensp;</span>
-                                <span>{{{ getcheckboxeq supply_of_clean_water.code "village"}}}</span>
+                                <p>{{{ getcheckboxeq supply_of_clean_water.code "village"}}}&ensp;</p>
                                 <p class="trans" data-target="water_village">បណ្តាញទឹកស្អាតក្នុងភូមិ</p>
                                 <span>&ensp;</span>
-                                <span>{{{ getcheckboxeq supply_of_clean_water.code "other"}}}</span>
+                                <p>{{{ getcheckboxeq supply_of_clean_water.code "other"}}}&ensp;</p>
                                 <p class="trans" data-target="other">ផ្សេងៗ</p>
                             </div>
                             <div class="flex mb-1">
@@ -1263,26 +1304,26 @@
                             </div>
                         </div>
                     </li>
-                </ul> --}}
+                </ul>
 
                 {{!-- ឃ --}}
-                {{!-- <div class="keep-together">
+                <div class="keep-together">
                     <div class="flex pt-2 font_muol" >
                         <p class="trans font_weight_custom font_muol" data-target="d">ឃ</p>
-                        <p>&#8208;&ensp;</p>
+                        <p>-&ensp;</p>
                         <p class="trans font_weight_custom font_muol" data-target="information_tax">ព័ត៌មានស្តីពីពន្ធដារ</p>
                     </div>
-                    <p class="whitespace-pre-line mt-2 title-body pl-12 trans" data-target="form_attach_annex"> បំពេញតាមទម្រង់បែបបទ (Form) ដូចមានឧបសម្ព័ន្ធជួនភ្ជាប់។</p>
-                </div> --}}
+                    <p class="whitespace-pre-line mt-2  pl-12 trans" data-target="form_attach_annex"> បំពេញតាមទម្រង់បែបបទ (Form) ដូចមានឧបសម្ព័ន្ធជួនភ្ជាប់។</p>
+                </div>
                 {{!-- ឃ --}} 
 
                 {{!-- ង --}}
-                {{!-- <div class="flex mt-6 title-header">
+                <div class="flex mt-6 title-header">
                     <p class="trans  font_weight_custom font_muol" data-target="e">ង</p>
-                    <p>&#8208;&ensp;</p>
+                    <p>-&ensp;</p>
                     <p class="trans  font_weight_custom font_muol" data-target="information_request">ព័ត៌មានសម្រាប់ការស្នើសុំការលើកទឹកចិត្តបន្ថែម</p>
-                </div> --}}
-                {{!-- <ul class="list-disc ml-12 p-1 title-body">
+                </div>
+                <ul class="list-disc ml-12 p-1">
                     <li class="pt-2 space-y-2 keep-together font_siemreap">
                         <p class="trans" data-target="information_request_one">តើគម្រោងមានការស្រាវជ្រាវ អភិវឌ្ឃន៏ និងនវានុវត្តន៍ដែរឬទេ?</p>
                         <div class="space-y-2">
@@ -1314,7 +1355,7 @@
                     <li class="pt-2 space-y-2 keep-together font_siemreap">
                         <p class="trans leading-6" data-target="information_request_three">តើគម្រោងវិនិយោគមានការសាងសង់កន្លែងស្នាក់នៅ កន្លែងបរិភោគអាហារ ឬអាហារដ្ឋានដែលមានតម្លៃសមរម្យ​ ទារកដ្ឋាន និងសុខូបត្ថម្ភវត្ថុដទៃទៀតសម្រាប់កម្មករនិយោជិត ដែរឬទេ?</p>
                         <div class="flex flex-col space-y-2">
-                        <div class="flex items-center">
+                            <div class="flex items-center">
                                 <p class="trans" data-target="yes">មាន</p>
                                 <span>&ensp;</span>
                                 <span>{{{ getcheckboxeq is_build_shelter "1"}}}</span>
@@ -1322,7 +1363,7 @@
                                 <p class="trans" data-target="no">មិនមាន</p>
                                 <span>&ensp;</span>
                                 <span>{{{ getcheckboxeq is_build_shelter "0"}}}</span>
-                        </div>
+                            </div>
                         </div>
                     </li>
                     <li class="pt-2 space-y-2 keep-together font_siemreap">
@@ -1339,38 +1380,44 @@
                             </div>
                         </div>
                     </li>
-                    <li class="pt-2 space-y-2 keep-together font_siemreap">
+                    <li class="pt-2 keep-together font_siemreap">
                         <p class="trans" data-target="information_request_five">តើគម្រោងវិនិយោគមានការលើកកម្ពស់សុខុមាលភាព ដល់កម្មករនិយោជិតខ្មែរដូចជា៖</p>
-                        <div class="flex flex-col space-y-2">
-                            {{#each employee_benefits as |item index| }}
-                                <div class="font_siemreap">
-                                {{#if (hasMatchingBenefit ../employee_benefit_select item.code)}}
-                                    <span class="text-xl">☑</span> {{translatelanguage item.translate ../lng}}{{#if (equal_minus_one index ../employee_benefits.length)}}<span class="trans" data-target="period">។</span>{{/if}}
-                                {{else}}
-                                    <span class="text-xl">☐</span> {{translatelanguage item.translate ../lng}}{{#if (equal_minus_one index ../employee_benefits.length)}}<span class="trans" data-target="period">។</span>{{/if}}
-                                {{/if}}
+                        <div>
+                            {{#each employee_benefits as |item index|}}
+                                <div class="items-center font_siemreap">
+                                    {{#if (hasMatchingBenefit ../employee_benefit_select item.code)}}
+                                        <div class="flex items-center">
+                                            <span class="text-lg">☑&ensp;</span> {{translatelanguage item.translate ../lng}}{{#if (equal_minus_one index ../employee_benefits.length)}}<span class="trans" data-target="period">។</span>{{/if}}
+                                        </div>
+                                    {{else}}
+                                        <div class="flex items-center">
+                                            <span class="text-lg">☐&ensp;</span> {{translatelanguage item.translate ../lng}}{{#if (equal_minus_one index ../employee_benefits.length)}}<span class="trans" data-target="period">។</span>{{/if}}
+                                        </div>
+                                    {{/if}}
                                 </div>
                             {{/each}}
                         </div>
                     </li>
-                </ul> --}}
+                </ul>
 
-                {{!-- <div class="flex pt-2 title-body pl-4">
+                <div class="flex pt-2 pl-4">
                     <div class="flex font-semibold">
                         <p class="trans" data-target="noted_declaration">បញ្ជាក់​<p/>
                         <span>&ensp;</span>
                     </div>
                     <p class="trans" data-target="any_chosen_items">រាល់ចំណុចដែលបានជ្រើសរើសខាងលើ ត្រូវភ្ជាប់ឯកសារគាំទ្រមកជាមួយ។</p>
-                </div> --}}
+                </div>
 
-                {{!-- <div style="page-break-inside: avoid;">
-                    <div class="flex pt-5 title-body leading-6">
-                        <div class="flex w-[110px] title-header">
+                <div class="keep-together pt-2">
+                    <div class="flex leading-6">
+                        <div class="flex w-[110px] font-bold">
                             <span>&#8546;-&ensp;</span>
-                            <p class="trans font_custom font_weight_custom font_size_custom" data-target="declaration">ការធានា៖</p>
+                            <p class="trans font_weight_custom font_muol" data-target="declaration">ការធានា៖</p>
                             <span>&ensp;</span>
                         </div>
-                        <p class="trans" data-target="mean_declaration">ក្នុងនាមជាម្ចាស់គម្រោងសូមធានាអះអាងថា ព័ត៌មានខាងលើនេះ គឺពិតជាត្រឹមត្រូវ ដោយមិនមានចេតនា ក្លែងបន្លំឡើយ។</p>
+                        <div class="flex-1">
+                            <p class="trans" data-target="mean_declaration">ក្នុងនាមជាម្ចាស់គម្រោងសូមធានាអះអាងថា ព័ត៌មានខាងលើនេះ គឺពិតជាត្រឹមត្រូវ ដោយមិនមានចេតនា ក្លែងបន្លំឡើយ។</p>
+                        </div>
                     </div>
 
                     <div class="grid grid-cols-2 mt-2">
@@ -1387,25 +1434,26 @@
                         </div>
                         <div class="flex flex-col items-center">
                             <p class="text-center font_siemreap">ធ្វើនៅ{{issued_datetime}}</p>
-                            <p class="text-center mt-20 font_muol">{{translatelanguage investor_salute.translate lng}} {{ investor_name }}</p>
+                            <p class="text-center text-center mt-2 title-header trans font_custom font_weight_custom font_size_custom" data-target="council"> ហត្ថលេខា</p>
+                            <p class="text-center mt-16 font_muol">{{ investor_name }}</p>
                         </div>
                     </div>
-                </div> --}}
+                </div>
 
-                {{!-- <div style="page-break-after: always;"></div> --}}
+                <div style="page-break-after: always;"></div>
 
                 {{!-- Title of equipment --}}
-                {{!-- <div class="text-center leading-8 font_siemreap">
+                <div class="text-center leading-8 font_siemreap">
                     <p class="text-base font-semibold pt-1 font_siemreap">តារាងតម្រូវការសម្ភារៈបរិក្ខារផលិតកម្ម</p>
                     {{#if (check_lng lng)}}
                         <p class="font_siemreap">សម្រាប់គម្រោងវិនិយោគ{{investment_target_km}}</p>
                     {{else}}
                         <p class="font_siemreap">សម្រាប់គម្រោងវិនិយោគ{{investment_target_en}}</p>
                     {{/if}}
-                </div> --}}
+                </div>
 
                 {{!-- Table Equipment && Materail start --}}
-                {{!-- <table class="w-full border border-black mt-8 font_siemreap">
+                <table class="w-full border border-black mt-8 font_siemreap">
                     <thead style="page-break-inside: avoid;">
                         <tr class="border border-black">
                             <th class="border border-black px-1 py-2 font_siemreap font_siemreap" rowspan="2">ល.រ</th>
@@ -1469,22 +1517,22 @@
                             <td class="border border-black px-1 py-2 text-center"></td>
                         </tr>
                     </tfoot>
-                </table> --}}
+                </table>
                 {{!-- Table Equipment && Materail end --}}
 
                 <div style="page-break-after: always;"></div>
 
                 {{!-- Title of equipment --}}
-                {{!-- <div class="text-center leading-8">
+                <div class="text-center leading-8">
                     <p class="font-semibold pt-1 font_siemreap">តារាងតម្រូវការធាតុចូលផលិតកម្ម</p>
                     {{#if (check_lng lng)}}
                         <p class="font_siemreap">សម្រាប់គម្រោងវិនិយោគ{{investment_target_km}}</p>
                     {{else}}
                         <p class="font_siemreap">សម្រាប់គម្រោងវិនិយោគ{{investment_target_en}}</p>
                     {{/if}}
-                </div> --}}
+                </div>
 
-                {{!-- <table class="w-full border border-black mt-8 font_siemreap">
+                <table class="w-full border border-black mt-8 font_siemreap">
                     <thead class="keep-together font_siemreap">
                         <tr class="border border-black">
                             <th class="border border-black px-1 py-2 font_siemreap" rowspan="2">ល.រ</th>
@@ -1548,7 +1596,7 @@
                             <td class="border border-black px-1 py-2 text-center"></td>
                         </tr>
                     </tfoot>
-                </table> --}}
+                </table>
             </div>
         </main>
         
