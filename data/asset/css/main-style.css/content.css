@@ -80,6 +80,25 @@ body {
 }
 /* END FONT SIZE */
 
+
+.thai_distribution {
+
+    text-align: justify; /* Justify text alignment */
+    text-justify: inter-word; /* Control spacing between words */
+    /* word-break: break-all; */
+
+    /* text-align: justify;
+    word-spacing: 4px; 
+    letter-spacing: 0.003vw;
+    text-justify: inter-word;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: -2px;
+    letter-spacing:0.03vw;
+    line-height: 1.6; */
+} 
+
+
 /* BULLET POINT */
 .width-bullet-point-sm{
     width: 20px;

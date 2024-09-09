@@ -1,0 +1,26 @@
+{
+    "_id": "66ded9a7443f02225e06bf15",
+    "shortid": "fbk_PjPr8",
+    "name": "xlsx invoice",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1725881455384
+    },
+    "modificationDate": {
+        "$$date": 1725884437832
+    },
+    "workspaceId": "66ded9a7443f02225e06bf14",
+    "xlsx": {
+        "templateAssetShortid": "1mfDI2A"
+    },
+    "data": {
+        "shortid": "WZ580PjlR"
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "$entitySet": "templates"
+}

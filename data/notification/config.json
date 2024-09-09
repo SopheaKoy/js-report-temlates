@@ -1,0 +1,14 @@
+{
+    "name": "notification",
+    "creationDate": {
+        "$$date": 1725848532908
+    },
+    "modificationDate": {
+        "$$date": 1725848532908
+    },
+    "shortid": "WSd6P0i",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "KmoixccZhoeX4SOe",
+    "$entitySet": "folders"
+}

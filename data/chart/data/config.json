@@ -1,0 +1,15 @@
+{
+    "_id": "66ded9a7443f02225e06bf16",
+    "shortid": "WZ580PjlR",
+    "name": "data",
+    "creationDate": {
+        "$$date": 1725881455387
+    },
+    "modificationDate": {
+        "$$date": 1725883533782
+    },
+    "workspaceId": "66ded9a7443f02225e06bf14",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "$entitySet": "data"
+}
