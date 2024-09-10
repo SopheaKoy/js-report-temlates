@@ -23,7 +23,7 @@
     }
   },
   "trustUserCode": true,
-  "reportTimeout": 60000,
+  "reportTimeout": 600000,
   "workers": {
     "numberOfWorkers": 2
   },
@@ -40,6 +40,9 @@
     },
     "sample-template": {
       "createSamples": true
+    },
+    "express": {
+      "inputRequestLimit":"250mb"
     }
   }
 }

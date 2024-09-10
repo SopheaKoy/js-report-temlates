@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,8 +44,17 @@
             <div class="ml-[80px] mr-[65px] text-sm-base">
                 <div>
                     <p class="text-center mt-2 font_muol">{{ certificate_title }}</p>
+
+                    <div class="indent-paragraph text-justify">
+                        ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា “គណៈកម្មាធិការវិនិយោគកម្ពុជា” “ក.អ.ក./គ.វ.ក.” សូមជូន ដំណឹងដល់ក្រសួង ស្ថាប័ន មន្ទីរមានសមត្ថកិច្ចពាក់ព័ន្ធទាំងអស់ឱ្យបានជ្រាបថា៖ “ក.អ.ក./គ.វ.ក.” បានទទួលសំណើ និងការបង់ថ្លៃចុះបញ្ជីគម្រោងវិនិយោគបង្កើតរោងចក្រផលិតកាបូបគ្រប់ប្រភេទ នៅផ្លូវជាតិលេខ 6A គីឡូម៉ែត្រ១៤ ភូមិដូនកែវ ឃុំសែនដី ស្រុកសំរោងទង ខេត្តកំពង់ស្ពឺ ពីអ្នកដាក់ពាក្យសុំដែលនឹងត្រូវចុះបញ្ជីពាណិជ្ជកម្មក្រោមនាមករណ៍ក្រុមហ៊ុន អេដីវី ម៉ូទ័រ ខេមបូឌា តាមបង្កាន់ដៃបង់ប្រាក់លេខ 25Q7494831352 ចុះថ្ងៃទី១៣ ខែឧសភា ឆ្នាំ២០២៤ (ដូចមានថតចម្លងជួនភ្ជាប់)។
+                    </div>
+                    <div class="remove-spacing indent-paragraph text-justify bg-red-100">
+                        អនុលោមតាមច្បាប់ និងអនុក្រឹត្យស្តីពីវិនិយោគ “ក.អ.ក./គ.វ.ក.” ត្រូវចេញវិញ្ញាបនត្រចុះបញ្ជីគម្រោងខាងលើ ក្នុងរយៈពេល ២០ (ម្ភៃ) ថ្ងៃ នៃថ្ងៃធ្វើការ បន្ទាប់ពីទទួលសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគពីអ្នកដាក់ពាក្យសុំ។ បន្ទាប់ពីការចុះបញ្ជីនេះ សាមីក្រុមហ៊ុនអាចដំណើរការអនុវត្តគម្រោងបានដោយស្វ័យប្រវត្តិ។ ការចេញវិញ្ញាបនបត្រចុះបញ្ជីនេះ មិនមែនជាការលើកលែងឱ្យគម្រោងវិនិយោគរួចផុតពីការទទួលបាននូវលិខិតអនុញ្ញាតតាមការកំណត់ដោយច្បាប់ និងបទប្បញ្ញត្តិនានាឡើយ។
+                    </div>
+
+
                     {{#each template_contents}} 
-                        <p class="thai_distribution mt-2 {{#if (equal is_paragraph 1)}}indent-paragraph{{/if}} whitespace-normal break-words">
+                        <p class="text-justify mt-2 {{#if (equal is_paragraph 1)}}indent-paragraph{{/if}} whitespace-normal break-words">
                             {{{processTemplateString data this}}}
                         </p>
                     {{/each}}
@@ -69,4 +78,16 @@
             </div>
         </main>
     </body>
+    <script>
+        var textContainer = document.querySelector('.remove-spacing');
+        var text = textContainer.innerText;
+
+        text = text.replace(/\s+/g, ' ').trim();
+
+        // Update the div content
+        textContainer.innerText = text;
+
+        textContainer.style.color= 'blue';
+
+    </script>
 </html>

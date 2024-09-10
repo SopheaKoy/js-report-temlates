@@ -80,13 +80,19 @@ body {
 }
 /* END FONT SIZE */
 
+.custom-indent {
+    text-align: justify;
+    text-indent: 75px;
+    line-height: 1.3;
+}
+
 
 .thai_distribution {
 
-    text-align: justify; /* Justify text alignment */
-    text-justify: inter-word; /* Control spacing between words */
-    /* word-break: break-all; */
+   text-align: justify;
 
+   
+    /* word-break: break-all; */
     /* text-align: justify;
     word-spacing: 4px; 
     letter-spacing: 0.003vw;

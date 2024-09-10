@@ -1,0 +1,22 @@
+{
+    "name": "product_outputs",
+    "engine": "handlebars",
+    "recipe": "xlsx",
+    "data": {
+        "shortid": "P37wWuO9M"
+    },
+    "shortid": "lCujxVRc9r",
+    "creationDate": {
+        "$$date": 1725942329226
+    },
+    "modificationDate": {
+        "$$date": 1725942469340
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "UOeRriCGkoQRDTY9",
+    "$entitySet": "templates",
+    "xlsx": {
+        "templateAssetShortid": "YKdMVo6"
+    }
+}

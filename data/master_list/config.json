@@ -1,0 +1,14 @@
+{
+    "name": "master_list",
+    "creationDate": {
+        "$$date": 1725942287456
+    },
+    "modificationDate": {
+        "$$date": 1725942287456
+    },
+    "shortid": "hgusov2",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "tIA5kAsI57cxiajt",
+    "$entitySet": "folders"
+}
