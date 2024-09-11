@@ -3,6 +3,41 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        p {
+            font-size: 16px;
+            text-indent: 75px;
+            margin-bottom: 8px;
+        }
+        .container{
+            border: 1px solid black;
+            width: 650px;
+            background-color:blanchedalmond;
+        }
+        .container_two{
+            border: 1px solid blue;
+            width: 650px;
+        }
+
+        .container p{
+            white-space: normal;
+            text-align: justify;
+            word-break: break-word;
+            white-space: normal;
+            text-justify: distribute;
+        }
+
+        .container_two p {
+            word-spacing: -0.2px;
+            white-space: normal;
+            letter-spacing: 0.05vw;
+            word-break: break-word;
+            text-align: justify;
+            text-align-last: left;
+        }
+
+    </style>
     
     {{!-- LINK STYLE MAIN-STYLE.CSS --}}
     <style rel='stylesheet' type='text/css'>
@@ -12,82 +47,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="w-full h-full">
-        {{#if (equal is_draft 1)}}
-            <div class="draft_watermark bg-auto w-full h-full top-0 h-0 z-20">
-            </div>
-        {{/if}}
-        <main class="leading-7 flex flex-col w-full">
-            <div class="flex flex-1 px-12 justify-between text-[#648558] relative">
-                <div class="flex flex-col justify-items-center font_muol">
-                    <img class="mx-auto w-[90px]" src={{{processTemplateString logo_url this}}}>
-                    <p class="text-center leading-8">{{{processTemplateString text_header_one this}}} </p>
-                    <p class="text-center leading-6 text-sm-base">{{{processTemplateString text_header_two this}}} </p>
-                    <p class="text-center leading-6 text_xs_sm font_siemreap">{{ number }}</p>
+
+            <div class="ml-[80px] mr-[65px] text-sm-base leading-7">
+                <h2>CONTAINER ONE</h2>
+                <div class="container">
+                    <p>ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា “គណៈកម្មាធិការវិនិយោគកម្ពុជា” “ក.អ.ក./គ.វ.ក.” សូមជូន ដំណឹងដល់ក្រសួង ស្ថាប័ន មន្ទីរមានសមត្ថកិច្ចពាក់ព័ន្ធទាំងអស់ឱ្យបានជ្រាបថា៖ “ក.អ.ក./គ.វ.ក.” បានទទួលសំណើ និងការបង់ថ្លៃចុះបញ្ជីគម្រោងវិនិយោគបង្កើតរោងចក្រផលិតឧបករណ៍ប្រើប្រាស់ក្នុងផ្ទះធ្វើពីលោហធាតុកែច្នៃ នៅផ្លូវជាតិលេខ 6A គីឡូម៉ែត្រ១៤ ភូមិដូនកែវ ឃុំសែនដី ស្រុកសំរោងទង ខេត្តកំពង់ស្ពឺ  ពីអ្នកដាក់ពាក្យសុំដែលនឹងត្រូវចុះបញ្ជីពាណិជ្ជកម្មក្រោមនាមករណ៍ក្រុមហ៊ុន អេដីវី ម៉ូទ័រ ខេមបូឌា តាមបង្កាន់ដៃបង់ប្រាក់លេខ 25Q7494831352 ចុះថ្ងៃទី១៣ ខែឧសភា ឆ្នាំ២០២៤ (ដូចមានថតចម្លងជូនភ្ជាប់)។</p>
+                    <p>អនុលោមតាមច្បាប់ និងអនុក្រឹត្យស្តីពីវិនិយោគ “ក.អ.ក./គ.វ.ក.” ត្រូវចេញវិញ្ញាបនត្រចុះបញ្ជីគម្រោងខាងលើ ក្នុងរយៈពេល ២០ (ម្ភៃ) ថ្ងៃ នៃថ្ងៃធ្វើការ បន្ទាប់ពីទទួលសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគពីអ្នកដាក់ពាក្យសុំ។ បន្ទាប់ពីការចុះបញ្ជីនេះ សាមីក្រុមហ៊ុនអាចដំណើរការអនុវត្តគម្រោងបានដោយស្វ័យប្រវត្តិ។ ការចេញវិញ្ញាបនបត្រចុះបញ្ជីនេះ មិនមែនជាការលើកលែងឱ្យគម្រោងវិនិយោគរួចផុតពីការទទួលបាននូវលិខិតអនុញ្ញាតតាមការកំណត់ដោយច្បាប់ និងបទប្បញ្ញត្តិនានាឡើយ។</p>
+                    <p>អាស្រ័យហេតុនេះ សូមក្រសួង ស្ថាប័ន មន្ទីរមានសមត្ថកិច្ចពាក់ព័ន្ធទាំងអស់ មេត្តាចាត់ចែង ចេញលិខិតយល់ព្រម ការអនុញ្ញាត អាជ្ញាបណ្ណ ឬបញ្ជិកាសំខាន់នានា ដែលជាតម្រូវការស្របច្បាប់ សម្រាប់ដំណើរការអនុវត្តតម្រោងខាងលើ ជាគម្រោងវិនិយោគមានលក្ខណះសម្បត្តិគ្រប់គ្រាន់ “គ.ល.គ.” ទៅតាមសមត្ថកិច្ចរៀងៗខ្លួន ឱ្យបានទាន់ពេលកំណត់។</p>
                 </div>
 
-                <div class="flex">
-                    <div class="mt-8">
-                        <div class="flex flex-col w-fix font_muol">
-                            <p class="text-center leading-6 font-base">{{{processTemplateString text_motto_one this}}}</p>
-                            <p class="text-center leading-6 font-base font-bold">{{{processTemplateString text_motto_two this}}}</p>
-                            <p class="text-center leading-6 font-base">{{{processTemplateString text_motto_three this}}}</p>
-                            <p class="text-center leading-6 font-base font-bold italic">{{{processTemplateString text_motto_four this}}}</p>
-                            <p class="text-center leading-6 text-main font_tacteing">{{{processTemplateString text_motto_decorate this}}}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-end mt-[75px] text_xs_sm font-normal absolute right-12 bottom-0">
-                    <p class="text-end leading-6">{{{processTemplateString date this}}}</p>
+                <h2>CONTAINER TWO</h2>
+                <div class="container_two">
+                    <p>ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា “គណៈកម្មាធិការវិនិយោគកម្ពុជា” “ក.អ.ក./គ.វ.ក.” សូមជូន ដំណឹងដល់ក្រសួង ស្ថាប័ន មន្ទីរមានសមត្ថកិច្ចពាក់ព័ន្ធទាំងអស់ឱ្យបានជ្រាបថា៖ “ក.អ.ក./គ.វ.ក.” បានទទួលសំណើ និងការបង់ថ្លៃចុះបញ្ជីគម្រោងវិនិយោគបង្កើតរោងចក្រផលិតឧបករណ៍ប្រើប្រាស់ក្នុងផ្ទះធ្វើពីលោហធាតុកែច្នៃ នៅផ្លូវជាតិលេខ 6A គីឡូម៉ែត្រ១៤ ភូមិដូនកែវ ឃុំសែនដី ស្រុកសំរោងទង ខេត្តកំពង់ស្ពឺ  ពីអ្នកដាក់ពាក្យសុំដែលនឹងត្រូវចុះបញ្ជីពាណិជ្ជកម្មក្រោមនាមករណ៍ក្រុមហ៊ុន អេដីវី ម៉ូទ័រ ខេមបូឌា តាមបង្កាន់ដៃបង់ប្រាក់លេខ 25Q7494831352 ចុះថ្ងៃទី១៣ ខែឧសភា ឆ្នាំ២០២៤ (ដូចមានថតចម្លងជូនភ្ជាប់)។</p>
+                    <p>អនុលោមតាមច្បាប់ និងអនុក្រឹត្យស្តីពីវិនិយោគ “ក.អ.ក./គ.វ.ក.” ត្រូវចេញវិញ្ញាបនត្រចុះបញ្ជីគម្រោងខាងលើ ក្នុងរយៈពេល ២០ (ម្ភៃ) ថ្ងៃ នៃថ្ងៃធ្វើការ បន្ទាប់ពីទទួលសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគពីអ្នកដាក់ពាក្យសុំ។ បន្ទាប់ពីការចុះបញ្ជីនេះ សាមីក្រុមហ៊ុនអាចដំណើរការអនុវត្តគម្រោងបានដោយស្វ័យប្រវត្តិ។ ការចេញវិញ្ញាបនបត្រចុះបញ្ជីនេះ មិនមែនជាការលើកលែងឱ្យគម្រោងវិនិយោគរួចផុតពីការទទួលបាននូវលិខិតអនុញ្ញាតតាមការកំណត់ដោយច្បាប់ និងបទប្បញ្ញត្តិនានាឡើយ។</p>
+                    <p>អាស្រ័យហេតុនេះ សូមក្រសួង ស្ថាប័ន មន្ទីរមានសមត្ថកិច្ចពាក់ព័ន្ធទាំងអស់ មេត្តាចាត់ចែង ចេញលិខិតយល់ព្រម ការអនុញ្ញាត អាជ្ញាបណ្ណ ឬបញ្ជិកាសំខាន់នានា ដែលជាតម្រូវការស្របច្បាប់ សម្រាប់ដំណើរការអនុវត្តតម្រោងខាងលើ ជាគម្រោងវិនិយោគមានលក្ខណះសម្បត្តិគ្រប់គ្រាន់ “គ.ល.គ.” ទៅតាមសមត្ថកិច្ចរៀងៗខ្លួន ឱ្យបានទាន់ពេលកំណត់។</p>
                 </div>
             </div>
 
-            <div class="ml-[80px] mr-[65px] text-sm-base">
-                <div>
-                    <p class="text-center mt-2 font_muol">{{ certificate_title }}</p>
-
-                    <div class="indent-paragraph text-justify">
-                        ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា “គណៈកម្មាធិការវិនិយោគកម្ពុជា” “ក.អ.ក./គ.វ.ក.” សូមជូន ដំណឹងដល់ក្រសួង ស្ថាប័ន មន្ទីរមានសមត្ថកិច្ចពាក់ព័ន្ធទាំងអស់ឱ្យបានជ្រាបថា៖ “ក.អ.ក./គ.វ.ក.” បានទទួលសំណើ និងការបង់ថ្លៃចុះបញ្ជីគម្រោងវិនិយោគបង្កើតរោងចក្រផលិតកាបូបគ្រប់ប្រភេទ នៅផ្លូវជាតិលេខ 6A គីឡូម៉ែត្រ១៤ ភូមិដូនកែវ ឃុំសែនដី ស្រុកសំរោងទង ខេត្តកំពង់ស្ពឺ ពីអ្នកដាក់ពាក្យសុំដែលនឹងត្រូវចុះបញ្ជីពាណិជ្ជកម្មក្រោមនាមករណ៍ក្រុមហ៊ុន អេដីវី ម៉ូទ័រ ខេមបូឌា តាមបង្កាន់ដៃបង់ប្រាក់លេខ 25Q7494831352 ចុះថ្ងៃទី១៣ ខែឧសភា ឆ្នាំ២០២៤ (ដូចមានថតចម្លងជួនភ្ជាប់)។
-                    </div>
-                    <div class="remove-spacing indent-paragraph text-justify bg-red-100">
-                        អនុលោមតាមច្បាប់ និងអនុក្រឹត្យស្តីពីវិនិយោគ “ក.អ.ក./គ.វ.ក.” ត្រូវចេញវិញ្ញាបនត្រចុះបញ្ជីគម្រោងខាងលើ ក្នុងរយៈពេល ២០ (ម្ភៃ) ថ្ងៃ នៃថ្ងៃធ្វើការ បន្ទាប់ពីទទួលសំណើសុំចុះបញ្ជីគម្រោងវិនិយោគពីអ្នកដាក់ពាក្យសុំ។ បន្ទាប់ពីការចុះបញ្ជីនេះ សាមីក្រុមហ៊ុនអាចដំណើរការអនុវត្តគម្រោងបានដោយស្វ័យប្រវត្តិ។ ការចេញវិញ្ញាបនបត្រចុះបញ្ជីនេះ មិនមែនជាការលើកលែងឱ្យគម្រោងវិនិយោគរួចផុតពីការទទួលបាននូវលិខិតអនុញ្ញាតតាមការកំណត់ដោយច្បាប់ និងបទប្បញ្ញត្តិនានាឡើយ។
-                    </div>
-
-
-                    {{#each template_contents}} 
-                        <p class="text-justify mt-2 {{#if (equal is_paragraph 1)}}indent-paragraph{{/if}} whitespace-normal break-words">
-                            {{{processTemplateString data this}}}
-                        </p>
-                    {{/each}}
-                    <div class="flex w-full justify-between justify-items-start mt-1 keep-together">
-                        <div class="">
-                            <div>
-                                {{#neq qr_value ""}}
-                                    <a href="{{ qr_value }}" target="_blank">
-                                        <img src="{{qr_code}}" class="w-14 h-14"/>
-                                    </a>
-                                {{else}}
-                                    <img src="{{qr_code}}" class="w-14 h-14"/>
-                                {{/neq}}
-                            </div>
-                        </div>
-                        <div class="flex flex-col items-center font_muol">
-                            <p class="text-center leading-8">{{{processTemplateString signature_text this}}} </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </main>
     </body>
-    <script>
-        var textContainer = document.querySelector('.remove-spacing');
-        var text = textContainer.innerText;
-
-        text = text.replace(/\s+/g, ' ').trim();
-
-        // Update the div content
-        textContainer.innerText = text;
-
-        textContainer.style.color= 'blue';
-
-    </script>
 </html>
