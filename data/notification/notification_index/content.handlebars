@@ -16,7 +16,7 @@
             background-color:blanchedalmond;
         }
         .container_two{
-            border: 1px solid blue;
+            border: 1px solid=blue;
             width: 650px;
         }
 
@@ -44,7 +44,13 @@
         {#asset main-style.css @encoding=utf8}
     </style>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    {{!-- <script src="https://cdn.tailwindcss.com"></script> --}}
+
+    {{!-- import tailwind script  --}}
+    <script type="text/javascript">
+        {#asset tailwind-3.4.1.js}
+    </script>
+
     </head>
     <body class="w-full h-full">
 

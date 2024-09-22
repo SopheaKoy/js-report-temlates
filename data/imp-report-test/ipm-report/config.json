@@ -1,0 +1,32 @@
+{
+    "name": "ipm-report",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "AZ4nCTweq",
+    "chrome": {
+        "printBackground": true,
+        "width": "",
+        "marginTop": "1cm",
+        "marginBottom": "2cm",
+        "landscape": true,
+        "pageRanges": "",
+        "format": "A4"
+    },
+    "creationDate": {
+        "$$date": 1726970971684
+    },
+    "modificationDate": {
+        "$$date": 1726985521922
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "rvQVLDpeUfWUm43Y",
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "b7fwdJC",
+            "mergeWholeDocument": true
+        }
+    ]
+}

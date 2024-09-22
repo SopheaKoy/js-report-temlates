@@ -35,3 +35,75 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
     at async Object.update (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)
+2024-09-22T02:13:52.042Z - error: Error when processing render request 7
+(because) protocol error (Page.printToPDF): Page range syntax error
+ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
+    at <instance_members_initializer> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:93:14)
+    at new Callback (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:97:16)
+    at CallbackRegistry.create (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:22:26)
+    at Connection._rawSend (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:89:26)
+    at CdpCDPSession.send (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:66:33)
+    at CdpPage.createPDFStream (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:776:63)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:391:16
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:432:22 rootId=gskxhu1shta976p, id=gskxhu1shta976p
+2024-09-22T02:13:52.042Z - error: Rendering request 7 finished with error in 876 ms rootId=gskxhu1shta976p, id=gskxhu1shta976p
+2024-09-22T02:14:05.032Z - error: Error when processing render request 8
+(because) protocol error (Page.printToPDF): Page range syntax error
+ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
+    at <instance_members_initializer> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:93:14)
+    at new Callback (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:97:16)
+    at CallbackRegistry.create (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:22:26)
+    at Connection._rawSend (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:89:26)
+    at CdpCDPSession.send (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:66:33)
+    at CdpPage.createPDFStream (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:776:63)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:391:16
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:432:22 rootId=2ssnwi7u9thch91, id=2ssnwi7u9thch91
+2024-09-22T02:14:05.032Z - error: Rendering request 8 finished with error in 498 ms rootId=2ssnwi7u9thch91, id=2ssnwi7u9thch91
+2024-09-22T02:14:10.176Z - error: Error when processing render request 9
+(because) protocol error (Page.printToPDF): Page range syntax error
+ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
+    at <instance_members_initializer> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:93:14)
+    at new Callback (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:97:16)
+    at CallbackRegistry.create (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:22:26)
+    at Connection._rawSend (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:89:26)
+    at CdpCDPSession.send (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:66:33)
+    at CdpPage.createPDFStream (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:776:63)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:391:16
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:432:22 rootId=y3bqco5qytcxr5r, id=y3bqco5qytcxr5r
+2024-09-22T02:14:10.176Z - error: Rendering request 9 finished with error in 416 ms rootId=y3bqco5qytcxr5r, id=y3bqco5qytcxr5r
+2024-09-22T02:14:15.184Z - error: Error when processing render request 10
+(because) protocol error (Page.printToPDF): Page range syntax error
+ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
+    at <instance_members_initializer> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:93:14)
+    at new Callback (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:97:16)
+    at CallbackRegistry.create (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:22:26)
+    at Connection._rawSend (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:89:26)
+    at CdpCDPSession.send (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:66:33)
+    at CdpPage.createPDFStream (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:776:63)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:391:16
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:432:22 rootId=8kss8fmz1g6z3pc, id=8kss8fmz1g6z3pc
+2024-09-22T02:14:15.184Z - error: Rendering request 10 finished with error in 503 ms rootId=8kss8fmz1g6z3pc, id=8kss8fmz1g6z3pc
+2024-09-22T02:14:29.790Z - error: Error when processing render request 11
+(because) protocol error (Page.printToPDF): Page range syntax error
+ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
+    at <instance_members_initializer> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:93:14)
+    at new Callback (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:97:16)
+    at CallbackRegistry.create (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:22:26)
+    at Connection._rawSend (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:89:26)
+    at CdpCDPSession.send (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:66:33)
+    at CdpPage.createPDFStream (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:776:63)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:391:16
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:432:22 rootId=2a4x40l1ejnc5je, id=2a4x40l1ejnc5je
+2024-09-22T02:14:29.790Z - error: Rendering request 11 finished with error in 503 ms rootId=2a4x40l1ejnc5je, id=2a4x40l1ejnc5je
+2024-09-22T02:14:39.201Z - error: Error when processing render request 12
+(because) protocol error (Page.printToPDF): Page range syntax error
+ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
+    at <instance_members_initializer> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:93:14)
+    at new Callback (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:97:16)
+    at CallbackRegistry.create (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:22:26)
+    at Connection._rawSend (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:89:26)
+    at CdpCDPSession.send (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:66:33)
+    at CdpPage.createPDFStream (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:776:63)
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:391:16
+    at async C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:432:22 rootId=4d61qhro15co6gx, id=4d61qhro15co6gx
+2024-09-22T02:14:39.201Z - error: Rendering request 12 finished with error in 490 ms rootId=4d61qhro15co6gx, id=4d61qhro15co6gx
