@@ -95,31 +95,23 @@
     .text-xs {
         font-size: 11px;
     }
-    .text-xss {
-        font-size: 7px;
-    }
     /* END FONT SIZE */
 
     table, thead, tbody, tr, th, td{
         border: 1px solid black;
     }
     .width-header{
-        width: 24px;
+        width: 32px;
+        padding: 0 8px 0 8px;
     }
     .bg-header{
         background-color: #e5e7eb;
     }
-    .bg-body-blue{
-        background-color: #2563eb;
-        color: white;
+    .bg-body-one{
+        background-color: #60a5fa;
     }
-    .bg-body-orange{
+    .bg-body-two{
        background-color: #fb923c;
-       color: white;
-    }
-    .bg-body-green{
-       background-color: #166534;
-       color: white;
     }
     </style>
     
@@ -144,233 +136,161 @@
             </div>
 
             {{!-- Company info --}}
-            <div class="bg-red-200">
 
-                {{!-- <p class="text-center font_muol">របាយការណ៍តាមដានការដាក់ពាក្យវិនិយោគ</p>
+            <div class="ml-[80px] mr-[65px] text-sm-base">
+
+                <p class="text-center font_muol">របាយការណ៍តាមដានការដាក់ពាក្យវិនិយោគ</p>
                 <p class="text-center font_muol">KAHNLAND TECHNOLOGY (CAMBODIA) CO., LTD.</p>
 
-                <div class="flex mb-2">
-                    <p class="font-semibold">&#8544;-&ensp;</p>
-                    <p class="font-semibold">ព័ត៌មានក្រុមហ៊ុន</p>
-                </div>
+                <table class="border border-black text-sm-base font_siemreap">
+                    <thead class="border border-black font_siemreap">
+                        
+                        {{!-- Company info --}}
+                        <div class="flex mb-2">
+                            <p class="font-semibold">&#8544;-&ensp;</p>
+                            <p class="font-semibold">ព័ត៌មានក្រុមហ៊ុន</p>
+                        </div>
 
-                <div class="grid grid-cols-2 mb-2">
-                    <div class="grid">
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
+                        <div class="grid grid-cols-2 mb-2">
+                            <div class="grid">
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>ទំហំទុនវិនិយោគ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">
+                                        1,000,000.00 ដុល្លាអាម៉េរិក
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>លេខប្រតិបត្តិ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">
+                                        IPM202372
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>ថ្ងែបង់ប្រាក់</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">
+                                        ថ្ងៃទី២២ ខែកញ្ញា ឆ្នាំ២០២៤
+                                    </div>
+                                </div>
                             </div>
-                            <div class="flex">
-                                <p>ទំហំទុនវិនិយោគ</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">
-                                1,000,000.00 ដុល្លាអាម៉េរិក
+                            <div class="grid">
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>ឈ្មោះអ្នកដាក់ពាក្យ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">
+                                        លោក Vorn Dara
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>លេខទូរស័ព្ទ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">
+                                        039846873
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>អាសយដ្ឋាន</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">
+                                        ភូមិត្របែក ឃុំបន្ទាយនាង ស្រុកមង្គលបូរី ខេត្តបន្ទាយមានជ័យ
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>លេខប្រតិបត្តិ</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">
-                                IPM202372
-                            </div>
-                        </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>ថ្ងែបង់ប្រាក់</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">
-                                ថ្ងៃទី២២ ខែកញ្ញា ឆ្នាំ២០២៤
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>ឈ្មោះអ្នកដាក់ពាក្យ</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">
-                                លោក Vorn Dara
-                            </div>
-                        </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>លេខទូរស័ព្ទ</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">
-                                039846873
-                            </div>
-                        </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>អាសយដ្ឋាន</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">
-                                ភូមិត្របែក ឃុំបន្ទាយនាង ស្រុកមង្គលបូរី ខេត្តបន្ទាយមានជ័យ
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="flex mb-2">
-                    <p class="font-semibold">&#8545;-&ensp;</p>
-                    <p class="font-semibold"> ស្ថានភាពដាក់ពាក្យ</p>
-                </div>
+                        <div class="flex mb-2">
+                            <p class="font-semibold">&#8545;-&ensp;</p>
+                            <p class="font-semibold"> ស្ថានភាពដាក់ពាក្យ</p>
+                        </div>
 
-                <div class="grid grid-cols-2 mb-2">
-                    <div class="grid">
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
+                         <div class="grid grid-cols-2 mb-2">
+                            <div class="grid">
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>រយះពេលព្រៀងពាក្យសុំ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">៦ថ្ងៃ</div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>រយះពេលត្រួតពិនិត្យសរុប</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">៣ថ្ងៃ</div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>រយះពេលកែតម្រូវ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">៤ថ្ងៃ</div>
+                                </div>
+                                <div class="flex">
+                                    <div class="width-bullet-point">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="flex">
+                                        <p>លើសពី២០ថ្ងៃ</p>
+                                        <span>៖</span>
+                                    </div>
+                                    <div class="pl-1 font-semibold">&#10003;</div>
+                                </div>
                             </div>
-                            <div class="flex">
-                                <p>រយះពេលព្រៀងពាក្យសុំ</p>
-                                <span>៖</span>
+                            <div class="grid">
                             </div>
-                            <div class="pl-1 font-semibold">៦ថ្ងៃ</div>
                         </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>រយះពេលត្រួតពិនិត្យសរុប</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">៣ថ្ងៃ</div>
-                        </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>រយះពេលកែតម្រូវ</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">៤ថ្ងៃ</div>
-                        </div>
-                        <div class="flex">
-                            <div class="width-bullet-point">
-                                <p>-</p>
-                            </div>
-                            <div class="flex">
-                                <p>លើសពី២០ថ្ងៃ</p>
-                                <span>៖</span>
-                            </div>
-                            <div class="pl-1 font-semibold">&#10003;</div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                    </div>
-                </div>
 
-                <div class="flex mb-2">
-                    <p class="font-semibold">&#8546;-&ensp;</p>
-                    <p class="font-semibold">តារាងតាមដានការងារ</p>
-                </div> --}}
+                        <div class="flex mb-2">
+                            <p class="font-semibold">&#8546;-&ensp;</p>
+                            <p class="font-semibold">តារាងតាមដានការងារ</p>
+                        </div>
 
-                <table class="border border-black font_siemreap text-xss">
-                    <thead class="border border-black font_siemreap">                    
                         <tr class="border border-black">
-                            <th class="width-header border border-black" rowspan="3">ល.រ</th>
-                            <th class="bg-red-200 px-5" rowspan="3" >ជំហាន</th>
-                            <th class="width-header bg-header">Start</th>
-                            <th class="width-header bg-header">End</th>
-                            <th class="width-header bg-header">IstUpd</th>
-                            <th class="width-header bg-header">Total</th>
-                            <th class="width-header bg-header text-xss text-nowrap">07-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">08-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">09-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">12-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">13-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">14-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">15-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">16-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">19-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">20-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">21-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">22-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">23-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">26-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">27-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">28-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">29-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">30-08-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">02-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">03-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">04-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">05-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">06-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">09-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">10-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">11-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">12-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">13-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">16-09-2024</th>
-                            <th class="width-header bg-header text-xss text-nowrap">17-09-2024</th>
-                        </tr>
-                        <tr class="border border-black">
-                            <th class="width-header bg-header text-xs text-nowrap">07-08-24</th>
-                            <th class="width-header bg-header text-xs text-nowrap">30-08-24</th>
-                            <th class="width-header bg-header text-xs text-nowrap">29-09-24</th>
-                            <th class="width-header bg-header">1</th>
-                            <th class="width-header bg-header">07</th>
-                            <th class="width-header bg-header">08</th>
-                            <th class="width-header bg-header">09</th>
-                            <th class="width-header bg-header">12</th>
-                            <th class="width-header bg-header">13</th>
-                            <th class="width-header bg-header">14</th>
-                            <th class="width-header bg-header">15</th>
-                            <th class="width-header bg-header">16</th>
-                            <th class="width-header bg-header">17</th>
-                            <th class="width-header bg-header">18</th>
-                            <th class="width-header bg-header">19</th>
-                            <th class="width-header bg-header">21</th>
-                            <th class="width-header bg-header">22</th>
-                            <th class="width-header bg-header">23</th>
-                            <th class="width-header bg-header">26</th>
-                            <th class="width-header bg-header">27</th>
-                            <th class="width-header bg-header">28</th>
-                            <th class="width-header bg-header">29</th>
-                            <th class="width-header bg-header">30</th>
-                            <th class="width-header bg-header">02</th>
-                            <th class="width-header bg-header">03</th>
-                            <th class="width-header bg-header">04</th>
-                            <th class="width-header bg-header">05</th>
-                            <th class="width-header bg-header">06</th>
-                            <th class="width-header bg-header">09</th>
-                            <th class="width-header bg-header">10</th>
-                            <th class="width-header bg-header">11</th>
-                            <th class="width-header bg-header">12</th>
-                            <th class="width-header bg-header">13</th>
-                            <th class="width-header bg-header">16</th>
-                            <th class="width-header bg-header">17</th>
-                        </tr>
-                        <tr class="border border-black">
-                            <th class="width-header border border-black bg-body-orange">Return</th>
-                            <th class="bg-body-blue">ReSub</th>
-                            <th class="width-header bg-header bg-body-green">Sub</th>
+                            <th class="width-header border border-black">ល.រ</th>
+                            <th>ជំហាន</th>
+                            <th class="width-header bg-header"></th>
                             <th class="width-header bg-header"></th>
                             <th class="width-header bg-header">1</th>
                             <th class="width-header bg-header">2</th>
@@ -395,7 +315,7 @@
                         </tr>
                     </thead>
 
-                    {{!-- <tbody class="border border-black">
+                    <tbody class="border border-black">
                         <tr class="border border-black">
                             <td class="text-center">1</td>
                             <td>1/14 ពាក្យស្នើសុំ</td>
@@ -812,7 +732,7 @@
                             <td></td>
                             <td class="bg-body-one"></td>
                         </tr>
-                    </tbody> --}}
+                    </tbody>
                 </table>            
             </div>
         </main>
