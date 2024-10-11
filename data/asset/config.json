@@ -4,14 +4,12 @@
         "$$date": 1724730184953
     },
     "modificationDate": {
-        "$$date": 1724926703217
+        "$$date": 1728667479566
     },
     "shortid": "_JXpGI0",
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],
     "_id": "QnLGAMi4fm8Zkwus",
-    "visibilityPermissions": [
-        "G3wX6hUXmzaMF4d4"
-    ],
+    "visibilityPermissions": [],
     "$entitySet": "folders"
 }

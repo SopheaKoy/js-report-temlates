@@ -1,0 +1,32 @@
+{
+    "name": "invoince_pos",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "lQsp33f2H"
+    },
+    "shortid": "OdOtC53V_e",
+    "chrome": {
+        "printBackground": true,
+        "format": "A4",
+        "marginTop": "1cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1728657986453
+    },
+    "modificationDate": {
+        "$$date": 1728672175857
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "slhia2omHzL0v42M",
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "1dtDvFf",
+            "mergeWholeDocument": true
+        }
+    ]
+}
