@@ -76,257 +76,109 @@
     <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="w-full h-full">
-        <main class="w-full leading-7">
+        <main class="w-full leading-7 relative">
         
-            <div class="relative pl-[75px] w-[300px]" style="top: -20px;"> <!-- Position relative and custom positioning -->
-                <img class="w-28" src="{{asset '../asset/images/POS - Web-03.png' 'dataURI'}}"/> <!-- Adjusting the image width to 100% of the container -->
-                <p class="font-semibold">POINT OF SALE</p>
-            </div>
-
-            <div class="ml-[70px] mr-[55px] text-sm-base mb-2">
-
-                <p class="font_muol text-center">តារាងគ្រប់គ្រងការលក់សរុបប្រចាំខែ</p>
-                <div class="mb-2">
-                    <p>លេខវិក្កយបត្រ៖ INVOICE2024</p>
-                    <p>លេខទូរស័ព្ទ៖ 092 443 1232</p>
-                    <p>ថ្ងៃចេញវិក្កយបត្រ៖ ថ្ងៃទី១១ ខែតុលា ឆ្នាំ២០២៤</p>
+            <div class="flex justify-between px-[60px]">
+                <div class="text-sm-base">
+                    <img class="mx-auto w-[180px]" src="{{asset '../asset/images/POS - Web-04-01.png' 'dataURI'}}"/> <!-- Adjusting the image width to 100% of the container -->
+                    <p class="font_muol pt-2 text-[#0C7DA5]">ប្រព័ន្ធគ្រប់គ្រងការលក់</p>
                 </div>
 
-                <table class="border border-black">
-                    <thead class="border border-black">
-                        <tr>
-                            <th class="border border-black p-2">ល.រ</th>
-                            <th class="border border-black p-2">ឈ្មោះមុខទំនិញ</th>
-                            <th class="border border-black p-2">លេខវិក្កយបត្រ</th>
-                            <th class="border border-black p-2">តម្លៃទំនិញ</th>
-                            <th class="border border-black p-2">តម្លៃឯកតា</th>
-                            <th class="border border-black p-2">កាលបរិច្ឆេទ</th>
-                            <th class="border border-black p-2">អ្នកគិតប្រាក់</th>
-                            <th class="border border-black p-2">ស្ថានភាព</th>
+                <div class="text-sm-base">
+                    <p class="text-center leading-7 font_muol text-[#0C7DA5]">ព្រះរាជាណាចក្រកម្ពុជា</p>
+                    <p class="text-center leading-7 font_muol text-[#0C7DA5]">ជាតិ  សាសនា​​ ព្រះមហាក្សត្រ</p> 
+                </div>
+            </div>
+
+            <div class="ml-[60px] mr-[60px] text-sm-base">
+
+                <p class="font_muol text-center mb-2 text-sm-base text-[#0C7DA5]">របាយការណ៏ការលក់</p>
+        
+                <table class="border border-gray">
+                    <thead class="border border-gray text-main">
+                        <tr class="bg-[#0C7DA5]">
+                            <th class="border border-gray px-2 py-0.5 text-nowrap text-white">ល.រ</th>
+                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">ឈ្មោះទំនិញ</th>
+                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">លេខវិក្កយបត្រ</th>
+                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">សរុប</th>
+                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">កាលបរិច្ឆេទ</th>
+                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">ម៉ោង</th>
+                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">អ្នកគិតប្រាក់</th>
                         </tr>
                     </thead>
-                    <tbody class="border border-black">
+                    <tbody class="border border-gray">
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">1</td>
-                            <td class="border border-black px-2 py-1">Coca</td>
-                            <td class="border border-black px-2 py-1">Ord8899</td>
-                            <td class="border border-black px-2 py-1 text-right">1,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">07-01-2024</td>
-                            <td class="border border-black px-2 py-1">កែវ​ សុវណ្ណា</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">2</td>
-                            <td class="border border-black px-2 py-1">Pepsi</td>
-                            <td class="border border-black px-2 py-1">Ord9900</td>
-                            <td class="border border-black px-2 py-1 text-right">1,200</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">07-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ រក្សា</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">3</td>
-                            <td class="border border-black px-2 py-1">Sprite</td>
-                            <td class="border border-black px-2 py-1">Ord9901</td>
-                            <td class="border border-black px-2 py-1 text-right">1,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">07-01-2024</td>
-                            <td class="border border-black px-2 py-1">ស្រីមុំ</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">4</td>
-                            <td class="border border-black px-2 py-1">7-Up</td>
-                            <td class="border border-black px-2 py-1">Ord9902</td>
-                            <td class="border border-black px-2 py-1 text-right">1,800</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">08-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ រស់</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">5</td>
-                            <td class="border border-black px-2 py-1">Mirinda</td>
-                            <td class="border border-black px-2 py-1">Ord9903</td>
-                            <td class="border border-black px-2 py-1 text-right">2,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">08-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ អេង</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">6</td>
-                            <td class="border border-black px-2 py-1">Coca</td>
-                            <td class="border border-black px-2 py-1">Ord9904</td>
-                            <td class="border border-black px-2 py-1 text-right">2,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">09-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ស្រី</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                         <tr>
-                            <td class="border border-black px-2 py-1 text-center">7</td>
-                            <td class="border border-black px-2 py-1">Pepsi</td>
-                            <td class="border border-black px-2 py-1">Ord9905</td>
-                            <td class="border border-black px-2 py-1 text-right">2,700</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">09-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ សុភី</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">8</td>
-                            <td class="border border-black px-2 py-1">Sprite</td>
-                            <td class="border border-black px-2 py-1">Ord9906</td>
-                            <td class="border border-black px-2 py-1 text-right">3,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">10-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ សំអាង</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">9</td>
-                            <td class="border border-black px-2 py-1">7-Up</td>
-                            <td class="border border-black px-2 py-1">Ord9907</td>
-                            <td class="border border-black px-2 py-1 text-right">3,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">11-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ អាយ</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">10</td>
-                            <td class="border border-black px-2 py-1">Mirinda</td>
-                            <td class="border border-black px-2 py-1">Ord9908</td>
-                            <td class="border border-black px-2 py-1 text-right">4,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">12-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ឈាង</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">11</td>
-                            <td class="border border-black px-2 py-1">Coca</td>
-                            <td class="border border-black px-2 py-1">Ord9909</td>
-                            <td class="border border-black px-2 py-1 text-right">4,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">12-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ លី</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">12</td>
-                            <td class="border border-black px-2 py-1">Pepsi</td>
-                            <td class="border border-black px-2 py-1">Ord9910</td>
-                            <td class="border border-black px-2 py-1 text-right">5,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">12-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ម៉ែន</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">13</td>
-                            <td class="border border-black px-2 py-1">Sprite</td>
-                            <td class="border border-black px-2 py-1">Ord9911</td>
-                            <td class="border border-black px-2 py-1 text-right">5,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">13-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ឡាន</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">14</td>
-                            <td class="border border-black px-2 py-1">7-Up</td>
-                            <td class="border border-black px-2 py-1">Ord9912</td>
-                            <td class="border border-black px-2 py-1 text-right">6,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">13-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ហុង</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">15</td>
-                            <td class="border border-black px-2 py-1">Mirinda</td>
-                            <td class="border border-black px-2 py-1">Ord9913</td>
-                            <td class="border border-black px-2 py-1 text-right">6,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">14-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ម៉ៃ</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">16</td>
-                            <td class="border border-black px-2 py-1">Coca</td>
-                            <td class="border border-black px-2 py-1">Ord9914</td>
-                            <td class="border border-black px-2 py-1 text-right">7,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">15-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ វី</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">17</td>
-                            <td class="border border-black px-2 py-1">Pepsi</td>
-                            <td class="border border-black px-2 py-1">Ord9915</td>
-                            <td class="border border-black px-2 py-1 text-right">7,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">16-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ចាន់</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">18</td>
-                            <td class="border border-black px-2 py-1">Sprite</td>
-                            <td class="border border-black px-2 py-1">Ord9916</td>
-                            <td class="border border-black px-2 py-1 text-right">8,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">16-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ យន់</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">19</td>
-                            <td class="border border-black px-2 py-1">7-Up</td>
-                            <td class="border border-black px-2 py-1">Ord9917</td>
-                            <td class="border border-black px-2 py-1 text-right">8,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">17-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ឌី</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">20</td>
-                            <td class="border border-black px-2 py-1">Mirinda</td>
-                            <td class="border border-black px-2 py-1">Ord9918</td>
-                            <td class="border border-black px-2 py-1 text-right">9,000</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">18-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ មករា</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-black px-2 py-1 text-center">19</td>
-                            <td class="border border-black px-2 py-1">7-Up</td>
-                            <td class="border border-black px-2 py-1">Ord9917</td>
-                            <td class="border border-black px-2 py-1 text-right">8,500</td>
-                            <td class="border border-black px-2 py-1 text-center">រៀល</td>
-                            <td class="border border-black px-2 py-1">17-01-2024</td>
-                            <td class="border border-black px-2 py-1">សុខ ឌី</td>
-                            <td class="border border-black px-2 py-1 text-center">ទូទាត់រួច</td>
+                            <td class="border border-gray px-2 py-1 text-center">1</td>
+                            <td class="border border-gray px-2 py-1">Coca</td>
+                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
+                            <td class="border border-gray px-2 py-1 text-center">1200</td>
+                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
+                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
+                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
                         </tr>
                     </tbody>
-                    <tfoot>
+                    <tfoot class="break-inside-auto">
                         <tr>
-                            <td class="border border-black px-2"></td>
-                            <td class="border border-black px-2 py-1 font-semibold">តម្លៃសរុប</td>
-                            <td class="border border-black px-2 py-1"></td>
-                            <td class="border border-black px-2 py-1 text-right">20,000,000</td>
-                            <td class="border border-black px-2 py-1"></td>
-                            <td class="border border-black px-2 py-1"></td>
-                            <td class="border border-black px-2 py-1"></td>
-                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-gray px-2"></td>
+                            <td class="border border-gray px-2 py-1 font-semibold">តម្លៃសរុប</td>
+                            <td class="border border-gray px-2 py-1 text-right"></td>
+                            <td class="border border-gray px-2 py-1 text-right font-semibold">20,000,000</td>
+                            <td class="border border-gray px-2 py-1"></td>
+                            <td class="border border-gray px-2 py-1"></td>
                         </tr>
                     </tfoot>
                 </table>
