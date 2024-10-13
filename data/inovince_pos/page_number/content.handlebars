@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     @font-face {
+        font-family: 'KantumruyPro-Regular';
+        src: url({{asset "/asset/font/KantumruyPro-Regular.ttf" "dataURI"}});
+        format('truetype');
+    }
+    @font-face {
         font-family: "Siemreap";
         src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
         format('ttf');
@@ -36,6 +41,9 @@
     }
     .font_tacteing {
         font-family: "Tacteing";
+    }
+    .font_kantumruy_pro{
+        font-family:"Roam", "KantumruyPro-Regular";
     }
 
     * {
@@ -72,16 +80,20 @@
   {{/if}}
     <main class="main">
         <header></header>
-        <footer class="w-full border-t border-black pb-6 text-[12px] pt-2">
+        <footer class="w-full border-t border-gray pb-6 text-[12px] pt-2">
             <div class="w-full flex justify-between">
-                <p class="text-start">
-                    អាសយដ្ឋាន៖ ភូមិបាក់ខែង សង្កាត់បាក់ខែង ខណ្ឌជ្រោយចង្វារ​ រាជធានីភ្នំពេញ
-                </p>
+                <div class="text-[#0C7DA5]">
+                    <p class="text-start font_kantumruy_pro">វែបសាយ: <a href="https://camcyber.com/" target="_blank"></a>www.camcyber.com</p>
+                    <p class="text-start font_kantumruy_pro">អាសយដ្ឋាន: ភូមិបាក់ខែង សង្កាត់បាក់ខែង ខណ្ឌជ្រោយចង្វារ​ រាជធានីភ្នំពេញ</p>
+                </div>
+                <div class="text-[#0C7DA5]">
+                    <p class="text-start font_kantumruy_pro">លេខទូរស័ព្ទ: 092 xxx xxx</p>
+                    <p class="text-start font_kantumruy_pro">អ៊ីម៉ែល: camcyber@gmail.com</p>
+                </div>
                 <p class="float-right">{{getPageNumber @index "km"}}/{{getTotalPages ../$pdf.pages}}</p>
             </div>
         </footer>
     </main>
   {{/each}}
 </body>
-
 </html>

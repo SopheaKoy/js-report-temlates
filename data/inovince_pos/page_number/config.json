@@ -6,7 +6,7 @@
         "$$date": 1728664760328
     },
     "modificationDate": {
-        "$$date": 1728714391998
+        "$$date": 1728801870024
     },
     "shortid": "1dtDvFf",
     "inheritedReadPermissions": [],
@@ -16,5 +16,8 @@
     "chrome": {
         "marginRight": "1.5cm",
         "marginLeft": "1cm"
-    }
+    },
+    "entitySet": "templates",
+    "type": "entity",
+    "key": "8UCnbUIMKUDWybxW"
 }

@@ -8,6 +8,7 @@ function getPageNumber (pageIndex) {
     return pageNumber
 }
 
+
 function getTotalPages (pages) {
     if (!pages) {
         return ''

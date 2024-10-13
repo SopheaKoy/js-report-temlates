@@ -10,6 +10,11 @@
         format('ttf');
     }
     @font-face {
+        font-family: 'KantumruyPro-Regular';
+        src: url({{asset "/asset/font/KantumruyPro-Regular.ttf" "dataURI"}});
+        format('truetype');
+    }
+    @font-face {
         font-family: "KhmerOSMuol";
         src: url({#asset KhmerOSMuolLightRegular.ttf  @encoding=dataURI});
         format('ttf');
@@ -38,7 +43,7 @@
 
     body {
         font-size: 16px;
-        font-family: "Roman", "Siemreap";
+        font-family:"Roam", "KantumruyPro-Regular";
     }
     /* FONT */
     .font_muol {
@@ -50,11 +55,14 @@
     .font_arail{
         font-family:"Arial", "Siemreap";
     }
+    .font_kantumruy_pro{
+        font-family:"Roam", "KantumruyPro-Regular";
+    }
     /* END FONT */
 
     /* FONT SIZE */
     .font-base {
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .text-main {
@@ -79,9 +87,9 @@
         <main class="w-full leading-7 relative">
         
             <div class="flex justify-between px-[60px]">
-                <div class="text-sm-base">
-                    <img class="mx-auto w-[180px]" src="{{asset '../asset/images/POS - Web-04-01.png' 'dataURI'}}"/> <!-- Adjusting the image width to 100% of the container -->
-                    <p class="font_muol pt-2 text-[#0C7DA5]">ប្រព័ន្ធគ្រប់គ្រងការលក់</p>
+                <div class="font-base">
+                    <img class="mx-auto w-[120px]" src="{{asset '../asset/images/POS - Web-04-01.png' 'dataURI'}}"/> <!-- Adjusting the image width to 100% of the container -->
+                    <p class="font_kantumruy_pro pt-2 font-base text-[#0C7DA5]">ប្រព័ន្ធគ្រប់គ្រងការលក់</p>
                 </div>
 
                 <div class="text-sm-base">
@@ -92,91 +100,42 @@
 
             <div class="ml-[60px] mr-[60px] text-sm-base">
 
-                <p class="font_muol text-center mb-2 text-sm-base text-[#0C7DA5]">របាយការណ៏ការលក់</p>
+                <p class="font_kantumruy_pro text-center mb-2 font-base text-[#0C7DA5]">របាយការណ៏ការលក់</p>
         
                 <table class="border border-gray">
                     <thead class="border border-gray text-main">
+                        <tr class="">
+                            <th class="border border-gray px-2 py-0.5 text-nowrap" colspan="2">កាលបរិច្ឆេទ:</th>
+                            <th class="border border-gray px-2 py-0.5 text-nowrap" colspan="2">ប្រចាំថ្ងៃ:</th>
+                            <th class="border border-gray px-2 py-0.5 text-nowrap" colspan="2">ពេលវេលា:</th>
+                        </tr>
                         <tr class="bg-[#0C7DA5]">
                             <th class="border border-gray px-2 py-0.5 text-nowrap text-white">ល.រ</th>
-                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">ឈ្មោះទំនិញ</th>
-                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">លេខវិក្កយបត្រ</th>
-                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">សរុប</th>
-                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">កាលបរិច្ឆេទ</th>
-                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">ម៉ោង</th>
-                            <th class="border border-gray px-6 py-0.5 text-nowrap text-white">អ្នកគិតប្រាក់</th>
+                            <th class="border border-gray px-9 py-0.5 text-nowrap text-white">លេខវិក្កយបត្រ</th>
+                            <th class="border border-gray px-9 py-0.5 text-nowrap text-white">សរុប</th>
+                            <th class="border border-gray px-9 py-0.5 text-nowrap text-white">កាលបរិច្ឆេទ</th>
+                            <th class="border border-gray px-9 py-0.5 text-nowrap text-white">ម៉ោង</th>
+                            <th class="border border-gray px-9 py-0.5 text-nowrap text-white">អ្នកគិតប្រាក់</th>
                         </tr>
                     </thead>
                     <tbody class="border border-gray">
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray px-2 py-1 text-center">1</td>
-                            <td class="border border-gray px-2 py-1">Coca</td>
-                            <td class="border border-gray px-2 py-1 text-center">ORDER1234</td>
-                            <td class="border border-gray px-2 py-1 text-center">1200</td>
-                            <td class="border border-gray px-2 py-1 text-center">07-10-2024</td>
-                            <td class="border border-gray px-2 py-1 text-left">03:20:24</td>
-                            <td class="border border-gray px-2 py-1 text-left">សុខ ដារ៉ា</td>
-                        </tr>
+                        {{#each data}}
+                            <tr>
+                                <td class="border border-gray px-2 py-1 text-center">{{ countNumber @index}}</td>
+                                <td class="border border-gray px-2 py-1 text-center">{{ receipt_number }}</td>
+                                <td class="border border-gray px-2 py-1 text-center">{{ formatCurency total_price }}</td>
+                                <td class="border border-gray px-2 py-1 text-center">{{ formatDate ordered_at }}</td>
+                                <td class="border border-gray px-2 py-1 text-left">{{ formatTime ordered_at }}</td>
+                                <td class="border border-gray px-2 py-1 text-left">{{ cashier.name }}</td>
+                            </tr>
+                        {{/each}}
                     </tbody>
                     <tfoot class="break-inside-auto">
                         <tr>
                             <td class="border border-gray px-2"></td>
                             <td class="border border-gray px-2 py-1 font-semibold">តម្លៃសរុប</td>
-                            <td class="border border-gray px-2 py-1 text-right"></td>
-                            <td class="border border-gray px-2 py-1 text-right font-semibold">20,000,000</td>
+                            <td class="border border-gray px-2 py-1 text-right font-semibold">2,000,000</td>
+                            <td class="border border-gray px-2 py-1"></td>
                             <td class="border border-gray px-2 py-1"></td>
                             <td class="border border-gray px-2 py-1"></td>
                         </tr>
