@@ -101,14 +101,21 @@
             <div class="ml-[60px] mr-[60px] text-sm-base">
 
                 <p class="font_kantumruy_pro text-center mb-2 font-base text-[#0C7DA5]">របាយការណ៏ការលក់</p>
-        
+
+                <div class="grid grid-cols-3 mb-1">
+                    <div class="">
+                        <p>កាលបរិច្ឆេទ:</p>
+                    </div>
+                    <div class="">
+                        <p>ប្រចាំថ្ងៃ:</p>
+                    </div>
+                    <div class="">
+                        <p>ពេលវេលា:</p>
+                    </div>
+                </div>
+
                 <table class="border border-gray">
                     <thead class="border border-gray text-main">
-                        <tr class="">
-                            <th class="border border-gray px-2 py-0.5 text-nowrap" colspan="2">កាលបរិច្ឆេទ:</th>
-                            <th class="border border-gray px-2 py-0.5 text-nowrap" colspan="2">ប្រចាំថ្ងៃ:</th>
-                            <th class="border border-gray px-2 py-0.5 text-nowrap" colspan="2">ពេលវេលា:</th>
-                        </tr>
                         <tr class="bg-[#0C7DA5]">
                             <th class="border border-gray px-2 py-0.5 text-nowrap text-white">ល.រ</th>
                             <th class="border border-gray px-9 py-0.5 text-nowrap text-white">លេខវិក្កយបត្រ</th>
@@ -123,7 +130,7 @@
                             <tr>
                                 <td class="border border-gray px-2 py-1 text-center">{{ countNumber @index}}</td>
                                 <td class="border border-gray px-2 py-1 text-center">{{ receipt_number }}</td>
-                                <td class="border border-gray px-2 py-1 text-center">{{ formatCurency total_price }}</td>
+                                <td class="border border-gray px-2 py-1 text-right">{{ formatCurency total_price }}</td>
                                 <td class="border border-gray px-2 py-1 text-center">{{ formatDate ordered_at }}</td>
                                 <td class="border border-gray px-2 py-1 text-left">{{ formatTime ordered_at }}</td>
                                 <td class="border border-gray px-2 py-1 text-left">{{ cashier.name }}</td>
