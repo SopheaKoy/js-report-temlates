@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @font-face {
+        font-family: 'KantumruyPro-Regular';
+        src: url({{asset "/asset/font/KantumruyPro-Regular.ttf" "dataURI"}});
+        format('truetype');
+    }
+    @font-face {
+        font-family: "Siemreap";
+        src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "KhmerOSMuol";
+        src: url({#asset KhmerOSMuolLightRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+
+    @font-face {
+      font-family: "Roman";
+      src: url({#asset times new roman.ttf  @encoding=dataURI});
+      format('ttf');
+    }
+    body {
+        font-size: 15px;
+        font-family: "Roman", "Siemreap";
+    }
+    .indent-paragraph{
+        text-indent: 68px;
+    }
+    /* FONT */
+    .font_muol {
+        font-family: "Roman", "KhmerOSMuol";
+    }
+    .font_siemreap {
+        font-family: "Roman", "Siemreap";
+    }
+    .font_tacteing {
+        font-family: "Tacteing";
+    }
+    .font_kantumruy_pro{
+        font-family:"Roam", "KantumruyPro-Regular";
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  {{#each $pdf.pages}}
+  {{#if @index}}
+  <div style="page-break-before: always;"></div>
+  {{/if}}
+    <main class="main">
+        <header></header>
+        <footer class="w-full border-t border-gray pb-6 text-[12px]">
+            <div class="w-full flex justify-between">
+                <div class="text-[#0C7DA5]">
+                    <p class="text-start font_kantumruy_pro">ប្រព័ន្ធ: <a href="https://pos-v2.uat.camcyber.com/" target="_blank">pos-v2.uat.camcyber.com</a></p>
+                    <p class="text-start font_kantumruy_pro">អាសយដ្ឋាន: ភូមិបាក់ខែង សង្កាត់បាក់ខែង ខណ្ឌជ្រោយចង្វារ​ រាជធានីភ្នំពេញ</p>
+                </div>
+                <div class="text-[#0C7DA5]">
+                    <p class="text-start font_kantumruy_pro">លេខទូរស័ព្ទ: 092 xxx xxx</p>
+                    <p class="text-start font_kantumruy_pro">អ៊ីម៉ែល: info@camcyber.com</p>
+                </div>
+                <p class="float-right">{{getPageNumber @index "km"}}/{{getTotalPages ../$pdf.pages}}</p>
+            </div>
+        </footer>
+    </main>
+  {{/each}}
+</body>
+</html>

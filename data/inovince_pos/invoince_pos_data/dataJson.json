@@ -219,6 +219,3086 @@
                 "avatar": "static/pos/user/avatar.png",
                 "name": "ចាន់​ សុវ៉ាន់ណេត"
             }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
+        },
+        {
+            "id": 100,
+            "receipt_number": "172028",
+            "total_price": 28000,
+            "ordered_at": "2024-10-09T04:22:20.073Z",
+            "details": [
+                {
+                    "id": 429,
+                    "unit_price": 2500,
+                    "qty": 6,
+                    "product": {
+                        "id": 11,
+                        "name": "PepSi",
+                        "code": "B0011",
+                        "image": "static/pos/products/beverage/pesi.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 427,
+                    "unit_price": 3000,
+                    "qty": 1,
+                    "product": {
+                        "id": 10,
+                        "name": "Sprite",
+                        "code": "B0010",
+                        "image": "static/pos/products/beverage/sprite.png",
+                        "type": {
+                            "name": "Beverage"
+                        }
+                    }
+                },
+                {
+                    "id": 428,
+                    "unit_price": 5000,
+                    "qty": 2,
+                    "product": {
+                        "id": 13,
+                        "name": "ABC Red",
+                        "code": "A001",
+                        "image": "static/pos/products/Alcohol/abcred.png",
+                        "type": {
+                            "name": "Alcohol"
+                        }
+                    }
+                }
+            ],
+            "cashier": {
+                "id": 1,
+                "avatar": "static/pos/user/avatar.png",
+                "name": "ចាន់​ សុវ៉ាន់ណេត"
+            }
         }
     ]
 }

@@ -1,0 +1,14 @@
+{
+    "name": "report_seller_data",
+    "shortid": "xs1rq2cD-",
+    "creationDate": {
+        "$$date": 1728920724402
+    },
+    "modificationDate": {
+        "$$date": 1728923810348
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "mk5d3HNv7sC64Scx",
+    "$entitySet": "data"
+}

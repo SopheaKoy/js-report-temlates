@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style rel='stylesheet' type='text/css'>
+    @font-face {
+        font-family: "Siemreap";
+        src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: 'KantumruyPro-Regular';
+        src: url({{asset "/asset/font/KantumruyPro-Regular.ttf" "dataURI"}});
+        format('truetype');
+    }
+    @font-face {
+        font-family: "KhmerOSMuol";
+        src: url({#asset KhmerOSMuolLightRegular.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: "Roman";
+        src: url({#asset times_new_roman.ttf  @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face {
+        font-family: 'limons1l';
+        src: url({#asset limons1l.ttf @encoding=dataURI});
+        format('ttf');
+    }
+    @font-face{
+        font-family: "Arial"
+        src: url({#asset arial.ttf @encoding=dataURI})
+        format('ttf');
+    }
+    .keep-together{
+        page-break-inside:avoid;
+    }
+    .indent-negative-padding {
+        padding-left: 0px;
+    }
+
+    body {
+        font-size: 16px;
+        font-family:"Roam", "KantumruyPro-Regular";
+    }
+    /* FONT */
+    .font_muol {
+        font-family: "Roman", "KhmerOSMuol";
+    }
+    .font_siemreap {
+        font-family: "Roman", "Siemreap";
+    }
+    .font_arail{
+        font-family:"Arial", "Siemreap";
+    }
+    .font_kantumruy_pro{
+        font-family:"Roam", "KantumruyPro-Regular";
+    }
+    /* END FONT */
+
+    /* FONT SIZE */
+    .font-base {
+        font-size: 15px;
+    }
+    
+    .text-main {
+        font-size: 14px;
+    }
+    .text-sm-base {
+        font-size: 12px;
+    }
+
+    .text_xs_sm{
+        font-size: 13px;
+    }
+    .text-xs {
+        font-size: 7px;
+    }
+    /* END FONT SIZE */
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="w-full h-full">
+        <main class="w-full leading-7 relative">
+
+            {{!-- latter header --}}
+            <div class="flex justify-between px-[55px]">
+                <div class="font-base">
+                    <img class="mx-auto w-[120px]" src="{{asset '../asset/images/POS - Web-04-01.png' 'dataURI'}}"/> <!-- Adjusting the image width to 100% of the container -->
+                    <p class="font_kantumruy_pro pt-2 font-base text-[#0C7DA5] font-semibold">ប្រព័ន្ធគ្រប់គ្រងការលក់</p>
+                </div>
+
+                <div class="text-sm-base">
+                    <p class="text-center leading-7 font_muol text-[#0C7DA5]">ព្រះរាជាណាចក្រកម្ពុជា</p>
+                    <p class="text-center leading-7 font_muol text-[#0C7DA5]">ជាតិ  សាសនា​​ ព្រះមហាក្សត្រ</p> 
+                </div>
+            </div>
+
+            <div class="ml-[55px] mr-[40px] text-sm-base">
+        
+                <p class="font_kantumruy_pro text-center font-base text-[#0C7DA5] font-semibold">របាយការណ៍លក់តាមផលិតផល</p>
+                <p class="font_kantumruy_pro text-center -mt-1 text-gray-500 text-xs">បោះពុម្ព៖ 15 តុលា 2024 ម៉ោង​ 15:30PM</p>
+
+                <div class="grid grid-cols-3 mb-1">
+                    <div class="">
+                        <span class="font-semibold">កាលបរិច្ឆេទ:</span><span> ប្រចាំថ្ងៃ(2024-10-14)</span>
+                    </div>
+                    <div class="">
+                        <span class="font-semibold">អ្នកគិតប្រាក់:</span><span> ចាន់​ សុវ៉ាន់ណេត</span>
+                    </div>
+                </div>
+
+                <table class="border border-gray">
+                    <thead class="border border-gray text-main">
+                        <tr class="bg-[#0C7DA5]">
+                            <th class="border border-gray px-2 text-nowrap text-white">ល.រ</th>
+                            <th class="border border-gray px-[58px] text-nowrap text-white">ផលិតផល</th>
+                            <th class="border border-gray px-[58px] text-nowrap text-white">ប្រភេទ</th>
+                            <th class="border border-gray px-[57px] text-nowrap text-white">ចំនួនលក់</th>
+                            <th class="border border-gray px-[57px] text-nowrap text-white">ទឹកប្រាក់សរុប</th>
+                        </tr>
+                    </thead>
+                    <tbody class="border border-gray">
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray px-3 -my-[8px] text-center">1</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់គោ</td>
+                            <td class="border border-gray px-3 -my-[8px] text-left">សាច់ស្រស់</td>
+                            <td class="border border-gray px-3 -my-[8px] text-center">15</td>
+                            <td class="border border-gray px-3 -my-[8px] text-right">2,000,000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="break-inside-auto">
+                        <tr>
+                            <td class="border border-gray px-2"></td>
+                            <td class="border border-gray px-2 font-semibold">តម្លៃសរុប</td>
+                            <td class="border border-gray px-2"></td>
+                            <td class="border border-gray px-2"></td>
+                            <td class="border border-gray px-2"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>

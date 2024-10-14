@@ -1,0 +1,31 @@
+{
+    "name": "report_seller",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "xs1rq2cD-"
+    },
+    "shortid": "CTAqAqipGT",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1728920727370
+    },
+    "modificationDate": {
+        "$$date": 1728924171301
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "SF0UH0X83BUGbzmw",
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "mergeWholeDocument": true,
+            "templateShortid": "1dtDvFf"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "report_product",
+    "creationDate": {
+        "$$date": 1728920662551
+    },
+    "modificationDate": {
+        "$$date": 1728920676908
+    },
+    "shortid": "8m1F9FX",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "Jg84pXCk9vp8KoKO",
+    "$entitySet": "folders"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "page_number",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1728664760328
+    },
+    "modificationDate": {
+        "$$date": 1728925214955
+    },
+    "shortid": "1dtDvFf",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "8UCnbUIMKUDWybxW",
+    "$entitySet": "templates",
+    "chrome": {
+        "marginRight": "1.5cm",
+        "marginLeft": "1.5cm"
+    },
+    "entitySet": "templates",
+    "type": "entity",
+    "key": "8UCnbUIMKUDWybxW"
+}

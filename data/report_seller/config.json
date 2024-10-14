@@ -1,0 +1,14 @@
+{
+    "name": "report_seller",
+    "creationDate": {
+        "$$date": 1728920688776
+    },
+    "modificationDate": {
+        "$$date": 1728920694073
+    },
+    "shortid": "LFAxiNq",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "qk3N2BfY9dAPw9VP",
+    "$entitySet": "folders"
+}
