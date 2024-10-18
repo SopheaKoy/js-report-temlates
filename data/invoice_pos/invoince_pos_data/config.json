@@ -1,0 +1,14 @@
+{
+    "name": "invoince_pos_data",
+    "shortid": "lQsp33f2H",
+    "creationDate": {
+        "$$date": 1728657987469
+    },
+    "modificationDate": {
+        "$$date": 1728916305628
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "AFQWkpxGlDObjs9b",
+    "$entitySet": "data"
+}
