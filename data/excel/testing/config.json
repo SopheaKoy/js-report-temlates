@@ -1,0 +1,22 @@
+{
+    "name": "testing",
+    "engine": "handlebars",
+    "recipe": "xlsx",
+    "data": {
+        "shortid": "pVkbCM7am"
+    },
+    "xlsx": {
+        "templateAssetShortid": "Za2JYQL"
+    },
+    "shortid": "drX-3puH_b",
+    "creationDate": {
+        "$$date": 1731165230967
+    },
+    "modificationDate": {
+        "$$date": 1731224194974
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "ob2wSxDMXoN0J0sl",
+    "$entitySet": "templates"
+}

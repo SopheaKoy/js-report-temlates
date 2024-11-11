@@ -1,0 +1,131 @@
+
+{{! Add merged header title }}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row height="30">
+        <c r="A1" t="inlineStr" s="0">
+            <is><t>PARTICIPANTS & INVITATION for cdcIPM launching</t></is>
+        </c>
+        <c r="B1" s="0"/>
+        <c r="C1" s="0"/>
+        <c r="D1" s="0"/>
+        <c r="E1" s="0"/>
+        <c r="F1" s="0"/>
+        <c r="G1" s="0"/>
+        <c r="H1" s="0"/>
+        <c r="I1" s="0"/>
+        <c r="J1" s="0"/>
+        <c r="K1" s="0"/>
+        <c r="L1" s="0"/>
+    </row>
+{{/xlsxAdd}}
+
+
+{{! Add sub-headers }}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row height="25">
+        <c r="A2" t="inlineStr" s="1">
+            <is><t>ល.រ.</t></is>
+        </c>
+        <c r="B2" t="inlineStr" s="1">
+            <is><t>តួនាទី</t></is>
+        </c>
+        <c r="C2" t="inlineStr" s="1">
+            <is><t>អង្គភាព</t></is>
+        </c>
+        <c r="D2" t="inlineStr" s="1">
+            <is><t>ចំនួន</t></is>
+        </c>
+        <c r="E2" t="inlineStr" s="1">
+            <is><t>អម</t></is>
+        </c>
+        <c r="F2" t="inlineStr" s="1">
+            <is><t>ជំពូក</t></is>
+        </c>
+        <c r="G2" t="inlineStr" s="1">
+            <is><t>ថ្នាក់</t></is>
+        </c>
+        <c r="H2" t="inlineStr" s="1">
+            <is><t>ជនបង្កោល</t></is>
+        </c>
+        <c r="I2" t="inlineStr" s="1">
+            <is><t>លេខទូរសព្ទ</t></is>
+        </c>
+        <c r="J2" t="inlineStr" s="1">
+            <is><t>Follow up by</t></is>
+        </c>
+        <c r="K2" t="inlineStr" s="1">
+            <is><t>Confirmation</t></is>
+        </c>
+        <c r="L2" t="inlineStr" s="1">
+            <is><t>Link</t></is>
+        </c>
+    </row>
+    
+{{/xlsxAdd}}
+
+{{! Add merge cells instruction }}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.mergeCells[0].mergeCell"}}
+    <mergeCell ref="A1:L1"/>
+{{/xlsxAdd}}
+
+{{! Add data rows }}
+{{#each list as |item index|}}
+    {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+        <row>
+            <c r="A{{add @index 3}}" t="inlineStr" s="0" text="red">
+                <is><t>{{orderNumber index}}</t></is>
+            </c>
+            <c r="B{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column2}}</t></is>
+            </c>
+            <c r="C{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column3}}</t></is>
+            </c>
+            <c r="D{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column4}}</t></is>
+            </c>
+            <c r="E{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column5}}</t></is>
+            </c>
+            <c r="F{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column6}}</t></is>
+            </c>
+            <c r="G{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column7}}</t></is>
+            </c>
+            <c r="H{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column8}}</t></is>
+            </c>
+            <c r="I{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column9}}</t></is>
+            </c>
+            <c r="J{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column10}}</t></is>
+            </c>
+            <c r="K{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column11}}</t></is>
+            </c>
+            <c r="L{{add @index 3}}" t="inlineStr" s="0">
+                <is><t>{{Column12}}</t></is>
+            </c>
+        </row>
+    {{/xlsxAdd}}
+{{/each}}
+
+{{! Add column widths }}
+{{!-- {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.cols[0].col"}}
+    <col min="1" max="1" width="8" customWidth="1"/>
+    <col min="2" max="2" width="15" customWidth="1"/>
+    <col min="3" max="3" width="30" customWidth="1"/>
+    <col min="4" max="4" width="8" customWidth="1"/>
+    <col min="5" max="5" width="8" customWidth="1"/>
+    <col min="6" max="6" width="12" customWidth="1"/>
+    <col min="7" max="7" width="12" customWidth="1"/>
+    <col min="8" max="8" width="15" customWidth="1"/>
+    <col min="9" max="9" width="15" customWidth="1"/>
+    <col min="10" max="10" width="15" customWidth="1"/>
+    <col min="11" max="11" width="15" customWidth="1"/>
+    <col min="12" max="12" width="15" customWidth="1"/>
+{{/xlsxAdd}} --}}
+
+{{{xlsxPrint}}}

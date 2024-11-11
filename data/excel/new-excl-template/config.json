@@ -1,0 +1,23 @@
+{
+    "name": "new-excl-template",
+    "engine": "handlebars",
+    "recipe": "html-to-xlsx",
+    "data": {
+        "shortid": "pVkbCM7am"
+    },
+    "shortid": "1S0NRitUT",
+    "htmlToXlsx": {
+        "htmlEngine": "chrome",
+        "templateAssetShortid": null
+    },
+    "creationDate": {
+        "$$date": 1731226297044
+    },
+    "modificationDate": {
+        "$$date": 1731253234861
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "g4GAntBlosjDl9eI",
+    "$entitySet": "templates"
+}

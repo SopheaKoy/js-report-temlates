@@ -1,0 +1,92 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="excel-content-type" content="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+<style rel='stylesheet' type='text/css'>
+    @font-face {
+        font-family: "Siemreap";
+        src: url({#asset KhmerOSSiemreapRegular.ttf @encoding=dataURI}) format('truetype');
+    }
+
+    td {
+        border: 1px solid black;
+        font-family: 'Siemreap';
+        text-align: center;
+    }
+
+    th {
+        border: 1px solid black;
+        font-family: 'Siemreap';
+    }
+    
+    /* Color */
+    .bg-blue-one {
+        background-color: #dbeafe;
+    }
+    .bg-blue-two {
+        background-color: #bfdbfe;
+    }
+
+    .table-header-main {
+        height: 60px;
+        text-align: center;
+        background-color: #dbeafe;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .table-header-sub-color {
+        background-color: #bfdbfe;
+    }
+
+    /* Text */
+    .text-center {
+        text-align: center;
+    }
+    .text-left {
+        text-align: left;
+    }
+    .text-right {
+        text-align: right;
+    }
+</style>
+
+<table data-sheet-name="All Participants">
+    <tr>
+        <td class="text-left table-header-main" colspan="12">PARTICIPANTS & INVITATION for cdcIPM launching</td>
+    </tr>
+    <tr>
+        <th rowspan="2" class="bg-blue-two" style="padding: 0px 10px 0px;">ល.រ.</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 110px 0px;">តួនាទី</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 270px 0px;">អង្គភាព</th>
+        <th rowspan=""  class="table-header-sub-color" style="padding: 0px 10px 0px;">ចំនួន</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 110px 0px;">អម</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 140px 0px;">ជំពូក</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 140px 0px;">ថ្នាក់</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 140px 0px;">ជនបង្កោល</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 100px 0px;">លេខទូរសព្ទ</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 100px 0px;">Follow up by</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 100px 0px;">Confirmation</th>
+        <th rowspan="2" class="table-header-sub-color" style="padding: 0px 100px 0px;">Link</th>
+    </tr>
+    <tr>
+        <td class="table-header-sub-color text-right" style="padding: 0px 10px 0px;">{{sumList list "Column3"}}</td>
+    </tr>
+    <tbody>
+        {{#each list}}
+            <tr>
+                <td>{{orderNumber @index}}</td>
+                <td class="text-left">{{Column1}}</td>
+                <td class="text-left">{{Column2}}</td>
+                <td>{{Column3}}</td>
+                <td class="text-left">{{Column4}}</td>
+                <td class="text-left">{{Column5}}</td>
+                <td class="text-left">{{Column6}}</td>
+                <td class="text-left">{{Column7}}</td>
+                <td class="text-left">{{Column8}}</td>
+                <td class="text-left">{{Column9}}</td>
+                <td class="text-left">{{Column10}}</td>
+                <td class="text-left" data-cell-type="formula">HYPERLINK("{{ Column11 }}","Link")</td>
+            </tr>
+        {{/each}} 
+    </tbody>
+</table>

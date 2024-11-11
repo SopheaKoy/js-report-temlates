@@ -1,0 +1,23 @@
+{
+    "name": "invitation-template",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": null,
+    "shortid": "0L8XUTnF9",
+    "chrome": {
+        "printBackground": true,
+        "format": "A4",
+        "height": "1cm",
+        "marginBottom": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1731251020530
+    },
+    "modificationDate": {
+        "$$date": 1731258089084
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "EKqnPL6AT3Wyk2wE",
+    "$entitySet": "templates"
+}
