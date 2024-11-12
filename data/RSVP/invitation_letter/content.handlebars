@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {{!-- import tailwind --}}
+    <script type="text/javascript">
+        {#asset tailwind-3.4.1.js}
+    </script>
+
+    {{!-- LINK STYLE MAIN-STYLE.CSS --}}
+    <style rel='stylesheet' type='text/css'>
+        :root{
+            /*  */
+
+            /* size */
+            --indent-paragrah:75px;
+            --text-bold: bold;
+            --text-base:15px;
+            --text-sm:13px;
+            --text-xs:11px;
+        }
+
+        @font-face {
+            font-family: "Siemreap";
+            src: url({#asset KhmerOSSiemreapRegular.ttf  @encoding=dataURI});
+            format('ttf');
+        }
+        @font-face {
+            font-family: "KhmerOSMuol";
+            src: url({#asset KhmerOSMuolLightRegular.ttf  @encoding=dataURI});
+            format('ttf');
+        }
+        @font-face {
+            font-family: "Roman";
+            src: url({#asset times_new_roman.ttf  @encoding=dataURI});
+            format('ttf');
+        }
+        @font-face {
+            font-family: 'Tacteing';
+            src: url({#asset Tacteing.ttf @encoding=dataURI});
+            format('ttf');
+        }
+        @font-face {
+            font-family: 'limons1l';
+            src: url({#asset limons1l.ttf @encoding=dataURI});
+            format('ttf');
+        }
+        @font-face{
+            font-family: "Arial"
+            src: url({#asset arial.ttf @encoding=dataURI})
+            format('ttf');
+        }
+
+
+        /* START TEXT INDENT */
+        .indent-paragraph{
+            text-indent: 75px;
+        }
+        .keep-together{
+            page-break-inside:avoid;
+        }
+        .break-page-auto{
+            page-break-inside:auto;
+        }
+        .indent-negative-padding {
+            padding-left: 0px;
+        }
+        .width-bullet-point{
+            width: 25px;
+        }
+        .indent-text-small {
+            text-indent: -9px; 
+        }
+        .indent-text {
+            text-indent: -25px; 
+            padding-left: 25px;
+        }
+        /* END TEXT INDENT */
+
+
+        /* STYLE FONT */
+        .text-align-top{
+            vertical-align: text-top;
+        }
+
+        text_distribution{
+            word-spacing: -2px;
+        }
+        /* END STYLE FONT */
+
+
+        body {
+            font-size: var(--text-base);
+            font-family: "Roman", "Siemreap";
+        }
+        /* FONT */
+        .font_muol {
+            font-family: "Roman", "KhmerOSMuol";
+        }
+        .font_siemreap {
+            font-family: "Roman", "Siemreap";
+        }
+        .font_tacteing {
+            font-family: "Tacteing";
+        }
+        .font_arail{
+            font-family:"Arial", "Siemreap";
+        }
+        /* END FONT */
+
+        .letting_space{
+            letter-spacing: 0.06vw;
+        }
+        /* FONT SIZE */
+        .font-base {
+            font-size: var(--text-base);
+        }
+
+        .text-main {
+            font-size: 14px;
+        }
+        .text-sm-base {
+            font-size: var(--text-base)
+        }
+
+        .text_xs_sm{
+            font-size: 13px;
+        }
+        .text-xs {
+            font-size: 11px;
+        }
+        /* END FONT SIZE */
+        .text_color{
+            color: #2F5D00;
+        }
+
+        /* Application */
+        .underline-text{
+            text-decoration: underline dashed;
+            text-decoration-color: rgba(128, 128, 128, 0.7); /* gray with 50% opacity */
+        }
+
+        .margin_checkbox{
+            margin-top: -6px;
+        }
+    </style>
+
+    </head>
+    <body class="w-full text-justify">
+        <main class="leading-6.5 flex flex-col w-full">
+            <div class="flex flex-1 pl-[80px] pr-[65px] justify-between text_color relative">
+                <div class="flex flex-col justify-items-center font_muol">
+                    <img class="mx-auto w-[90px]" src="https://asset-pub.cdc.gov.kh/images/certificate/logo/CDC_logo_old_gold.png">
+                    <p class="text-center leading-7 font-base">រាជរដ្ឋាភិបាល</p>
+                    <p class="text-center leading-7">ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា</p>
+                    <p class="text-center leading-6 font-bold">Council for the Development of Cambodia</p>
+                    <p class="text-center leading-6 text_xs_sm font_siemreap tracking-wide">លេខ {{data.letter_no}}</p>
+                </div>
+
+                <div class="flex">
+                    <div class="">
+                        <div class="flex flex-col w-fix font_muol">
+                            <p class="text-center leading-6 font-base">ព្រះរាជាណាចក្រកម្ពុជា</p>
+                            <p class="text-center leading-6 font-base font-bold">Kingdom of Cambodia</p>
+                            <p class="text-center leading-6 font-base">ជាតិ សាសនា ព្រះមហាក្សត្រ</p>
+                            <p class="text-center leading-6 font-base italic font-bold">Nation- Religion- King</p>
+                            <p class="text-center leading-6 text-[22px] font_tacteing">ujv</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-end mt-[75px] text_xs_sm font-normal absolute right-[65px] bottom-0">
+                    <p class="text-end leading-6">ថ្ងៃពុធ ១៣ កើត ខែកត្តិក ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨</p>
+                    <p class="text-end leading-6">រាជធានីភ្នំពេញ, ត្រូវនឹងថ្ងៃទី១៣ ខែវិច្ឆិកា ឆ្នាំ២០២៤</p>
+                </div>
+            </div>
+            
+            <div class="ml-[55px] mr-[40px]">
+                <div class="w-full mt-2">
+                    <p class="text-center w-full font_muol text-sm-base">{{data.salute}}</p>
+                    <p class="text-center w-full font_muol" style="letter-spacing: -0.7px;">{{data.position}} {{data.org}}</p>
+                </div>
+            </div>
+
+            <div class="ml-[80px] mr-[65px]">
+
+                {{!-- <div class="w-full mt-2">
+                    <p class="text-center w-full font_muol text-sm-base">{{data.salute}}</p>
+                    <p class="text-center w-full font_muol">{{data.position}} {{data.org}}</p>
+                </div> --}}
+
+                <div class="w-full leading-[26px]">
+                    <div class="flex mt-2">
+                        <div class="flex w-[75px]">
+                            <p class="font_muol">កម្មវត្ថុ</p>
+                            <span>៖</span>
+                        </div>
+                        <div class="flex-1 text-left">
+                            <p>សំណើអញ្ជើញចូលរួមពិធីសម្ពោធដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការ ប្រព័ន្ធគ្រប់គ្រងគម្រោងវិនិយោគកម្ពុជា (ប្រព័ន្ធ cdcIPM)។ </p>
+                        </div>
+                    </div>
+                    {{!-- other case --}}
+                    {{!-- <p class="indent-paragraph mt-2"  style="letter-spacing: -0.6px">
+                        សេចក្ដីដូចមានចែងក្នុងកម្មវត្ថុខាងលើ {{data.self_call}}មានកិត្តិយសសូម {{data.salute_body}}ជម្រាបជូន <span class="font_muol">{{data.position}}</span> មេត្តាជ្រាបថា៖ ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា (ក.អ.ក.) បាននិងកំពុងខិតខំប្រឹងប្រែង ទាក់ទាញអ្នកវិនិយោគ ឱ្យមកបណ្តាក់ទុននៅកម្ពុជា ដើម្បីចូលរួមបង្កើតការងារ ជូនបងប្អូនប្រជាពលរដ្ឋ ជំរុញកំណើនសេដ្ឋកិច្ចជាតិ ឆ្ពោះទៅសម្រេចឱ្យបាន នូវចក្ខុវិស័យកម្ពុជា ជាប្រទេសមានចំណូលខ្ពស់ ត្រឹមឆ្នាំ២០៥០។
+                    </p> --}}
+                    
+                    {{!-- TEMPLATE CONTENT --}}
+                    <p class="indent-paragraph mt-2">
+                        សេចក្ដីដូចមានចែងក្នុងកម្មវត្ថុខាងលើ {{data.self_call}}មានកិត្តិយសសូម {{data.salute_body}}ជម្រាបជូន <span class="font_muol">{{data.position}}</span> មេត្តាជ្រាបថា៖ ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា (ក.អ.ក.) បាននិងកំពុងខិតខំប្រឹងប្រែង ទាក់ទាញអ្នកវិនិយោគ ឱ្យមកបណ្តាក់ទុននៅកម្ពុជា ដើម្បីចូលរួមបង្កើតការងារ ជូនបងប្អូនប្រជាពលរដ្ឋ ជំរុញកំណើនសេដ្ឋកិច្ចជាតិ ឆ្ពោះទៅសម្រេចឱ្យបាន នូវចក្ខុវិស័យកម្ពុជា ជាប្រទេសមានចំណូលខ្ពស់ ត្រឹមឆ្នាំ២០៥០។
+                    </p>
+
+                    <p class="indent-paragraph mt-2 tracking-wide" style="letter-spacing: 0px">         
+                        <span style="letter-spacing: 1px">ក្នុងគោលបំណងជំរុញការអនុវត្តច្បាប់ស្ដីពីវិនិយោគនៃព្រះរាជាណាចក្រកម្ពុជា និងចូលរួមគាំទ្រ</span>ការអនុវត្ត យុទ្ធសាស្ត្របញ្ចកោណ ដំណាក់កាលទី១ ក.អ.ក. បានរៀបចំ ប្រព័ន្ធគ្រប់គ្រងគម្រោងវិនិយោគកម្ពុជា (CDC Investment Project Management ) ហៅកាត់ថា “<span class="font-bold">ប្រព័ន្ធ cdcIPM</span>” ដោយមានអនុលោមភាព ជាមួយនឹងអនុក្រឹត្យ ស្ដីពីការអនុវត្តច្បាប់ ស្ដីពីវិនិយោគ នៃព្រះរាជាណាចក្រកម្ពុជា។ ប្រព័ន្ធ cdcIPM នេះផ្តល់លទ្ធភាពឱ្យវិនិយោគិន ដាក់ពាក្យដោយផ្ទាល់ពីគ្រប់ទីកន្លែង និងគ្រប់ពេលវេលា ដើម្បីសម្រួលកិច្ចវិនិយោគ ឱ្យកាន់តែមានភាពងាយស្រួល កាត់បន្ថយពេលវេលា ធានាបាននូវតម្លាភាព សុក្រឹតភាព និងប្រសិទ្ធភាព ព្រមទាំង ចូលរួមកសាងសេដ្ឋកិច្ច និងសង្គមឌីជីថល និងរដ្ឋាភិបាលឌីជីថលនៅកម្ពុជា ក្រោមការដឹកនាំប្រកបដោយចក្ខុវិស័យ វែងឆ្ងាយរបស់ <span class="font_muol">សម្តេចមហាបវរធិបតី <span class="text-[17px]">ហ៊ុន ម៉ាណែត</span> នាយករដ្ឋមន្ត្រី​ និងជាប្រធានក.អ.ក.</span>។
+                    </p>
+
+                    <p class="indent-paragraph mt-2">                                
+                        អាស្រ័យហេតុនេះ ក.អ.ក. នឹងរៀបចំពិធីសម្ពោធ ដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការ ប្រព័ន្ធ cdcIPM ក្រោម អធិបតីភាពដ៏ខ្ពង់ខ្ពស់ <span class="font_muol">ឯកឧត្ដម ស៊ុន ចាន់ថុល ឧបនាយករដ្ឋមន្ត្រី អនុប្រធានទី១ ក.អ.ក.</span>  ដែលនឹងប្រព្រឹត្តទៅនាវេលាម៉ោង ៨:០០នាទីព្រឹក ថ្ងៃទី២៧ ខែវិច្ឆិកា ឆ្នាំ២០២៤ នៅសណ្ឋាគារ ហៃយ៉ាត់ រីជិនស៊ី ភ្នំពេញ។
+                    </p>
+
+                    <p class="indent-paragraph mt-2" style="letter-spacing: -0.2px">                                
+                        សេចក្តីដូចបានជម្រាបជូនខាងលើ សូម <span class="font_muol">{{data.position}}</span> មេត្តាអញ្ជើញចូលរួម {{data.representation}} {{data.before_end}}។
+                    </p>
+
+                    {{!-- <p class="indent-paragraph mt-2" style="letter-spacing: -0.2px">                                
+                        សេចក្តីដូចបានជម្រាបជូនខាងលើ សូម <span class="font_muol">លោកប្រធាន</span> មេត្តា អញ្ជើញចូលរួម ឬចាត់តំណាងចូលរួម {{data.before_end}}។
+                    </p> --}}
+
+                    <p class="indent-paragraph mt-2" style="letter-spacing: -0.6px">                                
+                        សូម <span class="font_muol">{{data.position}} {{data.org}} </span>{{data.end}}៕
+                    </p>
+
+                    {{!-- <p class="indent-paragraph mt-2" style="letter-spacing: -0.3px">                                
+                        សូម <span class="font_muol">{{data.position}} {{data.org}} </span> {{data.end}}៕
+                    </p> --}}
+
+                    <div>
+                        <div class="flex w-full justify-between justify-items-start">
+                            <div class="mt-2">
+                                <p class="text-xs italic leading-5">សូមបញ្ជាក់ការចូលរួម (RSVP)<br/>និងទាញយកឯកសារអំពីកម្មវិធី</p>
+                                <a href="{{data.link}}">
+                                    <img src="{{ data.qr }}" class="w-[85px] h-[85px]"/>
+                                </a>
+                                    {{!-- {{/neq}}
+                                {{else}}
+                                    <div class="w-14 h-14"></div>
+                                {{/if}} --}}
+                            </div>
+                            <div class="flex justify-end items-center">
+                                <div class="flex flex-col items-center">
+                                    <p class="text-center font_muol">អគ្គលេខាធិការ</p>
+                                    <p class="text-center font_muol">អគ្គលេខាធិការដ្ឋានក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា</p>
+                                    <p class="text-center font_muol mt-[65px]">គង់ វិមាន</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

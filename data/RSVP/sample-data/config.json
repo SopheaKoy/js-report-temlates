@@ -1,0 +1,14 @@
+{
+    "name": "sample-data",
+    "creationDate": {
+        "$$date": 1731437334029
+    },
+    "modificationDate": {
+        "$$date": 1731437334029
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "shortid": "63yREq8",
+    "_id": "oZ0FjWs9x3zhKtxe",
+    "$entitySet": "data"
+}

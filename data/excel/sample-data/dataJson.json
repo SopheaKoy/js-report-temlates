@@ -1,18 +1,35 @@
 {
-    "list": [
+    "title": "ពិធីដាក់ឱ្យប្រើប្រាស់ផ្លូវការប្រព័ន្ធគ្រប់គ្រងគម្រោងវិនិយោគកម្ពុជា (CDC Investment Project Management – cdcIPM) របស់ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា",
+    "chairman": "ឯកឧត្តម ស៊ុន ចាន់ថុល ឧបនាយករដ្ឋមន្រ្តី អនុប្រធានទី១ ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា",
+    "place": "សណ្ឋាគាហៃយ៉ាត់ រីជិនស៊ី ភ្នំពេញ",
+    "slug": "00001-cdc-ipm-launching",
+    "lat": "11.5661017",
+    "long": "104.9281583",
+    "date": "២៦​ ខែវិច្ជកា ឆ្នាំ២០២៤",
+    "time": "8:00AM-10:30AM",
+    "attachments": [
         {
-            "Column1": "ឯកឧត្តមទេសរដ្ឋមន្ត្រី អនុប្រធានទី២",
-            "Column2": "ខុទ្ទកាល័យឯកឧត្តមឧបនាយករដ្ឋមន្ត្រី អនុប្រធានទី១ ក្រុមកប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា",
-            "Column3": 1,
-            "Column4": "ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា",
-            "Column5": "អនុគណកម្មការវិនិយោគរាជជានីខេត្ត",
-            "Column6": "ឯកឧត្តមទេសរដ្ឋមន្ត្រី អនុប្រធានទី២",
-            "Column7": "",
-            "Column8": "",
-            "Column9": "",
-            "Column10": "",
-            "Column11": "https://rsvp.uat.cdc.gov.kh/?event_id=18d79719-8023-4d7c-b4cc-95b62791dab3&invitation_id=90f799b4-c45b-4f22-8f71-6d4b727ecf34"
+            "name": "របៀបវារៈ",
+            "uri": "upload/file/4ad07376-2e99-4cc8-a213-d700166df789",
+            "pdf_uri": "upload/file/7dcbda0a-119b-4208-a1f1-98dccaf88236"
         }
     ],
-    "url":"https://file-v4-api.uat.camcyber.com/upload/file/60b0348f-7f34-454b-b7f4-12ceb828d75b"
+    "covers": [
+        {
+            "uri": "upload/file/3f76cf1d-cefd-4b61-88f5-03f149116a34"
+        },
+        {
+            "uri": "upload/file/a662351f-4b65-4a06-a6f3-af06aef635a1"
+        },
+        {
+            "uri": "upload/file/553e9f8f-c007-43a9-a693-9cc8e85e9342"
+        }
+    ],
+    "participant": {
+        "code": "1234567890",
+        "position": "លោក មន្ត្រីជំនាញ",
+        "org": "នាយកដ្ឋានផែនការ",
+        "coordinator": {},
+        "confirm": {}
+    }
 }

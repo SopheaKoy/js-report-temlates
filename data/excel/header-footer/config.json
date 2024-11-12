@@ -1,0 +1,22 @@
+{
+    "name": "header-footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1731397492260
+    },
+    "modificationDate": {
+        "$$date": 1731402289144
+    },
+    "shortid": "LQF6lop",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "keegokF8Vc2SiEHV",
+    "$entitySet": "templates",
+    "chrome": {
+        "format": "A4",
+        "marginBottom": "",
+        "marginRight": "1.5cm",
+        "marginLeft": "1.5cm"
+    }
+}

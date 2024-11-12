@@ -1,0 +1,33 @@
+{
+    "name": "invitation_letter",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "63yREq8"
+    },
+    "chrome": {
+        "printBackground": true,
+        "format": "A4",
+        "height": "",
+        "marginBottom": "",
+        "marginTop": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1731437334018
+    },
+    "modificationDate": {
+        "$$date": 1731437334031
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "2MIyUBK",
+            "mergeWholeDocument": true
+        }
+    ],
+    "shortid": "0UuYGB4",
+    "_id": "H3hG9TlZOsHE68dP",
+    "$entitySet": "templates"
+}

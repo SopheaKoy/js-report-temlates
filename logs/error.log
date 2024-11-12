@@ -114,3 +114,38 @@ ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
     at async Object.update (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)
+2024-11-11T13:29:02.816Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
+2024-11-11T13:29:57.100Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at verifyInService (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:113:11)
+    at async AsyncFunction.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:353:9)
+    at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
+2024-11-11T13:30:25.705Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
+2024-11-11T13:31:08.709Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at verifyInService (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:113:11)
+    at async AsyncFunction.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:353:9)
+    at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
+2024-11-11T13:31:39.770Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
+2024-11-11T13:32:15.388Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at verifyInService (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:113:11)
+    at async AsyncFunction.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:353:9)
+    at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
+2024-11-12T18:51:38.577Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
+2024-11-12T18:52:01.010Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at verifyInService (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:113:11)
+    at async AsyncFunction.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:353:9)
+    at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
+2024-11-12T18:52:35.188Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at verifyInService (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:113:11)
+    at async AsyncFunction.<anonymous> (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:353:9)
+    at async ListenerCollection.fire (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
+2024-11-12T18:54:23.361Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)

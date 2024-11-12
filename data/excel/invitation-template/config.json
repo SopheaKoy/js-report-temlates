@@ -7,17 +7,25 @@
     "chrome": {
         "printBackground": true,
         "format": "A4",
-        "height": "1cm",
-        "marginBottom": "1cm"
+        "height": "",
+        "marginBottom": "",
+        "marginTop": "1cm"
     },
     "creationDate": {
         "$$date": 1731251020530
     },
     "modificationDate": {
-        "$$date": 1731258089084
+        "$$date": 1731404588535
     },
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],
     "_id": "EKqnPL6AT3Wyk2wE",
-    "$entitySet": "templates"
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "LQF6lop",
+            "mergeWholeDocument": true
+        }
+    ]
 }

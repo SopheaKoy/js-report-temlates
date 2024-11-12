@@ -1,0 +1,24 @@
+{
+    "data":{
+        "id": 42,
+        "event_id": 1,
+        "letter_no": "០០៤២/២៤ ក.អ.ក./គ.ឌ.ក.",
+        "representation": "ឬចាត់តំណាងចូលរួម",
+        "combination": null,
+        "salute": "សូមគោរពជូន",
+        "self_call": "ខ្ញុំ",
+        "before_end": "ដោយក្ដីអនុគ្រោះ",
+        "end": "មេត្តាទទួលនូវគារវកិច្ចដ៏ខ្ពង់ខ្ពស់ពីខ្ញុំ",
+        "link": "https://rsvp.cdc.gov.kh/events/20241127/00001-cdc-ipm-launching/2950139725",
+        "qr": "https://file-v4-api.uat.camcyber.com/upload/file/b941408c-0e5c-4a09-98c1-e0dd4aa39b87",
+        "code": "2950139725",
+        "position": "ឯកឧត្តមរដ្ឋមន្ត្រី",
+        "institution_type": "02. ក្រសួង-ស្ថាប័នថ្នាក់ជាតិ",
+        "org": "ក្រសួងធនធានទឹក និងឧតុនិយម",
+        "n_of_participants": 1,
+        "attached": null,
+        "chapter": null,
+        "class": null
+    }
+
+}
