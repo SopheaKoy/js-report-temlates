@@ -149,3 +149,5 @@ ProtocolError: Protocol error (Page.printToPDF): Page range syntax error
     at async MainReporter.init (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:264:7)
 2024-11-12T18:54:23.361Z - error: Error occurred during reporter init: Error: Enterprise trial expired
     at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
+2024-11-12T18:56:10.223Z - error: Error occurred during reporter init: Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
