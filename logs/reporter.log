@@ -1,0 +1,353 @@
+2024-11-12T18:57:00.240Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-11-12T18:57:00.243Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:57:00.248Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:57:00.542Z - info: Found 35 extension(s)
+2024-11-12T18:57:00.598Z - info: Using extension authentication@4.2.1
+2024-11-12T18:57:00.737Z - info: Using extension base@4.0.0
+2024-11-12T18:57:00.740Z - info: Using extension child-templates@4.1.0
+2024-11-12T18:57:00.741Z - info: Using extension cli@4.0.4
+2024-11-12T18:57:00.744Z - info: Using extension components@4.0.2
+2024-11-12T18:57:00.746Z - info: Using extension data@4.1.0
+2024-11-12T18:57:00.748Z - info: Using extension express@4.1.2
+2024-11-12T18:57:00.981Z - info: Using extension freeze@4.0.0
+2024-11-12T18:57:00.983Z - info: Using extension fs-store@4.0.4
+2024-11-12T18:57:01.069Z - info: Using extension handlebars@4.0.1
+2024-11-12T18:57:01.071Z - info: Using extension import-export@4.0.4
+2024-11-12T18:57:01.079Z - info: Using extension jsrender@4.0.0
+2024-11-12T18:57:01.080Z - info: Using extension licensing@4.0.2
+2024-11-12T18:57:01.095Z - info: Using extension localization@4.0.1
+2024-11-12T18:57:01.096Z - info: Using extension npm@4.0.0
+2024-11-12T18:57:01.099Z - info: Using extension pdf-utils@4.2.1
+2024-11-12T18:57:01.101Z - info: Using extension reports@4.1.2
+2024-11-12T18:57:01.103Z - info: Using extension tags@4.0.1
+2024-11-12T18:57:01.105Z - info: Using extension text@4.0.2
+2024-11-12T18:57:01.106Z - info: Using extension version-control@4.0.0
+2024-11-12T18:57:01.112Z - info: Using extension assets@4.1.1
+2024-11-12T18:57:01.119Z - info: Using extension authorization@4.0.0
+2024-11-12T18:57:01.123Z - info: Using extension browser-client@4.1.0
+2024-11-12T18:57:01.126Z - info: Using extension chrome-pdf@4.1.0
+2024-11-12T18:57:01.129Z - info: Using extension docx@4.5.0
+2024-11-12T18:57:01.131Z - info: Using extension html-to-xlsx@4.1.2
+2024-11-12T18:57:01.427Z - info: html-to-xlsx detected chrome as available html engine
+2024-11-12T18:57:01.428Z - info: Using extension pptx@4.3.1
+2024-11-12T18:57:01.429Z - info: Using extension scheduling@4.0.0
+2024-11-12T18:57:01.450Z - info: Using extension scripts@4.1.0
+2024-11-12T18:57:01.451Z - info: Using extension static-pdf@4.1.0
+2024-11-12T18:57:01.452Z - info: Using extension studio@4.1.1
+2024-11-12T18:57:01.511Z - info: Using extension xlsx@4.2.0
+2024-11-12T18:57:01.512Z - info: Using extension public-templates@4.0.0
+2024-11-12T18:57:01.514Z - info: Using extension sample-template@4.0.0
+2024-11-12T18:57:01.515Z - info: Using extension studio-theme-dark@4.0.0
+2024-11-12T18:57:01.517Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-11-12T18:57:01.517Z - info: Using general timeout for rendering (reportTimeout: 600000)
+2024-11-12T18:57:01.517Z - info: Using fs provider for template store.
+2024-11-12T18:57:01.521Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-11-12T18:57:01.526Z - info: fs store is loading data
+2024-11-12T18:57:01.571Z - info: fs store is initialized successfully
+2024-11-12T18:57:01.585Z - info: Creating default express app.
+2024-11-12T18:57:01.601Z - info: jsreport server successfully started on http port: 7001
+2024-11-12T18:57:01.603Z - info: Verifying license key free
+2024-11-12T18:57:01.605Z - info: Closing jsreport instance
+2024-11-12T18:57:15.676Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-11-12T18:57:15.678Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:57:15.683Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:57:15.948Z - info: Found 35 extension(s)
+2024-11-12T18:57:15.994Z - info: Using extension authentication@4.2.1
+2024-11-12T18:57:16.115Z - info: Using extension base@4.0.0
+2024-11-12T18:57:16.118Z - info: Using extension child-templates@4.1.0
+2024-11-12T18:57:16.119Z - info: Using extension cli@4.0.4
+2024-11-12T18:57:16.121Z - info: Using extension components@4.0.2
+2024-11-12T18:57:16.123Z - info: Using extension data@4.1.0
+2024-11-12T18:57:16.124Z - info: Using extension express@4.1.2
+2024-11-12T18:57:16.337Z - info: Using extension freeze@4.0.0
+2024-11-12T18:57:16.339Z - info: Using extension fs-store@4.0.4
+2024-11-12T18:57:16.423Z - info: Using extension handlebars@4.0.1
+2024-11-12T18:57:16.424Z - info: Using extension import-export@4.0.4
+2024-11-12T18:57:16.432Z - info: Using extension jsrender@4.0.0
+2024-11-12T18:57:16.433Z - info: Using extension licensing@4.0.2
+2024-11-12T18:57:16.448Z - info: Using extension localization@4.0.1
+2024-11-12T18:57:16.449Z - info: Using extension npm@4.0.0
+2024-11-12T18:57:16.453Z - info: Using extension pdf-utils@4.2.1
+2024-11-12T18:57:16.455Z - info: Using extension reports@4.1.2
+2024-11-12T18:57:16.458Z - info: Using extension tags@4.0.1
+2024-11-12T18:57:16.459Z - info: Using extension text@4.0.2
+2024-11-12T18:57:16.460Z - info: Using extension version-control@4.0.0
+2024-11-12T18:57:16.466Z - info: Using extension assets@4.1.1
+2024-11-12T18:57:16.474Z - info: Using extension authorization@4.0.0
+2024-11-12T18:57:16.477Z - info: Using extension browser-client@4.1.0
+2024-11-12T18:57:16.481Z - info: Using extension chrome-pdf@4.1.0
+2024-11-12T18:57:16.483Z - info: Using extension docx@4.5.0
+2024-11-12T18:57:16.485Z - info: Using extension html-to-xlsx@4.1.2
+2024-11-12T18:57:16.757Z - info: html-to-xlsx detected chrome as available html engine
+2024-11-12T18:57:16.757Z - info: Using extension pptx@4.3.1
+2024-11-12T18:57:16.759Z - info: Using extension scheduling@4.0.0
+2024-11-12T18:57:16.778Z - info: Using extension scripts@4.1.0
+2024-11-12T18:57:16.779Z - info: Using extension static-pdf@4.1.0
+2024-11-12T18:57:16.780Z - info: Using extension studio@4.1.1
+2024-11-12T18:57:16.833Z - info: Using extension xlsx@4.2.0
+2024-11-12T18:57:16.834Z - info: Using extension public-templates@4.0.0
+2024-11-12T18:57:16.835Z - info: Using extension sample-template@4.0.0
+2024-11-12T18:57:16.837Z - info: Using extension studio-theme-dark@4.0.0
+2024-11-12T18:57:16.838Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-11-12T18:57:16.838Z - info: Using general timeout for rendering (reportTimeout: 600000)
+2024-11-12T18:57:16.838Z - info: Using fs provider for template store.
+2024-11-12T18:57:16.842Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-11-12T18:57:16.849Z - info: fs store is loading data
+2024-11-12T18:57:16.897Z - info: fs store is initialized successfully
+2024-11-12T18:57:16.911Z - info: Creating default express app.
+2024-11-12T18:57:16.925Z - info: jsreport server successfully started on http port: 7002
+2024-11-12T18:57:16.926Z - info: Verifying license key free
+2024-11-12T18:57:17.875Z - info: Closing jsreport instance
+2024-11-12T18:57:51.046Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-11-12T18:57:51.049Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:57:51.053Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:57:51.353Z - info: Found 35 extension(s)
+2024-11-12T18:57:51.402Z - info: Using extension authentication@4.2.1
+2024-11-12T18:57:51.531Z - info: Using extension base@4.0.0
+2024-11-12T18:57:51.534Z - info: Using extension child-templates@4.1.0
+2024-11-12T18:57:51.534Z - info: Using extension cli@4.0.4
+2024-11-12T18:57:51.536Z - info: Using extension components@4.0.2
+2024-11-12T18:57:51.538Z - info: Using extension data@4.1.0
+2024-11-12T18:57:51.539Z - info: Using extension express@4.1.2
+2024-11-12T18:57:51.755Z - info: Using extension freeze@4.0.0
+2024-11-12T18:57:51.757Z - info: Using extension fs-store@4.0.4
+2024-11-12T18:57:51.840Z - info: Using extension handlebars@4.0.1
+2024-11-12T18:57:51.842Z - info: Using extension import-export@4.0.4
+2024-11-12T18:57:51.848Z - info: Using extension jsrender@4.0.0
+2024-11-12T18:57:51.849Z - info: Using extension licensing@4.0.2
+2024-11-12T18:57:51.863Z - info: Using extension localization@4.0.1
+2024-11-12T18:57:51.864Z - info: Using extension npm@4.0.0
+2024-11-12T18:57:51.866Z - info: Using extension pdf-utils@4.2.1
+2024-11-12T18:57:51.868Z - info: Using extension reports@4.1.2
+2024-11-12T18:57:51.870Z - info: Using extension tags@4.0.1
+2024-11-12T18:57:51.872Z - info: Using extension text@4.0.2
+2024-11-12T18:57:51.872Z - info: Using extension version-control@4.0.0
+2024-11-12T18:57:51.878Z - info: Using extension assets@4.1.1
+2024-11-12T18:57:51.887Z - info: Using extension authorization@4.0.0
+2024-11-12T18:57:51.890Z - info: Using extension browser-client@4.1.0
+2024-11-12T18:57:51.893Z - info: Using extension chrome-pdf@4.1.0
+2024-11-12T18:57:51.896Z - info: Using extension docx@4.5.0
+2024-11-12T18:57:51.897Z - info: Using extension html-to-xlsx@4.1.2
+2024-11-12T18:57:52.155Z - info: html-to-xlsx detected chrome as available html engine
+2024-11-12T18:57:52.156Z - info: Using extension pptx@4.3.1
+2024-11-12T18:57:52.157Z - info: Using extension scheduling@4.0.0
+2024-11-12T18:57:52.177Z - info: Using extension scripts@4.1.0
+2024-11-12T18:57:52.178Z - info: Using extension static-pdf@4.1.0
+2024-11-12T18:57:52.179Z - info: Using extension studio@4.1.1
+2024-11-12T18:57:52.234Z - info: Using extension xlsx@4.2.0
+2024-11-12T18:57:52.237Z - info: Using extension public-templates@4.0.0
+2024-11-12T18:57:52.239Z - info: Using extension sample-template@4.0.0
+2024-11-12T18:57:52.241Z - info: Using extension studio-theme-dark@4.0.0
+2024-11-12T18:57:52.242Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-11-12T18:57:52.242Z - info: Using general timeout for rendering (reportTimeout: 600000)
+2024-11-12T18:57:52.242Z - info: Using fs provider for template store.
+2024-11-12T18:57:52.246Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-11-12T18:57:52.253Z - info: fs store is loading data
+2024-11-12T18:57:52.296Z - info: fs store is initialized successfully
+2024-11-12T18:57:52.310Z - info: Creating default express app.
+2024-11-12T18:57:52.326Z - info: jsreport server successfully started on http port: 7002
+2024-11-12T18:57:52.327Z - info: Verifying license key free
+2024-11-12T18:57:52.328Z - info: Using free license
+2024-11-12T18:57:52.331Z - info: Initializing worker threads
+2024-11-12T18:57:52.505Z - info: 2 worker threads initialized in 173ms
+2024-11-12T18:57:52.505Z - info: Starting temp files cleanup with 600000ms threshold
+2024-11-12T18:57:52.506Z - info: reporter initialized
+2024-11-12T18:58:38.539Z - info: Verifying license key free
+2024-11-12T18:58:39.517Z - info: Closing jsreport instance
+2024-11-12T18:58:39.519Z - warn: Unable to start trial license Enterprise trial expired stack=Error: Enterprise trial expired
+    at handleResponse (C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\node_modules\@jsreport\jsreport-licensing\lib\licensing.js:161:18)
+2024-11-12T18:58:39.524Z - info: jsreport instance has been closed
+2024-11-12T18:59:11.660Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.9.0)
+2024-11-12T18:59:11.662Z - info: Searching for available extensions in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:59:11.666Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\
+2024-11-12T18:59:11.972Z - info: Found 35 extension(s)
+2024-11-12T18:59:12.019Z - info: Using extension authentication@4.2.1
+2024-11-12T18:59:12.142Z - info: Using extension base@4.0.0
+2024-11-12T18:59:12.145Z - info: Using extension child-templates@4.1.0
+2024-11-12T18:59:12.146Z - info: Using extension cli@4.0.4
+2024-11-12T18:59:12.148Z - info: Using extension components@4.0.2
+2024-11-12T18:59:12.149Z - info: Using extension data@4.1.0
+2024-11-12T18:59:12.150Z - info: Using extension express@4.1.2
+2024-11-12T18:59:12.385Z - info: Using extension freeze@4.0.0
+2024-11-12T18:59:12.386Z - info: Using extension fs-store@4.0.4
+2024-11-12T18:59:12.478Z - info: Using extension handlebars@4.0.1
+2024-11-12T18:59:12.479Z - info: Using extension import-export@4.0.4
+2024-11-12T18:59:12.488Z - info: Using extension jsrender@4.0.0
+2024-11-12T18:59:12.488Z - info: Using extension licensing@4.0.2
+2024-11-12T18:59:12.503Z - info: Using extension localization@4.0.1
+2024-11-12T18:59:12.504Z - info: Using extension npm@4.0.0
+2024-11-12T18:59:12.508Z - info: Using extension pdf-utils@4.2.1
+2024-11-12T18:59:12.510Z - info: Using extension reports@4.1.2
+2024-11-12T18:59:12.513Z - info: Using extension tags@4.0.1
+2024-11-12T18:59:12.514Z - info: Using extension text@4.0.2
+2024-11-12T18:59:12.515Z - info: Using extension version-control@4.0.0
+2024-11-12T18:59:12.521Z - info: Using extension assets@4.1.1
+2024-11-12T18:59:12.530Z - info: Using extension authorization@4.0.0
+2024-11-12T18:59:12.533Z - info: Using extension browser-client@4.1.0
+2024-11-12T18:59:12.536Z - info: Using extension chrome-pdf@4.1.0
+2024-11-12T18:59:12.539Z - info: Using extension docx@4.5.0
+2024-11-12T18:59:12.540Z - info: Using extension html-to-xlsx@4.1.2
+2024-11-12T18:59:12.834Z - info: html-to-xlsx detected chrome as available html engine
+2024-11-12T18:59:12.835Z - info: Using extension pptx@4.3.1
+2024-11-12T18:59:12.837Z - info: Using extension scheduling@4.0.0
+2024-11-12T18:59:12.856Z - info: Using extension scripts@4.1.0
+2024-11-12T18:59:12.857Z - info: Using extension static-pdf@4.1.0
+2024-11-12T18:59:12.858Z - info: Using extension studio@4.1.1
+2024-11-12T18:59:12.909Z - info: Using extension xlsx@4.2.0
+2024-11-12T18:59:12.911Z - info: Using extension public-templates@4.0.0
+2024-11-12T18:59:12.912Z - info: Using extension sample-template@4.0.0
+2024-11-12T18:59:12.913Z - info: Using extension studio-theme-dark@4.0.0
+2024-11-12T18:59:12.914Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-11-12T18:59:12.915Z - info: Using general timeout for rendering (reportTimeout: 600000)
+2024-11-12T18:59:12.915Z - info: Using fs provider for template store.
+2024-11-12T18:59:12.918Z - info: fs store is persisting using fs for C:\Users\shsmo\OneDrive\Desktop\Sophea\templates report\data
+2024-11-12T18:59:12.925Z - info: fs store is loading data
+2024-11-12T18:59:12.967Z - info: fs store is initialized successfully
+2024-11-12T18:59:12.980Z - info: Creating default express app.
+2024-11-12T18:59:12.995Z - info: jsreport server successfully started on http port: 7002
+2024-11-12T18:59:12.996Z - info: Verifying license key free
+2024-11-12T18:59:12.997Z - info: Using free license
+2024-11-12T18:59:13.000Z - info: Initializing worker threads
+2024-11-12T18:59:13.157Z - info: 2 worker threads initialized in 157ms
+2024-11-12T18:59:13.157Z - info: Starting temp files cleanup with 600000ms threshold
+2024-11-12T18:59:13.158Z - info: reporter initialized
+2024-11-12T18:59:19.404Z - info: Render request 1 queued for execution and waiting for available worker rootId=u2hovbcmkgccgz8, id=u2hovbcmkgccgz8
+2024-11-12T18:59:19.423Z - info: Starting rendering request 1 (user: admin) rootId=u2hovbcmkgccgz8, id=u2hovbcmkgccgz8
+2024-11-12T18:59:19.423Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=u2hovbcmkgccgz8, id=u2hovbcmkgccgz8
+2024-11-12T18:59:22.000Z - info: pdf-utils is starting pdf processing rootId=u2hovbcmkgccgz8, id=u2hovbcmkgccgz8
+2024-11-12T18:59:22.186Z - info: Starting rendering (child) request (user: admin) rootId=u2hovbcmkgccgz8, id=aycn7daauf6x3yi
+2024-11-12T18:59:22.187Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=u2hovbcmkgccgz8, id=aycn7daauf6x3yi
+2024-11-12T18:59:22.592Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=u2hovbcmkgccgz8, id=aycn7daauf6x3yi
+2024-11-12T18:59:22.940Z - info: Rendering (child) request finished in 3539 ms rootId=u2hovbcmkgccgz8, id=aycn7daauf6x3yi
+2024-11-12T18:59:23.065Z - info: pdf-utils pdf processing was finished rootId=u2hovbcmkgccgz8, id=u2hovbcmkgccgz8
+2024-11-12T18:59:23.065Z - info: Rendering request 1 finished in 3664 ms rootId=u2hovbcmkgccgz8, id=u2hovbcmkgccgz8
+2024-11-12T18:59:38.075Z - info: Render request 2 queued for execution and waiting for available worker rootId=qedmm1lul7fmbfp, id=qedmm1lul7fmbfp
+2024-11-12T18:59:38.084Z - info: Starting rendering request 2 (user: admin) rootId=qedmm1lul7fmbfp, id=qedmm1lul7fmbfp
+2024-11-12T18:59:38.085Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qedmm1lul7fmbfp, id=qedmm1lul7fmbfp
+2024-11-12T18:59:40.628Z - info: pdf-utils is starting pdf processing rootId=qedmm1lul7fmbfp, id=qedmm1lul7fmbfp
+2024-11-12T18:59:40.855Z - info: Starting rendering (child) request (user: admin) rootId=qedmm1lul7fmbfp, id=5sgqkwopqx8jhqs
+2024-11-12T18:59:40.855Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qedmm1lul7fmbfp, id=5sgqkwopqx8jhqs
+2024-11-12T18:59:41.270Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=qedmm1lul7fmbfp, id=5sgqkwopqx8jhqs
+2024-11-12T18:59:41.603Z - info: Rendering (child) request finished in 3529 ms rootId=qedmm1lul7fmbfp, id=5sgqkwopqx8jhqs
+2024-11-12T18:59:41.757Z - info: pdf-utils pdf processing was finished rootId=qedmm1lul7fmbfp, id=qedmm1lul7fmbfp
+2024-11-12T18:59:41.758Z - info: Rendering request 2 finished in 3684 ms rootId=qedmm1lul7fmbfp, id=qedmm1lul7fmbfp
+2024-11-12T18:59:55.116Z - info: Render request 3 queued for execution and waiting for available worker rootId=odgvbrryp2hj4y0, id=odgvbrryp2hj4y0
+2024-11-12T18:59:55.129Z - info: Starting rendering request 3 (user: admin) rootId=odgvbrryp2hj4y0, id=odgvbrryp2hj4y0
+2024-11-12T18:59:55.129Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=odgvbrryp2hj4y0, id=odgvbrryp2hj4y0
+2024-11-12T18:59:56.289Z - info: pdf-utils is starting pdf processing rootId=odgvbrryp2hj4y0, id=odgvbrryp2hj4y0
+2024-11-12T18:59:56.351Z - info: Starting rendering (child) request (user: admin) rootId=odgvbrryp2hj4y0, id=6tp7oblh0mwarp1
+2024-11-12T18:59:56.351Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=odgvbrryp2hj4y0, id=6tp7oblh0mwarp1
+2024-11-12T18:59:56.478Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=odgvbrryp2hj4y0, id=6tp7oblh0mwarp1
+2024-11-12T18:59:56.710Z - info: Rendering (child) request finished in 1596 ms rootId=odgvbrryp2hj4y0, id=6tp7oblh0mwarp1
+2024-11-12T18:59:56.832Z - info: pdf-utils pdf processing was finished rootId=odgvbrryp2hj4y0, id=odgvbrryp2hj4y0
+2024-11-12T18:59:56.832Z - info: Rendering request 3 finished in 1718 ms rootId=odgvbrryp2hj4y0, id=odgvbrryp2hj4y0
+2024-11-12T19:04:07.846Z - info: Render request 4 queued for execution and waiting for available worker rootId=g8s02n5c0z0gzw6, id=g8s02n5c0z0gzw6
+2024-11-12T19:04:07.854Z - info: Starting rendering request 4 (user: admin) rootId=g8s02n5c0z0gzw6, id=g8s02n5c0z0gzw6
+2024-11-12T19:04:07.854Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g8s02n5c0z0gzw6, id=g8s02n5c0z0gzw6
+2024-11-12T19:04:09.097Z - info: pdf-utils is starting pdf processing rootId=g8s02n5c0z0gzw6, id=g8s02n5c0z0gzw6
+2024-11-12T19:04:09.138Z - info: Starting rendering (child) request (user: admin) rootId=g8s02n5c0z0gzw6, id=asz37ps1l0yggu9
+2024-11-12T19:04:09.138Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g8s02n5c0z0gzw6, id=asz37ps1l0yggu9
+2024-11-12T19:04:09.251Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=g8s02n5c0z0gzw6, id=asz37ps1l0yggu9
+2024-11-12T19:04:09.487Z - info: Rendering (child) request finished in 1642 ms rootId=g8s02n5c0z0gzw6, id=asz37ps1l0yggu9
+2024-11-12T19:04:09.595Z - info: pdf-utils pdf processing was finished rootId=g8s02n5c0z0gzw6, id=g8s02n5c0z0gzw6
+2024-11-12T19:04:09.595Z - info: Rendering request 4 finished in 1750 ms rootId=g8s02n5c0z0gzw6, id=g8s02n5c0z0gzw6
+2024-11-12T19:05:00.113Z - info: Render request 5 queued for execution and waiting for available worker rootId=obupe7kenll3duz, id=obupe7kenll3duz
+2024-11-12T19:05:00.122Z - info: Starting rendering request 5 (user: admin) rootId=obupe7kenll3duz, id=obupe7kenll3duz
+2024-11-12T19:05:00.122Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=obupe7kenll3duz, id=obupe7kenll3duz
+2024-11-12T19:05:01.336Z - info: pdf-utils is starting pdf processing rootId=obupe7kenll3duz, id=obupe7kenll3duz
+2024-11-12T19:05:01.376Z - info: Starting rendering (child) request (user: admin) rootId=obupe7kenll3duz, id=k85xwi0p9sohxge
+2024-11-12T19:05:01.376Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=obupe7kenll3duz, id=k85xwi0p9sohxge
+2024-11-12T19:05:01.477Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=obupe7kenll3duz, id=k85xwi0p9sohxge
+2024-11-12T19:05:01.694Z - info: Rendering (child) request finished in 1582 ms rootId=obupe7kenll3duz, id=k85xwi0p9sohxge
+2024-11-12T19:05:01.789Z - info: pdf-utils pdf processing was finished rootId=obupe7kenll3duz, id=obupe7kenll3duz
+2024-11-12T19:05:01.789Z - info: Rendering request 5 finished in 1677 ms rootId=obupe7kenll3duz, id=obupe7kenll3duz
+2024-11-12T19:05:29.708Z - info: Render request 6 queued for execution and waiting for available worker rootId=x6pkbrpw1xgot15, id=x6pkbrpw1xgot15
+2024-11-12T19:05:29.718Z - info: Starting rendering request 6 (user: admin) rootId=x6pkbrpw1xgot15, id=x6pkbrpw1xgot15
+2024-11-12T19:05:29.718Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=x6pkbrpw1xgot15, id=x6pkbrpw1xgot15
+2024-11-12T19:05:30.917Z - info: pdf-utils is starting pdf processing rootId=x6pkbrpw1xgot15, id=x6pkbrpw1xgot15
+2024-11-12T19:05:30.965Z - info: Starting rendering (child) request (user: admin) rootId=x6pkbrpw1xgot15, id=i04pfowd93f3nex
+2024-11-12T19:05:30.965Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=x6pkbrpw1xgot15, id=i04pfowd93f3nex
+2024-11-12T19:05:31.076Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=x6pkbrpw1xgot15, id=i04pfowd93f3nex
+2024-11-12T19:05:31.298Z - info: Rendering (child) request finished in 1592 ms rootId=x6pkbrpw1xgot15, id=i04pfowd93f3nex
+2024-11-12T19:05:31.416Z - info: pdf-utils pdf processing was finished rootId=x6pkbrpw1xgot15, id=x6pkbrpw1xgot15
+2024-11-12T19:05:31.416Z - info: Rendering request 6 finished in 1710 ms rootId=x6pkbrpw1xgot15, id=x6pkbrpw1xgot15
+2024-11-12T19:06:53.169Z - info: Render request 7 queued for execution and waiting for available worker rootId=48akzqtn8018m1u, id=48akzqtn8018m1u
+2024-11-12T19:06:53.179Z - info: Starting rendering request 7 (user: admin) rootId=48akzqtn8018m1u, id=48akzqtn8018m1u
+2024-11-12T19:06:53.179Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=48akzqtn8018m1u, id=48akzqtn8018m1u
+2024-11-12T19:06:54.303Z - info: pdf-utils is starting pdf processing rootId=48akzqtn8018m1u, id=48akzqtn8018m1u
+2024-11-12T19:06:54.342Z - info: Starting rendering (child) request (user: admin) rootId=48akzqtn8018m1u, id=qd53lv6sbi1xx7t
+2024-11-12T19:06:54.342Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=48akzqtn8018m1u, id=qd53lv6sbi1xx7t
+2024-11-12T19:06:54.435Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=48akzqtn8018m1u, id=qd53lv6sbi1xx7t
+2024-11-12T19:06:54.656Z - info: Rendering (child) request finished in 1488 ms rootId=48akzqtn8018m1u, id=qd53lv6sbi1xx7t
+2024-11-12T19:06:54.753Z - info: pdf-utils pdf processing was finished rootId=48akzqtn8018m1u, id=48akzqtn8018m1u
+2024-11-12T19:06:54.753Z - info: Rendering request 7 finished in 1585 ms rootId=48akzqtn8018m1u, id=48akzqtn8018m1u
+2024-11-12T19:10:23.321Z - info: Render request 8 queued for execution and waiting for available worker rootId=00mewicoyadggln, id=00mewicoyadggln
+2024-11-12T19:10:23.330Z - info: Starting rendering request 8 (user: admin) rootId=00mewicoyadggln, id=00mewicoyadggln
+2024-11-12T19:10:23.331Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=00mewicoyadggln, id=00mewicoyadggln
+2024-11-12T19:10:24.772Z - info: pdf-utils is starting pdf processing rootId=00mewicoyadggln, id=00mewicoyadggln
+2024-11-12T19:10:24.832Z - info: Starting rendering (child) request (user: admin) rootId=00mewicoyadggln, id=coi2c2gjelzbwvr
+2024-11-12T19:10:24.832Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=00mewicoyadggln, id=coi2c2gjelzbwvr
+2024-11-12T19:10:24.957Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=00mewicoyadggln, id=coi2c2gjelzbwvr
+2024-11-12T19:10:25.174Z - info: Rendering (child) request finished in 1856 ms rootId=00mewicoyadggln, id=coi2c2gjelzbwvr
+2024-11-12T19:10:25.300Z - info: pdf-utils pdf processing was finished rootId=00mewicoyadggln, id=00mewicoyadggln
+2024-11-12T19:10:25.301Z - info: Rendering request 8 finished in 1983 ms rootId=00mewicoyadggln, id=00mewicoyadggln
+2024-11-12T19:10:50.363Z - info: Render request 9 queued for execution and waiting for available worker rootId=hb5e88ooalovrz8, id=hb5e88ooalovrz8
+2024-11-12T19:10:50.376Z - info: Starting rendering request 9 (user: admin) rootId=hb5e88ooalovrz8, id=hb5e88ooalovrz8
+2024-11-12T19:10:50.376Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=hb5e88ooalovrz8, id=hb5e88ooalovrz8
+2024-11-12T19:10:51.870Z - info: pdf-utils is starting pdf processing rootId=hb5e88ooalovrz8, id=hb5e88ooalovrz8
+2024-11-12T19:10:51.920Z - info: Starting rendering (child) request (user: admin) rootId=hb5e88ooalovrz8, id=eske2ndfifdx7sj
+2024-11-12T19:10:51.920Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=hb5e88ooalovrz8, id=eske2ndfifdx7sj
+2024-11-12T19:10:52.035Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=hb5e88ooalovrz8, id=eske2ndfifdx7sj
+2024-11-12T19:10:52.254Z - info: Rendering (child) request finished in 1893 ms rootId=hb5e88ooalovrz8, id=eske2ndfifdx7sj
+2024-11-12T19:10:52.376Z - info: pdf-utils pdf processing was finished rootId=hb5e88ooalovrz8, id=hb5e88ooalovrz8
+2024-11-12T19:10:52.377Z - info: Rendering request 9 finished in 2016 ms rootId=hb5e88ooalovrz8, id=hb5e88ooalovrz8
+2024-11-12T19:11:12.030Z - info: Render request 10 queued for execution and waiting for available worker rootId=ktzlvrtuf2omy6j, id=ktzlvrtuf2omy6j
+2024-11-12T19:11:12.040Z - info: Starting rendering request 10 (user: admin) rootId=ktzlvrtuf2omy6j, id=ktzlvrtuf2omy6j
+2024-11-12T19:11:12.040Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ktzlvrtuf2omy6j, id=ktzlvrtuf2omy6j
+2024-11-12T19:11:13.272Z - info: pdf-utils is starting pdf processing rootId=ktzlvrtuf2omy6j, id=ktzlvrtuf2omy6j
+2024-11-12T19:11:13.322Z - info: Starting rendering (child) request (user: admin) rootId=ktzlvrtuf2omy6j, id=jrb7gjzw2wt67r8
+2024-11-12T19:11:13.322Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ktzlvrtuf2omy6j, id=jrb7gjzw2wt67r8
+2024-11-12T19:11:13.453Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=ktzlvrtuf2omy6j, id=jrb7gjzw2wt67r8
+2024-11-12T19:11:13.687Z - info: Rendering (child) request finished in 1659 ms rootId=ktzlvrtuf2omy6j, id=jrb7gjzw2wt67r8
+2024-11-12T19:11:13.817Z - info: pdf-utils pdf processing was finished rootId=ktzlvrtuf2omy6j, id=ktzlvrtuf2omy6j
+2024-11-12T19:11:13.817Z - info: Rendering request 10 finished in 1789 ms rootId=ktzlvrtuf2omy6j, id=ktzlvrtuf2omy6j
+2024-11-12T19:12:22.925Z - info: Render request 11 queued for execution and waiting for available worker rootId=a9khw1rgcmxkvrg, id=a9khw1rgcmxkvrg
+2024-11-12T19:12:22.938Z - info: Starting rendering request 11 (user: admin) rootId=a9khw1rgcmxkvrg, id=a9khw1rgcmxkvrg
+2024-11-12T19:12:22.938Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a9khw1rgcmxkvrg, id=a9khw1rgcmxkvrg
+2024-11-12T19:12:24.206Z - info: pdf-utils is starting pdf processing rootId=a9khw1rgcmxkvrg, id=a9khw1rgcmxkvrg
+2024-11-12T19:12:24.251Z - info: Starting rendering (child) request (user: admin) rootId=a9khw1rgcmxkvrg, id=bqpdgunyadk074v
+2024-11-12T19:12:24.251Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a9khw1rgcmxkvrg, id=bqpdgunyadk074v
+2024-11-12T19:12:24.355Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=a9khw1rgcmxkvrg, id=bqpdgunyadk074v
+2024-11-12T19:12:24.575Z - info: Rendering (child) request finished in 1651 ms rootId=a9khw1rgcmxkvrg, id=bqpdgunyadk074v
+2024-11-12T19:12:24.687Z - info: pdf-utils pdf processing was finished rootId=a9khw1rgcmxkvrg, id=a9khw1rgcmxkvrg
+2024-11-12T19:12:24.687Z - info: Rendering request 11 finished in 1763 ms rootId=a9khw1rgcmxkvrg, id=a9khw1rgcmxkvrg
+2024-11-12T19:14:37.605Z - info: Render request 12 queued for execution and waiting for available worker rootId=7jhw8l78vq5r85o, id=7jhw8l78vq5r85o
+2024-11-12T19:14:37.616Z - info: Starting rendering request 12 (user: admin) rootId=7jhw8l78vq5r85o, id=7jhw8l78vq5r85o
+2024-11-12T19:14:37.617Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7jhw8l78vq5r85o, id=7jhw8l78vq5r85o
+2024-11-12T19:14:38.910Z - info: pdf-utils is starting pdf processing rootId=7jhw8l78vq5r85o, id=7jhw8l78vq5r85o
+2024-11-12T19:14:38.959Z - info: Starting rendering (child) request (user: admin) rootId=7jhw8l78vq5r85o, id=7okw49wzyy5f1pc
+2024-11-12T19:14:38.959Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7jhw8l78vq5r85o, id=7okw49wzyy5f1pc
+2024-11-12T19:14:39.073Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=7jhw8l78vq5r85o, id=7okw49wzyy5f1pc
+2024-11-12T19:14:39.313Z - info: Rendering (child) request finished in 1710 ms rootId=7jhw8l78vq5r85o, id=7okw49wzyy5f1pc
+2024-11-12T19:14:39.451Z - info: pdf-utils pdf processing was finished rootId=7jhw8l78vq5r85o, id=7jhw8l78vq5r85o
+2024-11-12T19:14:39.451Z - info: Rendering request 12 finished in 1848 ms rootId=7jhw8l78vq5r85o, id=7jhw8l78vq5r85o
+2024-11-12T19:15:41.120Z - info: Render request 13 queued for execution and waiting for available worker rootId=0q2ylnbz4s3112c, id=0q2ylnbz4s3112c
+2024-11-12T19:15:41.129Z - info: Starting rendering request 13 (user: admin) rootId=0q2ylnbz4s3112c, id=0q2ylnbz4s3112c
+2024-11-12T19:15:41.129Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0q2ylnbz4s3112c, id=0q2ylnbz4s3112c
+2024-11-12T19:15:42.326Z - info: pdf-utils is starting pdf processing rootId=0q2ylnbz4s3112c, id=0q2ylnbz4s3112c
+2024-11-12T19:15:42.361Z - info: Starting rendering (child) request (user: admin) rootId=0q2ylnbz4s3112c, id=4rcw52pph7nlmwd
+2024-11-12T19:15:42.361Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0q2ylnbz4s3112c, id=4rcw52pph7nlmwd
+2024-11-12T19:15:42.450Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=0q2ylnbz4s3112c, id=4rcw52pph7nlmwd
+2024-11-12T19:15:42.664Z - info: Rendering (child) request finished in 1545 ms rootId=0q2ylnbz4s3112c, id=4rcw52pph7nlmwd
+2024-11-12T19:15:42.767Z - info: pdf-utils pdf processing was finished rootId=0q2ylnbz4s3112c, id=0q2ylnbz4s3112c
+2024-11-12T19:15:42.767Z - info: Rendering request 13 finished in 1648 ms rootId=0q2ylnbz4s3112c, id=0q2ylnbz4s3112c
+2024-11-12T19:16:53.367Z - info: Render request 14 queued for execution and waiting for available worker rootId=6xd6g5hhoq79pnt, id=6xd6g5hhoq79pnt
+2024-11-12T19:16:53.377Z - info: Starting rendering request 14 (user: admin) rootId=6xd6g5hhoq79pnt, id=6xd6g5hhoq79pnt
+2024-11-12T19:16:53.377Z - info: Rendering template { name: invitation_letter, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6xd6g5hhoq79pnt, id=6xd6g5hhoq79pnt
+2024-11-12T19:16:54.602Z - info: pdf-utils is starting pdf processing rootId=6xd6g5hhoq79pnt, id=6xd6g5hhoq79pnt
+2024-11-12T19:16:54.641Z - info: Starting rendering (child) request (user: admin) rootId=6xd6g5hhoq79pnt, id=l7cmwvidu7jjjoj
+2024-11-12T19:16:54.641Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6xd6g5hhoq79pnt, id=l7cmwvidu7jjjoj
+2024-11-12T19:16:54.731Z - warn: Page request failed: GET (script) 302 https://cdn.tailwindcss.com/ (redirect to: /3.4.14) rootId=6xd6g5hhoq79pnt, id=l7cmwvidu7jjjoj
+2024-11-12T19:16:54.958Z - info: Rendering (child) request finished in 1592 ms rootId=6xd6g5hhoq79pnt, id=l7cmwvidu7jjjoj
+2024-11-12T19:16:55.056Z - info: pdf-utils pdf processing was finished rootId=6xd6g5hhoq79pnt, id=6xd6g5hhoq79pnt
+2024-11-12T19:16:55.056Z - info: Rendering request 14 finished in 1690 ms rootId=6xd6g5hhoq79pnt, id=6xd6g5hhoq79pnt
