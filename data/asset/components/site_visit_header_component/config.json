@@ -1,0 +1,15 @@
+{
+    "name": "site_visit_header_component",
+    "engine": "handlebars",
+    "shortid": "CvURCAQQ00",
+    "creationDate": {
+        "$$date": 1734585008394
+    },
+    "modificationDate": {
+        "$$date": 1734585008394
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "Y4qWu5BWNHcyk1hJ",
+    "$entitySet": "components"
+}

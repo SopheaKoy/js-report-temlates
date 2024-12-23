@@ -1,6 +1,8 @@
 :root{
-    --indent-paragrah:70px;
+    /*  */
 
+    /* size */
+    --indent-paragrah:75px;
     --text-bold: bold;
     --text-base:16px;
     --text-sm:13px;
@@ -33,16 +35,49 @@
     src: url({#asset limons1l.ttf @encoding=dataURI});
     format('ttf');
 }
+@font-face{
+    font-family: "Arial"
+    src: url({#asset arial.ttf @encoding=dataURI})
+    format('ttf');
+}
+
+
+/* START TEXT INDENT */
 .indent-paragraph{
     text-indent: 75px;
 }
-
 .keep-together{
     page-break-inside:avoid;
+}
+.break-page-auto{
+    page-break-inside:auto;
 }
 .indent-negative-padding {
     padding-left: 0px;
 }
+.width-bullet-point{
+    width: 25px;
+}
+.indent-text-small {
+    text-indent: -9px; 
+}
+.indent-text {
+    text-indent: -25px; 
+    padding-left: 25px;
+}
+/* END TEXT INDENT */
+
+
+/* STYLE FONT */
+.text-align-top{
+    vertical-align: text-top;
+}
+
+text_distribution{
+    word-spacing: -2px;
+}
+/* END STYLE FONT */
+
 
 body {
     font-size: var(--text-base);
@@ -58,18 +93,25 @@ body {
 .font_tacteing {
     font-family: "Tacteing";
 }
+.font_arail{
+    font-family:"Arial", "Siemreap";
+}
 /* END FONT */
+
+.letting_space{
+    letter-spacing: 0.06vw;
+}
 
 /* FONT SIZE */
 .font-base {
-    font-size: 16px;
+    font-size: var(--text-base);
 }
 
 .text-main {
     font-size: 14px;
 }
 .text-sm-base {
-    font-size: 16px;
+    font-size: var(--text-base)
 }
 
 .text_xs_sm{
@@ -79,36 +121,22 @@ body {
     font-size: 11px;
 }
 /* END FONT SIZE */
+.text_color{
+    color: #2F5D00;
+}
 
-.thai_distribution {
-
-    text-align: justify;
-    
-    /* text-justify: inter-word;
-    word-break: break-word;
-    letter-spacing: 0.02em;
-    word-spacing: 0.05em; */
-    
-   
-    /* word-break: break-all; 
-    text-align: justify;
-    word-spacing: 4px; 
-    letter-spacing: 0.003vw;
-    text-justify: inter-word;
-    text-align: justify;
-    text-justify: inter-word;
-    word-spacing: -2px;
-    letter-spacing:0.03vw;
-    line-height: 1.6; */
-} 
 
 
 /* BULLET POINT */
-.width-bullet-point-sm{
-    width: 20px;
-}
 .width-bullet-point{
     width: 25px;
+}
+.format, .format p{
+    margin-top:8px;
+    text-indent:75px;
+} 
+.format * {
+    text-indent:0px;
 }
 .format>ol, .format>ul {
     padding-left: 75px;
@@ -118,19 +146,15 @@ body {
 }
 
 /* unorder list */
-.format p {
-    text-indent: 68px;
-    margin-top: 8px;
-}
-
-
 .format>ul{
-    margin-left:15px;
+    margin-left:25px;
 }
-/* incase start form ul */
-.format ul {
-    list-style-type: '-    ';
-}
+.format>ul>li:before {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -3px;
+    content: "-";   
+} 
 .format ul ul{
     padding-left: 50px;
     list-style-type: circle;
@@ -141,10 +165,12 @@ body {
 }
 /* end ul */
 
+
 /* start ol */
 .format ol {
     counter-reset: section;           
     list-style-type: none;
+    /* list-style-type: decimal; */
     color: black;
 }
 .format ol>li{
@@ -162,12 +188,12 @@ body {
 
 .format ol>li:before {
     font-family: "limons1l";
-    font-size: 32px;
+    font-size: 28px;
     position: absolute;
     margin-left: -25px;
-    margin-top: -3px;
+    margin-top: -1px;
     counter-increment: section;         
-    content: counters(section, ">") ">";   
+    content: counters(section, ">") ">"; 
 } 
 .format ol>li ol>li:before {
     margin-left: -40px;
@@ -182,6 +208,15 @@ body {
 }
 /* end ol */
 
+
+.format ol>li ul>li{
+    margin-left: 40px;
+    list-style-type: disc;
+}
+/* END BULLET POINT */
+
+
+/* For Draft */
 .draft_watermark {
     position: fixed;
     top: 0;
@@ -190,4 +225,24 @@ body {
     height: 100%;
     z-index: 10;
     background-image: url("{#asset /asset/images/draft-km.png @encoding=dataURI}"); 
+}
+
+/* Application */
+.underline-text{
+    text-decoration: underline dashed;
+    text-decoration-color: rgba(128, 128, 128, 0.7); /* gray with 50% opacity */
+}
+
+.margin_checkbox{
+    margin-top: -6px;
+}
+
+.font_custom {
+    font-family: {{#eq lng 'km'}}"KhmerOSMuol"{{else}}"Roman"{{/eq}};
+}
+.font_weight_custom {
+    font-weight: {{#eq lng 'km'}}normal{{else}}bold{{/eq}};
+}
+.font_size_custom {
+    font-size: {{#eq lng 'km'}}14px{{else}}14px{{/eq}};
 }

@@ -1,0 +1,14 @@
+{
+    "name": "site_visit_report_data",
+    "shortid": "J35ufTrvL",
+    "creationDate": {
+        "$$date": 1734585008409
+    },
+    "modificationDate": {
+        "$$date": 1734925512888
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "bkatCEctBkFQ0yBt",
+    "$entitySet": "data"
+}

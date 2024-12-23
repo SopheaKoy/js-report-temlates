@@ -1,0 +1,32 @@
+{
+    "name": "site_visit_report",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "J35ufTrvL"
+    },
+    "shortid": "cX1e08WZf3",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "format": "a4",
+        "marginBottom": "1.3cm"
+    },
+    "creationDate": {
+        "$$date": 1734585008374
+    },
+    "modificationDate": {
+        "$$date": 1734925287366
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "EUBOMb1i4gc4YwMu",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "iGHIL1x",
+            "mergeWholeDocument": true
+        }
+    ],
+    "$entitySet": "templates"
+}

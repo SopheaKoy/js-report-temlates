@@ -1,0 +1,17 @@
+{
+    "name": "page-number",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1734585008382
+    },
+    "modificationDate": {
+        "$$date": 1734585008382
+    },
+    "workspaceId": "6674e2389042c492bab076ea",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "shortid": "Ld_LvTk",
+    "_id": "zenXuS7PW3WIsAx0",
+    "$entitySet": "templates"
+}

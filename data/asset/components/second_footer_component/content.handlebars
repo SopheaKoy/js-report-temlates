@@ -1,0 +1,8 @@
+<footer class="w-full border-t border-black pb-6 text-[12px] pt-2">
+    <div class="w-full flex justify-between">
+        <p class="text-start italic pl-3">
+            គម្រោងវិនិយោគ{{@root.investment_target_km}} របស់ក្រុមហ៊ុន {{@root.company_name_en}}
+        </p>
+        <p class="float-right">{{getPageNumber @index "km"}}/{{getTotalPages ../$pdf.pages}}</p>
+    </div>
+</footer>

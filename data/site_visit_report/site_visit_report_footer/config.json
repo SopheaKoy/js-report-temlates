@@ -1,0 +1,22 @@
+{
+    "name": "site_visit_report_footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1734585008379
+    },
+    "modificationDate": {
+        "$$date": 1734585008379
+    },
+    "shortid": "iGHIL1x",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "meF0mZBHFc2f0w4a",
+    "chrome": {
+        "format": "a4",
+        "marginRight": "1.5cm",
+        "marginBottom": "8",
+        "marginLeft": "1.5cm"
+    },
+    "$entitySet": "templates"
+}

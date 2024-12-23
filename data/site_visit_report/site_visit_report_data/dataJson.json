@@ -1,0 +1,549 @@
+{
+  "cc": [
+    "ឯកសារ-កាលប្បវត្តិ"
+  ],
+  "qr_url": "https://qr-pub.cdc.gov.kh/api/v1/qr?l=cdc&content=https://url-pub.cdc.gov.kh/86a6KbpMBS",
+  "is_draft": 0,
+  "land_doc": "វិញ្ញាបនបត្រសម្គាល់ម្ចាស់អចលនវត្ថុលេខៈ០៣០១០១០២-២៦៥៤ ចុះថ្ងៃទី១៣\tខែឧសភា ឆ្នាំ២០២០ របស់មន្ទីររៀបចំដែនដី នគរូបនីយកម្ម សំណង់ និងសុរិយោដី\tខេត្តកំពង់ចាម",
+  "qr_value": "https://url-pub.cdc.gov.kh/86a6KbpMBS",
+  "secretary": {
+    "id": "f39eb75a-322f-48eb-a79c-78948629d612",
+    "salute": {
+      "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+      "translate": {
+        "cn": "Mr.",
+        "en": "Mr.",
+        "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+        "jp": "Mr.",
+        "km": "លោក",
+        "kr": "Mr."
+      }
+    },
+    "lastname": "មាក",
+    "firstname": "វណ្ណា",
+    "positions": [
+      {
+        "position": {
+          "id": "3f485eb8-ca3b-465f-a917-5d7e4738c2ea",
+          "keyword": "មន្ត្រីបច្ចេកទេស",
+          "translate": {
+            "cn": "Skill Officer",
+            "en": "Skill Officer",
+            "id": "ec6d4a31-d2c8-4ee2-9bfd-c6d79c25dee6",
+            "jp": "Skill Officer",
+            "km": "មន្ត្រីបច្ចេកទេស",
+            "kr": "Skill Officer"
+          },
+          "department": {
+            "id": "8ddcadea-d98b-4d5d-b0da-2e654248bb4e",
+            "translate": {
+              "cn": "Department of Investment Projects Monitoring",
+              "en": "Department of Investment Projects Monitoring",
+              "id": "b910e6d1-c7ca-4ee1-a579-2ad0d1b563a3",
+              "jp": "Department of Investment Projects Monitoring",
+              "km": "នាយកដ្ឋានត្រួតពិនិត្យ និងតាមដានគម្រោងវិនិយោគ",
+              "kr": "Department of Investment Projects Monitoring"
+            }
+          }
+        }
+      }
+    ],
+    "public_id": "14IPA3692249",
+    "profile_photo_att": null
+  },
+  "issue_date": "ថ្ងៃទី.........ខែ.........ឆ្នាំ.......",
+  "contract_rent": "កិច្ចសន្យាជួលដីទំហំ ១៩.០០០ម៉ែត្រការ៉េ សម្រាប់សាងសង់អគាររោងចក្រទំហំ ១០.៨០០ ម៉ែត្រការ៉េ ចុះថ្ងៃទី០៥ ខែឧសភា ឆ្នាំ២០២៤ មានសុពលភាព ១០ឆ្នាំដោយចាប់គិតពីថ្ងៃទី ០១ ខែមេសា ឆ្នាំ២០២៥\tរហូតដល់ថ្ងៃទី៣១ ខែមីនា ឆ្នាំ​២០៣៥",
+  "letter_number": "............",
+  "share_holders": [
+    {
+      "share_holder_salute": {
+        "code": "mrs",
+        "translate": {
+          "cn": "Mrs.",
+          "en": "Mrs.",
+          "id": "048f6c72-e996-4635-9532-8a8794dc5765",
+          "jp": "Mrs.",
+          "km": "លោកស្រី",
+          "kr": "Mrs."
+        }
+      },
+      "share_holder_address": "No. 216, Chongshi Rd., Zuoying Dist., Kaohsiung City 813, Taiwan.",
+      "share_holder_fullname": "Huang, Tsai-Jung",
+      "share_holder_share_unit": null,
+      "share_holder_nationality": {
+        "nationality_translate": {
+          "cn": "中文",
+          "en": "Chinese",
+          "id": "84c2bdea-7222-4c1e-bd01-a39718028d18",
+          "jp": "中国語",
+          "km": "ចិន",
+          "kr": "중국어"
+        }
+      },
+      "share_holder_share_percent": 50,
+      "share_holder_company_parent_name": "",
+      "share_holder_company_parent_address": "",
+      "share_holder_company_parent_country": null,
+      "share_holder_citid_identification_number": "353462219",
+      "share_holder_company_parent_registration_number": "",
+      "share_holder_citid_identification_number_issued_datetime": "2019-12-11T00:00:00.000000Z",
+      "share_holder_company_parent_registration_number_issue_datetime": ""
+    },
+    {
+      "share_holder_salute": {
+        "code": "mrs",
+        "translate": {
+          "cn": "Mrs.",
+          "en": "Mrs.",
+          "id": "048f6c72-e996-4635-9532-8a8794dc5765",
+          "jp": "Mrs.",
+          "km": "លោកស្រី",
+          "kr": "Mrs."
+        }
+      },
+      "share_holder_address": "No. 216, Chongshi Rd., Zuoying Dist., Kaohsiung City 813, Taiwan.",
+      "share_holder_fullname": "Huang, Tsai-Jung",
+      "share_holder_share_unit": null,
+      "share_holder_nationality": {
+        "nationality_translate": {
+          "cn": "中文",
+          "en": "Chinese",
+          "id": "84c2bdea-7222-4c1e-bd01-a39718028d18",
+          "jp": "中国語",
+          "km": "ចិន",
+          "kr": "중국어"
+        }
+      },
+      "share_holder_share_percent": 20,
+      "share_holder_company_parent_name": "GOLD WELL HOLDINGS LIMITED",
+      "share_holder_company_parent_address": "",
+      "share_holder_company_parent_country": null,
+      "share_holder_citid_identification_number": "353462219",
+      "share_holder_company_parent_registration_number": "",
+      "share_holder_citid_identification_number_issued_datetime": "2019-12-11T00:00:00.000000Z",
+      "share_holder_company_parent_registration_number_issue_datetime": ""
+    },
+    {
+      "share_holder_salute": {
+        "code": "mrs",
+        "translate": {
+          "cn": "Mrs.",
+          "en": "Mrs.",
+          "id": "048f6c72-e996-4635-9532-8a8794dc5765",
+          "jp": "Mrs.",
+          "km": "លោកស្រី",
+          "kr": "Mrs."
+        }
+      },
+      "share_holder_address": "No. 216, Chongshi Rd., Zuoying Dist., Kaohsiung City 813, Taiwan.",
+      "share_holder_fullname": "Huang, Tsai-Jung",
+      "share_holder_share_unit": null,
+      "share_holder_nationality": {
+        "nationality_translate": {
+          "cn": "中文",
+          "en": "Chinese",
+          "id": "84c2bdea-7222-4c1e-bd01-a39718028d18",
+          "jp": "中国語",
+          "km": "ចិន",
+          "kr": "중국어"
+        }
+      },
+      "share_holder_share_percent": 30,
+      "share_holder_company_parent_name": "PRODUCT LIMITED CO,. LTD.",
+      "share_holder_company_parent_address": "",
+      "share_holder_company_parent_country": null,
+      "share_holder_citid_identification_number": "353462219",
+      "share_holder_company_parent_registration_number": "",
+      "share_holder_citid_identification_number_issued_datetime": "2019-12-11T00:00:00.000000Z",
+      "share_holder_company_parent_registration_number_issue_datetime": ""
+    }
+  ],
+  "signature_org": "គណៈកម្មាធិការវិនិយោគកម្ពុជា",
+  "check_datetime": "ថ្ងៃទី២២ ខែតុលា ឆ្នាំ២០២៤",
+  "project_number": "QIP24100061",
+  "signature_name": "នុត អ៊ុនវ័ណរ៉ា",
+  "commity_comment": "<p>ករណីសំណើសុំវិនិយោគបង្កើតរោងចក្រកាត់ដេរសម្លៀកបំពាក់ និងកាបូប របស់ក្រុមហ៊ុន SHANHUA (CAMBODIA) CO., LTD. គណៈកម្មការពិនិត្យឃើញ​ថា​៖</p><ul><li>ទីតាំងស្នើសុំជាទីតាំងថ្មី អគារទើបសាងសង់ថ្មីចំនួន ២អគារ ទំហំ ១០.៨០០៨ម៉ែត្រការ៉េ និងការិយាល័យទំហំ ១៥០ម៉ែត្រកការ៉េ។</li><li>ទីតាំងស្នើសុំដីមានប័ណ្ណកម្មសិទ្ធិសំណង់អគាររោងចក្រ តែពុំទាន់មានលិខិតអនុញ្ញាត្តសាងសង់។</li><li>ធាតុចូលផលិតកម្មៈ Woven Fabric, Non Woven Fabric, Knitted Fabric.Knitted Rib,Lining Fabric,Yoke,Interlining,PU Fabric និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន</li><li>ផលិតផលសម្រេចៈ (Jeans, Trousers, Shirt, Dress, Other)</li><li>ទីផ្សារនាំចេញៈប្រទេសចិន ជប៉ុន សហគមន៍អឺរ៉ុបសហរដ្ឋអាមេរិក និងបណ្តាប្រទេសផ្សេងទៀត</li><li>កម្លាំងពលកម្មប្រើប្រាស់ដំបូង ១.៧៣៥នាក់ ចាប់ផ្តើមដំណើរការនៅដើមឆ្នាំ​២០២៥ ខាងមុខ</li><li>សមត្ថភាពផលិតៈ ៩៧៣.៣៥០Dozទៅ ១.៨៥០.៧៥៦Doz&#47;ឆ្នាំចំណែកសំណល់សល់ពីផលិតកម្មជាប្រភេទសំណល់ កម្ទេចធាតុចូលផលិតកម្មក្រុម​ហ៊ុ​​ន និងប្រគល់ឱ្យក្រុមហ៊ុនដឹកជញ្ជូនសម្រាម ដែលមានអាជ្ញាប័ណ្ណយកទៅ​ចោលបន្ត។</li></ul><p>ដូចនេះ ករណីនេះគណៈកម្មការយល់ថា៖ គួរអនុញ្ញាតឱ្យចុះបញ្ជីវិនិយោគជា គ.ល.គ និងចុះបញ្ជីជាគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់ “គ.ល.គ” ទន្ទឹមនេះ មាន​ចំណុ​ច​មួយចំនួនដែល​ម្ចាស់ទីតាំង និងក្រុមហ៊ុនត្រូវបំពេញលក្ខខណ្ឌដូចខាងក្រោម៖</p><ul><li>ម្ចាស់ទីតាំង៖ត្រូវបំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ស្របតាមនីតិវិធីច្បាប់ជាធរមាន។</li><li>ក្រុមហ៊ុនត្រូវ៖</li><li>រៀបចំកិច្ចសន្យាបរិស្ថាន ភ្ជាប់ផែនការគ្រប់គ្រងបរិស្ថានដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិត្យ និងសម្រេច</li><li>ស្នើសុំប្រកាសបង្កើតរោងចក្រ វិញ្ញាបនបត្រងអនុញ្ញាត្តដំណើរការណ៍រោងចក្រ និងអនុវត្តតាមបទដ្ឋានបច្ចេទេសរបស់ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍</li><li>គ្រប់គ្រងសំណល់គ្រប់ប្រភេទឱ្យបានត្រឹមត្រូវ</li><li>ងសហការល្អជាមួយអាជ្ញាធរដែនដីគ្រប់លំដាប់ថ្នាក់។</li></ul>",
+  "company_name_en": "SHANHUA (CAMBODIA) CO., LTD.",
+  "company_name_km": "សានហ័រ (ខេមបូឌា) ឯ.ក",
+  "office_location": "ភូមិបាធាយ ឃុំបាធាយ ស្រុកបាធាយ ខេត្តកំពង់ចាម។",
+  "site_visit_date": "ថ្ងៃទី១៤ ខែតុលា ឆ្នាំ២០២៤",
+  "site_visit_info": "<ul><li>ទីតាំងស្នើសុំ ជាទីតាំងថ្មីអគាររោងចក្រទើបសាងសង់រួចរាល់ ចំនួន ២អគារមានទំហំ ១០.៨០០ម៉ែត្រការ៉េ និងការិយាល័យទំហំ ១៥០ម៉ែត្រការ៉េ។</li><li>ទីតាំងស្នើសុំស្ថិតក្នុងតំបន់ដែលមានរោងចក្រកំពុងដំណើរការដូចជារោងចក្រ LI QIANG CORP រោងចក្រកាត់ដេរសម្លៀកបំពាក់។</li><li>កិច្ចជំនួបប្រជុំជាមួយតំណាងក្រុមហ៊ុន៖<ul><li>ធាតុចូលផលិតកម្មៈ Woven Fabric, Knitted Fabric, Inner Woven Fabric, Inner Knitted Fabric, Woven Hunting Camo Fabric,KnittedHunting Camo Fabric,Yoke, Mesh Fabric, KnittedLaminated Fabric,Interlining Fabric និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន</li><li>ផលិតផលសម្រេចៈ(Jeans, Trousers, Jacket&#47;Shirts, Dresse​s​ Woven Bag&#47;Carry...)</li><li>ទីផ្សារនាំចេញៈប្រទេសចិន ជប៉ុន សហគមន៍អឺរ៉ុប សហរដ្ឋអាម៉េរិក និងបណ្តាប្រទេសអាស៊ី</li><li>កម្លាំងពលកម្មប្រើប្រាស់ដំបូង ១.៧៤៥នាក់ ចាប់ផ្តើមដំណើរការនៅចុងខែធ្នូ ឆ្នាំ២០២៤</li><li>សមត្ថភាពផលិតៈ ៩៧៣.៣៥០Doz ទៅ ១.៨៥០.៧៥៦Doz&#47;ឆ្នាំ</li><li>សំណល់ពីផលិតកម្មជាកំទេចធាតុចូលផលិតកម្មខាងលើ ក្រុមហ៊ុននឹងធ្វើកិច្ចសន្យាជាមួយក្រុមហ៊ុនដឹកកាកសំណល់ដែលមានអាជ្ញាប័ណ្ណដើម្បីដឹក​ កាកសំណល់ចេញពីរោងចក្រ។</li></ul></li></ul>",
+  "commity_comments": [
+    {
+      "user": {
+        "id": "e84fc28a-34e8-4fb4-b9e6-3e236508ed20",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "មឿង",
+        "firstname": "វិសុទ្ធ",
+        "positions": [
+          {
+            "position": {
+              "id": "5bd5331e-db0b-4ff4-b504-aaf437ea6365",
+              "keyword": "ប្រធាននាយកដ្ឋានស្តីទី",
+              "translate": {
+                "cn": "Acting Director",
+                "en": "Acting Director",
+                "id": "a90da372-59fa-4b80-b2df-eff2335688ff",
+                "jp": "Acting Director",
+                "km": "ប្រធាននាយកដ្ឋានស្តីទី",
+                "kr": "Acting Director"
+              },
+              "department": {
+                "id": "8ddcadea-d98b-4d5d-b0da-2e654248bb4e",
+                "translate": {
+                  "cn": "Department of Investment Projects Monitoring",
+                  "en": "Department of Investment Projects Monitoring",
+                  "id": "b910e6d1-c7ca-4ee1-a579-2ad0d1b563a3",
+                  "jp": "Department of Investment Projects Monitoring",
+                  "km": "នាយកដ្ឋានត្រួតពិនិត្យ និងតាមដានគម្រោងវិនិយោគ",
+                  "kr": "Department of Investment Projects Monitoring"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPR3423123",
+        "profile_photo_att": {
+          "url": "https://file-pub.cdc.gov.kh/api/v1/download/wgZCiihk7U",
+          "size": 13042,
+          "type": "image/jpeg",
+          "label": "image_picker_6E215F48-5FFD-4172-A337-E172D484AFCE-1657-000003D01197E5BA.jpg"
+        }
+      },
+      "comment": "<ul><li>ទីតាំងស្នើសុំវិនិយោគ ដីមានប័ណ្ណកម្មសិទ្ធិ និងមានកិច្ចសន្យាជួលត្រឹមត្រូវ សំណង់អគាររោងចក្រថ្មីចំនួន ២អគារ ទំហំ ១០.៨០០ម៉ែត្រការ៉េ តែពុំទាន់មានលិខិតអនុញ្ញាត្តសាងសង់ (ទីតាំងស្នើសុំស្ថិតក្នុងតំបន់ដែលមានរោងចក្រដូចជារោងចក្រកាត់ដេរ LI QIANG CORP រោងចក្រកាត់ដេរសម្លៀកបំពាក់)។<ul><li>ធាតុចូលផលិតកម្មៈWoven.Fabric.Non Woven Fabric.Knitt​e​​d Fabric, Knitted Rib, Lining Fabric, Yoke, Interlining, PU Fabric និងធាតុចូលជាច្រើនប្រភេទទៀតនាំចូលពីប្រទេសចិន។</li><li>ផលិតផលសម្រេចៈ (Jeans, Trousers, Shirt, Dress, Other)</li><li>ទីផ្សារនាំចេញៈ ចិន ជប៉ុន សហគមន៍អឺរ៉ុប អាមេរិក និងបណ្តាប្រទេ​សផ្សេង​ទៀត</li><li>កម្លាំងពលកម្មប្រើប្រាស់ដំបូង ១.៦៣២នាក់ ចាប់ដំណើរការនៅចុងខែវិច្ឆិកា ឆ្នាំ២០២៤ ខាងមុខ</li><li>សមត្ថភាពផលិតៈ ១៥៩.៩៦០Dozទៅ ២៧១.៩៣២Doz&#47;ឆ្នាំ</li></ul></li></ul><p>ដូចនេះ ករណីសំណើសុំវិនិយោគនេះ ទីតាំងសមស្របនឹងមុខសញ្ញាវិនិយោគ គួរអនុញ្ញាតឱ្យចុះបញ្ជីវិនិយោគជា គ.ល.គ។ ទន្ទឹមនេះ ក្រុមហ៊ុនត្រូវអនុវត្តឱ្យបានត្រឹមត្រូវតាមការណែនាំ និងលិខិតបទដ្ឋាន​គតិ​យុត្ត​នានា របស់ក្រសួង ស្ថាប័នពាក់ព័ន្ធ។</p>"
+    },
+    {
+      "user": {
+        "id": "2186d99c-45ed-4d62-9749-324e10320000",
+        "salute": {
+          "id": "e692f6a2-952d-4f04-843b-332f57c4af0b",
+          "translate": {
+            "cn": "His Excellency",
+            "en": "His Excellency",
+            "id": "843dfc6f-e312-4c5f-8665-f4eaa72cb46e",
+            "jp": "His Excellency",
+            "km": "ឯកឧត្តម",
+            "kr": "His Excellency"
+          }
+        },
+        "lastname": "ហ៊ុល",
+        "firstname": "បុណ្ណារិទ្ធ",
+        "positions": [
+          {
+            "position": {
+              "id": "7558858d-02b7-4bb1-ad93-0c5c98bddc42",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "65eb5e1d-a9d2-40a0-85ea-68c33986c349",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "21198ab2-0e97-4d92-a12f-5fc57149293a",
+                "translate": {
+                  "cn": "Ministry of Industry, Science, Technology & Innovation",
+                  "en": "Ministry of Industry, Science, Technology & Innovation",
+                  "id": "00d310bf-dbbb-4bf2-a33f-2b636d4972f9",
+                  "jp": "Ministry of Industry, Science, Technology & Innovation",
+                  "km": "ក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍",
+                  "kr": "Ministry of Industry, Science, Technology & Innovation"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA6994742",
+        "profile_photo_att": null
+      },
+      "comment": "<p>គម្រោងស្នើសុំវិនិយោគបង្កើតរោងចក្រកាត់ដេរសម្លៀកបំពាក់ និង​កាបូប​ របស់ក្រុម​​ហ៊ុន​ SHANHUA (CAMBODIA) CO., LTD.​ បន្ទាប់ពីបានចុះពិនិត្យជាក់ស្តែងឃេីញថា ជាទីតាំងសំណង់​ អគារថ្មី ជាមតិគួរគាំទ្រគម្រោងឱ្យ​វិនិយោគ។ ទន្ទឹមនេះបន្ទាប់ពីទទួលបានការឯកភាពពី ក.អ.ក ក្រុមហ៊ុនត្រូវ៖</p><ul><li>ស្នេីសុំប្រកាសបង្កេីតរោងចក្រ​ និងដំណេីរការរោងចក្រពីក្រសួង​ឧស្សាហកម្ម​ វិទ្យាសាស្រ្ត​ បច្ចេកវិទ្យា​ និងនវានុវត្តន៍​ ទៅតាមនិតិវិធី</li><li>រៀបចំប្លង់គ្រឿងចក្រ គ្រឿងម៉ាស៊ីន និងស្នេីសុំបញ្ជាក់ពីក្រសួងឱ្យបានត្រឹមត្រូវ​​​</li><li>អនុវត្តន៍ឱ្យបានត្រឹមត្រូវទៅតាមលក្ខណ: បច្ចេកទេស ឧស្សាហកម្ម</li><li>លេីកស្លាកឈ្មោះរោងចក្រ និងត្រូវគោរពកាណែនាំ​ និងបទប្បញ្ញត្តិផ្សេងរបស់ក្រសួងឧស្សាហកម្ម​ វិទ្យាសាស្រ្ត​ បច្ចេកវិទ្យា​ និងនវានុវត្តន៍​ឱ្យបានត្រឹមត្រូវ ។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "2ba4a45f-fc64-42e8-a72c-8485110614f2",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "សរ",
+        "firstname": "កុសល",
+        "positions": [
+          {
+            "position": {
+              "id": "9a012fbc-5801-4f8f-8ec2-f1933dcd0813",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "8a0f67d3-aa8f-43a6-9b40-f4f1e7eb636c",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "6adccef8-60b1-4b49-933c-2e8b7a3cae77",
+                "translate": {
+                  "cn": "Ministry of Environment",
+                  "en": "Ministry of Environment",
+                  "id": "68f6bd90-1d53-4538-9acb-5004726ea266",
+                  "jp": "Ministry of Environment",
+                  "km": "ក្រសួងបរិស្ថាន",
+                  "kr": "Ministry of Environment"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA4935042",
+        "profile_photo_att": null
+      },
+      "comment": "<p>ករណីគម្រោងស្នើសុំវិនិយោគបង្កើតរោងចក្ររកាត់ដេរសម្លៀកបំពាក់​ និងកាបូប របស់​ក្រុមហ៊ុន​ SHANHUA (CAMBODIA) CO., LTD. ខ្ញុំសូមជូនយោបល់ដូចខាងក្រោម៖</p><ul><li>ក្រសួងបរិស្ថានគាំទ្រគម្រោងស្នើសុំខាងលើនេះ</li><li>ក្រុមហ៊ុនម្ចាស់គម្រោងត្រូវគ្រប់គ្រងសំណល់រឹងរាវ ដែលចេញពីការប្រើប្រាស់របស់បុគ្គលិក-កម្មករ និងសំណល់ចេញពីខ្សែច្រវាក់ផលិតកម្មឱ្យបានត្រឹមត្រូវតាមបទដ្ឋានបច្ចេកទេស។</li><li>តម្រូវឱ្យក្រុមហ៊ុនម្ចាស់គម្រោងរៀបចំកិច្ចសន្យាការពារបរិស្ថាន ភ្ជាប់ផែនការគ្រប់គ្រងបរិស្ថានសម្រាប់គម្រោងខាងលើ ដើម្បីដាក់ជូនក្រសួងបរិស្ថានពិនិ​ត្យ និងសម្រេច។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "2696e0ea-4369-4655-b3eb-4bff44746df7",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "ស្រ៊ុន",
+        "firstname": "វណ្ណនី",
+        "positions": [
+          {
+            "position": {
+              "id": "64a434a7-b5a2-459c-883e-34d755170a79",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "eebe5ce6-702a-48b4-9359-c32a15f38c49",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "6b1caa77-d5aa-4367-978d-7386001e9839",
+                "translate": {
+                  "cn": "Ministry of Land Management, Urban Planning and Construction",
+                  "en": "Ministry of Land Management, Urban Planning and Construction",
+                  "id": "68229a24-e5a6-41c9-ad98-7717dbd11a3f",
+                  "jp": "Ministry of Land Management, Urban Planning and Construction",
+                  "km": "ក្រសួងរៀបចំដែនដី នគរូបនីយកម្ម និងសំណង់",
+                  "kr": "Ministry of Land Management, Urban Planning and Construction"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPA9114897",
+        "profile_photo_att": null
+      },
+      "comment": "<p>គម្រោងស្នើសុំវិនិយោគបង្កើតរោងចក្រកាត់ដេរសម្លៀកបំពាក់ និងកាបូប របស់ក្រុម​ហ៊ុន Shanhua (Cambodia ) Co., Ltd. ទីតាំងនេះ តាមការចុះពិនិត្យ និងយោងតាមឯកសារឃើញថា៖</p><ul><li>អគារសាងសង់ថ្មី តែពុំទាន់មានលិខិតអនុញ្ញាត្តសាងសង់នៅឡើយ។ ដូចនេះម្ចាស់​សំណ​ង់​ត្រូវបំពេញបែបបទស្នើសុំលិខិតអនុញ្ញាតសាងសង់ស្របតាមនីតិវិធីច្បាប់ជាធរមាន។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "fc510fa9-ae59-45b9-a0a0-9770ea287b60",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "លោក",
+        "firstname": "ស្រី",
+        "positions": [
+          {
+            "position": {
+              "id": "06a45139-3fc1-453d-b90e-2d9d7c215fa6",
+              "keyword": "តំណាង",
+              "translate": {
+                "cn": "Representation",
+                "en": "Representation",
+                "id": "197d7f8a-5073-4106-9745-7707c6ab73ad",
+                "jp": "Representation",
+                "km": "តំណាង",
+                "kr": "Representation"
+              },
+              "department": {
+                "id": "37d577bd-6064-4694-955f-983ab3afe996",
+                "translate": {
+                  "cn": "សាលាខេត្តកំពង់ចាម",
+                  "en": "សាលាខេត្តកំពង់ចាម",
+                  "id": "246bce3c-bbf2-40f1-a486-64032c1a0cb6",
+                  "jp": "សាលាខេត្តកំពង់ចាម",
+                  "km": "សាលាខេត្តកំពង់ចាម",
+                  "kr": "សាលាខេត្តកំពង់ចាម"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPMA1093756",
+        "profile_photo_att": null
+      },
+      "comment": "<p>សុំគាំទ្រ​ចំពោះគម្រោងបង្កើតរោងចក្រការ់់ដេរសម្លៀកបំពាក់ និងការបូប និង​ឯក​ភាព​ចំពោះការលើកឡើងរបស់ក្រសួងជំនាញ។</p>"
+    },
+    {
+      "user": {
+        "id": "fa850e8f-3bc7-4ca5-984f-09c38d2a3db8",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "ហម",
+        "firstname": "គីមឆេង",
+        "positions": [
+          {
+            "position": {
+              "id": "f992d807-6de6-4a4e-b313-461b0d23001f",
+              "keyword": "ប្រធាននាយកដ្ឋានស្តីទី",
+              "translate": {
+                "cn": "Acting Director",
+                "en": "Acting Director",
+                "id": "5e9e2a52-49a7-4791-a2e2-534330985ac0",
+                "jp": "Acting Director",
+                "km": "ប្រធាននាយកដ្ឋានស្តីទី",
+                "kr": "Acting Director"
+              },
+              "department": {
+                "id": "fa52bc18-3b7a-435a-98c5-59537bc4faee",
+                "translate": {
+                  "cn": "Department of Investment Project Evaluation and Incentives",
+                  "en": "Department of Investment Project Evaluation and Incentives",
+                  "id": "fd42ed6c-06db-4a23-bbc4-023e2e923262",
+                  "jp": "Department of Investment Project Evaluation and Incentives",
+                  "km": "នាយកដ្ឋានវិភាគគម្រោង និងការលើកទឹកចិត្ត",
+                  "kr": "Department of Investment Project Evaluation and Incentives"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPR3423118",
+        "profile_photo_att": {
+          "url": "https://file-pub.cdc.gov.kh/api/v1/download/NV53vmpgsZ",
+          "size": 13560,
+          "type": "image/jpeg",
+          "label": "image_picker_E3FB4AE8-5074-4E77-96EB-1B163FA2AE51-1657-000003CF9EFD7F3D.jpg"
+        }
+      },
+      "comment": "<ul><li>ទីតាំងស្នើសុំនេះ មានប័ណ្ណកម្មសិទ្ធិ និងទំហំសមស្របនឹងមុខសញ្ញាផលិតកម្ម</li><li>ដោយទីតាំងនេះ មានប័ណ្ណកម្មសិទ្ធិ និងទំហំសមស្របនឹងមុខសញ្ញាផលិតកម្ម ហើយគម្រោងនេះ មិនស្ថិតក្នុងបញ្ជីអវិជ្ជមាននៃអនុក្រឹត្យលេខ ១៣៩ ខ្ញុំបាទយល់ថា គួរចុះបញ្ជីគម្រោងនេះ ជាគម្រោងវិនិយោគមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់ ដោយទទួលបានការលើកទឹកចិត្តស្របតាមច្បាប់ និងបទប្បញ្ញត្តិ ជាធរមាន។</li></ul>"
+    },
+    {
+      "user": {
+        "id": "daff4a06-4566-4482-be66-6be185e9acab",
+        "salute": {
+          "id": "daaeb978-104f-4684-a958-48fb8440edbb",
+          "translate": {
+            "cn": "Mr.",
+            "en": "Mr.",
+            "id": "a1bd9964-b45f-493f-8155-c5097e50e07e",
+            "jp": "Mr.",
+            "km": "លោក",
+            "kr": "Mr."
+          }
+        },
+        "lastname": "លឹម",
+        "firstname": "មុនី",
+        "positions": [
+          {
+            "position": {
+              "id": "e4fe840e-e710-42cb-b1a4-d82d14ef97ed",
+              "keyword": "ប្រធាននាយកដ្ឋានស្តីទី",
+              "translate": {
+                "cn": "Acting Director",
+                "en": "Acting Director",
+                "id": "fda4f97f-bb12-4119-9dd0-b00d65a830bd",
+                "jp": "Acting Director",
+                "km": "ប្រធាននាយកដ្ឋានស្តីទី",
+                "kr": "Acting Director"
+              },
+              "department": {
+                "id": "7d3f6a15-25ef-469a-8239-e63654184982",
+                "translate": {
+                  "cn": "Department of Environment Impact Assessment",
+                  "en": "Department of Environment Impact Assessment",
+                  "id": "35d0a8c0-d41d-42af-b8ff-7d688361e5f3",
+                  "jp": "Department of Environment Impact Assessment",
+                  "km": "នាយកដ្ឋានវាយតម្លៃខាងបរិស្ថាន",
+                  "kr": "Department of Environment Impact Assessment"
+                }
+              }
+            }
+          }
+        ],
+        "public_id": "12IPR3423124",
+        "profile_photo_att": {
+          "url": "https://file-pub.cdc.gov.kh/api/v1/download/cZmDbegdiZ",
+          "size": 12799,
+          "type": "image/jpeg",
+          "label": "image_picker_4DABD604-B9DF-487C-93AA-34704DCDFF54-1657-000003DB762F4ACD.jpg"
+        }
+      },
+      "comment": "<p>សូមគាំទ្រលើសំណើសុំវិនិយោគរបស់ក្រុមហ៊ុន SHANHUA (CAMBODIA) CO., LTD. នេះ។ ទន្ទឹមនឹងនេះដែរស្នើសុំឱ្យក្រុមហ៊ុនត្រូវ៖</p><ul><li>អនុវត្តសកម្មភាពអាជីវកម្មរបស់ខ្លួនដោយអនុលោមទៅតាមច្បាប់ និងបទដ្ឋានគតិយុត្តនានា របស់ក្រសួង-ស្ថាប័ន មានសមត្ថកិច្ចជាធរមាន។</li><li>រៀបចំឱ្យមានកន្លែងសម្រាកហូបអាហារ បន្ទប់ទឹក បន្ទប់អនាម័យ ឱ្យបានសមរម្យ និងចំណតរថយន្ត ម៉ូតូ-កង់ ឱ្យបានត្រឹមត្រូវ។</li><li>រៀបចំបំពាក់ប្រព័ន្ធការពារអគ្គិភ័យក្នុងរោងចក្រឱ្យបានត្រឹមត្រូវតាមលក្ខណៈបច្ចេកទេស។</li><li>គ្រប់គ្រងសំណល់រឹង-រាវ ឱ្យបានត្រឹមត្រូវតាមបទដ្ឋានបច្ចេកទេស។</li><li>សហការជាមួយអាជ្ញាធរដែនដីគ្រប់លំដាប់ថ្នាក់ ដើម្បីរៀបចំសន្តិសុខ និងសណ្តាប់ធ្នាប់សង្គមឱ្យបានល្អ។</li></ul>"
+    }
+  ],
+  "composition_lead": "លោក មឿង វិសុទ្ធ ប្រធានស្តីទីនាយកដ្ឋានត្រួតពិនិត្យនិងតាមដានគម្រោង​វិនិ​​យោ​គ​",
+  "issue_date_lunar": "ថ្ងៃ.................ខែ.........ឆ្នាំ.........ព.ស........",
+  "register_capital": "១០.០០០.០០០",
+  "site_visit_number": "QIP24100061-M2 គ.វ.ក.",
+  "company_address_km": "ភូមិបាធាយ ឃុំបាធាយ ស្រុកបាធាយ ខេត្តកំពង់ចាម",
+  "equipping_datetime": "ថ្ងៃទី៣០ ខែវិច្ឆិកា ឆ្នាំ២០២៤",
+  "location_situation": "-ផ្ទៃដីសរុប ៖ ១៣២.៣៦៧ម៉ែត្រការ៉េ\n-អគារផលិតកម្ម ៖ ១០.៨០០ម៉ែត្រការ៉េ \n-ការិយាល័យទំហំ ៖ ១៥០ម៉ែត្រការ៉េ",
+  "signature_position": "អគ្គលេខាធិការរង",
+  "investment_location": "ភូមិបាធាយ ឃុំបាធាយ ស្រុកបាធាយ ខេត្តកំពង់ចាម។",
+  "investment_target_km": "បង្កើតរោងចក្រកាត់ដេរសម្លៀកបំពាក់ និងកាបូប",
+  "labor_demand_startup": "១.៧៤៥",
+  "document_preparer_org": "",
+  "investment_address_km": "ភូមិបាធាយ ឃុំបាធាយ ស្រុកបាធាយ ខេត្តកំពង់ចាម",
+  "document_preparer_name": "",
+  "first_payment_datetime": "ថ្ងៃទី៩ ខែតុលា ឆ្នាំ២០២៤",
+  "capical_city_of_cambodia": "រាជធានីភ្នំពេញ",
+  "total_investment_capital": "៦.០២៩.៩១០",
+  "application_received_date": "ថ្ងៃទី៩ ខែតុលា ឆ្នាំ២០២៤",
+  "construction_end_datetime": "ថ្ងៃទី១ ខែវិច្ឆិកា ឆ្នាំ២០២៤",
+  "start_production_datetime": "ថ្ងៃទី៣០ ខែធ្នូ ឆ្នាំ២០២៤",
+  "document_preparer_position": "",
+  "signature_position_made_up": "ប្រធានគណៈកម្មការ",
+  "construction_start_datetime": "ថ្ងៃទី១ ខែមិថុនា ឆ្នាំ២០២៤",
+  "labor_demand_full_production": "២.៣២០",
+  "document_preparer_position_made_up": "មន្ត្រីត្រួតពិនិត្យ និងធ្វើរបាយការណ៍"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "second_footer_component",
+    "engine": "handlebars",
+    "shortid": "kC74T-tP6K",
+    "creationDate": {
+        "$$date": 1734585008400
+    },
+    "modificationDate": {
+        "$$date": 1734585008400
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "lGdzUrjZ8r2gHAv3",
+    "$entitySet": "components"
+}

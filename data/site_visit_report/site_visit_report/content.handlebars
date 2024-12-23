@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{!-- EXERNAL STYLE CSS --}}
+    <style rel='stylesheet' type='text/css'>
+        {#asset main-style.css @encoding=utf8}
+    </style>
+    
+    {{!-- import tailwind --}}
+    <script type="text/javascript">
+        {#asset tailwind-3.4.1.js}
+    </script>
+
+    </head>
+    <body class="w-full">
+        {{#if (equal is_draft 1)}}
+            <div class="draft_watermark bg-auto w-full h-full top-0 h-0 z-20"></div>
+        {{/if}}
+        <main class="w-full leading-7 flex flex-col text-justify">
+            
+            {{!-- import components header --}}
+            {{component "/asset/components/site_visit_header_component"}}
+            
+            <div class="ml-[80px] mr-[65px] text-sm-base">
+                <div class="w-full font_muol mt-2">
+                    <p class="text-center">សូមគោរពជូន</p>
+                    <p class="text-center">ឯកឧត្តមអគ្គលេខាធិការ</p>
+                    <p class="text-center">គណៈកម្មាធិការវិនិយោគកម្ពុជា</p>
+                </div>
+
+                <div class="w-full text-sm-base leading-7">
+                    <div class="flex mt-2">
+                        <div class="flex w-[75px]">
+                            <p class="font_muol">កម្មវត្ថុ</p>
+                            <span>៖</span>
+                        </div>
+                        <div class="flex-1 text-left">
+                            <p>របាយការណ៍ស្តីពីលទ្ធផល នៃការងារចុះពិនិត្យជាក់ស្តែង ទីតាំងស្នើសុំវិនិយោគ​ {{investment_target_km}}របស់ ក្រុមហ៊ុន{{company_name_km}} ({{company_name_en}})។</p>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2">
+                        <div class="w-[75px] flex">
+                            <p class="font_muol">យោង</p>
+                            <span>៖</span>
+                        </div>
+                        <div class="flex-1 text-left"> 
+                            <div class="flex">
+                                <div class="width-bullet-point">
+                                    <p>-</p>
+                                </div>
+                                <div class="flex-1 text-left">
+                                    <p class="indent-negative-padding">ពាក្យសុំវិនិយោគលេខៈ {{ project_number }} ដែលក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា “គណៈកម្មាធិការវិនិយោគកម្ពុជា” បានទទួលនៅ{{ application_received_date }}។</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="width-bullet-point">
+                                    <p>-</p>
+                                </div>
+                                <div class="flex-1 text-left">
+                                   <p class="indent-negative-padding">លិខិតបង្កើតគណៈកម្មការអន្តរក្រសួង ស្ថាប័នលេខ {{site_visit_number}} ចុះ{{site_visit_date}} របស់ ក.អ.ក/គ.វ.ក។</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-justify indent-paragraph mt-2">
+                        សេចក្តីដូចមានចែងក្នុងកម្មវត្ថុ និងយោងខាងលើ ខ្ញុំសូមគោរពជម្រាបជូនឯកឧត្តមមេត្តាជ្រាបថា៖ កាលពី{{check_datetime}} គណៈកម្មការអន្តរក្រសួង-ស្ថាប័ន ដឹកនាំដោយ <span class="whitespace-nowrap">{{composition_lead}}</span> បានចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំងស្នើសុំវិនិយោគ របស់ក្រុមហ៊ុនខាងលើ ដោយទទួលបានព័ត៌មានដូចខាងក្រោម៖
+                    </p>
+                    {{!-- START 1 --}}
+                    <p class="font-bold mt-2 font_arail">&#8544;. ទីតាំងស្នើសុំវិនិយោគ</p>
+                    <div class="pl-[75px]">
+                        <table class="p-0 m-0">
+                            <tr class="p-0 m-0">
+                                <th class="width-bullet-point p-0 m-0"></th>
+                                <th class="w-[120px]"></th>
+                                <th class=""></th>
+                            </tr>
+                            <tr>
+                                <td class="align-text-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="align-text-top">
+                                    <div class="flex justify-between">
+                                        <p>ទីតាំងវិនិយោគ</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="align-text-top">
+                                    <p>ស្ថិតនៅ{{ investment_address_km }}។</p></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-text-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="align-text-top">
+                                    <div class="flex justify-between">
+                                        <p>ទីស្នាក់ការ</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="align-text-top">
+                                    <p>{{ company_address_km }}។</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-text-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="align-text-top">
+                                    <div class="flex justify-between">
+                                        <p>ឯកសារដី</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="align-text-top">
+                                    <p>{{{processTemplateString land_doc this}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-text-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="align-text-top">
+                                    <div class="flex justify-between">
+                                        <p>កិច្ចសន្យា</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="align-text-top">
+                                    <p>{{{processTemplateString contract_rent this}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-text-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="align-text-top">
+                                    <div class="flex justify-between">
+                                        <p>ទិដ្ឋភាពទីតាំង</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="align-text-top">
+                                    <p>{{{processTemplateString location_situation this}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    {{!-- END 1 --}}
+
+
+                    <p class="font-bold mt-2 ont_arail">&#8545;. គម្រោងការវិនិយោគ</p>
+                    <div class="pl-[75px]">
+                        <table class="p-0 m-0">
+                            <tr class="p-0 m-0">
+                                <th class="width-bullet-point p-0 m-0"></th>
+                                <th class="w-[160px]"></th>
+                                <th class=""></th>
+                            </tr>
+                            <tr >
+                                <td class="text-align-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="text-align-top">
+                                    <div class="flex justify-between">
+                                        <p>មុខសញ្ញាវិនិយោគ</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td >
+                                    <p>{{investment_target_km}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="text-align-top">
+                                    <div class="flex justify-between">
+                                        <p>ទុនចុះបញ្ជីសរុប</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="text-align-top">
+                                    <p>{{register_capital}} ដុល្លារអាម៉េរិក</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="text-align-top">
+                                    <div class="flex justify-between">
+                                        <p>ទុនវិនិយោគសរុប</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="text-align-top">
+                                    <p>{{total_investment_capital}} ដុល្លារអាម៉េរិក</p>
+                                </td>
+                            </tr>
+                            <tr >
+                                <td class="text-align-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="text-align-top">
+                                    <div class="flex justify-between">
+                                        <p>តម្រូវការកម្លាំងពលកម្ម</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="text-align-top">
+                                    <p>{{labor_demand_startup}}នាក់ (ក្នុងឆ្នាំដំបូង) និង {{labor_demand_full_production}}នាក់ (ពេញសមត្ថភាព)</p>
+                                </td>
+                            </tr>
+
+                            {{!-- <tr >
+                                <td class="align-text-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="align-text-top">
+                                    <div class="flex justify-between">
+                                        <p>បង្កើតឡើងដោយ</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                                <td class="align-text-top">
+                                    <div>
+                                        {{#each share_holders as |item index|}}
+                                            {{#if (equal ../share_holders.length 1)}}
+                                                <p class="font_siemreap">{{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}} ភាគហ៊ុន {{share_holder_share_percent}}%។</p>
+                                            {{else}}
+                                                <p class="font_siemreap">{{increment index}}. {{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}} ភាគហ៊ុន {{share_holder_share_percent}}%។</p>
+                                            {{/if}}
+                                        {{/each}}
+                                    </div>
+                                </td>
+                            </tr> --}}
+
+                            
+                            {{#if (equal share_holders.length 1)}}
+                                <tr >
+                                    <td class="align-text-top">
+                                        <p>-</p>
+                                    </td>
+                                    <td class="align-text-top">
+                                        <div class="flex justify-between">
+                                            <p>បង្កើតឡើងដោយ</p>
+                                            <p>៖</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            {{#each share_holders as |item index|}}
+                                                <p class="font_siemreap">{{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}} ភាគហ៊ុន {{share_holder_share_percent}}%។</p>                                                
+                                            {{/each}}
+                                        </div>
+                                    </td>
+                                </tr>
+                            {{else}}
+                                    <tr >
+                                        <td class="align-text-top">
+                                            <p>-</p>
+                                        </td>
+                                        <td class="align-text-top">
+                                            <div class="flex justify-between">
+                                                <p>បង្កើតឡើងដោយ</p>
+                                                <p>៖</p>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" class="pl-[65px]">
+                                            <div>
+                                                {{#each share_holders as |item index|}}
+                                                    {{#if item.share_holder_company_parent_name}}
+                                                        <p>{{numberKhmer index}}. ក្រុមហ៊ុន {{share_holder_company_parent_name}} ភាគហ៊ុន {{share_holder_share_percent}}%</p>
+                                                        <p class="pl-[50px]">តំណាងដោយ៖ {{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}}</p>
+                                                    {{else}}
+                                                        <p class="font_siemreap">{{numberKhmer index}}. {{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}} ភាគហ៊ុន {{share_holder_share_percent}}%។</p>
+                                                    {{/if}}
+                                                {{/each}}
+                                            </div>
+                                        </td>
+                                    </tr>                                    
+                            {{/if}}
+                            
+                            {{!-- <tr>
+                                <td colspan="3" class="pl-[75px]">
+                                    <div>
+                                        {{#each share_holders as |item index|}}
+                                            {{#if item.share_holder_company_parent_name}}
+                                                <p>{{increment index}}. ក្រុមហ៊ុន {{share_holder_company_parent_name}} ភាគហ៊ុន {{share_holder_share_percent}}%</p>
+                                                <p class="pl-[50px]">តំណាងដោយ៖ {{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}}</p>
+                                            {{else}}
+                                                <p class="font_siemreap">{{increment index}}. {{share_holder_salute.translate.km}} {{share_holder_fullname}} សញ្ជាតិ{{share_holder_nationality.nationality_translate.km}} ភាគហ៊ុន {{share_holder_share_percent}}%។</p>
+                                            {{/if}}
+                                        {{/each}}
+                                    </div>
+                                </td>
+                            </tr> --}}
+
+                            <tr >
+                                <td class="text-align-top">
+                                    <p>-</p>
+                                </td>
+                                <td class="text-align-top">
+                                    <div class="flex justify-between">
+                                        <p>ផែនការអនុវត្តគម្រោង</p>
+                                        <p>៖</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div class="w-full px-10">
+                            <table>
+                                <tr>
+                                    <tr class="p-0 m-0">
+                                    <th class="w-[25px]"></th>
+                                    <th class="w-[260px]"></th>
+                                    <th class=""></th>
+                                </tr>
+                                <tr>
+                                    <td class="text-align-top">
+                                        <p>-</p>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <div class="flex justify-between">
+                                            <p>ចាប់ផ្តើមសាងសង់អគារ</p>
+                                            <p>៖</p>
+                                        </div>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <p>{{construction_start_datetime}}</p>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-align-top">
+                                        <p>-</p>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <div class="flex justify-between">
+                                            <p>បញ្ចប់ការសាងសង់អគារ</p>
+                                            <p>៖</p>
+                                        </div>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <p>{{construction_end_datetime}}</p>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-align-top">
+                                        <p>-</p>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <div class="flex justify-between">
+                                            <p>បំពាក់គ្រឿងម៉ាស៊ីន និងសម្ភារៈបរិក្ខារ</p>
+                                            <p>៖</p>
+                                        </div>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <p>{{equipping_datetime}}</p>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-align-top">
+                                        <p>-</p>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <div class="flex justify-between">
+                                            <p>គ្រោងនឹងចាប់ផ្តើមផលិតកម្ម</p>
+                                            <p>៖</p>
+                                        </div>
+                                    </td>
+                                    <td class="text-align-top">
+                                        <p>{{start_production_datetime}}</p>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    {{!-- 3 --}}
+                    <p class="font-bold mt-2 font_arail">&#8546;. ព័ត៌មានដែលទទួលបានពីការចុះពិនិត្យជាក់ស្ដែងដល់ទីតាំង និងជំនួបប្រជុំជាមួយតំណាងក្រុមហ៊ុន</p>
+                    <div class="format">
+                        {{{site_visit_info}}}
+                    </div>
+                    {{!-- 3 --}}
+
+                    {{!-- 4 --}}
+                    <p class="font-bold mt-2">&#8547;. មតិរបស់គណៈកម្មការ</p>
+                    {{#each commity_comments as |item index| }}
+                        <div class="">
+                           <p class="indent-paragraph text-justify mt-2">
+                                <span class="font-bold">
+                                    {{CharacterKhmer index}}- 
+                                    {{item.user.salute.translate.km}} 
+                                    {{item.user.lastname}} 
+                                    {{item.user.firstname}} 
+                                    {{item.user.positions.[0].position.translate.km}}
+                                    {{item.user.positions.[0].position.department.translate.km}}
+                                </span>
+                            </p>
+                            <div class="format">
+                                {{{item.comment}}}
+                            </div>
+                        </div>
+                    {{/each}}
+                    {{!-- 4 --}}
+
+                    {{!-- 5 --}}
+                    <div style="page-break-inside: auto;">
+                        <p class="font-bold mt-2 font_arail">&#8548;. មតិសរុបរបស់គណៈកម្មការ</p>
+                        <div class="format">
+                            {{{commity_comment}}}
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <p class="indent-paragraph mt-2 text-justify">
+                        សេចក្ដីដូចបានគោរពជម្រាបជូនខាងលើ សូម <b>ឯកឧត្តម</b> មេត្តាជ្រាបជារបាយការណ៍ និងផ្តល់ការណែនាំតាមការគួរ។
+                    </p>
+                </div>
+
+                <div class="keep-together">
+                    <div>
+                        <p class="indent-paragraph text-justify mt-2">
+                            សូម <b>ឯកឧត្តម</b> មេត្តាទទួលនូវគារវកិច្ចដ៏ខ្ពង់ខ្ពស់ពីខ្ញុំបាទ។
+                        </p>
+                    </div>
+                    <div class="w-full mt-2 relative text-sm-base">
+                        <div class="flex justify-end absolute right-0 top-0 items-center">
+                            <div class="flex flex-col items-center">
+                                <p class="text-center font-bold">{{ document_preparer_position_made_up }}</p>
+                                <p class="text-center font-bold mt-16">{{secretary.lastname}} {{secretary.firstname}}</p>
+                            </div>
+                        </div>
+                        <div class="-mt-4">
+                            {{#if qr_url}}
+                                {{#neq qr_value ""}}
+                                        <a href="{{ qr_value }}" target="_blank">
+                                            <img src="{{qr_url}}" class="w-14 h-14"/>
+                                        </a>
+                                {{else}}
+                                    <img src="{{qr_url}}" class="w-14 h-14"/>
+                                {{/neq}}
+                            {{else}}
+                                <div class="w-14 h-14"></div>
+                            {{/if}}
+                            <div class="text-xs leading-5">
+                                <p class="font-bold">ចម្លងជូន៖</p>
+                                {{#each cc}}
+                                    <p>- {{this}}</p>
+                                {{/each}}
+                            </div>
+                        </div>
+                        <div class="flex justify-start items-center pl-36 -mt-[50px]">
+                            <div class="flex flex-col items-center leading-7 font-bold">
+                                <p class="text-center">{{ signature_position }}</p>
+                                <p class="text-center">{{ signature_org }}</p>
+                                <p class="text-center">{{ signature_position_made_up }}</p>
+                                <p class="text-center mt-16">{{ signature_name }}</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
