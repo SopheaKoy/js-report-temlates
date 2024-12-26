@@ -114,42 +114,8 @@
           "kr": "중국어"
         }
       },
-      "share_holder_share_percent": 20,
+      "share_holder_share_percent": 50,
       "share_holder_company_parent_name": "GOLD WELL HOLDINGS LIMITED",
-      "share_holder_company_parent_address": "",
-      "share_holder_company_parent_country": null,
-      "share_holder_citid_identification_number": "353462219",
-      "share_holder_company_parent_registration_number": "",
-      "share_holder_citid_identification_number_issued_datetime": "2019-12-11T00:00:00.000000Z",
-      "share_holder_company_parent_registration_number_issue_datetime": ""
-    },
-    {
-      "share_holder_salute": {
-        "code": "mrs",
-        "translate": {
-          "cn": "Mrs.",
-          "en": "Mrs.",
-          "id": "048f6c72-e996-4635-9532-8a8794dc5765",
-          "jp": "Mrs.",
-          "km": "លោកស្រី",
-          "kr": "Mrs."
-        }
-      },
-      "share_holder_address": "No. 216, Chongshi Rd., Zuoying Dist., Kaohsiung City 813, Taiwan.",
-      "share_holder_fullname": "Huang, Tsai-Jung",
-      "share_holder_share_unit": null,
-      "share_holder_nationality": {
-        "nationality_translate": {
-          "cn": "中文",
-          "en": "Chinese",
-          "id": "84c2bdea-7222-4c1e-bd01-a39718028d18",
-          "jp": "中国語",
-          "km": "ចិន",
-          "kr": "중국어"
-        }
-      },
-      "share_holder_share_percent": 30,
-      "share_holder_company_parent_name": "PRODUCT LIMITED CO,. LTD.",
       "share_holder_company_parent_address": "",
       "share_holder_company_parent_country": null,
       "share_holder_citid_identification_number": "353462219",
