@@ -1,1 +1,3 @@
 
+{"operation":"insert","timestamp":{"$$date":1740905886059},"version":25215,"doc":{"folder":null,"name":"pos-3","creationDate":{"$$date":1740905886054},"modificationDate":{"$$date":1740905886054},"shortid":"FIfyVk9","inheritedReadPermissions":[],"inheritedEditPermissions":[],"_id":"qzgLjZiMSAw1aZmK","$entitySet":"folders"}}
+{"operation":"update","timestamp":{"$$date":1740905899279},"version":25216,"doc":{"folder":null,"name":"pos_v3","creationDate":{"$$date":1740905886054},"modificationDate":{"$$date":1740905899269},"shortid":"FIfyVk9","inheritedReadPermissions":[],"inheritedEditPermissions":[],"_id":"qzgLjZiMSAw1aZmK","$entitySet":"folders","$$etag":1740905899279}}
